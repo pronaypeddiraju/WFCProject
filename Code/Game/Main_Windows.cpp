@@ -21,7 +21,7 @@ HWND g_hWnd = nullptr;
 HDC g_displayDeviceContext = nullptr;			
 HGLRC g_openGLRenderingContext = nullptr;		
 WindowContext* g_windowContext = nullptr;
-const char* APP_NAME = "Protogame 3D";	
+const char* APP_NAME = "WFC Project";	
 
 //-----------------------------------------------------------------------------------------------
 // Handles Windows (Win32) messages/events; i.e. the OS is trying to tell us something happened.
