@@ -23,11 +23,46 @@ HGLRC g_openGLRenderingContext = nullptr;
 WindowContext* g_windowContext = nullptr;
 const char* APP_NAME = "WFC Project";	
 
+//The WndProc function for imGUI third party tool
+extern LRESULT ImGui_ImplWin32_WndProcHandler(HWND hwnd, UINT msg, WPARAM wParam, LPARAM lParam);
+
 //-----------------------------------------------------------------------------------------------
 // Handles Windows (Win32) messages/events; i.e. the OS is trying to tell us something happened.
 // This function is called by Windows whenever we ask it for notifications
 static bool AppWindowProc( void* windowHandle, uint32_t wmMessageCode, uintptr_t wParam, uintptr_t lParam )
 {
+	if (g_ImGUI != nullptr)
+	{
+		bool imguiHandled = ImGui_ImplWin32_WndProcHandler((HWND)windowHandle, wmMessageCode, wParam, lParam);
+		const ImGuiIO& io = ImGui::GetIO();
+
+		switch (wmMessageCode)
+		{
+		case WM_KEYDOWN:
+		case WM_KEYUP:
+		case WM_CHAR:
+			if (io.WantCaptureKeyboard)
+			{
+				return false;
+			}
+			break;
+		case WM_RBUTTONDBLCLK:
+		case WM_LBUTTONDOWN:
+		case WM_LBUTTONUP:
+		case WM_RBUTTONDOWN:
+		case WM_RBUTTONUP:
+		case WM_MBUTTONDOWN:
+		case  WM_MBUTTONUP:
+		case WM_MOUSEWHEEL:
+		case WM_MOUSEHWHEEL:
+			if (io.WantCaptureMouse)
+			{
+				return false;
+			}
+			break;
+		}
+	}
+
 	UNREFERENCED_PARAMETER(windowHandle); 
 	UNREFERENCED_PARAMETER(wParam); 
 	UNREFERENCED_PARAMETER(lParam); 
