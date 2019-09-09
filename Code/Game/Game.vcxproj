@@ -126,6 +126,7 @@
       <AdditionalIncludeDirectories>$(SolutionDir)Code/Submodule/Engine/Code/ThirdParty/PhysX/include;$(SolutionDir)Code/;$(SolutionDir)Code/Submodule/Engine/Code/</AdditionalIncludeDirectories>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -207,8 +208,16 @@
     <ClInclude Include="App.hpp" />
     <ClInclude Include="EngineBuildPreferences.hpp" />
     <ClInclude Include="Entity.hpp" />
+    <ClInclude Include="FastWFC.hpp" />
+    <ClInclude Include="FastWFCDirection.hpp" />
+    <ClInclude Include="FastWFCPropagator.hpp" />
+    <ClInclude Include="FastWFCWave.hpp" />
     <ClInclude Include="Game.hpp" />
     <ClInclude Include="GameCommon.hpp" />
+    <ClInclude Include="WFCArray2D.hpp" />
+    <ClInclude Include="WFCArray3D.hpp" />
+    <ClInclude Include="WFCColor.hpp" />
+    <ClInclude Include="WFCImage.hpp" />
     <ClInclude Include="WFC_Model.hpp" />
   </ItemGroup>
   <ItemGroup>

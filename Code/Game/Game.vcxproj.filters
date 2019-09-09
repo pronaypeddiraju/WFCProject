@@ -43,5 +43,13 @@
       <Filter>Gameplay</Filter>
     </ClInclude>
     <ClInclude Include="WFC_Model.hpp" />
+    <ClInclude Include="FastWFC.hpp" />
+    <ClInclude Include="FastWFCWave.hpp" />
+    <ClInclude Include="FastWFCPropagator.hpp" />
+    <ClInclude Include="FastWFCDirection.hpp" />
+    <ClInclude Include="WFCArray2D.hpp" />
+    <ClInclude Include="WFCArray3D.hpp" />
+    <ClInclude Include="WFCImage.hpp" />
+    <ClInclude Include="WFCColor.hpp" />
   </ItemGroup>
 </Project>
