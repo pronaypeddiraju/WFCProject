@@ -26,6 +26,7 @@
 #include "Engine/Renderer/TextureView.hpp"
 #include "Engine/Commons/UnitTest.hpp"
 #include "Engine/Commons/Callstack.hpp"
+#include "Game/FastWFCEntry.hpp"
 
 //#include "ThirdParty/PhysX/include/PxPhysicsAPI.h"
 
@@ -85,6 +86,8 @@ void Game::StartUp()
 	CreateInitialMeshes();
 
 	CreateInitialLight();
+
+	WFCEntryPoint();
 
 	//UnitTestRunAllCategories(10);
 	//UnitTestRun("TestCategory", 10);

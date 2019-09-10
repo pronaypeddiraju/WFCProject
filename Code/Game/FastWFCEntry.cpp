@@ -22,7 +22,7 @@ void ReadOverlappingInstance(tinyxml2::XMLElement* node)
 
 	DebuggerPrintf("\n Started WFC for Overlapping problem %s", name.c_str());
 	
-	const std::string image_path = "samples/" + name + ".png";
+	const std::string image_path = imageReadPath + name + ".png";
 	std::optional<Array2D<Color>> imageColorArray = read_image(image_path);
 	
 	if (!imageColorArray.has_value())
@@ -89,5 +89,5 @@ void ReadConfigFile(const std::string &config_path) noexcept
 
 void WFCEntryPoint()
 {
-	ReadConfigFile(configReadPath);
+	ReadConfigFile(configReadPath + configFileName);
 }
