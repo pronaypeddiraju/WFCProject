@@ -1,5 +1,6 @@
 #pragma once
 #include <vector>
+#include "Engine/Commons/ErrorWarningAssert.hpp"
 
 /**
  * Represent a 2D array.
@@ -38,7 +39,7 @@ public:
 	 * i must be lower than height and j lower than width.
 	 */
 	const T &get(unsigned int i, unsigned int j) const noexcept {
-		assert(i < height && j < width);
+		ASSERT_OR_DIE((i < height && j < width), "Trying to get from array for indices greater than array size");
 		return data[j + i * width];
 	}
 
@@ -47,7 +48,7 @@ public:
 	 * i must be lower than height and j lower than width.
 	 */
 	T &get(unsigned int i, unsigned int j) noexcept {
-		assert(i < height && j < width);
+		ASSERT_OR_DIE((i < height && j < width), "Trying to get from array for indices greater than array size");
 		return data[j + i * width];
 	}
 

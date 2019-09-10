@@ -195,6 +195,10 @@
   <ItemGroup>
     <ClCompile Include="App.cpp" />
     <ClCompile Include="Entity.cpp" />
+    <ClCompile Include="FastWFC.cpp" />
+    <ClCompile Include="FastWFCEntry.cpp" />
+    <ClCompile Include="FastWFCPropagator.cpp" />
+    <ClCompile Include="FastWFCWave.cpp" />
     <ClCompile Include="Game.cpp" />
     <ClCompile Include="Main_Windows.cpp">
       <ShowIncludes Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ShowIncludes>
@@ -210,6 +214,8 @@
     <ClInclude Include="Entity.hpp" />
     <ClInclude Include="FastWFC.hpp" />
     <ClInclude Include="FastWFCDirection.hpp" />
+    <ClInclude Include="FastWFCEntry.hpp" />
+    <ClInclude Include="FastWFCOverlappingModel.hpp" />
     <ClInclude Include="FastWFCPropagator.hpp" />
     <ClInclude Include="FastWFCWave.hpp" />
     <ClInclude Include="Game.hpp" />

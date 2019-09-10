@@ -25,6 +25,18 @@
     <ClCompile Include="WFC_Model.cpp">
       <Filter>Gameplay</Filter>
     </ClCompile>
+    <ClCompile Include="FastWFC.cpp">
+      <Filter>Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="FastWFCPropagator.cpp">
+      <Filter>Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="FastWFCWave.cpp">
+      <Filter>Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="FastWFCEntry.cpp">
+      <Filter>Gameplay</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Entity.hpp">
@@ -51,5 +63,7 @@
     <ClInclude Include="WFCArray3D.hpp" />
     <ClInclude Include="WFCImage.hpp" />
     <ClInclude Include="WFCColor.hpp" />
+    <ClInclude Include="FastWFCEntry.hpp" />
+    <ClInclude Include="FastWFCOverlappingModel.hpp" />
   </ItemGroup>
 </Project>

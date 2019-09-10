@@ -1,6 +1,6 @@
 #pragma once
 #include "ThirdParty/stb/stb_image.h"
-#include "ThirdParty/FastWFC/stb_image_write.h"
+#include "ThirdParty/stb/stb_image_write.h"
 
 #include "WFCArray2D.hpp"
 #include "WFCColor.hpp"
