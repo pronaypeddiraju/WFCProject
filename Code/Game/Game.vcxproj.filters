@@ -22,9 +22,6 @@
     <ClCompile Include="Main_Windows.cpp">
       <Filter>Framework</Filter>
     </ClCompile>
-    <ClCompile Include="WFC_Model.cpp">
-      <Filter>Gameplay</Filter>
-    </ClCompile>
     <ClCompile Include="FastWFC.cpp">
       <Filter>Gameplay</Filter>
     </ClCompile>
@@ -54,7 +51,6 @@
     <ClInclude Include="EngineBuildPreferences.hpp">
       <Filter>Gameplay</Filter>
     </ClInclude>
-    <ClInclude Include="WFC_Model.hpp" />
     <ClInclude Include="FastWFC.hpp" />
     <ClInclude Include="FastWFCWave.hpp" />
     <ClInclude Include="FastWFCPropagator.hpp" />

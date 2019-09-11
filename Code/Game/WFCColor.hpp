@@ -1,29 +1,31 @@
 #pragma once
 #include <functional>
 
-/**
- * Represent a 24-bit rgb color.
- */
-struct Color {
+//Represent color in 24 bit RGB
+struct Color 
+{
 	unsigned char r, g, b;
 
-	bool operator==(const Color &c) const noexcept {
-		return r == c.r && g == c.g && b == c.b;
+	bool operator==(const Color &color) const noexcept 
+	{
+		return r == color.r && g == color.g && b == color.b;
 	}
 
-	bool operator!=(const Color &c) const noexcept { return !(c == *this); }
+	bool operator!=(const Color &color) const noexcept
+	{ 
+		return !(color == *this);
+	}
 };
 
-/**
- * Hash function for color.
- */
-namespace std {
-	template <> class hash<Color> {
-	public:
-		size_t operator()(const Color &c) const {
-			return (size_t)c.r + (size_t)256 * (size_t)c.g +
-				(size_t)256 * (size_t)256 * (size_t)c.b;
-		}
-	};
-} // namespace std
+//Hash function for color
+template <> class std::hash<Color>
+{
+public:
+	size_t operator()(const Color &color) const
+	{
+		return (size_t)color.r +
+			(size_t)256 * (size_t)color.g +
+			(size_t)256 * (size_t)256 * (size_t)color.b;
+	}
+};
 
