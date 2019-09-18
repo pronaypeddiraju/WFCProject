@@ -149,9 +149,8 @@ private:
 	/**
 	 * Return the list of patterns, as well as their probabilities of apparition.
 	 */
-	static std::pair<std::vector<Array2D<T>>, std::vector<double>>
-		get_patterns(const Array2D<T> &input,
-			const OverlappingWFCOptions &options) noexcept {
+	static std::pair<std::vector<Array2D<T>>, std::vector<double>> get_patterns(const Array2D<T> &input, const OverlappingWFCOptions &options) noexcept 
+	{
 		std::unordered_map<Array2D<T>, unsigned> patterns_id;
 		std::vector<Array2D<T>> patterns;
 
@@ -233,8 +232,8 @@ private:
 	 * contains pattern2, where direction is the direction defined by (dy, dx)
 	 * (see direction.hpp).
 	 */
-	static std::vector<std::array<std::vector<unsigned>, 4>>
-		generate_compatible(const std::vector<Array2D<T>> &patterns) noexcept {
+	static std::vector<std::array<std::vector<unsigned>, 4>> generate_compatible(const std::vector<Array2D<T>> &patterns) noexcept 
+	{
 		std::vector<std::array<std::vector<unsigned>, 4>> compatible =
 			std::vector<std::array<std::vector<unsigned>, 4>>(patterns.size());
 

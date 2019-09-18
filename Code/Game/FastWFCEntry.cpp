@@ -4,6 +4,7 @@
 #include "Engine/Commons/EngineCommon.hpp"
 #include "Engine/Math/RandomNumberGenerator.hpp"
 #include "Game/FastWFCOverlappingModel.hpp"
+#include "Engine/Core/Time.hpp"
 
 //Read the overlapping WFC problem from the XML node
 void ReadOverlappingInstance(tinyxml2::XMLElement* node)
@@ -20,7 +21,9 @@ void ReadOverlappingInstance(tinyxml2::XMLElement* node)
 	uint width = ParseXmlAttribute(*node, "width", defaultWidth);
 	uint height = ParseXmlAttribute(*node, "height", defaultHeight);
 
-	DebuggerPrintf("\n Started WFC for Overlapping problem %s", name.c_str());
+	DebuggerPrintf("\n\n Started WFC for Overlapping problem %s", name.c_str());
+	float startTime = GetCurrentTimeSeconds();
+	DebuggerPrintf("\n Start Time: %f", startTime);
 	
 	const std::string image_path = imageReadPath + name + ".png";
 	std::optional<Array2D<Color>> imageColorArray = read_image(image_path);
@@ -36,14 +39,15 @@ void ReadOverlappingInstance(tinyxml2::XMLElement* node)
 	{
 		for (unsigned test = 0; test < 10; test++) 
 		{
-			int seed = g_RNG->GetCurrentSeed();
+			int seed = g_RNG->GetRandomIntInRange(0, INT_MAX);
+			//int seed = g_RNG->GetCurrentSeed();
 			OverlappingWFC<Color> overlappingWFC(*imageColorArray, options, seed);
 			std::optional<Array2D<Color>> success = overlappingWFC.run();
 			
 			if (success.has_value()) 
 			{
 				write_image_png(imageOutPath + name + std::to_string(i) + ".png", *success);
-				DebuggerPrintf("\n Finised solving problem %s", name.c_str());
+				DebuggerPrintf("\n Finished solving problem %s", name.c_str());
 				break;
 			}
 			else 
@@ -52,6 +56,11 @@ void ReadOverlappingInstance(tinyxml2::XMLElement* node)
 			}
 		}
 	}
+
+	float endTime = GetCurrentTimeSeconds();
+	DebuggerPrintf("\n End Time: %f", endTime);
+	float timeTaken = endTime - startTime;
+	DebuggerPrintf("\n Time take for problem: %f", timeTaken);
 }
 
 //Read the config file for the WFC problems

@@ -10,3 +10,11 @@
 
 //#define ENGINE_DISABLE_AUDIO	// (If uncommented) Disables AudioSystem code and fmod linkage.
 
+#define MEM_TRACK_ALLOC_COUNT 	0
+#define MEM_TRACK_VERBOSE		1
+
+#if defined(_DEBUG)
+#define MEM_TRACKING MEM_TRACK_VERBOSE
+#elif defined(_RELEASE)
+// #define MEM_TRACKING MEM_TRACK_ALLOC_COUNT
+#endif
