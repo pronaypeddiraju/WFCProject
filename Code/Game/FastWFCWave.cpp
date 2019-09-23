@@ -58,14 +58,14 @@ Wave::Wave(unsigned height, unsigned width,
 
 void Wave::Set(unsigned index, unsigned pattern, bool value) noexcept 
 {
-	bool old_value = m_data.get(index, pattern);
+	bool old_value = m_data.Get(index, pattern);
 	// If the value isn't changed, nothing needs to be done.
 	if (old_value == value) 
 	{
 		return;
 	}
 	// Otherwise, the memoisation should be updated.
-	m_data.get(index, pattern) = value;
+	m_data.Get(index, pattern) = value;
 	memoisation.plogp_sum[index] -= m_plogpPatternFrequencies[pattern];
 	memoisation.sum[index] -= m_patternsFrequencies[pattern];
 	memoisation.log_sum[index] = log(memoisation.sum[index]);

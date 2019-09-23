@@ -28,7 +28,7 @@ std::optional<Array2D<Color>> ReadImage(const std::string& file_path) noexcept
 		for (unsigned j = 0; j < (unsigned)width; j++) 
 		{
 			unsigned index = 3 * (i * width + j);
-			imageArray.data[i * width + j] = { data[index], data[index + 1], data[index + 2] };
+			imageArray.m_data[i * width + j] = { data[index], data[index + 1], data[index + 2] };
 		}
 	}
 
@@ -39,6 +39,6 @@ std::optional<Array2D<Color>> ReadImage(const std::string& file_path) noexcept
 //Write image in png format 
 void WriteImageAsPNG(const std::string& file_path, const Array2D<Color>& imageData) noexcept 
 {
-	stbi_write_png(file_path.c_str(), imageData.width, imageData.height, 3, (const unsigned char*)imageData.data.data(), 0);
+	stbi_write_png(file_path.c_str(), imageData.m_width, imageData.m_height, 3, (const unsigned char*)imageData.m_data.data(), 0);
 }
 

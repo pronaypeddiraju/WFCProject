@@ -15,7 +15,7 @@ void Propagator::InitializeCompatible() noexcept
 				{
 					value[direction] = (int)propagator_state[pattern][GetOppositeDirection(direction)].size();
 				}
-				compatible.get(y, x, pattern) = value;
+				compatible.Get(y, x, pattern) = value;
 			}
 		}
 	}
@@ -23,7 +23,7 @@ void Propagator::InitializeCompatible() noexcept
 
 void Propagator::Propagate(Wave &wave) noexcept 
 {
-	// We propagate every element while there is element to propagate.
+	// We propagate every element while there is elements to propagate.
 	while (propagating.size() != 0) 
 	{
 		// The cell and pattern that has been set to false.
@@ -70,7 +70,7 @@ void Propagator::Propagate(Wave &wave) noexcept
 				// We decrease the number of compatible patterns in the opposite
 				// direction If the pattern was discarded from the wave, the element
 				// is still negative, which is not a problem
-				std::array<int, 4> &value = compatible.get(y2, x2, *it);
+				std::array<int, 4> &value = compatible.Get(y2, x2, *it);
 				value[direction]--;
 
 				// If the element was set to 0 with this operation, we need to remove

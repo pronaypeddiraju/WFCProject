@@ -43,7 +43,7 @@ void ReadOverlappingInstance(tinyxml2::XMLElement* node)
 		{
 			int seed = g_RNG->GetRandomIntInRange(0, INT_MAX);
 			OverlappingWFC overlappingWFC(*imageColorArray, options, seed);
-			std::optional<Array2D<Color>> success = overlappingWFC.run();
+			std::optional<Array2D<Color>> success = overlappingWFC.Run();
 			
 			if (success.has_value()) 
 			{

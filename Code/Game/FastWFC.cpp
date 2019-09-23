@@ -32,7 +32,7 @@ Array2D<unsigned> WFC::WaveToOutput() const noexcept
 		{
 			if (wave.Get(i, k)) 
 			{
-				output_patterns.data[i] = k;
+				output_patterns.m_data[i] = k;
 			}
 		}
 	}

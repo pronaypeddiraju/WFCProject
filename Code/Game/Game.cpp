@@ -25,7 +25,6 @@
 #include "Engine/Renderer/Shader.hpp"
 #include "Engine/Renderer/TextureView.hpp"
 #include "Engine/Commons/UnitTest.hpp"
-#include "Engine/Commons/Callstack.hpp"
 #include "Game/FastWFCEntry.hpp"
 
 //#include "ThirdParty/PhysX/include/PxPhysicsAPI.h"
@@ -94,6 +93,7 @@ void Game::StartUp()
 	//UnitTestRun("AnotherTestCategory", 10);
 }
 
+/*
 UNITTEST("TestUnitTest", "TestCategory", 1)
 {
 	CONFIRM(CosDegrees(0.f) == 1.f);
@@ -109,6 +109,7 @@ UNITTEST("AnotherTestUnitTest", "AnotherTestCategory", 5)
 	Callstack callStackObject = CallstackGet();
 	return true;
 }
+*/
 
 void Game::SetupMouseData()
 {

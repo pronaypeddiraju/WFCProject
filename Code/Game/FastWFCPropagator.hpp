@@ -61,7 +61,7 @@ public:
 	{
 		// All the direction are set to 0, since the pattern cannot be set in (y,x).
 		std::array<int, 4> temp = {};
-		compatible.get(y, x, pattern) = temp;
+		compatible.Get(y, x, pattern) = temp;
 		propagating.emplace_back(y, x, pattern);
 	}
 

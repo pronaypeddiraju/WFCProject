@@ -119,7 +119,7 @@ private:
 			const OverlappingWFCOptions &options) noexcept 
 	{
 		// Get the pattern.
-		Array2D<Color> ground_pattern =	input.GetSubArray(input.height - 1, input.width / 2, options.m_patternSize, options.m_patternSize);
+		Array2D<Color> ground_pattern =	input.GetSubArray(input.m_height - 1, input.m_width / 2, options.m_patternSize, options.m_patternSize);
 
 		// Retrieve the id of the pattern.
 		for (unsigned i = 0; i < patterns.size(); i++) 
@@ -146,22 +146,22 @@ private:
 
 		std::vector<Array2D<Color>> symmetries( 8, Array2D<Color>(options.m_patternSize, options.m_patternSize));
 
-		uint max_i = options.m_periodicInput ? input.height	: input.height - options.m_patternSize + 1;
-		uint max_j = options.m_periodicInput ? input.width	: input.width - options.m_patternSize + 1;
+		uint max_i = options.m_periodicInput ? input.m_height	: input.m_height - options.m_patternSize + 1;
+		uint max_j = options.m_periodicInput ? input.m_width	: input.m_width - options.m_patternSize + 1;
 
 		for (unsigned i = 0; i < max_i; i++) 
 		{
 			for (unsigned j = 0; j < max_j; j++) 
 			{
 				// Compute the symmetries of every pattern in the image.
-				symmetries[0].data = input.GetSubArray(i, j, options.m_patternSize, options.m_patternSize).data;
-				symmetries[1].data = symmetries[0].reflected().data;
-				symmetries[2].data = symmetries[0].rotated().data;
-				symmetries[3].data = symmetries[2].reflected().data;
-				symmetries[4].data = symmetries[2].rotated().data;
-				symmetries[5].data = symmetries[4].reflected().data;
-				symmetries[6].data = symmetries[4].rotated().data;
-				symmetries[7].data = symmetries[6].reflected().data;
+				symmetries[0].m_data = input.GetSubArray(i, j, options.m_patternSize, options.m_patternSize).m_data;
+				symmetries[1].m_data = symmetries[0].GetReflected().m_data;
+				symmetries[2].m_data = symmetries[0].GetRotated().m_data;
+				symmetries[3].m_data = symmetries[2].GetReflected().m_data;
+				symmetries[4].m_data = symmetries[2].GetRotated().m_data;
+				symmetries[5].m_data = symmetries[4].GetReflected().m_data;
+				symmetries[6].m_data = symmetries[4].GetRotated().m_data;
+				symmetries[7].m_data = symmetries[6].GetReflected().m_data;
 
 				// The number of symmetries in the option class define which symetries
 				// will be used.
@@ -192,9 +192,9 @@ private:
 	static bool IsPatternCompatibleWithThisPattern(const Array2D<Color> &pattern1, const Array2D<Color> &pattern2, int dy, int dx) 
 	{
 		uint xmin = dx < 0 ? 0 : dx;
-		uint xmax = dx < 0 ? dx + pattern2.width : pattern1.width;
+		uint xmax = dx < 0 ? dx + pattern2.m_width : pattern1.m_width;
 		uint ymin = dy < 0 ? 0 : dy;
-		uint ymax = dy < 0 ? dy + pattern2.height : pattern1.width;
+		uint ymax = dy < 0 ? dy + pattern2.m_height : pattern1.m_width;
 
 		// Iterate on every pixel contained in the intersection of the two patterns
 		for (uint y = ymin; y < ymax; y++) 
@@ -202,7 +202,7 @@ private:
 			for (uint x = xmin; x < xmax; x++) 
 			{
 				// Check if the color is the same in the two patterns in that pixel.
-				if (pattern1.get(y, x) != pattern2.get(y - dy, x - dx)) 
+				if (pattern1.Get(y, x) != pattern2.Get(y - dy, x - dx)) 
 				{
 					return false;
 				}
@@ -236,7 +236,7 @@ private:
 		return compatible;
 	}
 
-	//Transform a 2D array containing the patterns if to a 2D array containing the pixels
+	//Transform a 2D array containing the patterns to a 2D array containing the pixels
 	Array2D<Color> ToImage(const Array2D<unsigned> &output_patterns) const noexcept 
 	{
 		Array2D<Color> output = Array2D<Color>(m_options.m_outHeight, m_options.m_outWidth);
@@ -247,7 +247,7 @@ private:
 			{
 				for (unsigned x = 0; x < m_options.GetWaveWidth(); x++) 
 				{
-					output.get(y, x) = m_patterns[output_patterns.get(y, x)].get(0, 0);
+					output.Get(y, x) = m_patterns[output_patterns.Get(y, x)].Get(0, 0);
 				}
 			}
 		}
@@ -258,36 +258,36 @@ private:
 			{
 				for (unsigned x = 0; x < m_options.GetWaveWidth(); x++) 
 				{
-					output.get(y, x) = m_patterns[output_patterns.get(y, x)].get(0, 0);
+					output.Get(y, x) = m_patterns[output_patterns.Get(y, x)].Get(0, 0);
 				}
 			}
 			
 			for (unsigned y = 0; y < m_options.GetWaveHeight(); y++) 
 			{
-				const Array2D<Color> &pattern = m_patterns[output_patterns.get(y, m_options.GetWaveWidth() - 1)];
+				const Array2D<Color> &pattern = m_patterns[output_patterns.Get(y, m_options.GetWaveWidth() - 1)];
 				
 				for (unsigned dx = 1; dx < m_options.m_patternSize; dx++) 
 				{
-					output.get(y, m_options.GetWaveWidth() - 1 + dx) = pattern.get(0, dx);
+					output.Get(y, m_options.GetWaveWidth() - 1 + dx) = pattern.Get(0, dx);
 				}
 			}
 			
 			for (unsigned x = 0; x < m_options.GetWaveWidth(); x++) 
 			{
-				const Array2D<Color> &pattern = m_patterns[output_patterns.get(m_options.GetWaveHeight() - 1, x)];
+				const Array2D<Color> &pattern = m_patterns[output_patterns.Get(m_options.GetWaveHeight() - 1, x)];
 				for (unsigned dy = 1; dy < m_options.m_patternSize; dy++) 
 				{
-					output.get(m_options.GetWaveHeight() - 1 + dy, x) = pattern.get(dy, 0);
+					output.Get(m_options.GetWaveHeight() - 1 + dy, x) = pattern.Get(dy, 0);
 				}
 			}
 			
-			const Array2D<Color> &pattern = m_patterns[output_patterns.get(m_options.GetWaveHeight() - 1, m_options.GetWaveWidth() - 1)];
+			const Array2D<Color> &pattern = m_patterns[output_patterns.Get(m_options.GetWaveHeight() - 1, m_options.GetWaveWidth() - 1)];
 			
 			for (unsigned dy = 1; dy < m_options.m_patternSize; dy++) 
 			{
 				for (unsigned dx = 1; dx < m_options.m_patternSize; dx++) 
 				{
-					output.get(m_options.GetWaveHeight() - 1 + dy, m_options.GetWaveWidth() - 1 + dx) = pattern.get(dy, dx);
+					output.Get(m_options.GetWaveHeight() - 1 + dy, m_options.GetWaveWidth() - 1 + dx) = pattern.Get(dy, dx);
 				}
 			}
 		}
@@ -304,9 +304,9 @@ public:
 	}
 
 	//Run the WFC algorithm, return the result if succeeded
-	std::optional<Array2D<Color>> run() noexcept 
+	std::optional<Array2D<Color>> Run() noexcept 
 	{
-		std::optional<Array2D<unsigned>> result = m_wfc.Run();
+		std::optional<Array2D<uint>> result = m_wfc.Run();
 		if (result.has_value()) 
 		{
 			return ToImage(*result);

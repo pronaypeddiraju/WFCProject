@@ -57,7 +57,7 @@ class Wave
 		//If the pattern can be placed in cell index, return true
 		bool Get(unsigned index, unsigned pattern) const noexcept 
 		{
-			return m_data.get(index, pattern);
+			return m_data.Get(index, pattern);
 		}
 
 		//Return true if the pattern can be placed in cell (i,j)
