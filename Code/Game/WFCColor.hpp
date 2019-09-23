@@ -18,14 +18,15 @@ struct Color
 };
 
 //Hash function for color
+//STL needs this to store Color in an unordered_map
+//Using the hash from fast wfc's demo project
 template <> class std::hash<Color>
 {
-public:
-	size_t operator()(const Color &color) const
-	{
-		return (size_t)color.r +
-			(size_t)256 * (size_t)color.g +
-			(size_t)256 * (size_t)256 * (size_t)color.b;
-	}
+	public:
+		size_t operator()(const Color &color) const
+		{
+			size_t hash = (size_t)color.r + (size_t)256 * (size_t)color.g + (size_t)256 * (size_t)256 * (size_t)color.b;
+			return hash;
+		}
 };
 

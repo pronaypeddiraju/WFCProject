@@ -8,7 +8,7 @@
 
 
 //Read an image. Returns nullopt if there was an error.
-std::optional<Array2D<Color>> read_image(const std::string& file_path) noexcept 
+std::optional<Array2D<Color>> ReadImage(const std::string& file_path) noexcept 
 {
 	int width;
 	int height;
@@ -37,7 +37,7 @@ std::optional<Array2D<Color>> read_image(const std::string& file_path) noexcept
 }
 
 //Write image in png format 
-void write_image_png(const std::string& file_path, const Array2D<Color>& imageData) noexcept 
+void WriteImageAsPNG(const std::string& file_path, const Array2D<Color>& imageData) noexcept 
 {
 	stbi_write_png(file_path.c_str(), imageData.width, imageData.height, 3, (const unsigned char*)imageData.data.data(), 0);
 }

@@ -13,7 +13,9 @@ void ReadOverlappingInstance(tinyxml2::XMLElement* node)
 	uint N = ParseXmlAttribute(*node, "N", 3);
 	bool periodicOutput = ParseXmlAttribute(*node, "periodic", false);
 	bool periodicInput = ParseXmlAttribute(*node, "periodicInput", true);
-	bool ground = ParseXmlAttribute(*node, "ground", false);
+	std::string groundString = ParseXmlAttribute(*node, "ground", "0");
+	//If ground is anything but 0 set to true
+	bool ground = (stoi(groundString) != 0);
 
 	uint symmetry = ParseXmlAttribute(*node, "symmetry", 8);
 	uint numOutputImages = ParseXmlAttribute(*node, "screenshots", defaultNumOutputImages);
@@ -22,11 +24,11 @@ void ReadOverlappingInstance(tinyxml2::XMLElement* node)
 	uint height = ParseXmlAttribute(*node, "height", defaultHeight);
 
 	DebuggerPrintf("\n\n Started WFC for Overlapping problem %s", name.c_str());
-	float startTime = GetCurrentTimeSeconds();
+	float startTime = (float)GetCurrentTimeSeconds();
 	DebuggerPrintf("\n Start Time: %f", startTime);
 	
 	const std::string image_path = imageReadPath + name + ".png";
-	std::optional<Array2D<Color>> imageColorArray = read_image(image_path);
+	std::optional<Array2D<Color>> imageColorArray = ReadImage(image_path);
 	
 	if (!imageColorArray.has_value())
 	{
@@ -40,13 +42,12 @@ void ReadOverlappingInstance(tinyxml2::XMLElement* node)
 		for (unsigned test = 0; test < 10; test++) 
 		{
 			int seed = g_RNG->GetRandomIntInRange(0, INT_MAX);
-			//int seed = g_RNG->GetCurrentSeed();
-			OverlappingWFC<Color> overlappingWFC(*imageColorArray, options, seed);
+			OverlappingWFC overlappingWFC(*imageColorArray, options, seed);
 			std::optional<Array2D<Color>> success = overlappingWFC.run();
 			
 			if (success.has_value()) 
 			{
-				write_image_png(imageOutPath + name + std::to_string(i) + ".png", *success);
+				WriteImageAsPNG(imageOutPath + name + std::to_string(i) + ".png", *success);
 				DebuggerPrintf("\n Finished solving problem %s", name.c_str());
 				break;
 			}
@@ -57,7 +58,7 @@ void ReadOverlappingInstance(tinyxml2::XMLElement* node)
 		}
 	}
 
-	float endTime = GetCurrentTimeSeconds();
+	float endTime = (float)GetCurrentTimeSeconds();
 	DebuggerPrintf("\n End Time: %f", endTime);
 	float timeTaken = endTime - startTime;
 	DebuggerPrintf("\n Time take for problem: %f", timeTaken);
@@ -87,13 +88,6 @@ void ReadConfigFile(const std::string &config_path) noexcept
 
 		node = node->NextSiblingElement("overlapping");
 	}
-
-	/*
-	for (xml_node<> *node = root_node->first_node("simpletiled"); node;
-		node = node->next_sibling("simpletiled")) {
-		read_simpletiled_instance(node, dir_path);
-	}
-	*/
 }
 
 void WFCEntryPoint()
