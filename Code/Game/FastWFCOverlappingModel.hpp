@@ -4,6 +4,7 @@
 
 #include "Game/WFCArray2D.hpp"
 #include "Game/FastWFC.hpp"
+#include "Game/WFCColor.hpp"
 
 //Options needed for Overlapping WFC problem
 struct OverlappingWFCOptions 
@@ -13,7 +14,7 @@ struct OverlappingWFCOptions
 	unsigned m_outHeight;  // The height of the output in pixels.
 	unsigned m_outWidth;   // The width of the output in pixels.
 	unsigned m_symmetry; // The number of symmetries (the order is defined in wfc).
-	bool m_ground;       // True if the ground needs to be set (see init_ground).
+	bool m_ground;       // True if the ground needs to be set (see InitializeGround).
 	unsigned m_patternSize; // The width and height in pixel of the patterns.
 
 	//get the wave height given these options

@@ -39,6 +39,7 @@ RandomNumberGenerator* g_randomNumGen;
 extern RenderContext* g_renderContext;	// Declare these first
 extern AudioSystem* g_audio;
 extern uint gTestCount;
+extern std::string imageOutPath;
 bool g_debugMode = false;
 
 //------------------------------------------------------------------------------------------------------------------------------

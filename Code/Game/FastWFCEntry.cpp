@@ -1,10 +1,15 @@
-#include "Game/FastWFCEntry.hpp"
-#include "Game/WFCImage.hpp"
-#include "Game/WFCColor.hpp"
 #include "Engine/Commons/EngineCommon.hpp"
-#include "Engine/Math/RandomNumberGenerator.hpp"
-#include "Game/FastWFCOverlappingModel.hpp"
 #include "Engine/Core/Time.hpp"
+#include "Engine/Core/FileUtils.hpp"
+#include "Engine/Core/WindowContext.hpp"
+#include "Engine/Math/RandomNumberGenerator.hpp"
+#include "Game/FastWFCEntry.hpp"
+#include "Game/FastWFCOverlappingModel.hpp"
+#include "Game/WFCColor.hpp"
+#include "Game/WFCImage.hpp"
+
+//Global settings for WFC
+WFCSettings_T gWFCSettings;
 
 //Read the overlapping WFC problem from the XML node
 void ReadOverlappingInstance(tinyxml2::XMLElement* node)
@@ -18,16 +23,16 @@ void ReadOverlappingInstance(tinyxml2::XMLElement* node)
 	bool ground = (stoi(groundString) != 0);
 
 	uint symmetry = ParseXmlAttribute(*node, "symmetry", 8);
-	uint numOutputImages = ParseXmlAttribute(*node, "screenshots", defaultNumOutputImages);
+	uint numOutputImages = ParseXmlAttribute(*node, "screenshots", gWFCSettings.defaultNumOutputImages);
 	
-	uint width = ParseXmlAttribute(*node, "width", defaultWidth);
-	uint height = ParseXmlAttribute(*node, "height", defaultHeight);
+	uint width = ParseXmlAttribute(*node, "width", gWFCSettings.defaultWidth);
+	uint height = ParseXmlAttribute(*node, "height", gWFCSettings.defaultHeight);
 
 	DebuggerPrintf("\n\n Started WFC for Overlapping problem %s", name.c_str());
 	float startTime = (float)GetCurrentTimeSeconds();
 	DebuggerPrintf("\n Start Time: %f", startTime);
 	
-	const std::string image_path = imageReadPath + name + ".png";
+	const std::string image_path = gWFCSettings.imageReadPath + name + ".png";
 	std::optional<Array2D<Color>> imageColorArray = ReadImage(image_path);
 	
 	if (!imageColorArray.has_value())
@@ -47,7 +52,7 @@ void ReadOverlappingInstance(tinyxml2::XMLElement* node)
 			
 			if (success.has_value()) 
 			{
-				WriteImageAsPNG(imageOutPath + name + std::to_string(i) + ".png", *success);
+				WriteImageAsPNG(gWFCSettings.imageOutPath + name + std::to_string(i) + ".png", *success);
 				DebuggerPrintf("\n Finished solving problem %s", name.c_str());
 				break;
 			}
@@ -64,9 +69,18 @@ void ReadOverlappingInstance(tinyxml2::XMLElement* node)
 	DebuggerPrintf("\n Time take for problem: %f", timeTaken);
 }
 
+void SetTimeStampedOutPath()
+{
+	gWFCSettings.imageOutPath += GetDateTime();
+	gWFCSettings.imageOutPath += "/";
+}
+
 //Read the config file for the WFC problems
 void ReadConfigFile(const std::string &config_path) noexcept 
 {
+	SetTimeStampedOutPath();
+	g_windowContext->CheckCreateDirectory(gWFCSettings.imageOutPath.c_str());
+
 	//Open the xml file and parse it
 	tinyxml2::XMLDocument meshDoc;
 	meshDoc.LoadFile(config_path.c_str());
@@ -92,5 +106,5 @@ void ReadConfigFile(const std::string &config_path) noexcept
 
 void WFCEntryPoint()
 {
-	ReadConfigFile(configReadPath + configFileName);
+	ReadConfigFile(gWFCSettings.configReadPath + gWFCSettings.configFileName);
 }
