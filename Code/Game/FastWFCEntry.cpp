@@ -62,10 +62,10 @@ void ReadOverlappingInstance(tinyxml2::XMLElement* node)
 
 				for (int patternIndex = 0; patternIndex < patterns.size(); patternIndex++)
 				{
-					WriteImageAsPNG(outFolderPath + "Run_" + std::to_string(i) + "Kernel_" + std::to_string(patternIndex) + ".png", patterns[patternIndex]);
+					WriteImageAsPNG(outFolderPath + "Run_" + std::to_string(i) + "_Kernel_" + std::to_string(patternIndex) + ".png", patterns[patternIndex]);
 				}
 
-				WriteImageAsPNG(outFolderPath + name + std::to_string(i) + ".png", *success);
+				WriteImageAsPNG(outFolderPath + name + "_" + std::to_string(i) + ".png", *success);
 				DebuggerPrintf("\n Finished solving problem %s", name.c_str());
 				break;
 			}
