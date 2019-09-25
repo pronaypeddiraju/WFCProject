@@ -136,13 +136,13 @@ private:
 		return 0;
 	}
 
-	//Return list of patterns as well as their probabilities of apparition
+	//Return list of patterns as well as their probabilities of appearing
 	static std::pair<std::vector<Array2D<Color>>, std::vector<double>> GetPatterns(const Array2D<Color> &input, const OverlappingWFCOptions &options) noexcept 
 	{
 		std::unordered_map<Array2D<Color>, uint> patterns_id;
 		std::vector<Array2D<Color>> patterns;
 		
-		// The number of time a pattern is seen in the input image.
+		// The number of times a pattern is seen in the input image.
 		std::vector<double> patterns_weight;
 
 		std::vector<Array2D<Color>> symmetries( 8, Array2D<Color>(options.m_patternSize, options.m_patternSize));
@@ -168,7 +168,9 @@ private:
 				// will be used.
 				for (uint k = 0; k < options.m_symmetry; k++) 
 				{
-					auto res = patterns_id.insert(std::make_pair(symmetries[k], patterns.size()));
+					//unordered map insert returns a pair of iterator and bool 
+					std::pair<std::unordered_map<Array2D<Color>, uint>::iterator, bool> res;
+					res = patterns_id.insert(std::make_pair(symmetries[k], patterns.size()));
 
 					// If the pattern already exist, we just have to increase its number
 					// of appearance.
@@ -313,5 +315,10 @@ public:
 			return ToImage(*result);
 		}
 		return std::nullopt;
+	}
+
+	const std::vector<Array2D<Color>>& GetPatterns()
+	{
+		return m_patterns;
 	}
 }; 

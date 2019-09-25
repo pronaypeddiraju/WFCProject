@@ -42,6 +42,12 @@ void ReadOverlappingInstance(tinyxml2::XMLElement* node)
 
 	OverlappingWFCOptions options = { periodicInput, periodicOutput, height, width, symmetry, ground, N };
 
+	//Write all the patterns to a patterns folder
+	std::string outFolderPath = gWFCSettings.imageOutPath + name;
+	outFolderPath += "/";
+
+	g_windowContext->CheckCreateDirectory(outFolderPath.c_str());
+
 	for (unsigned i = 0; i < numOutputImages; i++) 
 	{
 		for (unsigned test = 0; test < 10; test++) 
@@ -52,7 +58,14 @@ void ReadOverlappingInstance(tinyxml2::XMLElement* node)
 			
 			if (success.has_value()) 
 			{
-				WriteImageAsPNG(gWFCSettings.imageOutPath + name + std::to_string(i) + ".png", *success);
+				const std::vector<Array2D<Color>>& patterns = overlappingWFC.GetPatterns();
+
+				for (int patternIndex = 0; patternIndex < patterns.size(); patternIndex++)
+				{
+					WriteImageAsPNG(outFolderPath + "Run_" + std::to_string(i) + "Kernel_" + std::to_string(patternIndex) + ".png", patterns[patternIndex]);
+				}
+
+				WriteImageAsPNG(outFolderPath + name + std::to_string(i) + ".png", *success);
 				DebuggerPrintf("\n Finished solving problem %s", name.c_str());
 				break;
 			}

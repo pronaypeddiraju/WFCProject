@@ -27,8 +27,8 @@
 !data/*.dll
 
 
-# Ignoring a complete folder (don't want my screenshot folder)
-data/screenshot/
+# Ignoring a complete folder (don't want my results logs folder)
+Run/Data/WFCResults/
 
 # =========================
 # Rest is just common ignores for most
