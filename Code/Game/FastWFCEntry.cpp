@@ -12,6 +12,8 @@
 //Global settings for WFC
 WFCSettings_T gWFCSettings;
 
+bool gStoreAllKernels = true;
+
 //Read the overlapping WFC problem from the XML node
 void ReadOverlappingInstance(tinyxml2::XMLElement* node, int problemIndex)
 {
@@ -54,7 +56,10 @@ void ReadOverlappingInstance(tinyxml2::XMLElement* node, int problemIndex)
 
 	std::string outFolderKernelsPath = outFolderPath;
 	outFolderKernelsPath += "/Kernels/";
-	g_windowContext->CheckCreateDirectory(outFolderKernelsPath.c_str());
+	if (gStoreAllKernels)
+	{
+		g_windowContext->CheckCreateDirectory(outFolderKernelsPath.c_str());
+	}
 
 	//Let's account for different problems with the same name
 	outFolderPath += "/Problem_" + std::to_string(problemIndex) + "_";
@@ -70,11 +75,14 @@ void ReadOverlappingInstance(tinyxml2::XMLElement* node, int problemIndex)
 			
 			if (success.has_value()) 
 			{
-				const std::vector<Array2D<Color>>& patterns = overlappingWFC.GetPatterns();
-
-				for (int patternIndex = 0; patternIndex < patterns.size(); patternIndex++)
+				if (gStoreAllKernels)
 				{
-					WriteImageAsPNG(outFolderKernelsPath + "Run_" + std::to_string(i) + "_Kernel_" + std::to_string(patternIndex) + ".png", patterns[patternIndex]);
+					const std::vector<Array2D<Color>>& patterns = overlappingWFC.GetPatterns();
+
+					for (int patternIndex = 0; patternIndex < patterns.size(); patternIndex++)
+					{
+						WriteImageAsPNG(outFolderKernelsPath + "Run_" + std::to_string(i) + "_Kernel_" + std::to_string(patternIndex) + ".png", patterns[patternIndex]);
+					}
 				}
 
 				WriteImageAsPNG(outFolderPath + name + "_" + std::to_string(i) + ".png", *success);

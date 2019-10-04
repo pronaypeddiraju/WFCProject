@@ -21,7 +21,7 @@ private:
 
 	//Propagator[pattern1][direction] contains all the patterns that can
 	//be placed in next to pattern1 in the direction 'direction'.
-	PropagatorState propagator_state;
+	PropagatorState m_propagator_state;
 
 	const unsigned m_waveWidth;
 	const unsigned m_waveHeight;
@@ -48,7 +48,7 @@ public:
 	
 	Propagator(unsigned wave_height, unsigned wave_width, bool periodic_output,	PropagatorState propagator_state) noexcept
 		: m_patternsSize((unsigned)propagator_state.size()),
-		propagator_state(propagator_state), m_waveWidth(wave_width),
+		m_propagator_state(propagator_state), m_waveWidth(wave_width),
 		m_waveHeight(wave_height), periodic_output(periodic_output),
 		compatible(wave_height, wave_width, m_patternsSize) 
 	{

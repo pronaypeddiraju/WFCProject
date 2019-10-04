@@ -1,5 +1,22 @@
 <samples>
-	<overlapping name="ProOfficeTemplate2"	N="3" periodic="True"/>
+<overlapping name="ProOfficeTemplate4"	N="3" periodic="True"/>
+</samples>
+
+
+<!-- 
+
+<overlapping name="ProOfficeTemplate4"	N="3" periodic="false"/>
+	<overlapping name="ProOfficeTemplate4"	N="3" periodicInput="false" periodic="false"/>
+	<overlapping name="ProOfficeTemplate4"	N="3" periodicInput="false" periodic="false" symmetry="1"/>
+	<overlapping name="ProOfficeTemplate4"	N="3" periodicInput="false" periodic="false" symmetry="2"/>
+	<overlapping name="ProOfficeTemplate4"	N="3" periodicInput="false" periodic="false" symmetry="3"/>
+	<overlapping name="ProOfficeTemplate4"	N="3" periodicInput="false" periodic="false" symmetry="4"/>
+	<overlapping name="ProOfficeTemplate4"	N="3" periodicInput="false" periodic="false" symmetry="5"/>
+	<overlapping name="ProOfficeTemplate4"	N="3" periodicInput="false" periodic="false" symmetry="6"/>
+	<overlapping name="ProOfficeTemplate4"	N="3" periodicInput="false" periodic="false" symmetry="7"/>
+	<overlapping name="ProOfficeTemplate4"	N="5" periodicInput="true" periodic="false"/>
+	<overlapping name="ProOfficeTemplate4"	N="5" periodic="false"/>
+<overlapping name="ProOfficeTemplate2"	N="3" periodic="True"/>
 	<overlapping name="ProOfficeTemplate2"	N="3" periodic="false"/>
 	<overlapping name="ProOfficeTemplate2"	N="3" periodicInput="false" periodic="false"/>
 	<overlapping name="ProOfficeTemplate2"	N="3" periodicInput="false" periodic="false" symmetry="1"/>
@@ -23,7 +40,19 @@
 	<overlapping name="ProOfficeTemplate1"	N="3" periodicInput="false" periodic="false" symmetry="7"/>
 	<overlapping name="ProOfficeTemplate1"	N="5" periodicInput="true" periodic="false"/>
 	<overlapping name="ProOfficeTemplate1"	N="5" periodic="false"/>
-<overlapping name="ProMagicOfficeTemplate"	N="3" periodic="True"/>
+<overlapping name="Qud" N="3" periodic="True" width="80" height="80"/>
+	<overlapping name="Qud"	N="3" periodic="false"/>
+	<overlapping name="Qud"	N="3" periodicInput="false" periodic="false"/>
+	<overlapping name="Qud"	N="3" periodicInput="false" periodic="false" symmetry="1"/>
+	<overlapping name="Qud"	N="3" periodicInput="false" periodic="false" symmetry="2"/>
+	<overlapping name="Qud"	N="3" periodicInput="false" periodic="false" symmetry="3"/>
+	<overlapping name="Qud"	N="3" periodicInput="false" periodic="false" symmetry="4"/>
+	<overlapping name="Qud"	N="3" periodicInput="false" periodic="false" symmetry="5"/>
+	<overlapping name="Qud"	N="3" periodicInput="false" periodic="false" symmetry="6"/>
+	<overlapping name="Qud"	N="3" periodicInput="false" periodic="false" symmetry="7"/>
+	<overlapping name="Qud"	N="5" periodicInput="true" periodic="false"/>
+	<overlapping name="Qud"	N="5" periodic="false"/>
+	<overlapping name="ProMagicOfficeTemplate"	N="3" periodic="True"/>
 	<overlapping name="ProMagicOfficeTemplate"	N="3" periodic="false"/>
 	<overlapping name="ProMagicOfficeTemplate"	N="3" periodicInput="false" periodic="false"/>
 	<overlapping name="ProMagicOfficeTemplate"	N="3" periodicInput="false" periodic="false" symmetry="1"/>
@@ -71,6 +100,46 @@
 	<overlapping name="Office 2"	N="3" periodicInput="false" periodic="false" symmetry="7"/>
 	<overlapping name="Office 2"	N="5" periodicInput="true" periodic="false"/>
 	<overlapping name="Office 2"	N="5" periodic="false"/>
+
+	Thesis Run Info
+
+Num Problems: 84
+Num Problems N = 5: 7
+Num Problems N = 3: 77
+
+Debug Time: 5,002.24014‬s (01:23:22)
+Release Time: 119.968213‬s (00:02:00)
+
+Files Generated from WFC: 57,382
+Log Files: 1
+
+-->
+
+<!--
+	<overlapping name="ProOfficeTemplate2"	N="3" periodic="True"/>
+	<overlapping name="ProOfficeTemplate2"	N="3" periodic="false"/>
+	<overlapping name="ProOfficeTemplate2"	N="3" periodicInput="false" periodic="false"/>
+	<overlapping name="ProOfficeTemplate2"	N="3" periodicInput="false" periodic="false" symmetry="1"/>
+	<overlapping name="ProOfficeTemplate2"	N="3" periodicInput="false" periodic="false" symmetry="2"/>
+	<overlapping name="ProOfficeTemplate2"	N="3" periodicInput="false" periodic="false" symmetry="3"/>
+	<overlapping name="ProOfficeTemplate2"	N="3" periodicInput="false" periodic="false" symmetry="4"/>
+	<overlapping name="ProOfficeTemplate2"	N="3" periodicInput="false" periodic="false" symmetry="5"/>
+	<overlapping name="ProOfficeTemplate2"	N="3" periodicInput="false" periodic="false" symmetry="6"/>
+	<overlapping name="ProOfficeTemplate2"	N="3" periodicInput="false" periodic="false" symmetry="7"/>
+	<overlapping name="ProOfficeTemplate2"	N="5" periodicInput="true" periodic="false"/>
+	<overlapping name="ProOfficeTemplate2"	N="5" periodic="false"/>	
+<overlapping name="ProOfficeTemplate1"	N="4" periodic="True"/>
+	<overlapping name="ProOfficeTemplate1"	N="3" periodic="false"/>
+	<overlapping name="ProOfficeTemplate1"	N="3" periodicInput="false" periodic="false"/>
+	<overlapping name="ProOfficeTemplate1"	N="3" periodicInput="false" periodic="false" symmetry="1"/>
+	<overlapping name="ProOfficeTemplate1"	N="3" periodicInput="false" periodic="false" symmetry="2"/>
+	<overlapping name="ProOfficeTemplate1"	N="3" periodicInput="false" periodic="false" symmetry="3"/>
+	<overlapping name="ProOfficeTemplate1"	N="3" periodicInput="false" periodic="false" symmetry="4"/>
+	<overlapping name="ProOfficeTemplate1"	N="3" periodicInput="false" periodic="false" symmetry="5"/>
+	<overlapping name="ProOfficeTemplate1"	N="3" periodicInput="false" periodic="false" symmetry="6"/>
+	<overlapping name="ProOfficeTemplate1"	N="3" periodicInput="false" periodic="false" symmetry="7"/>
+	<overlapping name="ProOfficeTemplate1"	N="5" periodicInput="true" periodic="false"/>
+	<overlapping name="ProOfficeTemplate1"	N="5" periodic="false"/>
 <overlapping name="Qud" N="3" periodic="True" width="80" height="80"/>
 	<overlapping name="Qud"	N="3" periodic="false"/>
 	<overlapping name="Qud"	N="3" periodicInput="false" periodic="false"/>
@@ -83,4 +152,52 @@
 	<overlapping name="Qud"	N="3" periodicInput="false" periodic="false" symmetry="7"/>
 	<overlapping name="Qud"	N="5" periodicInput="true" periodic="false"/>
 	<overlapping name="Qud"	N="5" periodic="false"/>
-</samples>
+	<overlapping name="ProMagicOfficeTemplate"	N="3" periodic="True"/>
+	<overlapping name="ProMagicOfficeTemplate"	N="3" periodic="false"/>
+	<overlapping name="ProMagicOfficeTemplate"	N="3" periodicInput="false" periodic="false"/>
+	<overlapping name="ProMagicOfficeTemplate"	N="3" periodicInput="false" periodic="false" symmetry="1"/>
+	<overlapping name="ProMagicOfficeTemplate"	N="3" periodicInput="false" periodic="false" symmetry="2"/>
+	<overlapping name="ProMagicOfficeTemplate"	N="3" periodicInput="false" periodic="false" symmetry="3"/>
+	<overlapping name="ProMagicOfficeTemplate"	N="3" periodicInput="false" periodic="false" symmetry="4"/>
+	<overlapping name="ProMagicOfficeTemplate"	N="3" periodicInput="false" periodic="false" symmetry="5"/>
+	<overlapping name="ProMagicOfficeTemplate"	N="3" periodicInput="false" periodic="false" symmetry="6"/>
+	<overlapping name="ProMagicOfficeTemplate"	N="3" periodicInput="false" periodic="false" symmetry="7"/>
+	<overlapping name="ProMagicOfficeTemplate"	N="5" periodicInput="true" periodic="false"/>
+	<overlapping name="ProMagicOfficeTemplate"	N="5" periodic="false"/>
+<overlapping name="Office" N="3" periodic="True"/>
+	<overlapping name="Office"	N="3" periodic="false"/>
+	<overlapping name="Office"	N="3" periodicInput="false" periodic="false"/>
+	<overlapping name="Office"	N="3" periodicInput="false" periodic="false" symmetry="1"/>
+	<overlapping name="Office"	N="3" periodicInput="false" periodic="false" symmetry="2"/>
+	<overlapping name="Office"	N="3" periodicInput="false" periodic="false" symmetry="3"/>
+	<overlapping name="Office"	N="3" periodicInput="false" periodic="false" symmetry="4"/>
+	<overlapping name="Office"	N="3" periodicInput="false" periodic="false" symmetry="5"/>
+	<overlapping name="Office"	N="3" periodicInput="false" periodic="false" symmetry="6"/>
+	<overlapping name="Office"	N="3" periodicInput="false" periodic="false" symmetry="7"/>
+	<overlapping name="Office"	N="5" periodicInput="true" periodic="false"/>
+	<overlapping name="Office"	N="5" periodic="false"/>
+<overlapping name="Magic Office" N="3" periodic="True"/>
+	<overlapping name="Magic Office"	N="3" periodic="false"/>
+	<overlapping name="Magic Office"	N="3" periodicInput="false" periodic="false"/>
+	<overlapping name="Magic Office"	N="3" periodicInput="false" periodic="false" symmetry="1"/>
+	<overlapping name="Magic Office"	N="3" periodicInput="false" periodic="false" symmetry="2"/>
+	<overlapping name="Magic Office"	N="3" periodicInput="false" periodic="false" symmetry="3"/>
+	<overlapping name="Magic Office"	N="3" periodicInput="false" periodic="false" symmetry="4"/>
+	<overlapping name="Magic Office"	N="3" periodicInput="false" periodic="false" symmetry="5"/>
+	<overlapping name="Magic Office"	N="3" periodicInput="false" periodic="false" symmetry="6"/>
+	<overlapping name="Magic Office"	N="3" periodicInput="false" periodic="false" symmetry="7"/>
+	<overlapping name="Magic Office"	N="5" periodicInput="true" periodic="false"/>
+	<overlapping name="Magic Office"	N="5" periodic="false"/>
+<overlapping name="Office 2" N="3" periodic="True"/>
+	<overlapping name="Office 2"	N="3" periodic="false"/>
+	<overlapping name="Office 2"	N="3" periodicInput="false" periodic="false"/>
+	<overlapping name="Office 2"	N="3" periodicInput="false" periodic="false" symmetry="1"/>
+	<overlapping name="Office 2"	N="3" periodicInput="false" periodic="false" symmetry="2"/>
+	<overlapping name="Office 2"	N="3" periodicInput="false" periodic="false" symmetry="3"/>
+	<overlapping name="Office 2"	N="3" periodicInput="false" periodic="false" symmetry="4"/>
+	<overlapping name="Office 2"	N="3" periodicInput="false" periodic="false" symmetry="5"/>
+	<overlapping name="Office 2"	N="3" periodicInput="false" periodic="false" symmetry="6"/>
+	<overlapping name="Office 2"	N="3" periodicInput="false" periodic="false" symmetry="7"/>
+	<overlapping name="Office 2"	N="5" periodicInput="true" periodic="false"/>
+	<overlapping name="Office 2"	N="5" periodic="false"/>
+	-->

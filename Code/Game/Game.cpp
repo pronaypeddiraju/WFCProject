@@ -116,9 +116,9 @@ void Game::SetupMouseData()
 {
 	IntVec2 clientCenter = g_windowContext->GetClientCenter();
 	g_windowContext->SetClientMousePosition(clientCenter);
-	g_windowContext->SetMouseMode(MOUSE_MODE_ABSOLUTE);
+	g_windowContext->SetMouseMode(MOUSE_MODE_RELATIVE);
 	
-	//g_windowContext->HideMouse();
+	g_windowContext->HideMouse();
 }
 
 void Game::SetupCameras()
@@ -455,7 +455,7 @@ void Game::HandleKeyPressed(unsigned char keyCode)
 		case A_KEY:
 		{
 			//Handle left movement
-			Vec3 worldMovementDirection = m_mainCamera->m_cameraModel.GetIVector() * -1.f;
+			Vec3 worldMovementDirection = m_mainCamera->m_cameraModel.GetIBasis() * -1.f;
 			worldMovementDirection *= (m_cameraSpeed);
 
 			m_camPosition += worldMovementDirection; 
@@ -464,7 +464,7 @@ void Game::HandleKeyPressed(unsigned char keyCode)
 		case W_KEY:
 		{
 			//Handle forward movement
-			Vec3 worldMovementDirection = m_mainCamera->m_cameraModel.GetKVector();
+			Vec3 worldMovementDirection = m_mainCamera->m_cameraModel.GetKBasis();
 			worldMovementDirection *= (m_cameraSpeed); 
 
 			m_camPosition += worldMovementDirection; 
@@ -473,7 +473,7 @@ void Game::HandleKeyPressed(unsigned char keyCode)
 		case S_KEY:
 		{
 			//Handle backward movement
-			Vec3 worldMovementDirection = m_mainCamera->m_cameraModel.GetKVector() * -1.f;
+			Vec3 worldMovementDirection = m_mainCamera->m_cameraModel.GetKBasis() * -1.f;
 			worldMovementDirection *= (m_cameraSpeed); 
 
 			m_camPosition += worldMovementDirection; 
@@ -482,7 +482,7 @@ void Game::HandleKeyPressed(unsigned char keyCode)
 		case D_KEY:
 		{
 			//Handle right movement
-			Vec3 worldMovementDirection = m_mainCamera->m_cameraModel.GetIVector();
+			Vec3 worldMovementDirection = m_mainCamera->m_cameraModel.GetIBasis();
 			worldMovementDirection *= (m_cameraSpeed); 
 
 			m_camPosition += worldMovementDirection; 
@@ -817,8 +817,6 @@ void Game::Update( float deltaTime )
 	//Figure out update state for only move on alt + move
 	UpdateMouseInputs(deltaTime);
 
-	g_ImGUI->BeginFrame();
-
 	if(g_devConsole->GetFrameCount() > 1 && !m_devConsoleSetup)
 	{
 		m_devConsoleCamera->SetOrthoView(Vec2(-WORLD_WIDTH * 0.5f * SCREEN_ASPECT, -WORLD_HEIGHT * 0.5f), Vec2(WORLD_WIDTH * 0.5f * SCREEN_ASPECT, WORLD_HEIGHT * 0.5f));
@@ -874,9 +872,6 @@ void Game::Update( float deltaTime )
 //------------------------------------------------------------------------------------------------------------------------------
 void Game::UpdateImGUI()
 {
-	//Use this place to create/update info for imGui
-	ImGui::NewFrame();
-
 	ImGui::Begin("Hello, world!");                          // Create a window called "Hello, world!" and append into it.
 
 	ImGui::Text("This is some useful text.");               // Display some text (you can use a format strings too)
