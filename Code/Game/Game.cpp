@@ -25,7 +25,7 @@
 #include "Engine/Renderer/Shader.hpp"
 #include "Engine/Renderer/TextureView.hpp"
 #include "Engine/Commons/UnitTest.hpp"
-#include "Game/FastWFCEntry.hpp"
+#include "Game/FastWFC/WFCEntry.hpp"
 
 //#include "ThirdParty/PhysX/include/PxPhysicsAPI.h"
 

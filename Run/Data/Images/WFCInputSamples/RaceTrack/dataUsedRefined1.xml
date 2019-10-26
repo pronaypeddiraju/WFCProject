@@ -1,0 +1,104 @@
+<set size="3">
+	
+	<tiles name="tiles">
+		<tile name="mediumCorner" symmetry="L"/>
+		<tile name="straightPiece" symmetry="I"/>
+		<tile name="empty" symmetry="X"/>
+		<tile name="rampPiece" symmetry="I"/>
+	</tiles>
+	
+	<neighbors>
+		<!--
+		<neighbor left="tightCorner" right="rampPiece"/>
+		<neighbor left="tightCorner" right="straightPiece"/>
+		<neighbor left="tightCorner" right="tightCorner 1"/>
+		<neighbor left="tightCorner" right="tightCorner 2"/>
+		<neighbor left="tightCorner 1" right="empty"/>
+		<neighbor left="tightCorner 1" right="straightPiece 1"/>
+		<neighbor left="tightCorner 1" right="rampPiece 1"/>
+
+		<neighbor left="longCorner" right="straightPiece"/>
+		<neighbor left="longCorner" right="rampPiece"/>
+		<neighbor left="longCorner" right="straightPiece 1"/>
+		<neighbor left="longCorner" right="rampPiece 1"/>
+		<neighbor left="longCorner" right="longCorner 3"/>
+		<neighbor left="longCorner" right="longCorner 1"/>
+		<neighbor left="longCorner 1" right="empty"/>
+		<neighbor left="longCorner 1" right="straightPiece"/>
+		<neighbor left="longCorner 1" right="rampPiece"/>
+		<neighbor left="longCorner 1" right="straightPiece 1"/>
+		<neighbor left="longCorner 1" right="rampPiece 1"/>
+		<neighbor left="longCorner 1" right="rampPiece"/>
+		<neighbor left="longCorner" right="longCorner 2"/>
+		
+		-->
+		<neighbor left="mediumCorner" right="straightPiece"/>
+		<neighbor left="mediumCorner" right="rampPiece"/>
+		<neighbor left="mediumCorner" right="mediumCorner 1"/>
+		<neighbor left="mediumCorner" right="mediumCorner 2"/>
+		<neighbor left="mediumCorner 1" right="empty"/>
+		<neighbor left="mediumCorner 2" right="empty"/>				
+
+		<neighbor left="straightPiece" right="straightPiece"/>
+		<neighbor left="straightPiece" right="rampPiece"/>
+		<neighbor left="straightPiece" right="mediumCorner 1"/>
+		<neighbor left="straightPiece" right="mediumCorner 2"/>
+		<neighbor left="straightPiece 1" right="straightPiece 1"/>
+		<neighbor left="straightPiece 1" right="rampPiece 1"/>
+		<neighbor left="straightPiece 1" right="mediumCorner"/>
+		<neighbor left="straightPiece 1" right="mediumCorner 3"/>
+
+		<neighbor left="rampPiece" right="rampPiece"/>
+		<neighbor left="rampPiece" right="straightPiece"/>
+		<neighbor left="rampPiece" right="mediumCorner 1"/>
+		<neighbor left="rampPiece" right="mediumCorner 2"/>		
+		<neighbor left="rampPiece 1" right="rampPiece 1"/>	
+		<neighbor left="rampPiece 1" right="straightPiece 1"/>
+		<neighbor left="rampPiece 1" right="mediumCorner"/>
+		<neighbor left="rampPiece 1" right="mediumCorner 3"/>
+
+		<neighbor left="empty" right="empty"/>
+		<neighbor left="empty" right="straightPiece 1"/>
+		<neighbor left="empty" right="rampPiece 1"/>
+		<neighbor left="empty" right="mediumCorner"/>
+		<neighbor left="empty" right="mediumCorner 3"/>
+	</neighbors>
+	
+	<subsets>
+
+		<subset name="Standard">
+			<tile name="mediumCorner"/>			
+			<tile name="empty"/>
+			<tile name="straightPiece"/>
+			<tile name="rampPiece"/>
+		</subset>
+		<subset name="RampLess">
+			<tile name="mediumCorner"/>
+			<tile name="empty"/>
+			<tile name="straightPiece"/>
+		</subset>
+		<subset name="CornersOnly">
+			<tile name="mediumCorner"/>
+			<tile name="empty"/>
+		</subset>
+		<subset name="DenseCorners">
+			<tile name="mediumCorner"/>
+		</subset>
+		<subset name="MediumTurnsAndStraights">
+			<tile name="mediumCorner"/>
+			<tile name="empty"/>
+			<tile name="straightPiece"/>
+			<tile name="rampPiece"/>
+		</subset>
+		<subset name="TightTurnsAndStraights">
+			<tile name="mediumCorner"/>
+			<tile name="straightPiece"/>
+			<tile name="rampPiece"/>
+		</subset>
+		<subset name="CurvyRoad">
+			<tile name="mediumCorner"/>
+			<tile name="empty"/>
+		</subset>
+	</subsets>
+
+</set>

@@ -196,10 +196,10 @@
   <ItemGroup>
     <ClCompile Include="App.cpp" />
     <ClCompile Include="Entity.cpp" />
-    <ClCompile Include="FastWFC.cpp" />
-    <ClCompile Include="FastWFCEntry.cpp" />
-    <ClCompile Include="FastWFCPropagator.cpp" />
-    <ClCompile Include="FastWFCWave.cpp" />
+    <ClCompile Include="FastWFC\WFC.cpp" />
+    <ClCompile Include="FastWFC\WFCEntry.cpp" />
+    <ClCompile Include="FastWFC\WFCPropagator.cpp" />
+    <ClCompile Include="FastWFC\WFCWave.cpp" />
     <ClCompile Include="Game.cpp" />
     <ClCompile Include="Main_Windows.cpp">
       <ShowIncludes Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ShowIncludes>
@@ -212,18 +212,20 @@
     <ClInclude Include="App.hpp" />
     <ClInclude Include="EngineBuildPreferences.hpp" />
     <ClInclude Include="Entity.hpp" />
-    <ClInclude Include="FastWFC.hpp" />
-    <ClInclude Include="FastWFCDirection.hpp" />
-    <ClInclude Include="FastWFCEntry.hpp" />
-    <ClInclude Include="FastWFCOverlappingModel.hpp" />
-    <ClInclude Include="FastWFCPropagator.hpp" />
-    <ClInclude Include="FastWFCWave.hpp" />
+    <ClInclude Include="FastWFC\WFC.hpp" />
+    <ClInclude Include="FastWFC\WFCArray2D.hpp" />
+    <ClInclude Include="FastWFC\WFCArray3D.hpp" />
+    <ClInclude Include="FastWFC\WFCColor.hpp" />
+    <ClInclude Include="FastWFC\WFCDirection.hpp" />
+    <ClInclude Include="FastWFC\WFCEntry.hpp" />
+    <ClInclude Include="FastWFC\WFCImage.hpp" />
+    <ClInclude Include="FastWFC\WFCMarkovModel.hpp" />
+    <ClInclude Include="FastWFC\WFCOverlappingModel.hpp" />
+    <ClInclude Include="FastWFC\WFCPropagator.hpp" />
+    <ClInclude Include="FastWFC\WFCTilingModel.hpp" />
+    <ClInclude Include="FastWFC\WFCWave.hpp" />
     <ClInclude Include="Game.hpp" />
     <ClInclude Include="GameCommon.hpp" />
-    <ClInclude Include="WFCArray2D.hpp" />
-    <ClInclude Include="WFCArray3D.hpp" />
-    <ClInclude Include="WFCColor.hpp" />
-    <ClInclude Include="WFCImage.hpp" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Submodule\Engine\Code\Engine\Engine.vcxproj">

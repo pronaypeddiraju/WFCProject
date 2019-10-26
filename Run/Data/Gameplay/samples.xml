@@ -1,9 +1,80 @@
 <samples>
-<overlapping name="ProOfficeTemplate4"	N="3" periodic="True"/>
-</samples>
+	<overlapping name="Chess" N="2" periodic="True"/>
+	<overlapping name="Chess" N="2" width="47" height="47" periodic="True" screenshots="1"/>
+	<overlapping name="Skyline" N="3" symmetry="2" ground="-1" periodic="True"/>
+	<overlapping name="Flowers" N="3" symmetry="2" ground="-4" periodic="True"/>
+	<overlapping name="Hogs" N="3" periodic="True"/>
+	<overlapping name="Hogs" N="2" periodic="True"/>
+	<overlapping name="Knot" N="3" periodic="True"/>
+	<overlapping name="Less Rooms" N="3" periodic="True"/>
+	<overlapping name="Mountains" N="3" symmetry="2" periodic="True"/>
+	<overlapping name="Office" N="3" periodic="True"/>
+	<overlapping name="Paths" N="3" periodic="True"/>
+	<overlapping name="Platformer" N="2" symmetry="2" ground="-1" periodic="True"/>
+	<overlapping name="Platformer" N="3" symmetry="2" ground="-1" periodic="True"/>
+	<overlapping name="Red Maze" N="2"/>
+	<overlapping name="Rooms" N="3" screenshots="3" periodic="True"/>
+	<overlapping name="Rule 126" N="3" symmetry="2" periodicInput="False" periodic="False"/>
+	<overlapping name="Simple Knot" N="3" periodic="True"/>
+	<overlapping name="Simple Maze" N="2"/>
+	<overlapping name="Simple Wall" N="3" symmetry="2" periodic="True"/>
+	<overlapping name="Simple Wall" N="3" periodic="True"/>
+	<overlapping name="Simple Wall" N="2" symmetry="2" periodic="True"/>
+	<overlapping name="Simple Wall" N="2" periodic="True"/>
+	<overlapping name="Trick Knot" N="3" periodic="True"/>
+	<overlapping name="Village" N="3" symmetry="2" periodic="True"/>
+	<overlapping name="Water" N="3" symmetry="1" periodic="True"/>
+	<simpletiled name="Summer" width="15" height="15"/>
+	<simpletiled name="Castle" width="20" height="20"/>
+	<simpletiled name="Circuit" subset="Turnless" width="34" height="34" periodic="True" screenshots="3"/>
+	<simpletiled name="Knots" subset="Standard" width="24" height="24" periodic="True"/>
+	<simpletiled name="Knots" subset="Dense" width="24" height="24" periodic="True"/>	
+	<simpletiled name="Knots" subset="Crossless" width="24" height="24"/>
+	<simpletiled name="Knots" subset="TE" width="24" height="24"/>
+	<simpletiled name="Knots" subset="T" width="24" height="24"/>
+	<simpletiled name="Knots" subset="CL" width="24" height="24"/>	
+	<simpletiled name="Knots" subset="CE" width="24" height="24" periodic="True"/>
+	<simpletiled name="Knots" subset="C" width="24" height="24" periodic="True"/>
+	<simpletiled name="Knots" subset="Fabric" width="24" height="24" periodic="True"/>
+	<simpletiled name="Knots" subset="Dense Fabric" width="24" height="24" periodic="True"/>
+	<simpletiled name="Rooms" width="30" height="30"/>
 
+	<!-- Buggy <simpletiled name="Circles" width="24" height="24"/> -->
+	<simpletiled name="Circles" subset="Large Circles" width="24" height="24"/>
+	<simpletiled name="Circles" subset="Large Circles and Solid" width="24" height="24"/>
+	<simpletiled name="Circles" subset="No Solid" width="24" height="24"/>
+	
+	<overlapping name="Cat" N="3" symmetry="2" periodic="True" width="80" height="80"/>
+	<overlapping name="Cats" N="3" symmetry="2" periodic="True"/>
+	<overlapping name="Skyline 2" N="3" symmetry="2" periodic="True" ground="-1"/>
+	<overlapping name="Angular" N="3" periodic="True"/>
+	<overlapping name="City" N="3" periodic="True" width="80" height="80"/>
+	<overlapping name="Colored City" N="3" periodic="True"/>
+	<overlapping name="Dungeon" N="3" periodic="True"/>
+	<overlapping name="Lake" N="3" periodic="True" width="60" height="60"/>
+	<overlapping name="Link" N="3" periodic="True"/>
+	<overlapping name="Link 2" N="3" periodic="True"/>
+	<overlapping name="Mazelike" N="3" periodic="True"/>
+	<overlapping name="Nested" N="3" periodic="True"/>
+	<overlapping name="Magic Office" N="3" periodic="True"/>
+	<overlapping name="Office 2" N="3" periodic="True"/>
+	<overlapping name="Qud" N="3" periodic="True" width="80" height="80"/>
+	<overlapping name="Red Dot" N="3" periodic="True"/>
+	<overlapping name="Scaled Maze" N="2" periodic="True"/>
+	<overlapping name="Sewers" N="3" periodic="True"/>
+	<overlapping name="Skew 1" N="3" periodic="True"/>
+	<overlapping name="Skew 2" N="3" periodic="True"/>
+	<overlapping name="Smile City" N="3" periodic="True"/>
+	<overlapping name="Spirals" N="3" periodic="True"/>
+	<overlapping name="Town" N="3" periodic="True"/>
+	
+	<overlapping name="3Bricks" N="3" symmetry="1" periodic="True"/>
+	<overlapping name="Village" N="3" symmetry="2" limit="50" periodic="True"/>
+	<simpletiled name="Summer" width="15" height="15" periodic="False" limit="15"/>
 
-<!-- 
+	<simpletiled name="Knots" subset="Standard" width="5" height="5" periodic="True" textOutput="True"/>
+	<simpletiled name="Summer" width="6" height="6" periodic="False" textOutput="True"/>
+	<simpletiled name="Circuit" subset="Turnless" width="7" height="7" periodic="True" textOutput="True"/>
 
 <overlapping name="ProOfficeTemplate4"	N="3" periodic="false"/>
 	<overlapping name="ProOfficeTemplate4"	N="3" periodicInput="false" periodic="false"/>
@@ -16,30 +87,20 @@
 	<overlapping name="ProOfficeTemplate4"	N="3" periodicInput="false" periodic="false" symmetry="7"/>
 	<overlapping name="ProOfficeTemplate4"	N="5" periodicInput="true" periodic="false"/>
 	<overlapping name="ProOfficeTemplate4"	N="5" periodic="false"/>
-<overlapping name="ProOfficeTemplate2"	N="3" periodic="True"/>
-	<overlapping name="ProOfficeTemplate2"	N="3" periodic="false"/>
-	<overlapping name="ProOfficeTemplate2"	N="3" periodicInput="false" periodic="false"/>
-	<overlapping name="ProOfficeTemplate2"	N="3" periodicInput="false" periodic="false" symmetry="1"/>
-	<overlapping name="ProOfficeTemplate2"	N="3" periodicInput="false" periodic="false" symmetry="2"/>
-	<overlapping name="ProOfficeTemplate2"	N="3" periodicInput="false" periodic="false" symmetry="3"/>
-	<overlapping name="ProOfficeTemplate2"	N="3" periodicInput="false" periodic="false" symmetry="4"/>
-	<overlapping name="ProOfficeTemplate2"	N="3" periodicInput="false" periodic="false" symmetry="5"/>
-	<overlapping name="ProOfficeTemplate2"	N="3" periodicInput="false" periodic="false" symmetry="6"/>
-	<overlapping name="ProOfficeTemplate2"	N="3" periodicInput="false" periodic="false" symmetry="7"/>
-	<overlapping name="ProOfficeTemplate2"	N="5" periodicInput="true" periodic="false"/>
-	<overlapping name="ProOfficeTemplate2"	N="5" periodic="false"/>	
-<overlapping name="ProOfficeTemplate1"	N="4" periodic="True"/>
-	<overlapping name="ProOfficeTemplate1"	N="3" periodic="false"/>
-	<overlapping name="ProOfficeTemplate1"	N="3" periodicInput="false" periodic="false"/>
-	<overlapping name="ProOfficeTemplate1"	N="3" periodicInput="false" periodic="false" symmetry="1"/>
-	<overlapping name="ProOfficeTemplate1"	N="3" periodicInput="false" periodic="false" symmetry="2"/>
-	<overlapping name="ProOfficeTemplate1"	N="3" periodicInput="false" periodic="false" symmetry="3"/>
-	<overlapping name="ProOfficeTemplate1"	N="3" periodicInput="false" periodic="false" symmetry="4"/>
-	<overlapping name="ProOfficeTemplate1"	N="3" periodicInput="false" periodic="false" symmetry="5"/>
-	<overlapping name="ProOfficeTemplate1"	N="3" periodicInput="false" periodic="false" symmetry="6"/>
-	<overlapping name="ProOfficeTemplate1"	N="3" periodicInput="false" periodic="false" symmetry="7"/>
-	<overlapping name="ProOfficeTemplate1"	N="5" periodicInput="true" periodic="false"/>
-	<overlapping name="ProOfficeTemplate1"	N="5" periodic="false"/>
+
+<overlapping name="ProOfficeTemplate3"	N="3" periodic="True"/>
+	<overlapping name="ProOfficeTemplate3"	N="3" periodic="false"/>
+	<overlapping name="ProOfficeTemplate3"	N="3" periodicInput="false" periodic="false"/>
+	<overlapping name="ProOfficeTemplate3"	N="3" periodicInput="false" periodic="false" symmetry="1"/>
+	<overlapping name="ProOfficeTemplate3"	N="3" periodicInput="false" periodic="false" symmetry="2"/>
+	<overlapping name="ProOfficeTemplate3"	N="3" periodicInput="false" periodic="false" symmetry="3"/>
+	<overlapping name="ProOfficeTemplate3"	N="3" periodicInput="false" periodic="false" symmetry="4"/>
+	<overlapping name="ProOfficeTemplate3"	N="3" periodicInput="false" periodic="false" symmetry="5"/>
+	<overlapping name="ProOfficeTemplate3"	N="3" periodicInput="false" periodic="false" symmetry="6"/>
+	<overlapping name="ProOfficeTemplate3"	N="3" periodicInput="false" periodic="false" symmetry="7"/>
+	<overlapping name="ProOfficeTemplate3"	N="5" periodicInput="true" periodic="false"/>
+	<overlapping name="ProOfficeTemplate3"	N="5" periodic="false"/>
+
 <overlapping name="Qud" N="3" periodic="True" width="80" height="80"/>
 	<overlapping name="Qud"	N="3" periodic="false"/>
 	<overlapping name="Qud"	N="3" periodicInput="false" periodic="false"/>
@@ -52,7 +113,8 @@
 	<overlapping name="Qud"	N="3" periodicInput="false" periodic="false" symmetry="7"/>
 	<overlapping name="Qud"	N="5" periodicInput="true" periodic="false"/>
 	<overlapping name="Qud"	N="5" periodic="false"/>
-	<overlapping name="ProMagicOfficeTemplate"	N="3" periodic="True"/>
+
+<overlapping name="ProMagicOfficeTemplate"	N="3" periodic="True"/>
 	<overlapping name="ProMagicOfficeTemplate"	N="3" periodic="false"/>
 	<overlapping name="ProMagicOfficeTemplate"	N="3" periodicInput="false" periodic="false"/>
 	<overlapping name="ProMagicOfficeTemplate"	N="3" periodicInput="false" periodic="false" symmetry="1"/>
@@ -64,6 +126,7 @@
 	<overlapping name="ProMagicOfficeTemplate"	N="3" periodicInput="false" periodic="false" symmetry="7"/>
 	<overlapping name="ProMagicOfficeTemplate"	N="5" periodicInput="true" periodic="false"/>
 	<overlapping name="ProMagicOfficeTemplate"	N="5" periodic="false"/>
+
 <overlapping name="Office" N="3" periodic="True"/>
 	<overlapping name="Office"	N="3" periodic="false"/>
 	<overlapping name="Office"	N="3" periodicInput="false" periodic="false"/>
@@ -76,18 +139,7 @@
 	<overlapping name="Office"	N="3" periodicInput="false" periodic="false" symmetry="7"/>
 	<overlapping name="Office"	N="5" periodicInput="true" periodic="false"/>
 	<overlapping name="Office"	N="5" periodic="false"/>
-<overlapping name="Magic Office" N="3" periodic="True"/>
-	<overlapping name="Magic Office"	N="3" periodic="false"/>
-	<overlapping name="Magic Office"	N="3" periodicInput="false" periodic="false"/>
-	<overlapping name="Magic Office"	N="3" periodicInput="false" periodic="false" symmetry="1"/>
-	<overlapping name="Magic Office"	N="3" periodicInput="false" periodic="false" symmetry="2"/>
-	<overlapping name="Magic Office"	N="3" periodicInput="false" periodic="false" symmetry="3"/>
-	<overlapping name="Magic Office"	N="3" periodicInput="false" periodic="false" symmetry="4"/>
-	<overlapping name="Magic Office"	N="3" periodicInput="false" periodic="false" symmetry="5"/>
-	<overlapping name="Magic Office"	N="3" periodicInput="false" periodic="false" symmetry="6"/>
-	<overlapping name="Magic Office"	N="3" periodicInput="false" periodic="false" symmetry="7"/>
-	<overlapping name="Magic Office"	N="5" periodicInput="true" periodic="false"/>
-	<overlapping name="Magic Office"	N="5" periodic="false"/>
+
 <overlapping name="Office 2" N="3" periodic="True"/>
 	<overlapping name="Office 2"	N="3" periodic="false"/>
 	<overlapping name="Office 2"	N="3" periodicInput="false" periodic="false"/>
@@ -100,6 +152,656 @@
 	<overlapping name="Office 2"	N="3" periodicInput="false" periodic="false" symmetry="7"/>
 	<overlapping name="Office 2"	N="5" periodicInput="true" periodic="false"/>
 	<overlapping name="Office 2"	N="5" periodic="false"/>
+
+<overlapping name="ProRaceTrackTemplate"	N="4" periodic="True"/>
+	<overlapping name="ProRaceTrackTemplate"	N="3" periodic="false"/>
+	<overlapping name="ProRaceTrackTemplate"	N="3" periodicInput="false" periodic="false"/>
+	<overlapping name="ProRaceTrackTemplate"	N="3" periodicInput="false" periodic="false" symmetry="1"/>
+	<overlapping name="ProRaceTrackTemplate"	N="3" periodicInput="false" periodic="false" symmetry="2"/>
+	<overlapping name="ProRaceTrackTemplate"	N="3" periodicInput="false" periodic="false" symmetry="3"/>
+	<overlapping name="ProRaceTrackTemplate"	N="3" periodicInput="false" periodic="false" symmetry="4"/>
+	<overlapping name="ProRaceTrackTemplate"	N="3" periodicInput="false" periodic="false" symmetry="5"/>
+	<overlapping name="ProRaceTrackTemplate"	N="3" periodicInput="false" periodic="false" symmetry="6"/>
+	<overlapping name="ProRaceTrackTemplate"	N="3" periodicInput="false" periodic="false" symmetry="7"/>
+	<overlapping name="ProRaceTrackTemplate"	N="5" periodicInput="true" periodic="false"/>
+	<overlapping name="ProRaceTrackTemplate"	N="5" periodic="false"/>
+
+<overlapping name="ProRaceTrackTemplate2"	N="4" periodic="True" width="63" height="63"/>
+	<overlapping name="ProRaceTrackTemplate2"	N="3" periodic="false" width="63" height="63"/>
+	<overlapping name="ProRaceTrackTemplate2"	N="3" periodicInput="false" periodic="false" width="63" height="63"/>
+	<overlapping name="ProRaceTrackTemplate2"	N="3" periodicInput="false" periodic="false" symmetry="1" width="63" height="63"/>
+	<overlapping name="ProRaceTrackTemplate2"	N="3" periodicInput="false" periodic="false" symmetry="2" width="63" height="63"/>
+	<overlapping name="ProRaceTrackTemplate2"	N="3" periodicInput="false" periodic="false" symmetry="3" width="63" height="63"/>
+	<overlapping name="ProRaceTrackTemplate2"	N="3" periodicInput="false" periodic="false" symmetry="4" width="63" height="63"/>
+	<overlapping name="ProRaceTrackTemplate2"	N="3" periodicInput="false" periodic="false" symmetry="5" width="63" height="63"/>
+	<overlapping name="ProRaceTrackTemplate2"	N="3" periodicInput="false" periodic="false" symmetry="6" width="63" height="63"/>
+	<overlapping name="ProRaceTrackTemplate2"	N="3" periodicInput="false" periodic="false" symmetry="7" width="63" height="63"/>
+	<overlapping name="ProRaceTrackTemplate2"	N="5" periodicInput="true" periodic="false" width="63" height="63"/>
+	<overlapping name="ProRaceTrackTemplate2"	N="5" periodic="false" width="63" height="63"/>
+
+<simpletiled name="RaceTrack" subset="Standard" width="50" height="50" periodic="false"/>	
+	<simpletiled name="RaceTrack" subset="RampLess" width="50" height="50" periodic="false"/>	
+	<simpletiled name="RaceTrack" subset="DenseCorners" width="50" height="50" periodic="false"/>	
+	<simpletiled name="RaceTrack" subset="MediumTurnsAndStraights" width="50" height="50" periodic="false"/>
+	<simpletiled name="RaceTrack" subset="TightTurnsAndStraights" width="50" height="50" periodic="false"/>	
+	<simpletiled name="RaceTrack" subset="CurvyRoad" width="50" height="50" periodic="false"/>	
+
+<simpletiled name="RaceTrack" subset="Standard" width="30" height="30"/>	
+	<simpletiled name="RaceTrack" subset="RampLess" width="30" height="30"/>	
+	<simpletiled name="RaceTrack" subset="DenseCorners" width="30" height="30"/>	
+	<simpletiled name="RaceTrack" subset="MediumTurnsAndStraights" width="30" height="30"/>
+	<simpletiled name="RaceTrack" subset="TightTurnsAndStraights" width="30" height="30"/>	
+	<simpletiled name="RaceTrack" subset="CurvyRoad" width="30" height="30"/>	
+
+<simpletiled name="RaceTrack" subset="Standard" width="50" height="50" periodic="false" periodicInput = "false"/>	
+	<simpletiled name="RaceTrack" subset="RampLess" width="50" height="50" periodic="false" periodicInput = "false"/>	
+	<simpletiled name="RaceTrack" subset="DenseCorners" width="50" height="50" periodic="false" periodicInput = "false"/>	
+	<simpletiled name="RaceTrack" subset="MediumTurnsAndStraights" width="50" height="50" periodic="false" periodicInput = "false"/>
+	<simpletiled name="RaceTrack" subset="TightTurnsAndStraights" width="50" height="50" periodic="false" periodicInput = "false"/>	
+	<simpletiled name="RaceTrack" subset="CurvyRoad" width="50" height="50" periodic="false" periodicInput = "false"/>	
+
+	<overlapping name="OfficeInterior1" N="3" width="12" height="12" periodic="True"/>
+	<overlapping name="OfficeInterior1"	N="3" width="12" height="12" periodic="false"/>
+	<overlapping name="OfficeInterior1"	N="3" width="12" height="12" periodicInput="false" periodic="false"/>
+	<overlapping name="OfficeInterior1"	N="3" width="12" height="12" periodicInput="false" periodic="false" symmetry="1"/>
+	<overlapping name="OfficeInterior1"	N="3" width="12" height="12" periodicInput="false" periodic="false" symmetry="2"/>
+	<overlapping name="OfficeInterior1"	N="3" width="12" height="12" periodicInput="false" periodic="false" symmetry="3"/>
+	<overlapping name="OfficeInterior1"	N="3" width="12" height="12" periodicInput="false" periodic="false" symmetry="4"/>
+	<overlapping name="OfficeInterior1"	N="3" width="12" height="12" periodicInput="false" periodic="false" symmetry="5"/>
+	<overlapping name="OfficeInterior1"	N="3" width="12" height="12" periodicInput="false" periodic="false" symmetry="6"/>
+	<overlapping name="OfficeInterior1"	N="3" width="12" height="12" periodicInput="false" periodic="false" symmetry="7"/>
+	<overlapping name="OfficeInterior1"	N="5" width="12" height="12" periodicInput="true" periodic="false"/>
+	<overlapping name="OfficeInterior1"	N="5" width="12" height="12" periodic="false"/>
+<overlapping name="OfficeInterior1" N="3" width="6" height="6" periodic="True"/>
+	<overlapping name="OfficeInterior1"	N="3" width="6" height="6" periodic="false"/>
+	<overlapping name="OfficeInterior1"	N="3" width="6" height="6" periodicInput="false" periodic="false"/>
+	<overlapping name="OfficeInterior1"	N="3" width="6" height="6" periodicInput="false" periodic="false" symmetry="1"/>
+	<overlapping name="OfficeInterior1"	N="3" width="6" height="6" periodicInput="false" periodic="false" symmetry="2"/>
+	<overlapping name="OfficeInterior1"	N="3" width="6" height="6" periodicInput="false" periodic="false" symmetry="3"/>
+	<overlapping name="OfficeInterior1"	N="3" width="6" height="6" periodicInput="false" periodic="false" symmetry="4"/>
+	<overlapping name="OfficeInterior1"	N="3" width="6" height="6" periodicInput="false" periodic="false" symmetry="5"/>
+	<overlapping name="OfficeInterior1"	N="3" width="6" height="6" periodicInput="false" periodic="false" symmetry="6"/>
+	<overlapping name="OfficeInterior1"	N="3" width="6" height="6" periodicInput="false" periodic="false" symmetry="7"/>
+	<overlapping name="OfficeInterior1"	N="5" width="6" height="6" periodicInput="true" periodic="false"/>
+	<overlapping name="OfficeInterior1"	N="5" width="6" height="6" periodic="false"/>
+<overlapping name="OfficeInterior1" N="3" width="12" height="6" periodic="True"/>
+	<overlapping name="OfficeInterior1"	N="3" width="12" height="6" periodic="false"/>
+	<overlapping name="OfficeInterior1"	N="3" width="12" height="6" periodicInput="false" periodic="false"/>
+	<overlapping name="OfficeInterior1"	N="3" width="12" height="6" periodicInput="false" periodic="false" symmetry="1"/>
+	<overlapping name="OfficeInterior1"	N="3" width="12" height="6" periodicInput="false" periodic="false" symmetry="2"/>
+	<overlapping name="OfficeInterior1"	N="3" width="12" height="6" periodicInput="false" periodic="false" symmetry="3"/>
+	<overlapping name="OfficeInterior1"	N="3" width="12" height="6" periodicInput="false" periodic="false" symmetry="4"/>
+	<overlapping name="OfficeInterior1"	N="3" width="12" height="6" periodicInput="false" periodic="false" symmetry="5"/>
+	<overlapping name="OfficeInterior1"	N="3" width="12" height="6" periodicInput="false" periodic="false" symmetry="6"/>
+	<overlapping name="OfficeInterior1"	N="3" width="12" height="6" periodicInput="false" periodic="false" symmetry="7"/>
+	<overlapping name="OfficeInterior1"	N="5" width="12" height="6" periodicInput="true" periodic="false"/>
+	<overlapping name="OfficeInterior1"	N="5" width="12" height="6" periodic="false"/>
+<overlapping name="OfficeInterior1" N="3" width="5" height="5" periodic="True"/>
+	<overlapping name="OfficeInterior1"	N="3" width="5" height="5" periodic="false"/>
+	<overlapping name="OfficeInterior1"	N="3" width="5" height="5" periodicInput="false" periodic="false"/>
+	<overlapping name="OfficeInterior1"	N="3" width="5" height="5" periodicInput="false" periodic="false" symmetry="1"/>
+	<overlapping name="OfficeInterior1"	N="3" width="5" height="5" periodicInput="false" periodic="false" symmetry="2"/>
+	<overlapping name="OfficeInterior1"	N="3" width="5" height="5" periodicInput="false" periodic="false" symmetry="3"/>
+	<overlapping name="OfficeInterior1"	N="3" width="5" height="5" periodicInput="false" periodic="false" symmetry="4"/>
+	<overlapping name="OfficeInterior1"	N="3" width="5" height="5" periodicInput="false" periodic="false" symmetry="5"/>
+	<overlapping name="OfficeInterior1"	N="3" width="5" height="5" periodicInput="false" periodic="false" symmetry="6"/>
+	<overlapping name="OfficeInterior1"	N="3" width="5" height="5" periodicInput="false" periodic="false" symmetry="7"/>
+	<overlapping name="OfficeInterior1"	N="5" width="5" height="5" periodicInput="true" periodic="false"/>
+	<overlapping name="OfficeInterior1"	N="5" width="5" height="5" periodic="false"/>
+<overlapping name="OfficeInterior1" N="3" width="7" height="7" periodic="True"/>
+	<overlapping name="OfficeInterior1"	N="3" width="7" height="7" periodic="false"/>
+	<overlapping name="OfficeInterior1"	N="3" width="7" height="7" periodicInput="false" periodic="false"/>
+	<overlapping name="OfficeInterior1"	N="3" width="7" height="7" periodicInput="false" periodic="false" symmetry="1"/>
+	<overlapping name="OfficeInterior1"	N="3" width="7" height="7" periodicInput="false" periodic="false" symmetry="2"/>
+	<overlapping name="OfficeInterior1"	N="3" width="7" height="7" periodicInput="false" periodic="false" symmetry="3"/>
+	<overlapping name="OfficeInterior1"	N="3" width="7" height="7" periodicInput="false" periodic="false" symmetry="4"/>
+	<overlapping name="OfficeInterior1"	N="3" width="7" height="7" periodicInput="false" periodic="false" symmetry="5"/>
+	<overlapping name="OfficeInterior1"	N="3" width="7" height="7" periodicInput="false" periodic="false" symmetry="6"/>
+	<overlapping name="OfficeInterior1"	N="3" width="7" height="7" periodicInput="false" periodic="false" symmetry="7"/>
+	<overlapping name="OfficeInterior1"	N="5" width="7" height="7" periodicInput="true" periodic="false"/>
+	<overlapping name="OfficeInterior1"	N="5" width="7" height="7" periodic="false"/>
+<overlapping name="OfficeInterior1" N="3" width="5" height="7" periodic="True"/>
+	<overlapping name="OfficeInterior1"	N="3" width="5" height="7" periodic="false"/>
+	<overlapping name="OfficeInterior1"	N="3" width="5" height="7" periodicInput="false" periodic="false"/>
+	<overlapping name="OfficeInterior1"	N="3" width="5" height="7" periodicInput="false" periodic="false" symmetry="1"/>
+	<overlapping name="OfficeInterior1"	N="3" width="5" height="7" periodicInput="false" periodic="false" symmetry="2"/>
+	<overlapping name="OfficeInterior1"	N="3" width="5" height="7" periodicInput="false" periodic="false" symmetry="3"/>
+	<overlapping name="OfficeInterior1"	N="3" width="5" height="7" periodicInput="false" periodic="false" symmetry="4"/>
+	<overlapping name="OfficeInterior1"	N="3" width="5" height="7" periodicInput="false" periodic="false" symmetry="5"/>
+	<overlapping name="OfficeInterior1"	N="3" width="5" height="7" periodicInput="false" periodic="false" symmetry="6"/>
+	<overlapping name="OfficeInterior1"	N="3" width="5" height="7" periodicInput="false" periodic="false" symmetry="7"/>
+	<overlapping name="OfficeInterior1"	N="5" width="5" height="7" periodicInput="true" periodic="false"/>
+	<overlapping name="OfficeInterior1"	N="5" width="5" height="7" periodic="false"/>
+<overlapping name="OfficeInterior2" N="3" width="12" height="12" periodic="True"/>
+	<overlapping name="OfficeInterior2"	N="3" width="12" height="12" periodic="false"/>
+	<overlapping name="OfficeInterior2"	N="3" width="12" height="12" periodicInput="false" periodic="false"/>
+	<overlapping name="OfficeInterior2"	N="3" width="12" height="12" periodicInput="false" periodic="false" symmetry="1"/>
+	<overlapping name="OfficeInterior2"	N="3" width="12" height="12" periodicInput="false" periodic="false" symmetry="2"/>
+	<overlapping name="OfficeInterior2"	N="3" width="12" height="12" periodicInput="false" periodic="false" symmetry="3"/>
+	<overlapping name="OfficeInterior2"	N="3" width="12" height="12" periodicInput="false" periodic="false" symmetry="4"/>
+	<overlapping name="OfficeInterior2"	N="3" width="12" height="12" periodicInput="false" periodic="false" symmetry="5"/>
+	<overlapping name="OfficeInterior2"	N="3" width="12" height="12" periodicInput="false" periodic="false" symmetry="6"/>
+	<overlapping name="OfficeInterior2"	N="3" width="12" height="12" periodicInput="false" periodic="false" symmetry="7"/>
+	<overlapping name="OfficeInterior2"	N="5" width="12" height="12" periodicInput="true" periodic="false"/>
+	<overlapping name="OfficeInterior2"	N="5" width="12" height="12" periodic="false"/>
+<overlapping name="OfficeInterior2" N="3" width="6" height="6" periodic="True"/>
+	<overlapping name="OfficeInterior2"	N="3" width="6" height="6" periodic="false"/>
+	<overlapping name="OfficeInterior2"	N="3" width="6" height="6" periodicInput="false" periodic="false"/>
+	<overlapping name="OfficeInterior2"	N="3" width="6" height="6" periodicInput="false" periodic="false" symmetry="1"/>
+	<overlapping name="OfficeInterior2"	N="3" width="6" height="6" periodicInput="false" periodic="false" symmetry="2"/>
+	<overlapping name="OfficeInterior2"	N="3" width="6" height="6" periodicInput="false" periodic="false" symmetry="3"/>
+	<overlapping name="OfficeInterior2"	N="3" width="6" height="6" periodicInput="false" periodic="false" symmetry="4"/>
+	<overlapping name="OfficeInterior2"	N="3" width="6" height="6" periodicInput="false" periodic="false" symmetry="5"/>
+	<overlapping name="OfficeInterior2"	N="3" width="6" height="6" periodicInput="false" periodic="false" symmetry="6"/>
+	<overlapping name="OfficeInterior2"	N="3" width="6" height="6" periodicInput="false" periodic="false" symmetry="7"/>
+	<overlapping name="OfficeInterior2"	N="5" width="6" height="6" periodicInput="true" periodic="false"/>
+	<overlapping name="OfficeInterior2"	N="5" width="6" height="6" periodic="false"/>
+<overlapping name="OfficeInterior2" N="3" width="12" height="6" periodic="True"/>
+	<overlapping name="OfficeInterior2"	N="3" width="12" height="6" periodic="false"/>
+	<overlapping name="OfficeInterior2"	N="3" width="12" height="6" periodicInput="false" periodic="false"/>
+	<overlapping name="OfficeInterior2"	N="3" width="12" height="6" periodicInput="false" periodic="false" symmetry="1"/>
+	<overlapping name="OfficeInterior2"	N="3" width="12" height="6" periodicInput="false" periodic="false" symmetry="2"/>
+	<overlapping name="OfficeInterior2"	N="3" width="12" height="6" periodicInput="false" periodic="false" symmetry="3"/>
+	<overlapping name="OfficeInterior2"	N="3" width="12" height="6" periodicInput="false" periodic="false" symmetry="4"/>
+	<overlapping name="OfficeInterior2"	N="3" width="12" height="6" periodicInput="false" periodic="false" symmetry="5"/>
+	<overlapping name="OfficeInterior2"	N="3" width="12" height="6" periodicInput="false" periodic="false" symmetry="6"/>
+	<overlapping name="OfficeInterior2"	N="3" width="12" height="6" periodicInput="false" periodic="false" symmetry="7"/>
+	<overlapping name="OfficeInterior2"	N="5" width="12" height="6" periodicInput="true" periodic="false"/>
+	<overlapping name="OfficeInterior2"	N="5" width="12" height="6" periodic="false"/>
+<overlapping name="OfficeInterior2" N="3" width="5" height="5" periodic="True"/>
+	<overlapping name="OfficeInterior2"	N="3" width="5" height="5" periodic="false"/>
+	<overlapping name="OfficeInterior2"	N="3" width="5" height="5" periodicInput="false" periodic="false"/>
+	<overlapping name="OfficeInterior2"	N="3" width="5" height="5" periodicInput="false" periodic="false" symmetry="1"/>
+	<overlapping name="OfficeInterior2"	N="3" width="5" height="5" periodicInput="false" periodic="false" symmetry="2"/>
+	<overlapping name="OfficeInterior2"	N="3" width="5" height="5" periodicInput="false" periodic="false" symmetry="3"/>
+	<overlapping name="OfficeInterior2"	N="3" width="5" height="5" periodicInput="false" periodic="false" symmetry="4"/>
+	<overlapping name="OfficeInterior2"	N="3" width="5" height="5" periodicInput="false" periodic="false" symmetry="5"/>
+	<overlapping name="OfficeInterior2"	N="3" width="5" height="5" periodicInput="false" periodic="false" symmetry="6"/>
+	<overlapping name="OfficeInterior2"	N="3" width="5" height="5" periodicInput="false" periodic="false" symmetry="7"/>
+	<overlapping name="OfficeInterior2"	N="5" width="5" height="5" periodicInput="true" periodic="false"/>
+	<overlapping name="OfficeInterior2"	N="5" width="5" height="5" periodic="false"/>
+<overlapping name="OfficeInterior2" N="3" width="7" height="7" periodic="True"/>
+	<overlapping name="OfficeInterior2"	N="3" width="7" height="7" periodic="false"/>
+	<overlapping name="OfficeInterior2"	N="3" width="7" height="7" periodicInput="false" periodic="false"/>
+	<overlapping name="OfficeInterior2"	N="3" width="7" height="7" periodicInput="false" periodic="false" symmetry="1"/>
+	<overlapping name="OfficeInterior2"	N="3" width="7" height="7" periodicInput="false" periodic="false" symmetry="2"/>
+	<overlapping name="OfficeInterior2"	N="3" width="7" height="7" periodicInput="false" periodic="false" symmetry="3"/>
+	<overlapping name="OfficeInterior2"	N="3" width="7" height="7" periodicInput="false" periodic="false" symmetry="4"/>
+	<overlapping name="OfficeInterior2"	N="3" width="7" height="7" periodicInput="false" periodic="false" symmetry="5"/>
+	<overlapping name="OfficeInterior2"	N="3" width="7" height="7" periodicInput="false" periodic="false" symmetry="6"/>
+	<overlapping name="OfficeInterior2"	N="3" width="7" height="7" periodicInput="false" periodic="false" symmetry="7"/>
+	<overlapping name="OfficeInterior2"	N="5" width="7" height="7" periodicInput="true" periodic="false"/>
+	<overlapping name="OfficeInterior2"	N="5" width="7" height="7" periodic="false"/>
+<overlapping name="OfficeInterior2" N="3" width="5" height="7" periodic="True"/>
+	<overlapping name="OfficeInterior2"	N="3" width="5" height="7" periodic="false"/>
+	<overlapping name="OfficeInterior2"	N="3" width="5" height="7" periodicInput="false" periodic="false"/>
+	<overlapping name="OfficeInterior2"	N="3" width="5" height="7" periodicInput="false" periodic="false" symmetry="1"/>
+	<overlapping name="OfficeInterior2"	N="3" width="5" height="7" periodicInput="false" periodic="false" symmetry="2"/>
+	<overlapping name="OfficeInterior2"	N="3" width="5" height="7" periodicInput="false" periodic="false" symmetry="3"/>
+	<overlapping name="OfficeInterior2"	N="3" width="5" height="7" periodicInput="false" periodic="false" symmetry="4"/>
+	<overlapping name="OfficeInterior2"	N="3" width="5" height="7" periodicInput="false" periodic="false" symmetry="5"/>
+	<overlapping name="OfficeInterior2"	N="3" width="5" height="7" periodicInput="false" periodic="false" symmetry="6"/>
+	<overlapping name="OfficeInterior2"	N="3" width="5" height="7" periodicInput="false" periodic="false" symmetry="7"/>
+	<overlapping name="OfficeInterior2"	N="5" width="5" height="7" periodicInput="true" periodic="false"/>
+	<overlapping name="OfficeInterior2"	N="5" width="5" height="7" periodic="false"/>
+<overlapping name="OfficeInterior3" N="3" width="12" height="12" periodic="True"/>
+	<overlapping name="OfficeInterior3"	N="3" width="12" height="12" periodic="false"/>
+	<overlapping name="OfficeInterior3"	N="3" width="12" height="12" periodicInput="false" periodic="false"/>
+	<overlapping name="OfficeInterior3"	N="3" width="12" height="12" periodicInput="false" periodic="false" symmetry="1"/>
+	<overlapping name="OfficeInterior3"	N="3" width="12" height="12" periodicInput="false" periodic="false" symmetry="2"/>
+	<overlapping name="OfficeInterior3"	N="3" width="12" height="12" periodicInput="false" periodic="false" symmetry="3"/>
+	<overlapping name="OfficeInterior3"	N="3" width="12" height="12" periodicInput="false" periodic="false" symmetry="4"/>
+	<overlapping name="OfficeInterior3"	N="3" width="12" height="12" periodicInput="false" periodic="false" symmetry="5"/>
+	<overlapping name="OfficeInterior3"	N="3" width="12" height="12" periodicInput="false" periodic="false" symmetry="6"/>
+	<overlapping name="OfficeInterior3"	N="3" width="12" height="12" periodicInput="false" periodic="false" symmetry="7"/>
+	<overlapping name="OfficeInterior3"	N="5" width="12" height="12" periodicInput="true" periodic="false"/>
+	<overlapping name="OfficeInterior3"	N="5" width="12" height="12" periodic="false"/>
+<overlapping name="OfficeInterior3" N="3" width="6" height="6" periodic="True"/>
+	<overlapping name="OfficeInterior3"	N="3" width="6" height="6" periodic="false"/>
+	<overlapping name="OfficeInterior3"	N="3" width="6" height="6" periodicInput="false" periodic="false"/>
+	<overlapping name="OfficeInterior3"	N="3" width="6" height="6" periodicInput="false" periodic="false" symmetry="1"/>
+	<overlapping name="OfficeInterior3"	N="3" width="6" height="6" periodicInput="false" periodic="false" symmetry="2"/>
+	<overlapping name="OfficeInterior3"	N="3" width="6" height="6" periodicInput="false" periodic="false" symmetry="3"/>
+	<overlapping name="OfficeInterior3"	N="3" width="6" height="6" periodicInput="false" periodic="false" symmetry="4"/>
+	<overlapping name="OfficeInterior3"	N="3" width="6" height="6" periodicInput="false" periodic="false" symmetry="5"/>
+	<overlapping name="OfficeInterior3"	N="3" width="6" height="6" periodicInput="false" periodic="false" symmetry="6"/>
+	<overlapping name="OfficeInterior3"	N="3" width="6" height="6" periodicInput="false" periodic="false" symmetry="7"/>
+	<overlapping name="OfficeInterior3"	N="5" width="6" height="6" periodicInput="true" periodic="false"/>
+	<overlapping name="OfficeInterior3"	N="5" width="6" height="6" periodic="false"/>
+<overlapping name="OfficeInterior3" N="3" width="12" height="6" periodic="True"/>
+	<overlapping name="OfficeInterior3"	N="3" width="12" height="6" periodic="false"/>
+	<overlapping name="OfficeInterior3"	N="3" width="12" height="6" periodicInput="false" periodic="false"/>
+	<overlapping name="OfficeInterior3"	N="3" width="12" height="6" periodicInput="false" periodic="false" symmetry="1"/>
+	<overlapping name="OfficeInterior3"	N="3" width="12" height="6" periodicInput="false" periodic="false" symmetry="2"/>
+	<overlapping name="OfficeInterior3"	N="3" width="12" height="6" periodicInput="false" periodic="false" symmetry="3"/>
+	<overlapping name="OfficeInterior3"	N="3" width="12" height="6" periodicInput="false" periodic="false" symmetry="4"/>
+	<overlapping name="OfficeInterior3"	N="3" width="12" height="6" periodicInput="false" periodic="false" symmetry="5"/>
+	<overlapping name="OfficeInterior3"	N="3" width="12" height="6" periodicInput="false" periodic="false" symmetry="6"/>
+	<overlapping name="OfficeInterior3"	N="3" width="12" height="6" periodicInput="false" periodic="false" symmetry="7"/>
+	<overlapping name="OfficeInterior3"	N="5" width="12" height="6" periodicInput="true" periodic="false"/>
+	<overlapping name="OfficeInterior3"	N="5" width="12" height="6" periodic="false"/>
+<overlapping name="OfficeInterior3" N="3" width="5" height="5" periodic="True"/>
+	<overlapping name="OfficeInterior3"	N="3" width="5" height="5" periodic="false"/>
+	<overlapping name="OfficeInterior3"	N="3" width="5" height="5" periodicInput="false" periodic="false"/>
+	<overlapping name="OfficeInterior3"	N="3" width="5" height="5" periodicInput="false" periodic="false" symmetry="1"/>
+	<overlapping name="OfficeInterior3"	N="3" width="5" height="5" periodicInput="false" periodic="false" symmetry="2"/>
+	<overlapping name="OfficeInterior3"	N="3" width="5" height="5" periodicInput="false" periodic="false" symmetry="3"/>
+	<overlapping name="OfficeInterior3"	N="3" width="5" height="5" periodicInput="false" periodic="false" symmetry="4"/>
+	<overlapping name="OfficeInterior3"	N="3" width="5" height="5" periodicInput="false" periodic="false" symmetry="5"/>
+	<overlapping name="OfficeInterior3"	N="3" width="5" height="5" periodicInput="false" periodic="false" symmetry="6"/>
+	<overlapping name="OfficeInterior3"	N="3" width="5" height="5" periodicInput="false" periodic="false" symmetry="7"/>
+	<overlapping name="OfficeInterior3"	N="5" width="5" height="5" periodicInput="true" periodic="false"/>
+	<overlapping name="OfficeInterior3"	N="5" width="5" height="5" periodic="false"/>
+<overlapping name="OfficeInterior3" N="3" width="7" height="7" periodic="True"/>
+	<overlapping name="OfficeInterior3"	N="3" width="7" height="7" periodic="false"/>
+	<overlapping name="OfficeInterior3"	N="3" width="7" height="7" periodicInput="false" periodic="false"/>
+	<overlapping name="OfficeInterior3"	N="3" width="7" height="7" periodicInput="false" periodic="false" symmetry="1"/>
+	<overlapping name="OfficeInterior3"	N="3" width="7" height="7" periodicInput="false" periodic="false" symmetry="2"/>
+	<overlapping name="OfficeInterior3"	N="3" width="7" height="7" periodicInput="false" periodic="false" symmetry="3"/>
+	<overlapping name="OfficeInterior3"	N="3" width="7" height="7" periodicInput="false" periodic="false" symmetry="4"/>
+	<overlapping name="OfficeInterior3"	N="3" width="7" height="7" periodicInput="false" periodic="false" symmetry="5"/>
+	<overlapping name="OfficeInterior3"	N="3" width="7" height="7" periodicInput="false" periodic="false" symmetry="6"/>
+	<overlapping name="OfficeInterior3"	N="3" width="7" height="7" periodicInput="false" periodic="false" symmetry="7"/>
+	<overlapping name="OfficeInterior3"	N="5" width="7" height="7" periodicInput="true" periodic="false"/>
+	<overlapping name="OfficeInterior3"	N="5" width="7" height="7" periodic="false"/>
+<overlapping name="OfficeInterior3" N="3" width="5" height="7" periodic="True"/>
+	<overlapping name="OfficeInterior3"	N="3" width="5" height="7" periodic="false"/>
+	<overlapping name="OfficeInterior3"	N="3" width="5" height="7" periodicInput="false" periodic="false"/>
+	<overlapping name="OfficeInterior3"	N="3" width="5" height="7" periodicInput="false" periodic="false" symmetry="1"/>
+	<overlapping name="OfficeInterior3"	N="3" width="5" height="7" periodicInput="false" periodic="false" symmetry="2"/>
+	<overlapping name="OfficeInterior3"	N="3" width="5" height="7" periodicInput="false" periodic="false" symmetry="3"/>
+	<overlapping name="OfficeInterior3"	N="3" width="5" height="7" periodicInput="false" periodic="false" symmetry="4"/>
+	<overlapping name="OfficeInterior3"	N="3" width="5" height="7" periodicInput="false" periodic="false" symmetry="5"/>
+	<overlapping name="OfficeInterior3"	N="3" width="5" height="7" periodicInput="false" periodic="false" symmetry="6"/>
+	<overlapping name="OfficeInterior3"	N="3" width="5" height="7" periodicInput="false" periodic="false" symmetry="7"/>
+	<overlapping name="OfficeInterior3"	N="5" width="5" height="7" periodicInput="true" periodic="false"/>
+	<overlapping name="OfficeInterior3"	N="5" width="5" height="7" periodic="false"/>
+
+	<overlapping name="OfficeInteriorSection1"	N="3" width="5" height="7" periodicInput="false" periodic="false"/>
+	<overlapping name="OfficeInteriorSection1"	N="3" width="5" height="7" periodicInput="false" periodic="false"/>
+	<overlapping name="OfficeInteriorSection1"	N="3" width="5" height="7" periodicInput="false" periodic="false" symmetry="1"/>
+	<overlapping name="OfficeInteriorSection1"	N="3" width="5" height="7" periodicInput="false" periodic="false" symmetry="2"/>
+	<overlapping name="OfficeInteriorSection1"	N="3" width="5" height="7" periodicInput="false" periodic="false" symmetry="3"/>
+	<overlapping name="OfficeInteriorSection1"	N="3" width="5" height="7" periodicInput="false" periodic="false" symmetry="4"/>
+	<overlapping name="OfficeInteriorSection1"	N="3" width="5" height="7" periodicInput="false" periodic="false" symmetry="5"/>
+	<overlapping name="OfficeInteriorSection1"	N="3" width="5" height="7" periodicInput="false" periodic="false" symmetry="6"/>
+	<overlapping name="OfficeInteriorSection1"	N="3" width="5" height="7" periodicInput="false" periodic="false" symmetry="7"/>
+	<overlapping name="OfficeInteriorSection1"	N="5" width="5" height="7" periodicInput="false" periodic="false"/>
+<overlapping name="OfficeInteriorSection1"	N="3" width="12" height="12" periodicInput="false" periodic="false"/>
+	<overlapping name="OfficeInteriorSection1"	N="3" width="12" height="12" periodicInput="false" periodic="false"/>
+	<overlapping name="OfficeInteriorSection1"	N="3" width="12" height="12" periodicInput="false" periodic="false" symmetry="1"/>
+	<overlapping name="OfficeInteriorSection1"	N="3" width="12" height="12" periodicInput="false" periodic="false" symmetry="2"/>
+	<overlapping name="OfficeInteriorSection1"	N="3" width="12" height="12" periodicInput="false" periodic="false" symmetry="3"/>
+	<overlapping name="OfficeInteriorSection1"	N="3" width="12" height="12" periodicInput="false" periodic="false" symmetry="4"/>
+	<overlapping name="OfficeInteriorSection1"	N="3" width="12" height="12" periodicInput="false" periodic="false" symmetry="5"/>
+	<overlapping name="OfficeInteriorSection1"	N="3" width="12" height="12" periodicInput="false" periodic="false" symmetry="6"/>
+	<overlapping name="OfficeInteriorSection1"	N="3" width="12" height="12" periodicInput="false" periodic="false" symmetry="7"/>
+	<overlapping name="OfficeInteriorSection1"	N="5" width="12" height="12" periodicInput="false" periodic="false"/>
+<overlapping name="OfficeInteriorSection1" N="3" width="12" height="6" periodicInput="false" periodic="True"/>
+	<overlapping name="OfficeInteriorSection1"	N="3" width="12" height="6" periodicInput="false" periodic="false"/>
+	<overlapping name="OfficeInteriorSection1"	N="3" width="12" height="6" periodicInput="false" periodic="false" symmetry="1"/>
+	<overlapping name="OfficeInteriorSection1"	N="3" width="12" height="6" periodicInput="false" periodic="false" symmetry="2"/>
+	<overlapping name="OfficeInteriorSection1"	N="3" width="12" height="6" periodicInput="false" periodic="false" symmetry="3"/>
+	<overlapping name="OfficeInteriorSection1"	N="3" width="12" height="6" periodicInput="false" periodic="false" symmetry="4"/>
+	<overlapping name="OfficeInteriorSection1"	N="3" width="12" height="6" periodicInput="false" periodic="false" symmetry="5"/>
+	<overlapping name="OfficeInteriorSection1"	N="3" width="12" height="6" periodicInput="false" periodic="false" symmetry="6"/>
+	<overlapping name="OfficeInteriorSection1"	N="3" width="12" height="6" periodicInput="false" periodic="false" symmetry="7"/>
+	<overlapping name="OfficeInteriorSection1"	N="5" width="12" height="6" periodicInput="false" periodic="false"/>
+<overlapping name="OfficeInteriorSection1"	N="3" width="6" height="12" periodicInput="false" periodic="false"/>
+	<overlapping name="OfficeInteriorSection1"	N="3" width="6" height="12" periodicInput="false" periodic="false"/>
+	<overlapping name="OfficeInteriorSection1"	N="3" width="6" height="12" periodicInput="false" periodic="false" symmetry="1"/>
+	<overlapping name="OfficeInteriorSection1"	N="3" width="6" height="12" periodicInput="false" periodic="false" symmetry="2"/>
+	<overlapping name="OfficeInteriorSection1"	N="3" width="6" height="12" periodicInput="false" periodic="false" symmetry="3"/>
+	<overlapping name="OfficeInteriorSection1"	N="3" width="6" height="12" periodicInput="false" periodic="false" symmetry="4"/>
+	<overlapping name="OfficeInteriorSection1"	N="3" width="6" height="12" periodicInput="false" periodic="false" symmetry="5"/>
+	<overlapping name="OfficeInteriorSection1"	N="3" width="6" height="12" periodicInput="false" periodic="false" symmetry="6"/>
+	<overlapping name="OfficeInteriorSection1"	N="3" width="6" height="12" periodicInput="false" periodic="false" symmetry="7"/>
+	<overlapping name="OfficeInteriorSection1"	N="5" width="6" height="12" periodicInput="false" periodic="false"/>
+<overlapping name="OfficeInteriorSection1"	N="3" width="6" height="6" periodicInput="false" periodic="false"/>
+	<overlapping name="OfficeInteriorSection1"	N="3" width="6" height="6" periodicInput="false" periodic="false"/>
+	<overlapping name="OfficeInteriorSection1"	N="3" width="6" height="6" periodicInput="false" periodic="false" symmetry="1"/>
+	<overlapping name="OfficeInteriorSection1"	N="3" width="6" height="6" periodicInput="false" periodic="false" symmetry="2"/>
+	<overlapping name="OfficeInteriorSection1"	N="3" width="6" height="6" periodicInput="false" periodic="false" symmetry="3"/>
+	<overlapping name="OfficeInteriorSection1"	N="3" width="6" height="6" periodicInput="false" periodic="false" symmetry="4"/>
+	<overlapping name="OfficeInteriorSection1"	N="3" width="6" height="6" periodicInput="false" periodic="false" symmetry="5"/>
+	<overlapping name="OfficeInteriorSection1"	N="3" width="6" height="6" periodicInput="false" periodic="false" symmetry="6"/>
+	<overlapping name="OfficeInteriorSection1"	N="3" width="6" height="6" periodicInput="false" periodic="false" symmetry="7"/>
+	<overlapping name="OfficeInteriorSection1"	N="5" width="6" height="6" periodicInput="false" periodic="false"/>
+<overlapping name="OfficeInteriorSection1"	N="3" width="7" height="5" periodicInput="false" periodic="false"/>
+	<overlapping name="OfficeInteriorSection1"	N="3" width="7" height="5" periodicInput="false" periodic="false"/>
+	<overlapping name="OfficeInteriorSection1"	N="3" width="7" height="5" periodicInput="false" periodic="false" symmetry="1"/>
+	<overlapping name="OfficeInteriorSection1"	N="3" width="7" height="5" periodicInput="false" periodic="false" symmetry="2"/>
+	<overlapping name="OfficeInteriorSection1"	N="3" width="7" height="5" periodicInput="false" periodic="false" symmetry="3"/>
+	<overlapping name="OfficeInteriorSection1"	N="3" width="7" height="5" periodicInput="false" periodic="false" symmetry="4"/>
+	<overlapping name="OfficeInteriorSection1"	N="3" width="7" height="5" periodicInput="false" periodic="false" symmetry="5"/>
+	<overlapping name="OfficeInteriorSection1"	N="3" width="7" height="5" periodicInput="false" periodic="false" symmetry="6"/>
+	<overlapping name="OfficeInteriorSection1"	N="3" width="7" height="5" periodicInput="false" periodic="false" symmetry="7"/>
+	<overlapping name="OfficeInteriorSection1"	N="5" width="7" height="5" periodicInput="false" periodic="false"/>
+<overlapping name="OfficeInteriorSection2"	N="3" width="5" height="7" periodicInput="false" periodic="false"/>
+	<overlapping name="OfficeInteriorSection2"	N="3" width="5" height="7" periodicInput="false" periodic="false"/>
+	<overlapping name="OfficeInteriorSection2"	N="3" width="5" height="7" periodicInput="false" periodic="false" symmetry="1"/>
+	<overlapping name="OfficeInteriorSection2"	N="3" width="5" height="7" periodicInput="false" periodic="false" symmetry="2"/>
+	<overlapping name="OfficeInteriorSection2"	N="3" width="5" height="7" periodicInput="false" periodic="false" symmetry="3"/>
+	<overlapping name="OfficeInteriorSection2"	N="3" width="5" height="7" periodicInput="false" periodic="false" symmetry="4"/>
+	<overlapping name="OfficeInteriorSection2"	N="3" width="5" height="7" periodicInput="false" periodic="false" symmetry="5"/>
+	<overlapping name="OfficeInteriorSection2"	N="3" width="5" height="7" periodicInput="false" periodic="false" symmetry="6"/>
+	<overlapping name="OfficeInteriorSection2"	N="3" width="5" height="7" periodicInput="false" periodic="false" symmetry="7"/>
+	<overlapping name="OfficeInteriorSection2"	N="5" width="5" height="7" periodicInput="false" periodic="false"/>
+<overlapping name="OfficeInteriorSection2"	N="3" width="12" height="12" periodicInput="false" periodic="false"/>
+	<overlapping name="OfficeInteriorSection2"	N="3" width="12" height="12" periodicInput="false" periodic="false"/>
+	<overlapping name="OfficeInteriorSection2"	N="3" width="12" height="12" periodicInput="false" periodic="false" symmetry="1"/>
+	<overlapping name="OfficeInteriorSection2"	N="3" width="12" height="12" periodicInput="false" periodic="false" symmetry="2"/>
+	<overlapping name="OfficeInteriorSection2"	N="3" width="12" height="12" periodicInput="false" periodic="false" symmetry="3"/>
+	<overlapping name="OfficeInteriorSection2"	N="3" width="12" height="12" periodicInput="false" periodic="false" symmetry="4"/>
+	<overlapping name="OfficeInteriorSection2"	N="3" width="12" height="12" periodicInput="false" periodic="false" symmetry="5"/>
+	<overlapping name="OfficeInteriorSection2"	N="3" width="12" height="12" periodicInput="false" periodic="false" symmetry="6"/>
+	<overlapping name="OfficeInteriorSection2"	N="3" width="12" height="12" periodicInput="false" periodic="false" symmetry="7"/>
+	<overlapping name="OfficeInteriorSection2"	N="5" width="12" height="12" periodicInput="false" periodic="false"/>
+<overlapping name="OfficeInteriorSection2" N="3" width="12" height="6" periodicInput="false" periodic="True"/>
+	<overlapping name="OfficeInteriorSection2"	N="3" width="12" height="6" periodicInput="false" periodic="false"/>
+	<overlapping name="OfficeInteriorSection2"	N="3" width="12" height="6" periodicInput="false" periodic="false" symmetry="1"/>
+	<overlapping name="OfficeInteriorSection2"	N="3" width="12" height="6" periodicInput="false" periodic="false" symmetry="2"/>
+	<overlapping name="OfficeInteriorSection2"	N="3" width="12" height="6" periodicInput="false" periodic="false" symmetry="3"/>
+	<overlapping name="OfficeInteriorSection2"	N="3" width="12" height="6" periodicInput="false" periodic="false" symmetry="4"/>
+	<overlapping name="OfficeInteriorSection2"	N="3" width="12" height="6" periodicInput="false" periodic="false" symmetry="5"/>
+	<overlapping name="OfficeInteriorSection2"	N="3" width="12" height="6" periodicInput="false" periodic="false" symmetry="6"/>
+	<overlapping name="OfficeInteriorSection2"	N="3" width="12" height="6" periodicInput="false" periodic="false" symmetry="7"/>
+	<overlapping name="OfficeInteriorSection2"	N="5" width="12" height="6" periodicInput="false" periodic="false"/>
+<overlapping name="OfficeInteriorSection2"	N="3" width="6" height="12" periodicInput="false" periodic="false"/>
+	<overlapping name="OfficeInteriorSection2"	N="3" width="6" height="12" periodicInput="false" periodic="false"/>
+	<overlapping name="OfficeInteriorSection2"	N="3" width="6" height="12" periodicInput="false" periodic="false" symmetry="1"/>
+	<overlapping name="OfficeInteriorSection2"	N="3" width="6" height="12" periodicInput="false" periodic="false" symmetry="2"/>
+	<overlapping name="OfficeInteriorSection2"	N="3" width="6" height="12" periodicInput="false" periodic="false" symmetry="3"/>
+	<overlapping name="OfficeInteriorSection2"	N="3" width="6" height="12" periodicInput="false" periodic="false" symmetry="4"/>
+	<overlapping name="OfficeInteriorSection2"	N="3" width="6" height="12" periodicInput="false" periodic="false" symmetry="5"/>
+	<overlapping name="OfficeInteriorSection2"	N="3" width="6" height="12" periodicInput="false" periodic="false" symmetry="6"/>
+	<overlapping name="OfficeInteriorSection2"	N="3" width="6" height="12" periodicInput="false" periodic="false" symmetry="7"/>
+	<overlapping name="OfficeInteriorSection2"	N="5" width="6" height="12" periodicInput="false" periodic="false"/>
+<overlapping name="OfficeInteriorSection2"	N="3" width="6" height="6" periodicInput="false" periodic="false"/>
+	<overlapping name="OfficeInteriorSection2"	N="3" width="6" height="6" periodicInput="false" periodic="false"/>
+	<overlapping name="OfficeInteriorSection2"	N="3" width="6" height="6" periodicInput="false" periodic="false" symmetry="1"/>
+	<overlapping name="OfficeInteriorSection2"	N="3" width="6" height="6" periodicInput="false" periodic="false" symmetry="2"/>
+	<overlapping name="OfficeInteriorSection2"	N="3" width="6" height="6" periodicInput="false" periodic="false" symmetry="3"/>
+	<overlapping name="OfficeInteriorSection2"	N="3" width="6" height="6" periodicInput="false" periodic="false" symmetry="4"/>
+	<overlapping name="OfficeInteriorSection2"	N="3" width="6" height="6" periodicInput="false" periodic="false" symmetry="5"/>
+	<overlapping name="OfficeInteriorSection2"	N="3" width="6" height="6" periodicInput="false" periodic="false" symmetry="6"/>
+	<overlapping name="OfficeInteriorSection2"	N="3" width="6" height="6" periodicInput="false" periodic="false" symmetry="7"/>
+	<overlapping name="OfficeInteriorSection2"	N="5" width="6" height="6" periodicInput="false" periodic="false"/>
+<overlapping name="OfficeInteriorSection2"	N="3" width="7" height="5" periodicInput="false" periodic="false"/>
+	<overlapping name="OfficeInteriorSection2"	N="3" width="7" height="5" periodicInput="false" periodic="false"/>
+	<overlapping name="OfficeInteriorSection2"	N="3" width="7" height="5" periodicInput="false" periodic="false" symmetry="1"/>
+	<overlapping name="OfficeInteriorSection2"	N="3" width="7" height="5" periodicInput="false" periodic="false" symmetry="2"/>
+	<overlapping name="OfficeInteriorSection2"	N="3" width="7" height="5" periodicInput="false" periodic="false" symmetry="3"/>
+	<overlapping name="OfficeInteriorSection2"	N="3" width="7" height="5" periodicInput="false" periodic="false" symmetry="4"/>
+	<overlapping name="OfficeInteriorSection2"	N="3" width="7" height="5" periodicInput="false" periodic="false" symmetry="5"/>
+	<overlapping name="OfficeInteriorSection2"	N="3" width="7" height="5" periodicInput="false" periodic="false" symmetry="6"/>
+	<overlapping name="OfficeInteriorSection2"	N="3" width="7" height="5" periodicInput="false" periodic="false" symmetry="7"/>
+	<overlapping name="OfficeInteriorSection2"	N="5" width="7" height="5" periodicInput="false" periodic="false"/>
+<overlapping name="OfficeInteriorSection3"	N="3" width="5" height="7" periodicInput="false" periodic="false"/>
+	<overlapping name="OfficeInteriorSection3"	N="3" width="5" height="7" periodicInput="false" periodic="false"/>
+	<overlapping name="OfficeInteriorSection3"	N="3" width="5" height="7" periodicInput="false" periodic="false" symmetry="1"/>
+	<overlapping name="OfficeInteriorSection3"	N="3" width="5" height="7" periodicInput="false" periodic="false" symmetry="2"/>
+	<overlapping name="OfficeInteriorSection3"	N="3" width="5" height="7" periodicInput="false" periodic="false" symmetry="3"/>
+	<overlapping name="OfficeInteriorSection3"	N="3" width="5" height="7" periodicInput="false" periodic="false" symmetry="4"/>
+	<overlapping name="OfficeInteriorSection3"	N="3" width="5" height="7" periodicInput="false" periodic="false" symmetry="5"/>
+	<overlapping name="OfficeInteriorSection3"	N="3" width="5" height="7" periodicInput="false" periodic="false" symmetry="6"/>
+	<overlapping name="OfficeInteriorSection3"	N="3" width="5" height="7" periodicInput="false" periodic="false" symmetry="7"/>
+	<overlapping name="OfficeInteriorSection3"	N="5" width="5" height="7" periodicInput="false" periodic="false"/>
+<overlapping name="OfficeInteriorSection3"	N="3" width="12" height="12" periodicInput="false" periodic="false"/>
+	<overlapping name="OfficeInteriorSection3"	N="3" width="12" height="12" periodicInput="false" periodic="false"/>
+	<overlapping name="OfficeInteriorSection3"	N="3" width="12" height="12" periodicInput="false" periodic="false" symmetry="1"/>
+	<overlapping name="OfficeInteriorSection3"	N="3" width="12" height="12" periodicInput="false" periodic="false" symmetry="2"/>
+	<overlapping name="OfficeInteriorSection3"	N="3" width="12" height="12" periodicInput="false" periodic="false" symmetry="3"/>
+	<overlapping name="OfficeInteriorSection3"	N="3" width="12" height="12" periodicInput="false" periodic="false" symmetry="4"/>
+	<overlapping name="OfficeInteriorSection3"	N="3" width="12" height="12" periodicInput="false" periodic="false" symmetry="5"/>
+	<overlapping name="OfficeInteriorSection3"	N="3" width="12" height="12" periodicInput="false" periodic="false" symmetry="6"/>
+	<overlapping name="OfficeInteriorSection3"	N="3" width="12" height="12" periodicInput="false" periodic="false" symmetry="7"/>
+	<overlapping name="OfficeInteriorSection3"	N="5" width="12" height="12" periodicInput="false" periodic="false"/>
+<overlapping name="OfficeInteriorSection3" N="3" width="12" height="6" periodicInput="false" periodic="True"/>
+	<overlapping name="OfficeInteriorSection3"	N="3" width="12" height="6" periodicInput="false" periodic="false"/>
+	<overlapping name="OfficeInteriorSection3"	N="3" width="12" height="6" periodicInput="false" periodic="false" symmetry="1"/>
+	<overlapping name="OfficeInteriorSection3"	N="3" width="12" height="6" periodicInput="false" periodic="false" symmetry="2"/>
+	<overlapping name="OfficeInteriorSection3"	N="3" width="12" height="6" periodicInput="false" periodic="false" symmetry="3"/>
+	<overlapping name="OfficeInteriorSection3"	N="3" width="12" height="6" periodicInput="false" periodic="false" symmetry="4"/>
+	<overlapping name="OfficeInteriorSection3"	N="3" width="12" height="6" periodicInput="false" periodic="false" symmetry="5"/>
+	<overlapping name="OfficeInteriorSection3"	N="3" width="12" height="6" periodicInput="false" periodic="false" symmetry="6"/>
+	<overlapping name="OfficeInteriorSection3"	N="3" width="12" height="6" periodicInput="false" periodic="false" symmetry="7"/>
+	<overlapping name="OfficeInteriorSection3"	N="5" width="12" height="6" periodicInput="false" periodic="false"/>
+<overlapping name="OfficeInteriorSection3"	N="3" width="6" height="12" periodicInput="false" periodic="false"/>
+	<overlapping name="OfficeInteriorSection3"	N="3" width="6" height="12" periodicInput="false" periodic="false"/>
+	<overlapping name="OfficeInteriorSection3"	N="3" width="6" height="12" periodicInput="false" periodic="false" symmetry="1"/>
+	<overlapping name="OfficeInteriorSection3"	N="3" width="6" height="12" periodicInput="false" periodic="false" symmetry="2"/>
+	<overlapping name="OfficeInteriorSection3"	N="3" width="6" height="12" periodicInput="false" periodic="false" symmetry="3"/>
+	<overlapping name="OfficeInteriorSection3"	N="3" width="6" height="12" periodicInput="false" periodic="false" symmetry="4"/>
+	<overlapping name="OfficeInteriorSection3"	N="3" width="6" height="12" periodicInput="false" periodic="false" symmetry="5"/>
+	<overlapping name="OfficeInteriorSection3"	N="3" width="6" height="12" periodicInput="false" periodic="false" symmetry="6"/>
+	<overlapping name="OfficeInteriorSection3"	N="3" width="6" height="12" periodicInput="false" periodic="false" symmetry="7"/>
+	<overlapping name="OfficeInteriorSection3"	N="5" width="6" height="12" periodicInput="false" periodic="false"/>
+<overlapping name="OfficeInteriorSection3"	N="3" width="6" height="6" periodicInput="false" periodic="false"/>
+	<overlapping name="OfficeInteriorSection3"	N="3" width="6" height="6" periodicInput="false" periodic="false"/>
+	<overlapping name="OfficeInteriorSection3"	N="3" width="6" height="6" periodicInput="false" periodic="false" symmetry="1"/>
+	<overlapping name="OfficeInteriorSection3"	N="3" width="6" height="6" periodicInput="false" periodic="false" symmetry="2"/>
+	<overlapping name="OfficeInteriorSection3"	N="3" width="6" height="6" periodicInput="false" periodic="false" symmetry="3"/>
+	<overlapping name="OfficeInteriorSection3"	N="3" width="6" height="6" periodicInput="false" periodic="false" symmetry="4"/>
+	<overlapping name="OfficeInteriorSection3"	N="3" width="6" height="6" periodicInput="false" periodic="false" symmetry="5"/>
+	<overlapping name="OfficeInteriorSection3"	N="3" width="6" height="6" periodicInput="false" periodic="false" symmetry="6"/>
+	<overlapping name="OfficeInteriorSection3"	N="3" width="6" height="6" periodicInput="false" periodic="false" symmetry="7"/>
+	<overlapping name="OfficeInteriorSection3"	N="5" width="6" height="6" periodicInput="false" periodic="false"/>
+<overlapping name="OfficeInteriorSection3"	N="3" width="7" height="5" periodicInput="false" periodic="false"/>
+	<overlapping name="OfficeInteriorSection3"	N="3" width="7" height="5" periodicInput="false" periodic="false"/>
+	<overlapping name="OfficeInteriorSection3"	N="3" width="7" height="5" periodicInput="false" periodic="false" symmetry="1"/>
+	<overlapping name="OfficeInteriorSection3"	N="3" width="7" height="5" periodicInput="false" periodic="false" symmetry="2"/>
+	<overlapping name="OfficeInteriorSection3"	N="3" width="7" height="5" periodicInput="false" periodic="false" symmetry="3"/>
+	<overlapping name="OfficeInteriorSection3"	N="3" width="7" height="5" periodicInput="false" periodic="false" symmetry="4"/>
+	<overlapping name="OfficeInteriorSection3"	N="3" width="7" height="5" periodicInput="false" periodic="false" symmetry="5"/>
+	<overlapping name="OfficeInteriorSection3"	N="3" width="7" height="5" periodicInput="false" periodic="false" symmetry="6"/>
+	<overlapping name="OfficeInteriorSection3"	N="3" width="7" height="5" periodicInput="false" periodic="false" symmetry="7"/>
+	<overlapping name="OfficeInteriorSection3"	N="5" width="7" height="5" periodicInput="false" periodic="false"/>
+<overlapping name="OfficeInteriorSection4"	N="3" width="5" height="7" periodicInput="false" periodic="false"/>
+	<overlapping name="OfficeInteriorSection4"	N="3" width="5" height="7" periodicInput="false" periodic="false"/>
+	<overlapping name="OfficeInteriorSection4"	N="3" width="5" height="7" periodicInput="false" periodic="false" symmetry="1"/>
+	<overlapping name="OfficeInteriorSection4"	N="3" width="5" height="7" periodicInput="false" periodic="false" symmetry="2"/>
+	<overlapping name="OfficeInteriorSection4"	N="3" width="5" height="7" periodicInput="false" periodic="false" symmetry="3"/>
+	<overlapping name="OfficeInteriorSection4"	N="3" width="5" height="7" periodicInput="false" periodic="false" symmetry="4"/>
+	<overlapping name="OfficeInteriorSection4"	N="3" width="5" height="7" periodicInput="false" periodic="false" symmetry="5"/>
+	<overlapping name="OfficeInteriorSection4"	N="3" width="5" height="7" periodicInput="false" periodic="false" symmetry="6"/>
+	<overlapping name="OfficeInteriorSection4"	N="3" width="5" height="7" periodicInput="false" periodic="false" symmetry="7"/>
+	<overlapping name="OfficeInteriorSection4"	N="5" width="5" height="7" periodicInput="false" periodic="false"/>
+<overlapping name="OfficeInteriorSection4"	N="3" width="12" height="12" periodicInput="false" periodic="false"/>
+	<overlapping name="OfficeInteriorSection4"	N="3" width="12" height="12" periodicInput="false" periodic="false"/>
+	<overlapping name="OfficeInteriorSection4"	N="3" width="12" height="12" periodicInput="false" periodic="false" symmetry="1"/>
+	<overlapping name="OfficeInteriorSection4"	N="3" width="12" height="12" periodicInput="false" periodic="false" symmetry="2"/>
+	<overlapping name="OfficeInteriorSection4"	N="3" width="12" height="12" periodicInput="false" periodic="false" symmetry="3"/>
+	<overlapping name="OfficeInteriorSection4"	N="3" width="12" height="12" periodicInput="false" periodic="false" symmetry="4"/>
+	<overlapping name="OfficeInteriorSection4"	N="3" width="12" height="12" periodicInput="false" periodic="false" symmetry="5"/>
+	<overlapping name="OfficeInteriorSection4"	N="3" width="12" height="12" periodicInput="false" periodic="false" symmetry="6"/>
+	<overlapping name="OfficeInteriorSection4"	N="3" width="12" height="12" periodicInput="false" periodic="false" symmetry="7"/>
+	<overlapping name="OfficeInteriorSection4"	N="5" width="12" height="12" periodicInput="false" periodic="false"/>
+<overlapping name="OfficeInteriorSection4" N="3" width="12" height="6" periodicInput="false" periodic="True"/>
+	<overlapping name="OfficeInteriorSection4"	N="3" width="12" height="6" periodicInput="false" periodic="false"/>
+	<overlapping name="OfficeInteriorSection4"	N="3" width="12" height="6" periodicInput="false" periodic="false" symmetry="1"/>
+	<overlapping name="OfficeInteriorSection4"	N="3" width="12" height="6" periodicInput="false" periodic="false" symmetry="2"/>
+	<overlapping name="OfficeInteriorSection4"	N="3" width="12" height="6" periodicInput="false" periodic="false" symmetry="3"/>
+	<overlapping name="OfficeInteriorSection4"	N="3" width="12" height="6" periodicInput="false" periodic="false" symmetry="4"/>
+	<overlapping name="OfficeInteriorSection4"	N="3" width="12" height="6" periodicInput="false" periodic="false" symmetry="5"/>
+	<overlapping name="OfficeInteriorSection4"	N="3" width="12" height="6" periodicInput="false" periodic="false" symmetry="6"/>
+	<overlapping name="OfficeInteriorSection4"	N="3" width="12" height="6" periodicInput="false" periodic="false" symmetry="7"/>
+	<overlapping name="OfficeInteriorSection4"	N="5" width="12" height="6" periodicInput="false" periodic="false"/>
+<overlapping name="OfficeInteriorSection4"	N="3" width="6" height="12" periodicInput="false" periodic="false"/>
+	<overlapping name="OfficeInteriorSection4"	N="3" width="6" height="12" periodicInput="false" periodic="false"/>
+	<overlapping name="OfficeInteriorSection4"	N="3" width="6" height="12" periodicInput="false" periodic="false" symmetry="1"/>
+	<overlapping name="OfficeInteriorSection4"	N="3" width="6" height="12" periodicInput="false" periodic="false" symmetry="2"/>
+	<overlapping name="OfficeInteriorSection4"	N="3" width="6" height="12" periodicInput="false" periodic="false" symmetry="3"/>
+	<overlapping name="OfficeInteriorSection4"	N="3" width="6" height="12" periodicInput="false" periodic="false" symmetry="4"/>
+	<overlapping name="OfficeInteriorSection4"	N="3" width="6" height="12" periodicInput="false" periodic="false" symmetry="5"/>
+	<overlapping name="OfficeInteriorSection4"	N="3" width="6" height="12" periodicInput="false" periodic="false" symmetry="6"/>
+	<overlapping name="OfficeInteriorSection4"	N="3" width="6" height="12" periodicInput="false" periodic="false" symmetry="7"/>
+	<overlapping name="OfficeInteriorSection4"	N="5" width="6" height="12" periodicInput="false" periodic="false"/>
+<overlapping name="OfficeInteriorSection4"	N="3" width="6" height="6" periodicInput="false" periodic="false"/>
+	<overlapping name="OfficeInteriorSection4"	N="3" width="6" height="6" periodicInput="false" periodic="false"/>
+	<overlapping name="OfficeInteriorSection4"	N="3" width="6" height="6" periodicInput="false" periodic="false" symmetry="1"/>
+	<overlapping name="OfficeInteriorSection4"	N="3" width="6" height="6" periodicInput="false" periodic="false" symmetry="2"/>
+	<overlapping name="OfficeInteriorSection4"	N="3" width="6" height="6" periodicInput="false" periodic="false" symmetry="3"/>
+	<overlapping name="OfficeInteriorSection4"	N="3" width="6" height="6" periodicInput="false" periodic="false" symmetry="4"/>
+	<overlapping name="OfficeInteriorSection4"	N="3" width="6" height="6" periodicInput="false" periodic="false" symmetry="5"/>
+	<overlapping name="OfficeInteriorSection4"	N="3" width="6" height="6" periodicInput="false" periodic="false" symmetry="6"/>
+	<overlapping name="OfficeInteriorSection4"	N="3" width="6" height="6" periodicInput="false" periodic="false" symmetry="7"/>
+	<overlapping name="OfficeInteriorSection4"	N="5" width="6" height="6" periodicInput="false" periodic="false"/>
+<overlapping name="OfficeInteriorSection4"	N="3" width="7" height="5" periodicInput="false" periodic="false"/>
+	<overlapping name="OfficeInteriorSection4"	N="3" width="7" height="5" periodicInput="false" periodic="false"/>
+	<overlapping name="OfficeInteriorSection4"	N="3" width="7" height="5" periodicInput="false" periodic="false" symmetry="1"/>
+	<overlapping name="OfficeInteriorSection4"	N="3" width="7" height="5" periodicInput="false" periodic="false" symmetry="2"/>
+	<overlapping name="OfficeInteriorSection4"	N="3" width="7" height="5" periodicInput="false" periodic="false" symmetry="3"/>
+	<overlapping name="OfficeInteriorSection4"	N="3" width="7" height="5" periodicInput="false" periodic="false" symmetry="4"/>
+	<overlapping name="OfficeInteriorSection4"	N="3" width="7" height="5" periodicInput="false" periodic="false" symmetry="5"/>
+	<overlapping name="OfficeInteriorSection4"	N="3" width="7" height="5" periodicInput="false" periodic="false" symmetry="6"/>
+	<overlapping name="OfficeInteriorSection4"	N="3" width="7" height="5" periodicInput="false" periodic="false" symmetry="7"/>
+	<overlapping name="OfficeInteriorSection4"	N="5" width="7" height="5" periodicInput="false" periodic="false"/>
+<overlapping name="OfficeInteriorSection5"	N="3" width="5" height="7" periodicInput="false" periodic="false"/>
+	<overlapping name="OfficeInteriorSection5"	N="3" width="5" height="7" periodicInput="false" periodic="false"/>
+	<overlapping name="OfficeInteriorSection5"	N="3" width="5" height="7" periodicInput="false" periodic="false" symmetry="1"/>
+	<overlapping name="OfficeInteriorSection5"	N="3" width="5" height="7" periodicInput="false" periodic="false" symmetry="2"/>
+	<overlapping name="OfficeInteriorSection5"	N="3" width="5" height="7" periodicInput="false" periodic="false" symmetry="3"/>
+	<overlapping name="OfficeInteriorSection5"	N="3" width="5" height="7" periodicInput="false" periodic="false" symmetry="4"/>
+	<overlapping name="OfficeInteriorSection5"	N="3" width="5" height="7" periodicInput="false" periodic="false" symmetry="5"/>
+	<overlapping name="OfficeInteriorSection5"	N="3" width="5" height="7" periodicInput="false" periodic="false" symmetry="6"/>
+	<overlapping name="OfficeInteriorSection5"	N="3" width="5" height="7" periodicInput="false" periodic="false" symmetry="7"/>
+	<overlapping name="OfficeInteriorSection5"	N="5" width="5" height="7" periodicInput="false" periodic="false"/>
+<overlapping name="OfficeInteriorSection5"	N="3" width="12" height="12" periodicInput="false" periodic="false"/>
+	<overlapping name="OfficeInteriorSection5"	N="3" width="12" height="12" periodicInput="false" periodic="false"/>
+	<overlapping name="OfficeInteriorSection5"	N="3" width="12" height="12" periodicInput="false" periodic="false" symmetry="1"/>
+	<overlapping name="OfficeInteriorSection5"	N="3" width="12" height="12" periodicInput="false" periodic="false" symmetry="2"/>
+	<overlapping name="OfficeInteriorSection5"	N="3" width="12" height="12" periodicInput="false" periodic="false" symmetry="3"/>
+	<overlapping name="OfficeInteriorSection5"	N="3" width="12" height="12" periodicInput="false" periodic="false" symmetry="4"/>
+	<overlapping name="OfficeInteriorSection5"	N="3" width="12" height="12" periodicInput="false" periodic="false" symmetry="5"/>
+	<overlapping name="OfficeInteriorSection5"	N="3" width="12" height="12" periodicInput="false" periodic="false" symmetry="6"/>
+	<overlapping name="OfficeInteriorSection5"	N="3" width="12" height="12" periodicInput="false" periodic="false" symmetry="7"/>
+	<overlapping name="OfficeInteriorSection5"	N="5" width="12" height="12" periodicInput="false" periodic="false"/>
+<overlapping name="OfficeInteriorSection5" N="3" width="12" height="6" periodicInput="false" periodic="True"/>
+	<overlapping name="OfficeInteriorSection5"	N="3" width="12" height="6" periodicInput="false" periodic="false"/>
+	<overlapping name="OfficeInteriorSection5"	N="3" width="12" height="6" periodicInput="false" periodic="false" symmetry="1"/>
+	<overlapping name="OfficeInteriorSection5"	N="3" width="12" height="6" periodicInput="false" periodic="false" symmetry="2"/>
+	<overlapping name="OfficeInteriorSection5"	N="3" width="12" height="6" periodicInput="false" periodic="false" symmetry="3"/>
+	<overlapping name="OfficeInteriorSection5"	N="3" width="12" height="6" periodicInput="false" periodic="false" symmetry="4"/>
+	<overlapping name="OfficeInteriorSection5"	N="3" width="12" height="6" periodicInput="false" periodic="false" symmetry="5"/>
+	<overlapping name="OfficeInteriorSection5"	N="3" width="12" height="6" periodicInput="false" periodic="false" symmetry="6"/>
+	<overlapping name="OfficeInteriorSection5"	N="3" width="12" height="6" periodicInput="false" periodic="false" symmetry="7"/>
+	<overlapping name="OfficeInteriorSection5"	N="5" width="12" height="6" periodicInput="false" periodic="false"/>
+<overlapping name="OfficeInteriorSection5"	N="3" width="6" height="12" periodicInput="false" periodic="false"/>
+	<overlapping name="OfficeInteriorSection5"	N="3" width="6" height="12" periodicInput="false" periodic="false"/>
+	<overlapping name="OfficeInteriorSection5"	N="3" width="6" height="12" periodicInput="false" periodic="false" symmetry="1"/>
+	<overlapping name="OfficeInteriorSection5"	N="3" width="6" height="12" periodicInput="false" periodic="false" symmetry="2"/>
+	<overlapping name="OfficeInteriorSection5"	N="3" width="6" height="12" periodicInput="false" periodic="false" symmetry="3"/>
+	<overlapping name="OfficeInteriorSection5"	N="3" width="6" height="12" periodicInput="false" periodic="false" symmetry="4"/>
+	<overlapping name="OfficeInteriorSection5"	N="3" width="6" height="12" periodicInput="false" periodic="false" symmetry="5"/>
+	<overlapping name="OfficeInteriorSection5"	N="3" width="6" height="12" periodicInput="false" periodic="false" symmetry="6"/>
+	<overlapping name="OfficeInteriorSection5"	N="3" width="6" height="12" periodicInput="false" periodic="false" symmetry="7"/>
+	<overlapping name="OfficeInteriorSection5"	N="5" width="6" height="12" periodicInput="false" periodic="false"/>
+<overlapping name="OfficeInteriorSection5"	N="3" width="6" height="6" periodicInput="false" periodic="false"/>
+	<overlapping name="OfficeInteriorSection5"	N="3" width="6" height="6" periodicInput="false" periodic="false"/>
+	<overlapping name="OfficeInteriorSection5"	N="3" width="6" height="6" periodicInput="false" periodic="false" symmetry="1"/>
+	<overlapping name="OfficeInteriorSection5"	N="3" width="6" height="6" periodicInput="false" periodic="false" symmetry="2"/>
+	<overlapping name="OfficeInteriorSection5"	N="3" width="6" height="6" periodicInput="false" periodic="false" symmetry="3"/>
+	<overlapping name="OfficeInteriorSection5"	N="3" width="6" height="6" periodicInput="false" periodic="false" symmetry="4"/>
+	<overlapping name="OfficeInteriorSection5"	N="3" width="6" height="6" periodicInput="false" periodic="false" symmetry="5"/>
+	<overlapping name="OfficeInteriorSection5"	N="3" width="6" height="6" periodicInput="false" periodic="false" symmetry="6"/>
+	<overlapping name="OfficeInteriorSection5"	N="3" width="6" height="6" periodicInput="false" periodic="false" symmetry="7"/>
+	<overlapping name="OfficeInteriorSection5"	N="5" width="6" height="6" periodicInput="false" periodic="false"/>
+<overlapping name="OfficeInteriorSection5"	N="3" width="7" height="5" periodicInput="false" periodic="false"/>
+	<overlapping name="OfficeInteriorSection5"	N="3" width="7" height="5" periodicInput="false" periodic="false"/>
+	<overlapping name="OfficeInteriorSection5"	N="3" width="7" height="5" periodicInput="false" periodic="false" symmetry="1"/>
+	<overlapping name="OfficeInteriorSection5"	N="3" width="7" height="5" periodicInput="false" periodic="false" symmetry="2"/>
+	<overlapping name="OfficeInteriorSection5"	N="3" width="7" height="5" periodicInput="false" periodic="false" symmetry="3"/>
+	<overlapping name="OfficeInteriorSection5"	N="3" width="7" height="5" periodicInput="false" periodic="false" symmetry="4"/>
+	<overlapping name="OfficeInteriorSection5"	N="3" width="7" height="5" periodicInput="false" periodic="false" symmetry="5"/>
+	<overlapping name="OfficeInteriorSection5"	N="3" width="7" height="5" periodicInput="false" periodic="false" symmetry="6"/>
+	<overlapping name="OfficeInteriorSection5"	N="3" width="7" height="5" periodicInput="false" periodic="false" symmetry="7"/>
+	<overlapping name="OfficeInteriorSection5"	N="5" width="7" height="5" periodicInput="false" periodic="false"/>
+<overlapping name="OfficeInteriorSection6"	N="3" width="5" height="7" periodicInput="false" periodic="false"/>
+	<overlapping name="OfficeInteriorSection6"	N="3" width="5" height="7" periodicInput="false" periodic="false"/>
+	<overlapping name="OfficeInteriorSection6"	N="3" width="5" height="7" periodicInput="false" periodic="false" symmetry="1"/>
+	<overlapping name="OfficeInteriorSection6"	N="3" width="5" height="7" periodicInput="false" periodic="false" symmetry="2"/>
+	<overlapping name="OfficeInteriorSection6"	N="3" width="5" height="7" periodicInput="false" periodic="false" symmetry="3"/>
+	<overlapping name="OfficeInteriorSection6"	N="3" width="5" height="7" periodicInput="false" periodic="false" symmetry="4"/>
+	<overlapping name="OfficeInteriorSection6"	N="3" width="5" height="7" periodicInput="false" periodic="false" symmetry="5"/>
+	<overlapping name="OfficeInteriorSection6"	N="3" width="5" height="7" periodicInput="false" periodic="false" symmetry="6"/>
+	<overlapping name="OfficeInteriorSection6"	N="3" width="5" height="7" periodicInput="false" periodic="false" symmetry="7"/>
+	<overlapping name="OfficeInteriorSection6"	N="5" width="5" height="7" periodicInput="false" periodic="false"/>
+<overlapping name="OfficeInteriorSection6"	N="3" width="12" height="12" periodicInput="false" periodic="false"/>
+	<overlapping name="OfficeInteriorSection6"	N="3" width="12" height="12" periodicInput="false" periodic="false"/>
+	<overlapping name="OfficeInteriorSection6"	N="3" width="12" height="12" periodicInput="false" periodic="false" symmetry="1"/>
+	<overlapping name="OfficeInteriorSection6"	N="3" width="12" height="12" periodicInput="false" periodic="false" symmetry="2"/>
+	<overlapping name="OfficeInteriorSection6"	N="3" width="12" height="12" periodicInput="false" periodic="false" symmetry="3"/>
+	<overlapping name="OfficeInteriorSection6"	N="3" width="12" height="12" periodicInput="false" periodic="false" symmetry="4"/>
+	<overlapping name="OfficeInteriorSection6"	N="3" width="12" height="12" periodicInput="false" periodic="false" symmetry="5"/>
+	<overlapping name="OfficeInteriorSection6"	N="3" width="12" height="12" periodicInput="false" periodic="false" symmetry="6"/>
+	<overlapping name="OfficeInteriorSection6"	N="3" width="12" height="12" periodicInput="false" periodic="false" symmetry="7"/>
+	<overlapping name="OfficeInteriorSection6"	N="5" width="12" height="12" periodicInput="false" periodic="false"/>
+<overlapping name="OfficeInteriorSection6" N="3" width="12" height="6" periodicInput="false" periodic="True"/>
+	<overlapping name="OfficeInteriorSection6"	N="3" width="12" height="6" periodicInput="false" periodic="false"/>
+	<overlapping name="OfficeInteriorSection6"	N="3" width="12" height="6" periodicInput="false" periodic="false" symmetry="1"/>
+	<overlapping name="OfficeInteriorSection6"	N="3" width="12" height="6" periodicInput="false" periodic="false" symmetry="2"/>
+	<overlapping name="OfficeInteriorSection6"	N="3" width="12" height="6" periodicInput="false" periodic="false" symmetry="3"/>
+	<overlapping name="OfficeInteriorSection6"	N="3" width="12" height="6" periodicInput="false" periodic="false" symmetry="4"/>
+	<overlapping name="OfficeInteriorSection6"	N="3" width="12" height="6" periodicInput="false" periodic="false" symmetry="5"/>
+	<overlapping name="OfficeInteriorSection6"	N="3" width="12" height="6" periodicInput="false" periodic="false" symmetry="6"/>
+	<overlapping name="OfficeInteriorSection6"	N="3" width="12" height="6" periodicInput="false" periodic="false" symmetry="7"/>
+	<overlapping name="OfficeInteriorSection6"	N="5" width="12" height="6" periodicInput="false" periodic="false"/>
+<overlapping name="OfficeInteriorSection6"	N="3" width="6" height="12" periodicInput="false" periodic="false"/>
+	<overlapping name="OfficeInteriorSection6"	N="3" width="6" height="12" periodicInput="false" periodic="false"/>
+	<overlapping name="OfficeInteriorSection6"	N="3" width="6" height="12" periodicInput="false" periodic="false" symmetry="1"/>
+	<overlapping name="OfficeInteriorSection6"	N="3" width="6" height="12" periodicInput="false" periodic="false" symmetry="2"/>
+	<overlapping name="OfficeInteriorSection6"	N="3" width="6" height="12" periodicInput="false" periodic="false" symmetry="3"/>
+	<overlapping name="OfficeInteriorSection6"	N="3" width="6" height="12" periodicInput="false" periodic="false" symmetry="4"/>
+	<overlapping name="OfficeInteriorSection6"	N="3" width="6" height="12" periodicInput="false" periodic="false" symmetry="5"/>
+	<overlapping name="OfficeInteriorSection6"	N="3" width="6" height="12" periodicInput="false" periodic="false" symmetry="6"/>
+	<overlapping name="OfficeInteriorSection6"	N="3" width="6" height="12" periodicInput="false" periodic="false" symmetry="7"/>
+	<overlapping name="OfficeInteriorSection6"	N="5" width="6" height="12" periodicInput="false" periodic="false"/>
+<overlapping name="OfficeInteriorSection6"	N="3" width="6" height="6" periodicInput="false" periodic="false"/>
+	<overlapping name="OfficeInteriorSection6"	N="3" width="6" height="6" periodicInput="false" periodic="false"/>
+	<overlapping name="OfficeInteriorSection6"	N="3" width="6" height="6" periodicInput="false" periodic="false" symmetry="1"/>
+	<overlapping name="OfficeInteriorSection6"	N="3" width="6" height="6" periodicInput="false" periodic="false" symmetry="2"/>
+	<overlapping name="OfficeInteriorSection6"	N="3" width="6" height="6" periodicInput="false" periodic="false" symmetry="3"/>
+	<overlapping name="OfficeInteriorSection6"	N="3" width="6" height="6" periodicInput="false" periodic="false" symmetry="4"/>
+	<overlapping name="OfficeInteriorSection6"	N="3" width="6" height="6" periodicInput="false" periodic="false" symmetry="5"/>
+	<overlapping name="OfficeInteriorSection6"	N="3" width="6" height="6" periodicInput="false" periodic="false" symmetry="6"/>
+	<overlapping name="OfficeInteriorSection6"	N="3" width="6" height="6" periodicInput="false" periodic="false" symmetry="7"/>
+	<overlapping name="OfficeInteriorSection6"	N="5" width="6" height="6" periodicInput="false" periodic="false"/>
+<overlapping name="OfficeInteriorSection6"	N="3" width="7" height="5" periodicInput="false" periodic="false"/>
+	<overlapping name="OfficeInteriorSection6"	N="3" width="7" height="5" periodicInput="false" periodic="false"/>
+	<overlapping name="OfficeInteriorSection6"	N="3" width="7" height="5" periodicInput="false" periodic="false" symmetry="1"/>
+	<overlapping name="OfficeInteriorSection6"	N="3" width="7" height="5" periodicInput="false" periodic="false" symmetry="2"/>
+	<overlapping name="OfficeInteriorSection6"	N="3" width="7" height="5" periodicInput="false" periodic="false" symmetry="3"/>
+	<overlapping name="OfficeInteriorSection6"	N="3" width="7" height="5" periodicInput="false" periodic="false" symmetry="4"/>
+	<overlapping name="OfficeInteriorSection6"	N="3" width="7" height="5" periodicInput="false" periodic="false" symmetry="5"/>
+	<overlapping name="OfficeInteriorSection6"	N="3" width="7" height="5" periodicInput="false" periodic="false" symmetry="6"/>
+	<overlapping name="OfficeInteriorSection6"	N="3" width="7" height="5" periodicInput="false" periodic="false" symmetry="7"/>
+	<overlapping name="OfficeInteriorSection6"	N="5" width="7" height="5" periodicInput="false" periodic="false"/>
+
+	<overlapping name="OfficeInteriorSection6"	N="3" width="7" height="5" periodicInput="false" periodic="false"/>
+
+	<simpletiled name="OfficeInteriors" subset="Standard" width="1" height="1" periodic="false" periodicInput = "false"/>
+	<simpletiled name="OfficeInteriors" subset="Standard" width="1" height="2" periodic="false" periodicInput = "false"/>
+	<simpletiled name="OfficeInteriors" subset="Standard" width="2" height="1" periodic="false" periodicInput = "false"/>
+	<simpletiled name="OfficeInteriors" subset="Standard" width="2" height="2" periodic="false" periodicInput = "false"/>
+	<simpletiled name="OfficeInteriors" subset="Standard" width="2" height="3" periodic="false" periodicInput = "false"/>
+	<simpletiled name="OfficeInteriors" subset="Standard" width="3" height="1" periodic="false" periodicInput = "false"/>
+	<simpletiled name="OfficeInteriors" subset="Standard" width="5" height="1" periodic="false" periodicInput = "false"/>
+	<simpletiled name="OfficeInteriors" subset="Standard" width="12" height="12" periodic="false" periodicInput = "false"/>	
+	<simpletiled name="OfficeInteriors" subset="Standard" width="7" height="5" periodic="false" periodicInput = "false"/>	
+	<simpletiled name="OfficeInteriors" subset="Standard" width="6" height="12" periodic="false" periodicInput = "false"/>	
+	<simpletiled name="OfficeInteriors" subset="Standard" width="12" height="6" periodic="false" periodicInput = "false"/>	
+	<simpletiled name="OfficeInteriors" subset="Standard" width="21" height="21" periodic="false" periodicInput = "false"/>	
+	<simpletiled name="OfficeInteriors" subset="Standard" width="21" height="12" periodic="false" periodicInput = "false"/>	
+
+
+</samples>
+
+
+<!-- 
+
+Buggy for no apparent reason: <simpletiled name="Circles" width="24" height="24"/> 
+
 
 	Thesis Run Info
 
@@ -116,30 +818,31 @@ Log Files: 1
 -->
 
 <!--
-	<overlapping name="ProOfficeTemplate2"	N="3" periodic="True"/>
-	<overlapping name="ProOfficeTemplate2"	N="3" periodic="false"/>
-	<overlapping name="ProOfficeTemplate2"	N="3" periodicInput="false" periodic="false"/>
-	<overlapping name="ProOfficeTemplate2"	N="3" periodicInput="false" periodic="false" symmetry="1"/>
-	<overlapping name="ProOfficeTemplate2"	N="3" periodicInput="false" periodic="false" symmetry="2"/>
-	<overlapping name="ProOfficeTemplate2"	N="3" periodicInput="false" periodic="false" symmetry="3"/>
-	<overlapping name="ProOfficeTemplate2"	N="3" periodicInput="false" periodic="false" symmetry="4"/>
-	<overlapping name="ProOfficeTemplate2"	N="3" periodicInput="false" periodic="false" symmetry="5"/>
-	<overlapping name="ProOfficeTemplate2"	N="3" periodicInput="false" periodic="false" symmetry="6"/>
-	<overlapping name="ProOfficeTemplate2"	N="3" periodicInput="false" periodic="false" symmetry="7"/>
-	<overlapping name="ProOfficeTemplate2"	N="5" periodicInput="true" periodic="false"/>
-	<overlapping name="ProOfficeTemplate2"	N="5" periodic="false"/>	
-<overlapping name="ProOfficeTemplate1"	N="4" periodic="True"/>
-	<overlapping name="ProOfficeTemplate1"	N="3" periodic="false"/>
-	<overlapping name="ProOfficeTemplate1"	N="3" periodicInput="false" periodic="false"/>
-	<overlapping name="ProOfficeTemplate1"	N="3" periodicInput="false" periodic="false" symmetry="1"/>
-	<overlapping name="ProOfficeTemplate1"	N="3" periodicInput="false" periodic="false" symmetry="2"/>
-	<overlapping name="ProOfficeTemplate1"	N="3" periodicInput="false" periodic="false" symmetry="3"/>
-	<overlapping name="ProOfficeTemplate1"	N="3" periodicInput="false" periodic="false" symmetry="4"/>
-	<overlapping name="ProOfficeTemplate1"	N="3" periodicInput="false" periodic="false" symmetry="5"/>
-	<overlapping name="ProOfficeTemplate1"	N="3" periodicInput="false" periodic="false" symmetry="6"/>
-	<overlapping name="ProOfficeTemplate1"	N="3" periodicInput="false" periodic="false" symmetry="7"/>
-	<overlapping name="ProOfficeTemplate1"	N="5" periodicInput="true" periodic="false"/>
-	<overlapping name="ProOfficeTemplate1"	N="5" periodic="false"/>
+	<overlapping name="ProOfficeTemplate4"	N="3" periodic="false"/>
+	<overlapping name="ProOfficeTemplate4"	N="3" periodicInput="false" periodic="false"/>
+	<overlapping name="ProOfficeTemplate4"	N="3" periodicInput="false" periodic="false" symmetry="1"/>
+	<overlapping name="ProOfficeTemplate4"	N="3" periodicInput="false" periodic="false" symmetry="2"/>
+	<overlapping name="ProOfficeTemplate4"	N="3" periodicInput="false" periodic="false" symmetry="3"/>
+	<overlapping name="ProOfficeTemplate4"	N="3" periodicInput="false" periodic="false" symmetry="4"/>
+	<overlapping name="ProOfficeTemplate4"	N="3" periodicInput="false" periodic="false" symmetry="5"/>
+	<overlapping name="ProOfficeTemplate4"	N="3" periodicInput="false" periodic="false" symmetry="6"/>
+	<overlapping name="ProOfficeTemplate4"	N="3" periodicInput="false" periodic="false" symmetry="7"/>
+	<overlapping name="ProOfficeTemplate4"	N="5" periodicInput="true" periodic="false"/>
+	<overlapping name="ProOfficeTemplate4"	N="5" periodic="false"/>
+
+<overlapping name="ProOfficeTemplate3"	N="3" periodic="True"/>
+	<overlapping name="ProOfficeTemplate3"	N="3" periodic="false"/>
+	<overlapping name="ProOfficeTemplate3"	N="3" periodicInput="false" periodic="false"/>
+	<overlapping name="ProOfficeTemplate3"	N="3" periodicInput="false" periodic="false" symmetry="1"/>
+	<overlapping name="ProOfficeTemplate3"	N="3" periodicInput="false" periodic="false" symmetry="2"/>
+	<overlapping name="ProOfficeTemplate3"	N="3" periodicInput="false" periodic="false" symmetry="3"/>
+	<overlapping name="ProOfficeTemplate3"	N="3" periodicInput="false" periodic="false" symmetry="4"/>
+	<overlapping name="ProOfficeTemplate3"	N="3" periodicInput="false" periodic="false" symmetry="5"/>
+	<overlapping name="ProOfficeTemplate3"	N="3" periodicInput="false" periodic="false" symmetry="6"/>
+	<overlapping name="ProOfficeTemplate3"	N="3" periodicInput="false" periodic="false" symmetry="7"/>
+	<overlapping name="ProOfficeTemplate3"	N="5" periodicInput="true" periodic="false"/>
+	<overlapping name="ProOfficeTemplate3"	N="5" periodic="false"/>
+
 <overlapping name="Qud" N="3" periodic="True" width="80" height="80"/>
 	<overlapping name="Qud"	N="3" periodic="false"/>
 	<overlapping name="Qud"	N="3" periodicInput="false" periodic="false"/>
@@ -152,7 +855,8 @@ Log Files: 1
 	<overlapping name="Qud"	N="3" periodicInput="false" periodic="false" symmetry="7"/>
 	<overlapping name="Qud"	N="5" periodicInput="true" periodic="false"/>
 	<overlapping name="Qud"	N="5" periodic="false"/>
-	<overlapping name="ProMagicOfficeTemplate"	N="3" periodic="True"/>
+
+<overlapping name="ProMagicOfficeTemplate"	N="3" periodic="True"/>
 	<overlapping name="ProMagicOfficeTemplate"	N="3" periodic="false"/>
 	<overlapping name="ProMagicOfficeTemplate"	N="3" periodicInput="false" periodic="false"/>
 	<overlapping name="ProMagicOfficeTemplate"	N="3" periodicInput="false" periodic="false" symmetry="1"/>
@@ -164,6 +868,7 @@ Log Files: 1
 	<overlapping name="ProMagicOfficeTemplate"	N="3" periodicInput="false" periodic="false" symmetry="7"/>
 	<overlapping name="ProMagicOfficeTemplate"	N="5" periodicInput="true" periodic="false"/>
 	<overlapping name="ProMagicOfficeTemplate"	N="5" periodic="false"/>
+
 <overlapping name="Office" N="3" periodic="True"/>
 	<overlapping name="Office"	N="3" periodic="false"/>
 	<overlapping name="Office"	N="3" periodicInput="false" periodic="false"/>
@@ -176,18 +881,7 @@ Log Files: 1
 	<overlapping name="Office"	N="3" periodicInput="false" periodic="false" symmetry="7"/>
 	<overlapping name="Office"	N="5" periodicInput="true" periodic="false"/>
 	<overlapping name="Office"	N="5" periodic="false"/>
-<overlapping name="Magic Office" N="3" periodic="True"/>
-	<overlapping name="Magic Office"	N="3" periodic="false"/>
-	<overlapping name="Magic Office"	N="3" periodicInput="false" periodic="false"/>
-	<overlapping name="Magic Office"	N="3" periodicInput="false" periodic="false" symmetry="1"/>
-	<overlapping name="Magic Office"	N="3" periodicInput="false" periodic="false" symmetry="2"/>
-	<overlapping name="Magic Office"	N="3" periodicInput="false" periodic="false" symmetry="3"/>
-	<overlapping name="Magic Office"	N="3" periodicInput="false" periodic="false" symmetry="4"/>
-	<overlapping name="Magic Office"	N="3" periodicInput="false" periodic="false" symmetry="5"/>
-	<overlapping name="Magic Office"	N="3" periodicInput="false" periodic="false" symmetry="6"/>
-	<overlapping name="Magic Office"	N="3" periodicInput="false" periodic="false" symmetry="7"/>
-	<overlapping name="Magic Office"	N="5" periodicInput="true" periodic="false"/>
-	<overlapping name="Magic Office"	N="5" periodic="false"/>
+
 <overlapping name="Office 2" N="3" periodic="True"/>
 	<overlapping name="Office 2"	N="3" periodic="false"/>
 	<overlapping name="Office 2"	N="3" periodicInput="false" periodic="false"/>
@@ -200,4 +894,74 @@ Log Files: 1
 	<overlapping name="Office 2"	N="3" periodicInput="false" periodic="false" symmetry="7"/>
 	<overlapping name="Office 2"	N="5" periodicInput="true" periodic="false"/>
 	<overlapping name="Office 2"	N="5" periodic="false"/>
+
+<overlapping name="ProRaceTrackTemplate"	N="4" periodic="True"/>
+	<overlapping name="ProRaceTrackTemplate"	N="3" periodic="false"/>
+	<overlapping name="ProRaceTrackTemplate"	N="3" periodicInput="false" periodic="false"/>
+	<overlapping name="ProRaceTrackTemplate"	N="3" periodicInput="false" periodic="false" symmetry="1"/>
+	<overlapping name="ProRaceTrackTemplate"	N="3" periodicInput="false" periodic="false" symmetry="2"/>
+	<overlapping name="ProRaceTrackTemplate"	N="3" periodicInput="false" periodic="false" symmetry="3"/>
+	<overlapping name="ProRaceTrackTemplate"	N="3" periodicInput="false" periodic="false" symmetry="4"/>
+	<overlapping name="ProRaceTrackTemplate"	N="3" periodicInput="false" periodic="false" symmetry="5"/>
+	<overlapping name="ProRaceTrackTemplate"	N="3" periodicInput="false" periodic="false" symmetry="6"/>
+	<overlapping name="ProRaceTrackTemplate"	N="3" periodicInput="false" periodic="false" symmetry="7"/>
+	<overlapping name="ProRaceTrackTemplate"	N="5" periodicInput="true" periodic="false"/>
+	<overlapping name="ProRaceTrackTemplate"	N="5" periodic="false"/>
+
+<overlapping name="ProRaceTrackTemplate2"	N="4" periodic="True" width="63" height="63"/>
+	<overlapping name="ProRaceTrackTemplate2"	N="3" periodic="false" width="63" height="63"/>
+	<overlapping name="ProRaceTrackTemplate2"	N="3" periodicInput="false" periodic="false" width="63" height="63"/>
+	<overlapping name="ProRaceTrackTemplate2"	N="3" periodicInput="false" periodic="false" symmetry="1" width="63" height="63"/>
+	<overlapping name="ProRaceTrackTemplate2"	N="3" periodicInput="false" periodic="false" symmetry="2" width="63" height="63"/>
+	<overlapping name="ProRaceTrackTemplate2"	N="3" periodicInput="false" periodic="false" symmetry="3" width="63" height="63"/>
+	<overlapping name="ProRaceTrackTemplate2"	N="3" periodicInput="false" periodic="false" symmetry="4" width="63" height="63"/>
+	<overlapping name="ProRaceTrackTemplate2"	N="3" periodicInput="false" periodic="false" symmetry="5" width="63" height="63"/>
+	<overlapping name="ProRaceTrackTemplate2"	N="3" periodicInput="false" periodic="false" symmetry="6" width="63" height="63"/>
+	<overlapping name="ProRaceTrackTemplate2"	N="3" periodicInput="false" periodic="false" symmetry="7" width="63" height="63"/>
+	<overlapping name="ProRaceTrackTemplate2"	N="5" periodicInput="true" periodic="false" width="63" height="63"/>
+	<overlapping name="ProRaceTrackTemplate2"	N="5" periodic="false" width="63" height="63"/>
+
+<simpletiled name="RaceTrack" subset="Standard" width="50" height="50" periodic="false"/>	
+	<simpletiled name="RaceTrack" subset="RampLess" width="50" height="50" periodic="false"/>	
+	<simpletiled name="RaceTrack" subset="DenseCorners" width="50" height="50" periodic="false"/>	
+	<simpletiled name="RaceTrack" subset="MediumTurnsAndStraights" width="50" height="50" periodic="false"/>
+	<simpletiled name="RaceTrack" subset="TightTurnsAndStraights" width="50" height="50" periodic="false"/>	
+	<simpletiled name="RaceTrack" subset="CurvyRoad" width="50" height="50" periodic="false"/>	
+
+<simpletiled name="RaceTrack" subset="Standard" width="30" height="30"/>	
+	<simpletiled name="RaceTrack" subset="RampLess" width="30" height="30"/>	
+	<simpletiled name="RaceTrack" subset="DenseCorners" width="30" height="30"/>	
+	<simpletiled name="RaceTrack" subset="MediumTurnsAndStraights" width="30" height="30"/>
+	<simpletiled name="RaceTrack" subset="TightTurnsAndStraights" width="30" height="30"/>	
+	<simpletiled name="RaceTrack" subset="CurvyRoad" width="30" height="30"/>	
+
+<simpletiled name="RaceTrack" subset="Standard" width="50" height="50" periodic="false" periodicInput = "false"/>	
+	<simpletiled name="RaceTrack" subset="RampLess" width="50" height="50" periodic="false" periodicInput = "false"/>	
+	<simpletiled name="RaceTrack" subset="DenseCorners" width="50" height="50" periodic="false" periodicInput = "false"/>	
+	<simpletiled name="RaceTrack" subset="MediumTurnsAndStraights" width="50" height="50" periodic="false" periodicInput = "false"/>
+	<simpletiled name="RaceTrack" subset="TightTurnsAndStraights" width="50" height="50" periodic="false" periodicInput = "false"/>	
+	<simpletiled name="RaceTrack" subset="CurvyRoad" width="50" height="50" periodic="false" periodicInput = "false"/>	
+
+
+<simpletiled name="Summer" width="15" height="15"/>
+	<simpletiled name="Castle" width="20" height="20"/>
+	<simpletiled name="Circuit" subset="Turnless" width="34" height="34" periodic="True" screenshots="3"/>
+	<simpletiled name="Knots" subset="Standard" width="24" height="24" periodic="True"/>
+	<simpletiled name="Knots" subset="Dense" width="24" height="24" periodic="True"/>	
+	<simpletiled name="Knots" subset="Crossless" width="24" height="24"/>
+	<simpletiled name="Knots" subset="TE" width="24" height="24"/>
+	<simpletiled name="Knots" subset="T" width="24" height="24"/>
+	<simpletiled name="Knots" subset="CL" width="24" height="24"/>	
+	<simpletiled name="Knots" subset="CE" width="24" height="24" periodic="True"/>
+	<simpletiled name="Knots" subset="C" width="24" height="24" periodic="True"/>
+	<simpletiled name="Knots" subset="Fabric" width="24" height="24" periodic="True"/>
+	<simpletiled name="Knots" subset="Dense Fabric" width="24" height="24" periodic="True"/>
+	<simpletiled name="Rooms" width="30" height="30"/>
+	<simpletiled name="Circles" subset="Large Circles" width="24" height="24"/>
+	<simpletiled name="Circles" subset="Large Circles and Solid" width="24" height="24"/>
+	<simpletiled name="Circles" subset="No Solid" width="24" height="24"/>
+	<simpletiled name="Summer" width="15" height="15" periodic="False" limit="15"/>
+	<simpletiled name="Knots" subset="Standard" width="5" height="5" periodic="True" textOutput="True"/>
+	<simpletiled name="Summer" width="6" height="6" periodic="False" textOutput="True"/>
+	<simpletiled name="Circuit" subset="Turnless" width="7" height="7" periodic="True" textOutput="True"/>
 	-->
