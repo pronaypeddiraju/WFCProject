@@ -131,6 +131,130 @@ private:
 	}
 
 	//------------------------------------------------------------------------------------------------------------------------------
+	//Get the rotated tile orientation depending on tile symmetry
+	uint GetRotatedOrientationIDForObservedTile(const std::pair<uint, uint>& observedTileAndOrientation, uint numRotationsToPerform)
+	{
+		//Check the current tile's symmetry
+		Symmetry symmetry = m_tiles[observedTileAndOrientation.first].symmetry;
+
+		switch (symmetry)
+		{
+			case Symmetry::X:
+			{
+				//There is only 1 tile so just return 0
+				return 0;
+			}
+			case Symmetry::I:
+			case Symmetry::backslash:
+			{
+				//There are 2 possible tile orientations
+				return (observedTileAndOrientation.second + numRotationsToPerform) % 2;
+			}
+			case Symmetry::T:
+			case Symmetry::L:
+			{
+				//There are 4 possible tile orientations
+				return (observedTileAndOrientation.second + numRotationsToPerform) % 4;
+			}
+			case Symmetry::P:
+			{
+				//Special case where we have 8 possible outcomes
+				if (observedTileAndOrientation.second < 4)
+				{
+					//Normal case where we can add numRotations and mod by 4
+					return (observedTileAndOrientation.second + numRotationsToPerform) % 4;
+				}
+				else
+				{
+					//Special case where orientation is above 4
+					uint tempOrientation = observedTileAndOrientation.second;
+
+					tempOrientation -= 4;
+					tempOrientation += numRotationsToPerform;
+					tempOrientation %= 4;
+
+					tempOrientation += 4;
+
+					return tempOrientation;
+				}
+			}
+			default:
+			{
+				ERROR_AND_DIE("Couldn't find tile symmetry for the Markov problem to generate neighbors");
+			}
+		}
+	}
+
+	//------------------------------------------------------------------------------------------------------------------------------
+	//Add the observed neighbor relationship to the vector of neighbor relationships
+	void AddObservedNeighborToNeighborsVector(std::tuple<uint, uint, uint, uint>& neighborSet, std::vector<std::tuple<uint, uint, uint, uint> >& listToPopulate)
+	{
+		std::vector< std::tuple<uint, uint, uint, uint> >::iterator itr = std::find(std::begin(listToPopulate), std::end(listToPopulate), neighborSet);
+		if (itr == listToPopulate.end())
+		{
+			//This neighbor relationship doesn't exist so let's add it to the vector
+			listToPopulate.push_back(neighborSet);
+		}
+	}
+
+	//------------------------------------------------------------------------------------------------------------------------------
+	//Populate the neighbor information for the observed tile and observed neighbors
+	std::vector< std::tuple<uint, uint, uint, uint> > PopulateNeighborRelationshipsForObservedTile(std::pair<uint, uint>& observedIDtoOrientation, std::vector< std::pair <std::pair<uint, uint>, NeighborType> > neighbors)
+	{
+		std::vector< std::tuple<uint, uint, uint, uint> > tileIDOrientationtoNeighborSet;
+		std::tuple<uint, uint, uint, uint> tileIDOrientationtoNeighbor;
+		uint observedOrientation;
+		uint neighborOrientation;
+
+		for (uint neighborIndex = 0; neighborIndex < neighbors.size(); neighborIndex++)
+		{
+			switch (neighbors[neighborIndex].second)
+			{
+				case RIGHT:
+				{
+					//Set the neighbor in it's current orientation
+					tileIDOrientationtoNeighbor = std::make_tuple(observedIDtoOrientation.first, observedIDtoOrientation.second, neighbors[neighborIndex].first.first, neighbors[neighborIndex].first.second);
+					
+					AddObservedNeighborToNeighborsVector(tileIDOrientationtoNeighbor, tileIDOrientationtoNeighborSet);
+					break;
+				}
+				case TOP:
+				{
+					//Get rotated three times for both observed tile and neighbor tile
+					observedOrientation = GetRotatedOrientationIDForObservedTile(observedIDtoOrientation, 3);
+					neighborOrientation = GetRotatedOrientationIDForObservedTile(neighbors[neighborIndex].first, 3);
+
+					tileIDOrientationtoNeighbor = std::make_tuple(observedIDtoOrientation.first, observedOrientation, neighbors[neighborIndex].first.first, neighborOrientation);
+					AddObservedNeighborToNeighborsVector(tileIDOrientationtoNeighbor, tileIDOrientationtoNeighborSet);
+					break;
+				}
+				case LEFT:
+				{
+					//Get rotated twice for both observed tile and neighbor tile
+					observedOrientation = GetRotatedOrientationIDForObservedTile(observedIDtoOrientation, 2);
+					neighborOrientation = GetRotatedOrientationIDForObservedTile(neighbors[neighborIndex].first, 2);
+
+					tileIDOrientationtoNeighbor = std::make_tuple(observedIDtoOrientation.first, observedOrientation, neighbors[neighborIndex].first.first, neighborOrientation);
+					AddObservedNeighborToNeighborsVector(tileIDOrientationtoNeighbor, tileIDOrientationtoNeighborSet);
+					break;
+				}
+				case BOTTOM:
+				{
+					//Get rotated once for both observed tile and neighbor tile
+					observedOrientation = GetRotatedOrientationIDForObservedTile(observedIDtoOrientation, 1);
+					neighborOrientation = GetRotatedOrientationIDForObservedTile(neighbors[neighborIndex].first, 1);
+
+					tileIDOrientationtoNeighbor = std::make_tuple(observedIDtoOrientation.first, observedOrientation, neighbors[neighborIndex].first.first, neighborOrientation);
+					AddObservedNeighborToNeighborsVector(tileIDOrientationtoNeighbor, tileIDOrientationtoNeighborSet);
+					break;
+				}
+			}
+		}
+
+		return tileIDOrientationtoNeighborSet;
+	}
+
+	//------------------------------------------------------------------------------------------------------------------------------
 	//Infer neighbors for the Markov WFC Problem
 	std::vector<std::tuple<uint, uint, uint, uint>> InferNeighbors()
 	{
@@ -164,7 +288,7 @@ private:
 				std::vector< std::pair <std::pair<uint, uint>, NeighborType> > neighbors = FindNeighborsForTileAtPosition(xIndex, yIndex, m_options.m_tileSize, m_inputs[inputIndex]);
 
 				//Generate relationships for the top, left, right and bottom tiles when generating neighbor information for the markov set
-				//m_inferedNeighbors.push_back();
+				std::vector<std::tuple<uint, uint, uint, uint> > neighborSet = PopulateNeighborRelationshipsForObservedTile(observedIDtoOrientation, neighbors);
 
 				//Step ahead by tile size
 				xIndex += m_options.m_tileSize;
