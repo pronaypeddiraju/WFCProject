@@ -37,10 +37,11 @@ template <typename T> struct Tile
 	std::vector<Array2D<T>> data; // The different orientations of the tile
 	Symmetry symmetry;            // The symmetry of the tile
 	double weight;					// Its weight on the distribution of presence of tiles
+	std::string tileName;
 
 	//Generate map associating an orientation id to the orientation
 	//id obtained when rotating tile by 90 degrees anticlockwise
-	static std::vector<unsigned> GenerateRotationMap(const Symmetry &symmetry)
+	static std::vector<uint> GenerateRotationMap(const Symmetry &symmetry)
 	{
 		switch (symmetry) 
 		{
@@ -60,7 +61,7 @@ template <typename T> struct Tile
 
 	//Generate map associating orientation id to the orientation
 	//id obtained when reflecting the tile along x axis
-	static std::vector<unsigned> GenerateReflectionMap(const Symmetry &symmetry)
+	static std::vector<uint> GenerateReflectionMap(const Symmetry &symmetry)
 	{
 		switch (symmetry)
 		{
@@ -84,12 +85,12 @@ template <typename T> struct Tile
 	//orientation id.
 	//Actions 0,1,2,3 are 0°,90°,180° and 270° degree anticlockwise rotations
 	//Actions 4,5,6,7 are 0,1,2,3 preceded by a reflection on the x axis
-	static std::vector<std::vector<unsigned>> GenerateActionMap(const Symmetry &symmetry)
+	static std::vector<std::vector<uint>> GenerateActionMap(const Symmetry &symmetry)
 	{
-		std::vector<unsigned> rotation_map = GenerateRotationMap(symmetry);
-		std::vector<unsigned> reflection_map = GenerateReflectionMap(symmetry);
+		std::vector<uint> rotation_map = GenerateRotationMap(symmetry);
+		std::vector<uint> reflection_map = GenerateReflectionMap(symmetry);
 		size_t size = rotation_map.size();
-		std::vector<std::vector<unsigned>> action_map(8, std::vector<unsigned>(size));
+		std::vector<std::vector<uint>> action_map(8, std::vector<uint>(size));
 
 		for (size_t i = 0; i < size; ++i)
 		{
@@ -155,15 +156,15 @@ template <typename T> struct Tile
 
 	//Create a tile with its different orientations, its symmetries and its
 	//weight on the distribution of tiles
-	Tile(std::vector<Array2D<T>> data, Symmetry symmetry, double weight)
-		: data(data), symmetry(symmetry), weight(weight) {}
+	Tile(std::vector<Array2D<T>> data, Symmetry symmetry, double weight, std::string name)
+		: data(data), symmetry(symmetry), weight(weight), tileName(name) {}
 
 	//Create a tile with its base orientation, its symmetries and its
 	//weight on the distribution of tiles.
 	//The other orientation are generated with its first one.
-	Tile(Array2D<T> data, Symmetry symmetry, double weight)
+	Tile(Array2D<T> data, Symmetry symmetry, double weight, std::string name)
 		: data(GenerateOriented(data, symmetry)), symmetry(symmetry),
-		weight(weight) {}
+		weight(weight), tileName(name) {}
 };
 
 //------------------------------------------------------------------------------------------------------------------------------
@@ -179,33 +180,33 @@ template <typename T> class TilingWFC
 {
 private:
 	//the distinct tiles
-	std::vector<Tile<T>> tiles;
+	std::vector<Tile<T>> m_tiles;
 
 	//Id of oriented tiles to tile and orientation
-	std::vector<std::pair<unsigned, unsigned>> id_to_oriented_tile;
+	std::vector<std::pair<uint, uint>> m_idToOrientedTile;
 
 	//Map tile and orientation to oriented tile id
-	std::vector<std::vector<unsigned>> oriented_tile_ids;
+	std::vector<std::vector<uint>> m_orientedTileIds;
 
 	//WFC options
-	TilingWFCOptions options;
+	TilingWFCOptions m_options;
 
 	//The underlying generic WFC algorithm.
-	WFC wfc;
+	WFC m_wfc;
 
 	//Generate mapping from id to oriented tiles and vice versa
-	static std::pair<std::vector<std::pair<unsigned, unsigned>>,
-		std::vector<std::vector<unsigned>>>
+	static std::pair<std::vector<std::pair<uint, uint>>,
+		std::vector<std::vector<uint>>>
 		GenerateOrientedTileIDs(const std::vector<Tile<T>> &tiles) noexcept 
 	{
-		std::vector<std::pair<unsigned, unsigned>> id_to_oriented_tile;
-		std::vector<std::vector<unsigned>> oriented_tile_ids;
+		std::vector<std::pair<uint, uint>> id_to_oriented_tile;
+		std::vector<std::vector<uint>> oriented_tile_ids;
 
-		unsigned id = 0;
-		for (unsigned i = 0; i < tiles.size(); i++) 
+		uint id = 0;
+		for (uint i = 0; i < tiles.size(); i++) 
 		{
 			oriented_tile_ids.push_back({});
-			for (unsigned j = 0; j < tiles[i].data.size(); j++) 
+			for (uint j = 0; j < tiles[i].data.size(); j++) 
 			{
 				id_to_oriented_tile.push_back({ i, j });
 				oriented_tile_ids[i].push_back(id);
@@ -217,12 +218,12 @@ private:
 	}
 
 	//Generate the propagator which will be used in the wfc algorithm
-	static std::vector<std::array<std::vector<unsigned>, 4>> GeneratePropagator(
-		const std::vector<std::tuple<unsigned, unsigned, unsigned, unsigned>>
+	static std::vector<std::array<std::vector<uint>, 4>> GeneratePropagator(
+		const std::vector<std::tuple<uint, uint, uint, uint>>
 		&neighbors,
 		std::vector<Tile<T>> tiles,
-		std::vector<std::pair<unsigned, unsigned>> id_to_oriented_tile,
-		std::vector<std::vector<unsigned>> oriented_tile_ids) 
+		std::vector<std::pair<uint, uint>> id_to_oriented_tile,
+		std::vector<std::vector<uint>> oriented_tile_ids) 
 	{
 		size_t nb_oriented_tiles = id_to_oriented_tile.size();
 		std::vector<std::array<std::vector<bool>, 4>> dense_propagator(
@@ -233,19 +234,19 @@ private:
 
 		for (auto neighbor : neighbors) 
 		{
-			unsigned tile1 = std::get<0>(neighbor);
-			unsigned orientation1 = std::get<1>(neighbor);
-			unsigned tile2 = std::get<2>(neighbor);
-			unsigned orientation2 = std::get<3>(neighbor);
-			std::vector<std::vector<unsigned>> action_map1 = Tile<T>::GenerateActionMap(tiles[tile1].symmetry);
-			std::vector<std::vector<unsigned>> action_map2 = Tile<T>::GenerateActionMap(tiles[tile2].symmetry);
+			uint tile1 = std::get<0>(neighbor);
+			uint orientation1 = std::get<1>(neighbor);
+			uint tile2 = std::get<2>(neighbor);
+			uint orientation2 = std::get<3>(neighbor);
+			std::vector<std::vector<uint>> action_map1 = Tile<T>::GenerateActionMap(tiles[tile1].symmetry);
+			std::vector<std::vector<uint>> action_map2 = Tile<T>::GenerateActionMap(tiles[tile2].symmetry);
 
-			auto add = [&](unsigned action, unsigned direction) 
+			auto add = [&](uint action, uint direction) 
 			{
-				unsigned temp_orientation1 = action_map1[action][orientation1];
-				unsigned temp_orientation2 = action_map2[action][orientation2];
-				unsigned oriented_tile_id1 = oriented_tile_ids[tile1][temp_orientation1];
-				unsigned oriented_tile_id2 = oriented_tile_ids[tile2][temp_orientation2];
+				uint temp_orientation1 = action_map1[action][orientation1];
+				uint temp_orientation2 = action_map2[action][orientation2];
+				uint oriented_tile_id1 = oriented_tile_ids[tile1][temp_orientation1];
+				uint oriented_tile_id2 = oriented_tile_ids[tile2][temp_orientation2];
 				dense_propagator[oriented_tile_id1][direction][oriented_tile_id2] =	true;
 				direction = GetOppositeDirection(direction);
 				dense_propagator[oriented_tile_id2][direction][oriented_tile_id1] = true;
@@ -261,7 +262,7 @@ private:
 			add(7, 0);
 		}
 
-		std::vector<std::array<std::vector<unsigned>, 4>> propagator(nb_oriented_tiles);
+		std::vector<std::array<std::vector<uint>, 4>> propagator(nb_oriented_tiles);
 
 		for (size_t i = 0; i < nb_oriented_tiles; ++i) 
 		{
@@ -296,22 +297,22 @@ private:
 	}
 
 	//Translate generic WFC result into image
-	Array2D<T> IDToTiling(Array2D<unsigned> ids)
+	Array2D<T> IDToTiling(Array2D<uint> ids)
 	{
-		unsigned size = tiles[0].data[0].m_height;
+		uint size = m_tiles[0].data[0].m_height;
 
 		Array2D<T> tiling(size * ids.m_height, size * ids.m_width);
 
-		for (unsigned i = 0; i < ids.m_height; i++) 
+		for (uint i = 0; i < ids.m_height; i++)
 		{
-			for (unsigned j = 0; j < ids.m_width; j++) 
+			for (uint j = 0; j < ids.m_width; j++)
 			{
-				std::pair<unsigned, unsigned> oriented_tile = id_to_oriented_tile[ids.Get(i, j)];
-				for (unsigned y = 0; y < size; y++) 
+				std::pair<uint, uint> oriented_tile = m_idToOrientedTile[ids.Get(i, j)];
+				for (uint y = 0; y < size; y++)
 				{
-					for (unsigned x = 0; x < size; x++) 
+					for (uint x = 0; x < size; x++)
 					{
-						tiling.Get(i * size + y, j * size + x) = tiles[oriented_tile.first].data[oriented_tile.second].Get(y, x);
+						tiling.Get(i * size + y, j * size + x) = m_tiles[oriented_tile.first].data[oriented_tile.second].Get(y, x);
 					}
 				}
 			}
@@ -323,23 +324,23 @@ public:
 	//Construct the TilingWFC Class to generate tiled image
 	TilingWFC(
 		const std::vector<Tile<T>> &tiles,
-		const std::vector<std::tuple<unsigned, unsigned, unsigned, unsigned>>
+		const std::vector<std::tuple<uint, uint, uint, uint>>
 		&neighbors,
-		const unsigned height, const unsigned width,
+		const uint height, const uint width,
 		const TilingWFCOptions &options, int seed)
-		: tiles(tiles),
-		id_to_oriented_tile(GenerateOrientedTileIDs(tiles).first),
-		oriented_tile_ids(GenerateOrientedTileIDs(tiles).second),
-		options(options),
-		wfc(options.periodic_output, seed, GetTilesWeight(tiles),
-			GeneratePropagator(neighbors, tiles, id_to_oriented_tile,
-				oriented_tile_ids),
+		: m_tiles(tiles),
+		m_idToOrientedTile(GenerateOrientedTileIDs(tiles).first),
+		m_orientedTileIds(GenerateOrientedTileIDs(tiles).second),
+		m_options(options),
+		m_wfc(options.periodic_output, seed, GetTilesWeight(tiles),
+			GeneratePropagator(neighbors, tiles, m_idToOrientedTile,
+				m_orientedTileIds),
 			height, width) {}
 
 	//Run tiling WFC and return the result if succeeded
 	std::optional<Array2D<T>> Run() 
 	{
-		auto a = wfc.Run();
+		auto a = m_wfc.Run();
 		if (a == std::nullopt) 
 		{
 			return std::nullopt;
@@ -348,8 +349,8 @@ public:
 	}
 
 	//Get Id of oriented tiles to tile and orientation
-	const std::vector<std::pair<uint, uint>>& GetIDToOrientedTile() { return id_to_oriented_tile; }
+	const std::vector<std::pair<uint, uint>>& GetIDToOrientedTile() { return m_idToOrientedTile; }
 
 	//Get orientation to oriented tile id
-	const std::vector<std::vector<uint>>& GetOrientedTileIDs() { return oriented_tile_ids; }
+	const std::vector<std::vector<uint>>& GetOrientedTileIDs() { return m_orientedTileIds; }
 };

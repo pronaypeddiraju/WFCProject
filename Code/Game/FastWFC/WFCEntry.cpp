@@ -6,6 +6,7 @@
 #include "Engine/Commons/LogSystem.hpp"
 #include "Engine/Core/WindowContext.hpp"
 #include "Engine/Math/RandomNumberGenerator.hpp"
+#include "Game/FastWFC/WFCMarkovModel.hpp"
 #include "Game/FastWFC/WFCOverlappingModel.hpp"
 #include "Game/FastWFC/WFCTilingModel.hpp"
 #include "Game/FastWFC/WFCColor.hpp"
@@ -128,7 +129,7 @@ std::unordered_map<std::string, Tile<Color>> ReadTiles(XMLElement* root, const s
 				}
 				images.push_back(*subImage);
 			}
-			Tile<Color> tile = { images, symmetry, weight };
+			Tile<Color> tile = { images, symmetry, weight, name };
 			tiles.insert({ name, tile });
 		}
 		else 
@@ -138,7 +139,7 @@ std::unordered_map<std::string, Tile<Color>> ReadTiles(XMLElement* root, const s
 				throw "Image " + imagePath + " has wrong size";
 			}
 
-			Tile<Color> tile(*image, symmetry, weight);
+			Tile<Color> tile(*image, symmetry, weight, name);
 			tiles.insert({ name, tile });
 		}
 	}
@@ -186,6 +187,136 @@ std::vector<std::tuple<std::string, uint, std::string, uint>> ReadNeighbors(XMLE
 	}
 	return neighbors;
 }
+
+//------------------------------------------------------------------------------------------------------------------------------
+//Read all the inputs for a Markov problem
+std::vector<Array2D<Color>> ReadInputs(XMLElement* root, const std::string &currentDir)
+{
+	std::vector<Array2D<Color>> inputs;
+	XMLElement* inputsNode = root->FirstChildElement("inputs");
+
+	for (XMLElement *node = inputsNode->FirstChildElement("input"); node; node = node->NextSiblingElement("input"))
+	{
+		std::string name = ParseXmlAttribute(*node, "name");
+
+		const std::string imagePath = currentDir + "/" + name + ".png";
+		std::optional<Array2D<Color>> image = ReadImage(imagePath);
+
+		//the image read return nullopt
+		if (image == std::nullopt)
+		{
+			DebuggerPrintf("Error reading inputs for the MarkovWFC problem");
+			ERROR_AND_DIE("Could not open input file for Markov WFC problem");
+		}
+		else
+		{
+			inputs.push_back(image.value());
+		}
+	}
+
+	return inputs;
+}
+
+//------------------------------------------------------------------------------------------------------------------------------
+//Read Markov WFC Problem
+void ReadMarkovInstance(tinyxml2::XMLElement* node, int problemIndex, const std::string &currentDir)
+{
+	std::string name = ParseXmlAttribute(*node, "name", "");
+	std::string subset = ParseXmlAttribute(*node, "subset", "tiles");
+	bool periodicOutput = ParseXmlAttribute(*node, "periodic", false);
+	uint width = ParseXmlAttribute(*node, "width", gWFCSettings.defaultWidth);
+	uint height = ParseXmlAttribute(*node, "height", gWFCSettings.defaultHeight);
+
+	DebuggerPrintf("Started Markov Problem %s :  Subset: %s ", name.c_str(), subset.c_str());
+	DebuggerPrintf("\n\n Started WFC for Markov problem: %s Subset: %s", name.c_str(), subset.c_str());
+	g_LogSystem->Logf("WFC System", "\n\n Started WFC for Markov problem: %s Subset: %s", name.c_str(), subset.c_str());
+
+	float startTime = (float)GetCurrentTimeSeconds();
+
+	DebuggerPrintf("\n Start Time: %f", startTime);
+	g_LogSystem->Logf("WFC System", "\n Start Time: %f", startTime);
+
+	//Update the path for current problem
+	std::string readDir = currentDir + "/" + name + "/data.xml";
+
+	//Open the xml file and parse it
+	tinyxml2::XMLDocument dataDocument;
+	dataDocument.LoadFile(readDir.c_str());
+
+	if (dataDocument.ErrorID() != tinyxml2::XML_SUCCESS)
+	{
+		std::string error = Stringf(">> Error loading Data document for Simple Tiled problem number: %d", problemIndex);
+		ERROR_AND_DIE(error.c_str());
+		return;
+	}
+
+	//We loaded the file successfully
+	XMLElement* root = dataDocument.RootElement();
+	uint size = ParseXmlAttribute(*root, "size", 0);
+
+	std::string assertString = Stringf("The size attriutes for the SimpleTiled Set was 0. Problem number: %d", problemIndex);
+	ASSERT_OR_DIE(size != 0U, assertString.c_str());
+
+	std::unordered_map<std::string, Tile<Color>> tilesMap = ReadTiles(root, currentDir + "/" + name, subset, size);
+	std::unordered_map<std::string, uint> tilesID;
+	std::vector<Tile<Color>> tiles;
+
+	unsigned id = 0;
+	for (std::pair<std::string, Tile<Color>> tile : tilesMap)
+	{
+		tilesID.insert({ tile.first, id });
+		tiles.push_back(tile.second);
+		id++;
+	}
+
+	MarkovWFCOptions options;
+	options.m_width = width;
+	options.m_height = height;
+	options.m_periodicOutput = periodicOutput;
+	options.m_tileSize = size;
+
+	std::vector<Array2D<Color>> inputs = ReadInputs(root, currentDir + "/" + name);
+
+	//Write all the patterns to a patterns folder
+	std::string outFolderPath = gWFCSettings.imageOutPath + name;
+	outFolderPath += "/";
+	g_windowContext->CheckCreateDirectory(outFolderPath.c_str());
+
+	std::string outFolderKernelsPath = outFolderPath;
+	outFolderKernelsPath += "/Kernels/";
+	if (gStoreAllKernels)
+	{
+		g_windowContext->CheckCreateDirectory(outFolderKernelsPath.c_str());
+	}
+
+	//Let's account for different problems with the same name
+	outFolderPath += "Problem_" + std::to_string(problemIndex) + "_";
+	outFolderKernelsPath += "/Problem_" + std::to_string(problemIndex) + "_";
+
+	for (uint test = 0; test < 10; test++)
+	{
+		int seed = g_RNG->GetRandomIntInRange(0, INT_MAX);
+
+		MarkovWFC<Color> wfc(tiles, inputs, height, width, options, seed);
+
+		std::optional<Array2D<Color>> success = wfc.Run();
+		if (success.has_value())
+		{
+			WriteImageAsPNG(outFolderPath + name + "_" + subset + "_" + std::to_string(test) + ".png", *success);
+
+			DebuggerPrintf("\n Finished solving Markov problem: %s subset: %s", name.c_str(), subset.c_str());
+			g_LogSystem->Logf("WFC System", "\n Finished solving Markov problem: %s subset: %s", name.c_str(), subset.c_str());
+
+			break;
+		}
+		else
+		{
+			DebuggerPrintf("\n Failed to solve Markov problem: %s subset: %s", name.c_str(), subset.c_str());
+			g_LogSystem->Logf("WFC System", "\n Failed to solve Markov problem: %s subset: %s", name.c_str(), subset.c_str());
+		}
+	}
+}
+
 
 //------------------------------------------------------------------------------------------------------------------------------
 //Read Tiling WFC Problem
@@ -278,7 +409,7 @@ void ReadSimpleTiledInstance(tinyxml2::XMLElement* node, int problemIndex, const
 	outFolderPath += "Problem_" + std::to_string(problemIndex) + "_";
 	outFolderKernelsPath += "/Problem_" + std::to_string(problemIndex) + "_";
 
-	for (unsigned test = 0; test < 10; test++) 
+	for (uint test = 0; test < 10; test++) 
 	{
 		int seed = g_RNG->GetRandomIntInRange(0, INT_MAX);
 
@@ -288,11 +419,6 @@ void ReadSimpleTiledInstance(tinyxml2::XMLElement* node, int problemIndex, const
 		if (success.has_value()) 
 		{
 			WriteImageAsPNG(outFolderPath + name + "_" + subset + "_" + std::to_string(test) + ".png", *success);
-
-			const std::vector<std::pair<uint, uint>>& idToOrientedTile = wfc.GetIDToOrientedTile();
-			const std::vector<std::vector<uint>>& orientedTileIds = wfc.GetOrientedTileIDs();
-
-			TODO("Read the generated patterns and spawn track pieces");
 
 			DebuggerPrintf("\n Finished solving tiling problem: %s subset: %s", name.c_str(), subset.c_str());
 			g_LogSystem->Logf("WFC System", "\n Finished solving tiling problem: %s subset: %s", name.c_str(), subset.c_str());
@@ -359,9 +485,9 @@ void ReadOverlappingInstance(tinyxml2::XMLElement* node, int problemIndex)
 	outFolderPath += "/Problem_" + std::to_string(problemIndex) + "_";
 	outFolderKernelsPath += "/Problem_" + std::to_string(problemIndex) + "_";
 
-	for (unsigned i = 0; i < numOutputImages; i++)
+	for (uint i = 0; i < numOutputImages; i++)
 	{
-		for (unsigned test = 0; test < 10; test++)
+		for (uint test = 0; test < 10; test++)
 		{
 			int seed = g_RNG->GetRandomIntInRange(0, INT_MAX);
 			OverlappingWFC overlappingWFC(*imageColorArray, options, seed);
@@ -455,6 +581,18 @@ void ReadConfigFile(const std::string &config_path) noexcept
 		++problemIndex;
 	}
 	
+	//Let's read all the markov problems
+	root = meshDoc.RootElement();
+	node = root->FirstChildElement("markov");
+
+	while (node != nullptr)
+	{
+		ReadMarkovInstance(node, problemIndex, tiledModelDir);
+		node = node->NextSiblingElement("markov");
+
+		++problemIndex;
+	}
+
 }
 
 //------------------------------------------------------------------------------------------------------------------------------
