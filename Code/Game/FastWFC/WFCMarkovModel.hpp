@@ -109,7 +109,7 @@ private:
 		PopulateNeighbor(tempTileArray, neighbors, RIGHT);
 
 		//get the top neighbor
-		tempTileArray = inputImage.GetSubArray(yIndex - tileSize, xIndex, tileSize, tileSize);
+		tempTileArray = inputImage.GetSubArray(yIndex + tileSize, xIndex, tileSize, tileSize);
 		PopulateNeighbor(tempTileArray, neighbors, TOP);
 
 		//get the left neighbor
@@ -117,7 +117,7 @@ private:
 		PopulateNeighbor(tempTileArray, neighbors, LEFT);
 
 		//get the bottom neighbor
-		tempTileArray = inputImage.GetSubArray(yIndex + tileSize, xIndex, tileSize, tileSize);
+		tempTileArray = inputImage.GetSubArray(yIndex - tileSize, xIndex, tileSize, tileSize);
 		PopulateNeighbor(tempTileArray, neighbors, BOTTOM);
 
 		return neighbors;
@@ -266,10 +266,6 @@ private:
 				Array2D<T> observedNeighborData = Array2D<T>(m_options.m_tileSize, m_options.m_tileSize);
 
 				observedData = m_inputs[inputIndex].GetSubArray(yIndex, xIndex, m_options.m_tileSize, m_options.m_tileSize);
-
-				//Cut the tile (assume P symmetry with weight 1) and generate all orientations
-				//Similarly cut the neighbor and generate all orientations (same assumptions)
-				//Tile observedTile = Tile(observedData, Symmetry::P, 1, "");
 
 				//Find the tile in the set and get the correct Tile object with the correct symmetries and weights
 				std::pair<uint, uint> observedIDtoOrientation = FindTileAndMakeSymmetries(observedData);
