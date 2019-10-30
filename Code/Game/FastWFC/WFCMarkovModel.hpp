@@ -1,7 +1,7 @@
 #pragma once
 #include "Game/FastWFC/WFCArray2D.hpp"
 #include "Game/FastWFC/WFC.hpp"
-#include "Game/FastWFC/WFCTilingModel.hpp"
+#include "Game/FastWFC/WFCTile.hpp"
 #include <vector>
 #include <tuple>
 
@@ -67,10 +67,7 @@ private:
 				if (observedData == m_tiles[tileIndex].data[orientationIndex])
 				{
 					foundTile = true;
-					//Since we found the correct tile, it is safe to assume the observed tile has the same symmetry and data hence we simply copy
-					//the corresponding tile into the observedTile
-					
-					//observedTile = Tile<T>(m_tiles[tileIndex]);
+					//Since we found the correct tile, it is safe to assume the observed tile has the same symmetry and data
 
 					tileIDtoOrientation.first = tileIndex;
 					tileIDtoOrientation.second = orientationIndex;
@@ -95,11 +92,7 @@ private:
 	void PopulateNeighbor(Array2D<T>& tempTileArray, std::vector< std::pair <std::pair<uint, uint>, NeighborType> >& neighbors, NeighborType type)
 	{
 		std::pair<uint, uint> tileIDandOrientation = FindTileAndMakeSymmetries(tempTileArray);
-		if (tileIDandOrientation.first == UINT_MAX)
-		{
-			DebuggerPrintf("Didn't find the corresponding tile for neighboring tile");
-		}
-		else
+		if (tileIDandOrientation.first != UINT_MAX)
 		{
 			neighbors.push_back(std::make_pair(tileIDandOrientation, type));
 		}
@@ -189,6 +182,9 @@ private:
 	//Add the observed neighbor relationship to the vector of neighbor relationships
 	void AddObservedNeighborToNeighborsVector(std::tuple<uint, uint, uint, uint>& neighborSet, std::vector<std::tuple<uint, uint, uint, uint> >& listToPopulate)
 	{
+		//TODO("Decide on keeping unique entries vs duplicates");
+		//listToPopulate.push_back(neighborSet);
+
 		std::vector< std::tuple<uint, uint, uint, uint> >::iterator itr = std::find(std::begin(listToPopulate), std::end(listToPopulate), neighborSet);
 		if (itr == listToPopulate.end())
 		{
@@ -199,9 +195,8 @@ private:
 
 	//------------------------------------------------------------------------------------------------------------------------------
 	//Populate the neighbor information for the observed tile and observed neighbors
-	std::vector< std::tuple<uint, uint, uint, uint> > PopulateNeighborRelationshipsForObservedTile(std::pair<uint, uint>& observedIDtoOrientation, std::vector< std::pair <std::pair<uint, uint>, NeighborType> > neighbors)
+	void PopulateNeighborRelationshipsForObservedTile(std::pair<uint, uint>& observedIDtoOrientation, std::vector< std::pair <std::pair<uint, uint>, NeighborType> > neighbors, std::vector< std::tuple<uint, uint, uint, uint> >& tileIDOrientationtoNeighborSet)
 	{
-		std::vector< std::tuple<uint, uint, uint, uint> > tileIDOrientationtoNeighborSet;
 		std::tuple<uint, uint, uint, uint> tileIDOrientationtoNeighbor;
 		uint observedOrientation;
 		uint neighborOrientation;
@@ -250,27 +245,26 @@ private:
 				}
 			}
 		}
-
-		return tileIDOrientationtoNeighborSet;
 	}
 
 	//------------------------------------------------------------------------------------------------------------------------------
 	//Infer neighbors for the Markov WFC Problem
 	std::vector<std::tuple<uint, uint, uint, uint>> InferNeighbors()
 	{
+
+		std::vector<std::tuple<uint, uint, uint, uint> > neighborSet;
+
 		for (uint inputIndex = 0; inputIndex < m_inputs.size(); inputIndex++)
 		{
 			//Identify all pixels and turn them into a 2D array of tile ID and orientations
 			uint xIndex = 0;
 			uint yIndex = 0;
 
-			TODO("Check for the tile you see and make the markov chain");
 			while (xIndex != m_inputs[inputIndex].m_width && yIndex != m_inputs[inputIndex].m_height)
 			{
 				Array2D<T> observedData = Array2D<T>(m_options.m_tileSize, m_options.m_tileSize);
 				Array2D<T> observedNeighborData = Array2D<T>(m_options.m_tileSize, m_options.m_tileSize);
 
-				TODO("Verify y,x copy vs x,y copy of subArray");
 				observedData = m_inputs[inputIndex].GetSubArray(yIndex, xIndex, m_options.m_tileSize, m_options.m_tileSize);
 
 				//Cut the tile (assume P symmetry with weight 1) and generate all orientations
@@ -288,11 +282,11 @@ private:
 				std::vector< std::pair <std::pair<uint, uint>, NeighborType> > neighbors = FindNeighborsForTileAtPosition(xIndex, yIndex, m_options.m_tileSize, m_inputs[inputIndex]);
 
 				//Generate relationships for the top, left, right and bottom tiles when generating neighbor information for the markov set
-				std::vector<std::tuple<uint, uint, uint, uint> > neighborSet = PopulateNeighborRelationshipsForObservedTile(observedIDtoOrientation, neighbors);
+				PopulateNeighborRelationshipsForObservedTile(observedIDtoOrientation, neighbors, neighborSet);
 
 				//Step ahead by tile size
 				xIndex += m_options.m_tileSize;
-				if (xIndex == m_options.m_width)
+				if (xIndex == m_inputs[inputIndex].m_width)
 				{
 					yIndex += m_options.m_tileSize;
 					xIndex = 0;
@@ -300,7 +294,7 @@ private:
 			}
 		}
 
-		return m_inferedNeighbors;
+		return neighborSet;
 	}
 
 	//Generate mapping from id to oriented tiles and vice versa
@@ -442,7 +436,7 @@ public:
 		m_idToOrientedTile(GenerateOrientedTileIDs(tiles).first),
 		m_orientedTileIds(GenerateOrientedTileIDs(tiles).second),
 		m_inferedNeighbors(InferNeighbors()),
-		m_wfc(m_options.m_periodicOutput, seed, GetTilesWeight(m_tiles), GeneratePropagator(m_inferedNeighbors, m_tiles, m_idToOrientedTile, m_orientedTileIds), width, height)
+		m_wfc(m_options.m_periodicOutput, seed, GetTilesWeight(m_tiles), MarkovWFC::GeneratePropagator(m_inferedNeighbors, m_tiles, m_idToOrientedTile, m_orientedTileIds), width, height)
 	{
 	}
 

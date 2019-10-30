@@ -2,8 +2,12 @@
 	<overlapping name="Chess" N="2" periodic="True"/>
 	
 	<simpletiled name="Castle" width="20" height="20"/>
-	<markov name="CastleMarkov" width="20" height="20"/>
-	
+
+	<markov name="CastleMarkov" width="1" height="1" periodic="True"/>
+	<markov name="CastleMarkov" width="5" height="5" periodic="True"/>
+	<markov name="CastleMarkov" width="5" height="5" />
+	<markov name="CastleMarkov" width="1" height="1" />
+
 </samples>
 
 

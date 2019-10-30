@@ -7,7 +7,7 @@
 		<tile name="road" symmetry="I"/>
 		<tile name="roadturn" symmetry="L"/>
 		<tile name="t" symmetry="T"/>
-		<tile name="tower" symmetry="L"/>
+		<!--<tile name="tower" symmetry="L"/>-->
 		<tile name="wall" symmetry="I"/>
 		<tile name="wallriver" symmetry="I"/>
 		<tile name="wallroad" symmetry="I"/>

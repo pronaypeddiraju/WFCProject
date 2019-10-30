@@ -63,5 +63,6 @@
     <ClInclude Include="FastWFC\WFCOverlappingModel.hpp" />
     <ClInclude Include="FastWFC\WFCPropagator.hpp" />
     <ClInclude Include="FastWFC\WFCTilingModel.hpp" />
+    <ClInclude Include="FastWFC\WFCTile.hpp" />
   </ItemGroup>
 </Project>

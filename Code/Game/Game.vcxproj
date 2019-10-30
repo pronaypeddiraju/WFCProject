@@ -222,6 +222,7 @@
     <ClInclude Include="FastWFC\WFCMarkovModel.hpp" />
     <ClInclude Include="FastWFC\WFCOverlappingModel.hpp" />
     <ClInclude Include="FastWFC\WFCPropagator.hpp" />
+    <ClInclude Include="FastWFC\WFCTile.hpp" />
     <ClInclude Include="FastWFC\WFCTilingModel.hpp" />
     <ClInclude Include="FastWFC\WFCWave.hpp" />
     <ClInclude Include="Game.hpp" />
