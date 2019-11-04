@@ -1,0 +1,9 @@
+<set size="7">
+	<tiles>
+		<tile name="ground" symmetry="X"/>
+	</tiles>
+
+	<inputs>
+		<input name="CastleMarkov1" />
+	</inputs>
+</set>
