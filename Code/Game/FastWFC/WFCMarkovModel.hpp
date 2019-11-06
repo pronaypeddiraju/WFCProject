@@ -99,26 +99,57 @@ private:
 	}
 
 	//------------------------------------------------------------------------------------------------------------------------------
+	bool ValidateIndicesForSubArrayGet(uint yIndex, uint xIndex, unsigned int m_height, unsigned int m_width, unsigned int tileSize)
+	{
+		if (yIndex >= 0 && yIndex <= m_height - tileSize && xIndex >= 0 && xIndex <= m_width - tileSize)
+		{
+			return true;
+		}
+		else
+		{
+			return false;
+		}
+	}
+
+	//------------------------------------------------------------------------------------------------------------------------------
 	std::vector< std::pair <std::pair<uint, uint>, NeighborType> > FindNeighborsForTileAtPosition(uint xIndex, uint yIndex, uint tileSize, const Array2D<T>& inputImage)
 	{
 		std::vector< std::pair <std::pair<uint, uint> , NeighborType> > neighbors;
 		std::pair<uint, uint> tileIDandOrientation = std::make_pair(UINT_MAX, UINT_MAX);
+		Array2D<T> tempTileArray(tileSize, tileSize);
+		bool validationResult = false;
 
 		//Get the right neighbor
-		Array2D<T> tempTileArray = inputImage.GetSubArray(yIndex, xIndex + tileSize, tileSize, tileSize);
-		PopulateNeighbor(tempTileArray, neighbors, RIGHT);
-
-		//get the top neighbor
-		tempTileArray = inputImage.GetSubArray(yIndex + tileSize, xIndex, tileSize, tileSize);
-		PopulateNeighbor(tempTileArray, neighbors, TOP);
-
-		//get the left neighbor
-		tempTileArray = inputImage.GetSubArray(yIndex, xIndex - tileSize, tileSize, tileSize);
-		PopulateNeighbor(tempTileArray, neighbors, LEFT);
+		validationResult = ValidateIndicesForSubArrayGet(yIndex, xIndex + tileSize, inputImage.m_height, inputImage.m_width, tileSize);
+		if (validationResult)
+		{
+			tempTileArray = inputImage.GetSubArrayNonToric(yIndex, xIndex + tileSize, tileSize, tileSize);
+			PopulateNeighbor(tempTileArray, neighbors, RIGHT);
+		}
 
 		//get the bottom neighbor
-		tempTileArray = inputImage.GetSubArray(yIndex - tileSize, xIndex, tileSize, tileSize);
-		PopulateNeighbor(tempTileArray, neighbors, BOTTOM);
+		validationResult = ValidateIndicesForSubArrayGet(yIndex + tileSize, xIndex, inputImage.m_height, inputImage.m_width, tileSize);
+		if (validationResult)
+		{
+			tempTileArray = inputImage.GetSubArrayNonToric(yIndex + tileSize, xIndex, tileSize, tileSize);
+			PopulateNeighbor(tempTileArray, neighbors, BOTTOM);
+		}
+
+		//get the left neighbor
+		validationResult = ValidateIndicesForSubArrayGet(yIndex, xIndex - tileSize, inputImage.m_height, inputImage.m_width, tileSize);
+		if (validationResult)
+		{
+			tempTileArray = inputImage.GetSubArrayNonToric(yIndex, xIndex - tileSize, tileSize, tileSize);
+			PopulateNeighbor(tempTileArray, neighbors, LEFT);
+		}
+
+		//get the top neighbor
+		validationResult = ValidateIndicesForSubArrayGet(yIndex - tileSize, xIndex, inputImage.m_height, inputImage.m_width, tileSize);
+		if (validationResult)
+		{
+			tempTileArray = inputImage.GetSubArrayNonToric(yIndex - tileSize, xIndex, tileSize, tileSize);
+			PopulateNeighbor(tempTileArray, neighbors, TOP);
+		}
 
 		return neighbors;
 	}
@@ -211,7 +242,7 @@ private:
 					tileIDOrientationtoNeighbor = std::make_tuple(observedIDtoOrientation.first, observedIDtoOrientation.second, neighbors[neighborIndex].first.first, neighbors[neighborIndex].first.second);
 					
 					AddObservedNeighborToNeighborsVector(tileIDOrientationtoNeighbor, tileIDOrientationtoNeighborSet);
-					break;
+					continue;
 				}
 				case TOP:
 				{
@@ -221,7 +252,7 @@ private:
 
 					tileIDOrientationtoNeighbor = std::make_tuple(observedIDtoOrientation.first, observedOrientation, neighbors[neighborIndex].first.first, neighborOrientation);
 					AddObservedNeighborToNeighborsVector(tileIDOrientationtoNeighbor, tileIDOrientationtoNeighborSet);
-					break;
+					continue;
 				}
 				case LEFT:
 				{
@@ -231,7 +262,7 @@ private:
 
 					tileIDOrientationtoNeighbor = std::make_tuple(observedIDtoOrientation.first, observedOrientation, neighbors[neighborIndex].first.first, neighborOrientation);
 					AddObservedNeighborToNeighborsVector(tileIDOrientationtoNeighbor, tileIDOrientationtoNeighborSet);
-					break;
+					continue;
 				}
 				case BOTTOM:
 				{
@@ -241,7 +272,7 @@ private:
 
 					tileIDOrientationtoNeighbor = std::make_tuple(observedIDtoOrientation.first, observedOrientation, neighbors[neighborIndex].first.first, neighborOrientation);
 					AddObservedNeighborToNeighborsVector(tileIDOrientationtoNeighbor, tileIDOrientationtoNeighborSet);
-					break;
+					continue;
 				}
 			}
 		}
@@ -418,6 +449,7 @@ private:
 		}
 		return tiling;
 	}
+
 
 public:
 	//Construct the TilingWFC Class to generate tiled image

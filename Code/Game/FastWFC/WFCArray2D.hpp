@@ -83,6 +83,29 @@ public:
 		return sub_array_2d;
 	}
 
+	//Return the sub 2D array starting from (y,x) and with size (sub_width,
+	//sub_height). The current 2D array is considered non-toric for this operation
+	Array2D<T> GetSubArrayNonToric(unsigned int y, unsigned int x, unsigned int sub_width,
+		unsigned int sub_height) const noexcept
+	{
+		Array2D<T> sub_array_2d = Array2D<T>(sub_width, sub_height);
+		for (unsigned int ki = 0; ki < sub_height; ki++)
+		{
+			for (unsigned int kj = 0; kj < sub_width; kj++)
+			{
+				if (y + ki < m_height && x + kj < m_width)
+				{
+					sub_array_2d.Get(ki, kj) = Get((y + ki), (x + kj));
+				}
+				else
+				{
+					ERROR_AND_DIE("Requested operation for array index that doesn't exist");
+				}
+			}
+		}
+		return sub_array_2d;
+	}
+
 	//Assign the matrix a to the current matrix.
 	Array2D<T> &operator=(const Array2D<T> &a) noexcept 
 	{
