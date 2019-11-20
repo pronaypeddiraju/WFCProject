@@ -12,20 +12,21 @@
 	
 	<inputs>
 		
+		<!--
 		<input name="CircleMarkovSmall1" />
 		<input name="CircleMarkovSmall2" />
 		<input name="CircleMarkovSmall3" />
-
-		<!--
+		
+		
 		<input name="CircleMarkovMedium1" />
 		<input name="CircleMarkovMedium2" />
 		<input name="CircleMarkovMedium3" />
 		-->
 
-		<!--
+		<!--		-->
 		<input name="CircleMarkovLarge1" />
 		<input name="CircleMarkovLarge2" />
 		<input name="CircleMarkovLarge3" />
-		-->
+		
 	</inputs>
 </set>
