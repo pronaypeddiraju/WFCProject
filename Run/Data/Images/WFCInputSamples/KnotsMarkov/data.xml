@@ -1,0 +1,27 @@
+<set size="10">
+	
+	<tiles name="tiles">
+		<tile name="corner" symmetry="L"/>
+		<tile name="cross" symmetry="I"/>
+		<tile name="empty" symmetry="X"/>
+		<tile name="line" symmetry="I"/>
+		<tile name="t" symmetry="T"/>
+	</tiles>
+	
+	<inputs>
+		<input name="KnotsMarkovSmall1" />
+		<input name="KnotsMarkovSmall2" />
+		<input name="KnotsMarkovSmall3" />
+
+		<!--
+		<input name="KnotsMarkovMedium1" />
+		<input name="KnotsMarkovMedium2" />
+		<input name="KnotsMarkovMedium3" />
+
+		<input name="KnotsMarkovLarge1" />
+		<input name="KnotsMarkovLarge2" />
+		<input name="KnotsMarkovLarge3" />
+		-->
+	</inputs>
+
+</set>

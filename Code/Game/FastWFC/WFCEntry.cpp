@@ -232,6 +232,7 @@ void ReadMarkovInstance(tinyxml2::XMLElement* node, int problemIndex, const std:
 	g_LogSystem->Logf("WFC System", "\n\n Started WFC for Markov problem: %s Subset: %s", name.c_str(), subset.c_str());
 
 	float startTime = (float)GetCurrentTimeSeconds();
+	float endTime;
 
 	DebuggerPrintf("\n Start Time: %f", startTime);
 	g_LogSystem->Logf("WFC System", "\n Start Time: %f", startTime);
@@ -245,7 +246,7 @@ void ReadMarkovInstance(tinyxml2::XMLElement* node, int problemIndex, const std:
 
 	if (dataDocument.ErrorID() != tinyxml2::XML_SUCCESS)
 	{
-		std::string error = Stringf(">> Error loading Data document for Simple Tiled problem number: %d", problemIndex);
+		std::string error = Stringf(">> Error loading Data document for Markov Tiled problem number: %d", problemIndex);
 		ERROR_AND_DIE(error.c_str());
 		return;
 	}
@@ -254,7 +255,7 @@ void ReadMarkovInstance(tinyxml2::XMLElement* node, int problemIndex, const std:
 	XMLElement* root = dataDocument.RootElement();
 	uint size = ParseXmlAttribute(*root, "size", 0);
 
-	std::string assertString = Stringf("The size attriutes for the SimpleTiled Set was 0. Problem number: %d", problemIndex);
+	std::string assertString = Stringf("The size attriutes for the Markov Set was 0. Problem number: %d", problemIndex);
 	ASSERT_OR_DIE(size != 0U, assertString.c_str());
 
 	std::unordered_map<std::string, Tile<Color>> tilesMap = ReadTiles(root, currentDir + "/" + name, subset, size);
@@ -307,14 +308,24 @@ void ReadMarkovInstance(tinyxml2::XMLElement* node, int problemIndex, const std:
 			DebuggerPrintf("\n Finished solving Markov problem: %s subset: %s", name.c_str(), subset.c_str());
 			g_LogSystem->Logf("WFC System", "\n Finished solving Markov problem: %s subset: %s", name.c_str(), subset.c_str());
 
+			endTime = (float)GetCurrentTimeSeconds();
+			g_LogSystem->Logf("WFC System", "\n End Time: %f", endTime);
+
 			break;
 		}
 		else
 		{
 			DebuggerPrintf("\n Failed to solve Markov problem: %s subset: %s", name.c_str(), subset.c_str());
 			g_LogSystem->Logf("WFC System", "\n Failed to solve Markov problem: %s subset: %s", name.c_str(), subset.c_str());
+
+			endTime = (float)GetCurrentTimeSeconds();
+			g_LogSystem->Logf("WFC System", "\n End Time: %f", endTime);
 		}
 	}
+
+	float timeTaken = endTime - startTime;
+	DebuggerPrintf("\n Time take for Markov problem: %f", timeTaken);
+	g_LogSystem->Logf("WFC System", "\n Time take for Markov problem: %f", timeTaken);
 }
 
 
@@ -334,6 +345,7 @@ void ReadSimpleTiledInstance(tinyxml2::XMLElement* node, int problemIndex, const
 	g_LogSystem->Logf("WFC System", "\n\n Started WFC for Tiling problem: %s Subset: %s", name.c_str(), subset.c_str());
 
 	float startTime = (float)GetCurrentTimeSeconds();
+	float endTime;
 
 	DebuggerPrintf("\n Start Time: %f", startTime);
 	g_LogSystem->Logf("WFC System", "\n Start Time: %f", startTime);
@@ -356,7 +368,7 @@ void ReadSimpleTiledInstance(tinyxml2::XMLElement* node, int problemIndex, const
 	XMLElement* root = dataDocument.RootElement();
 	uint size = ParseXmlAttribute(*root, "size", 0);
 	
-	std::string assertString = Stringf("The size attriutes for the SimpleTiled Set was 0. Problem number: %d", problemIndex);
+	std::string assertString = Stringf("The size attributes for the SimpleTiled Set was 0. Problem number: %d", problemIndex);
 	ASSERT_OR_DIE(size != 0U, assertString.c_str());
 
 	std::unordered_map<std::string, Tile<Color>> tilesMap =	ReadTiles(root, currentDir + "/" + name, subset, size);
@@ -423,14 +435,24 @@ void ReadSimpleTiledInstance(tinyxml2::XMLElement* node, int problemIndex, const
 			DebuggerPrintf("\n Finished solving tiling problem: %s subset: %s", name.c_str(), subset.c_str());
 			g_LogSystem->Logf("WFC System", "\n Finished solving tiling problem: %s subset: %s", name.c_str(), subset.c_str());
 
+
+			endTime = (float)GetCurrentTimeSeconds();
+			g_LogSystem->Logf("WFC System", "\n End Time: %f", endTime);
 			break;
 		}
 		else
 		{
 			DebuggerPrintf("\n Failed to solve tiling problem: %s subset: %s", name.c_str(), subset.c_str());
 			g_LogSystem->Logf("WFC System", "\n Failed to solve tiling problem: %s subset: %s", name.c_str(), subset.c_str());
+
+			endTime = (float)GetCurrentTimeSeconds();
+			g_LogSystem->Logf("WFC System", "\n End Time: %f", endTime);
 		}
 	}
+
+	float timeTaken = endTime - startTime;
+	DebuggerPrintf("\n Time take for problem: %f", timeTaken);
+	g_LogSystem->Logf("WFC System", "\n Time take for Tiling problem: %f", timeTaken);
 }
 
 //------------------------------------------------------------------------------------------------------------------------------
@@ -455,6 +477,7 @@ void ReadOverlappingInstance(tinyxml2::XMLElement* node, int problemIndex)
 	g_LogSystem->Logf("WFC System", "\n\n Started WFC for Overlapping problem %s", name.c_str());
 
 	float startTime = (float)GetCurrentTimeSeconds();
+	float endTime;
 
 	DebuggerPrintf("\n Start Time: %f", startTime);
 	g_LogSystem->Logf("WFC System", "\n Start Time: %f", startTime);
@@ -507,24 +530,27 @@ void ReadOverlappingInstance(tinyxml2::XMLElement* node, int problemIndex)
 
 				WriteImageAsPNG(outFolderPath + name + "_" + std::to_string(i) + ".png", *success);
 				DebuggerPrintf("\n Finished solving problem %s", name.c_str());
-				g_LogSystem->Logf("WFC System", "\n Finished solving problem %s", name.c_str());
+				g_LogSystem->Logf("WFC System", "\n Finished solving Overlapping problem %s", name.c_str());
+
+				endTime = (float)GetCurrentTimeSeconds();
+				g_LogSystem->Logf("WFC System", "\n End Time: %f", endTime);
+
 				break;
 			}
 			else
 			{
 				DebuggerPrintf("\n Failed to solve problem %s", name.c_str());
-				g_LogSystem->Logf("WFC System", "\n Failed to solve problem %s", name.c_str());
+				g_LogSystem->Logf("WFC System", "\n Failed to solve Overlapping problem %s", name.c_str());
+
+				endTime = (float)GetCurrentTimeSeconds();
+				g_LogSystem->Logf("WFC System", "\n End Time: %f", endTime);
 			}
 		}
 	}
 
-	float endTime = (float)GetCurrentTimeSeconds();
-	DebuggerPrintf("\n End Time: %f", endTime);
-	g_LogSystem->Logf("WFC System", "\n End Time: %f", endTime);
-
 	float timeTaken = endTime - startTime;
 	DebuggerPrintf("\n Time take for problem: %f", timeTaken);
-	g_LogSystem->Logf("WFC System", "\n Time take for problem: %f", timeTaken);
+	g_LogSystem->Logf("WFC System", "\n Time take for Overlapping problem: %f", timeTaken);
 }
 
 //------------------------------------------------------------------------------------------------------------------------------

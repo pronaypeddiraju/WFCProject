@@ -1,0 +1,31 @@
+<set size="32">
+	<tiles>
+		<tile name="b_half" symmetry="T"/>
+		<tile name="b_i" symmetry="I"/>
+		<tile name="b_quarter" symmetry="L"/>
+		<tile name="w_half" symmetry="T"/>
+		<tile name="w_i" symmetry="I"/>
+		<tile name="w_quarter" symmetry="L"/>
+		<tile name="b" symmetry="X"/>
+		<tile name="w" symmetry="X"/>
+	</tiles>
+	
+	<inputs>
+		
+		<input name="CircleMarkovSmall1" />
+		<input name="CircleMarkovSmall2" />
+		<input name="CircleMarkovSmall3" />
+
+		<!--
+		<input name="CircleMarkovMedium1" />
+		<input name="CircleMarkovMedium2" />
+		<input name="CircleMarkovMedium3" />
+		-->
+
+		<!--
+		<input name="CircleMarkovLarge1" />
+		<input name="CircleMarkovLarge2" />
+		<input name="CircleMarkovLarge3" />
+		-->
+	</inputs>
+</set>

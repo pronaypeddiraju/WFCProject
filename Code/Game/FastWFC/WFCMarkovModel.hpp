@@ -324,6 +324,7 @@ private:
 		return neighborSet;
 	}
 
+	//------------------------------------------------------------------------------------------------------------------------------
 	//Generate mapping from id to oriented tiles and vice versa
 	static std::pair<std::vector<std::pair<uint, uint>>,
 		std::vector<std::vector<uint>>>
@@ -347,6 +348,7 @@ private:
 		return { id_to_oriented_tile, oriented_tile_ids };
 	}
 
+	//------------------------------------------------------------------------------------------------------------------------------
 	//Generate the propagator which will be used in the wfc algorithm
 	static std::vector<std::array<std::vector<uint>, 4>> GeneratePropagator(
 		const std::vector<std::tuple<uint, uint, uint, uint>>
@@ -411,6 +413,7 @@ private:
 		return propagator;
 	}
 
+	//------------------------------------------------------------------------------------------------------------------------------
 	//Get probability of presence of tiles
 	static std::vector<double>	GetTilesWeight(const std::vector<Tile<T>> &tiles)
 	{
@@ -426,6 +429,7 @@ private:
 		return frequencies;
 	}
 
+	//------------------------------------------------------------------------------------------------------------------------------
 	//Translate generic WFC result into image
 	Array2D<T> IDToTiling(Array2D<uint> ids)
 	{

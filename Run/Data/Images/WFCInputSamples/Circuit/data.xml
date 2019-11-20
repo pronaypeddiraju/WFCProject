@@ -178,5 +178,22 @@
 			<tile name="skew"/>
 			<tile name="dskew"/>
 		</subset>
+
+		<subset name="All">
+			<tile name="bridge"/>
+			<tile name="component"/>
+			<tile name="connection"/>
+			<tile name="corner"/>
+			<tile name="substrate"/>
+			<tile name="t"/>
+			<tile name="track"/>
+			<tile name="transition"/>
+			<tile name="turn"/>
+			<tile name="viad"/>
+			<tile name="vias"/>
+			<tile name="wire"/>
+			<tile name="skew"/>
+			<tile name="dskew"/>
+		</subset>
 	</subsets>
 </set>

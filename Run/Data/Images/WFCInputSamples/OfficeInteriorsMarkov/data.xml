@@ -1,0 +1,16 @@
+<set size="6">
+	
+	<tiles name="tiles">
+		<tile name="OfficeInteriorSection1" symmetry="L"/>
+		<tile name="OfficeInteriorSection2" symmetry="L"/>
+		<tile name="OfficeInteriorSection3" symmetry="L"/>
+		<tile name="OfficeInteriorSection4" symmetry="L"/>
+		<tile name="OfficeInteriorSection5" symmetry="L"/>
+		<tile name="OfficeInteriorSection6" symmetry="L"/>
+ 	</tiles>
+	
+	<inputs>
+		<input name="CastleMarkov2" />
+	</inputs>
+
+</set>

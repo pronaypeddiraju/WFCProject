@@ -118,6 +118,17 @@
 			<tile name="w_i" symmetry="I"/>
 			<tile name="w_quarter" symmetry="L"/>
 		</subset>
+
+		<subset name="All">
+			<tile name="b_half" symmetry="T"/>
+			<tile name="b_i" symmetry="I"/>
+			<tile name="b_quarter" symmetry="L"/>
+			<tile name="w_half" symmetry="T"/>
+			<tile name="w_i" symmetry="I"/>
+			<tile name="w_quarter" symmetry="L"/>
+			<tile name="b" symmetry="X"/>
+			<tile name="w" symmetry="X"/>
+		</subset>
 		
 	</subsets>
 </set>

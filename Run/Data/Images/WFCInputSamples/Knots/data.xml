@@ -88,6 +88,13 @@
 		<subset name="Dense Fabric">
 			<tile name="cross"/>
 		</subset>
+		<subset name="All">
+			<tile name="corner"/>
+			<tile name="cross"/>
+			<tile name="empty"/>
+			<tile name="line"/>
+			<tile name="t"/>
+		</subset>
 	</subsets>
 
 </set>

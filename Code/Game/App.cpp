@@ -60,6 +60,9 @@ void App::StartUp()
 {
 	LoadGameBlackBoard();
 
+	g_LogSystem = new LogSystem(LOG_PATH);
+	g_LogSystem->LogSystemInit();
+
 	g_eventSystem = new EventSystems();
 
 	//This is now being set in Main_Windows.cpp
@@ -115,6 +118,10 @@ void App::ShutDown()
 	g_RNG = nullptr;
 
 	m_game->Shutdown();
+
+	g_LogSystem->LogSystemShutDown();
+	delete g_LogSystem;
+	g_LogSystem = nullptr;
 }
 
 void App::RunFrame()

@@ -1,0 +1,14 @@
+<set size="3">
+	
+	<tiles name="tiles">
+		<tile name="mediumCorner" symmetry="L"/>
+		<tile name="straightPiece" symmetry="I"/>
+		<tile name="empty" symmetry="X"/>
+		<tile name="rampPiece" symmetry="I"/>
+ 	</tiles>
+	
+	<inputs>
+		<input name="CastleMarkov2" />
+	</inputs>
+
+</set>
