@@ -89,7 +89,7 @@
 
 	-->
 
-	<!-- Tiling Small Set 	
+	<!-- Tiling Small Set 	-->
 	<simpletiled name="Circles" subset="All" width="5" height="5"/>
 	<simpletiled name="Circles" subset="All" width="5" height="5"/>
 	<simpletiled name="Circles" subset="All" width="5" height="5"/>
@@ -113,7 +113,6 @@
 	<simpletiled name="Castle" width="5" height="5"/>
 	<simpletiled name="Castle" width="5" height="5"/>
 	<simpletiled name="Castle" width="5" height="5"/>
-	-->
 	
 	<!-- Tiling Medium Set 
 	<simpletiled name="Circles" subset="All" width="10" height="10"/>
@@ -141,7 +140,7 @@
 	<simpletiled name="Castle" width="10" height="10"/>	
 	-->
 
-	<!--	Tiling Large Set -->
+	<!--	Tiling Large Set 
 	<simpletiled name="Circles" subset="All" width="25" height="25"/>
 	<simpletiled name="Circles" subset="All" width="25" height="25"/>
 	<simpletiled name="Circles" subset="All" width="25" height="25"/>
@@ -165,6 +164,7 @@
 	<simpletiled name="Castle" width="25" height="25"/>
 	<simpletiled name="Castle" width="25" height="25"/>
 	<simpletiled name="Castle" width="25" height="25"/>
+	-->
 
 	<markov name="CirclesMarkov" width="5" height="5" />
 	<markov name="CirclesMarkov" width="10" height="10" />
