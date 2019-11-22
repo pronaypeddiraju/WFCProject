@@ -89,6 +89,31 @@
 
 	-->
 
+	<!-- Overlapping Small Set -->
+	<overlapping name="CirclesOverlappingSmall1" N="3" width="160‬‬" height="160‬"/>
+	<overlapping name="CirclesOverlappingSmall2" N="3" width="160‬" height="160‬"/>
+	<overlapping name="CirclesOverlappingSmall3" N="3" width="160‬" height="160‬"/>
+
+	<overlapping name="CircuitOverlappingSmall1" N="3" width="70" height="70"/>
+	<overlapping name="CircuitOverlappingSmall2" N="3" width="70" height="70"/>
+	<overlapping name="CircuitOverlappingSmall3" N="3" width="70" height="70"/>
+	
+	<overlapping name="KnotsOverlappingSmall1" N="3" width="50" height="50"/>
+	<overlapping name="KnotsOverlappingSmall2" N="3" width="50" height="50"/>
+	<overlapping name="KnotsOverlappingSmall3" N="3" width="50" height="50"/>
+
+	<overlapping name="RoomsOverlappingSmall1" N="3" width="15" height="15"/>
+	<overlapping name="RoomsOverlappingSmall2" N="3" width="15" height="15"/>
+	<overlapping name="RoomsOverlappingSmall3" N="3" width="15" height="15"/>
+
+	<overlapping name="SummerOverlappingSmall1" N="3" width="240" height="240"/>
+	<overlapping name="SummerOverlappingSmall2" N="3" width="240" height="240"/>
+	<overlapping name="SummerOverlappingSmall3" N="3" width="240" height="240"/>
+
+	<overlapping name="CastleOverlappingSmall1" N="3" width="35" height="35"/>
+	<overlapping name="CastleOverlappingSmall2" N="3" width="35" height="35"/>
+	<overlapping name="CastleOverlappingSmall3" N="3" width="35" height="35"/>
+
 	<!-- Tiling Small Set 	-->
 	<simpletiled name="Circles" subset="All" width="5" height="5"/>
 	<simpletiled name="Circles" subset="All" width="5" height="5"/>
@@ -114,6 +139,32 @@
 	<simpletiled name="Castle" width="5" height="5"/>
 	<simpletiled name="Castle" width="5" height="5"/>
 	
+	<!-- Overlapping Medium Set 
+	<overlapping name="CirclesOverlappingMedium1" N="3" width="320‬" height="320"/>
+	<overlapping name="CirclesOverlappingMedium2" N="3" width="320‬" height="320"/>
+	<overlapping name="CirclesOverlappingMedium3" N="3" width="320‬" height="320"/>
+
+	<overlapping name="CircuitOverlappingMedium1" N="3" width="140" height="140"/>
+	<overlapping name="CircuitOverlappingMedium2" N="3" width="140" height="140"/>
+	<overlapping name="CircuitOverlappingMedium3" N="3" width="140" height="140"/>
+	
+	<overlapping name="KnotsOverlappingMedium1" N="3" width="100" height="100"/>
+	<overlapping name="KnotsOverlappingMedium2" N="3" width="100" height="100"/>
+	<overlapping name="KnotsOverlappingMedium3" N="3" width="100" height="100"/>
+
+	<overlapping name="RoomsOverlappingMedium1" N="3" width="30" height="30"/>
+	<overlapping name="RoomsOverlappingMedium2" N="3" width="30" height="30"/>
+	<overlapping name="RoomsOverlappingMedium3" N="3" width="30" height="30"/>
+
+	<overlapping name="SummerOverlappingMedium1" N="3" width="480" height="480"/>
+	<overlapping name="SummerOverlappingMedium2" N="3" width="480" height="480"/>
+	<overlapping name="SummerOverlappingMedium3" N="3" width="480" height="480"/>
+
+	<overlapping name="CastleOverlappingMedium1" N="3" width="70" height="70"/>
+	<overlapping name="CastleOverlappingMedium2" N="3" width="70" height="70"/>
+	<overlapping name="CastleOverlappingMedium3" N="3" width="70" height="70"/>
+	-->
+
 	<!-- Tiling Medium Set 
 	<simpletiled name="Circles" subset="All" width="10" height="10"/>
 	<simpletiled name="Circles" subset="All" width="10" height="10"/>
@@ -138,6 +189,32 @@
 	<simpletiled name="Castle" width="10" height="10"/>
 	<simpletiled name="Castle" width="10" height="10"/>
 	<simpletiled name="Castle" width="10" height="10"/>	
+	-->
+
+	<!-- Overlapping Large Set 
+	<overlapping name="CirclesOverlappingLarge1" N="3" width="800" height="800"/>
+	<overlapping name="CirclesOverlappingLarge2" N="3" width="800" height="800"/>
+	<overlapping name="CirclesOverlappingLarge3" N="3" width="800" height="800"/>
+
+	<overlapping name="CircuitOverlappingLarge1" N="3" width="350" height="350"/>
+	<overlapping name="CircuitOverlappingLarge2" N="3" width="350" height="350"/>
+	<overlapping name="CircuitOverlappingLarge3" N="3" width="350" height="350"/>
+	
+	<overlapping name="KnotsOverlappingLarge1" N="3" width="250" height="250"/>
+	<overlapping name="KnotsOverlappingLarge2" N="3" width="250" height="250"/>
+	<overlapping name="KnotsOverlappingLarge3" N="3" width="250" height="250"/>
+
+	<overlapping name="RoomsOverlappingLarge1" N="3" width="75" height="75"/>
+	<overlapping name="RoomsOverlappingLarge2" N="3" width="75" height="75"/>
+	<overlapping name="RoomsOverlappingLarge3" N="3" width="75" height="75"/>
+
+	<overlapping name="SummerOverlappingLarge1" N="3" width="1,200‬" height="1,200‬"/>
+	<overlapping name="SummerOverlappingLarge2" N="3" width="1,200‬" height="1,200‬"/>
+	<overlapping name="SummerOverlappingLarge3" N="3" width="1,200‬" height="1,200‬"/>
+
+	<overlapping name="CastleOverlappingLarge1" N="3" width="175" height="175"/>
+	<overlapping name="CastleOverlappingLarge2" N="3" width="175" height="175"/>
+	<overlapping name="CastleOverlappingLarge3" N="3" width="175" height="175"/>
 	-->
 
 	<!--	Tiling Large Set 
@@ -167,27 +244,75 @@
 	-->
 
 	<markov name="CirclesMarkov" width="5" height="5" />
+	<markov name="CirclesMarkov" width="5" height="5" />
+	<markov name="CirclesMarkov" width="5" height="5" />
+
 	<markov name="CirclesMarkov" width="10" height="10" />
+	<markov name="CirclesMarkov" width="10" height="10" />
+	<markov name="CirclesMarkov" width="10" height="10" />
+
+	<markov name="CirclesMarkov" width="25" height="25" />
+	<markov name="CirclesMarkov" width="25" height="25" />
 	<markov name="CirclesMarkov" width="25" height="25" />
 	
 	<markov name="CircuitMarkov" width="5" height="5" />
+	<markov name="CircuitMarkov" width="5" height="5" />
+	<markov name="CircuitMarkov" width="5" height="5" />
+
 	<markov name="CircuitMarkov" width="10" height="10" />
+	<markov name="CircuitMarkov" width="10" height="10" />
+	<markov name="CircuitMarkov" width="10" height="10" />
+
+	<markov name="CircuitMarkov" width="25" height="25" />
+	<markov name="CircuitMarkov" width="25" height="25" />
 	<markov name="CircuitMarkov" width="25" height="25" />
 
 	<markov name="KnotsMarkov" width="5" height="5" />
+	<markov name="KnotsMarkov" width="5" height="5" />
+	<markov name="KnotsMarkov" width="5" height="5" />
+
 	<markov name="KnotsMarkov" width="10" height="10" />
+	<markov name="KnotsMarkov" width="10" height="10" />
+	<markov name="KnotsMarkov" width="10" height="10" />
+
+	<markov name="KnotsMarkov" width="25" height="25" />
+	<markov name="KnotsMarkov" width="25" height="25" />
 	<markov name="KnotsMarkov" width="25" height="25" />
 
 	<markov name="RoomsMarkov" width="5" height="5" />
+	<markov name="RoomsMarkov" width="5" height="5" />
+	<markov name="RoomsMarkov" width="5" height="5" />
+
 	<markov name="RoomsMarkov" width="10" height="10" />
+	<markov name="RoomsMarkov" width="10" height="10" />
+	<markov name="RoomsMarkov" width="10" height="10" />
+
+	<markov name="RoomsMarkov" width="25" height="25" />
+	<markov name="RoomsMarkov" width="25" height="25" />
 	<markov name="RoomsMarkov" width="25" height="25" />
 
 	<markov name="SummerMarkov" width="5" height="5" />
+	<markov name="SummerMarkov" width="5" height="5" />
+	<markov name="SummerMarkov" width="5" height="5" />
+
 	<markov name="SummerMarkov" width="10" height="10" />
+	<markov name="SummerMarkov" width="10" height="10" />
+	<markov name="SummerMarkov" width="10" height="10" />
+
+	<markov name="SummerMarkov" width="25" height="25" />
+	<markov name="SummerMarkov" width="25" height="25" />
 	<markov name="SummerMarkov" width="25" height="25" />
 
 	<markov name="CastleMarkov" width="5" height="5" />
+	<markov name="CastleMarkov" width="5" height="5" />
+	<markov name="CastleMarkov" width="5" height="5" />
+
 	<markov name="CastleMarkov" width="10" height="10" />
+	<markov name="CastleMarkov" width="10" height="10" />
+	<markov name="CastleMarkov" width="10" height="10" />
+
+	<markov name="CastleMarkov" width="25" height="25" />
+	<markov name="CastleMarkov" width="25" height="25" />
 	<markov name="CastleMarkov" width="25" height="25" />
 
 </samples>
