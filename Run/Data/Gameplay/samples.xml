@@ -90,6 +90,7 @@
 	-->
 
 	<!-- Overlapping Small Set -->
+	<!--
 	<overlapping name="CirclesOverlappingSmall1" N="3" width="160‬‬" height="160‬"/>
 	<overlapping name="CirclesOverlappingSmall2" N="3" width="160‬" height="160‬"/>
 	<overlapping name="CirclesOverlappingSmall3" N="3" width="160‬" height="160‬"/>
@@ -106,13 +107,16 @@
 	<overlapping name="RoomsOverlappingSmall2" N="3" width="15" height="15"/>
 	<overlapping name="RoomsOverlappingSmall3" N="3" width="15" height="15"/>
 
-	<overlapping name="SummerOverlappingSmall1" N="3" width="240" height="240"/>
 	<overlapping name="SummerOverlappingSmall2" N="3" width="240" height="240"/>
 	<overlapping name="SummerOverlappingSmall3" N="3" width="240" height="240"/>
 
 	<overlapping name="CastleOverlappingSmall1" N="3" width="35" height="35"/>
 	<overlapping name="CastleOverlappingSmall2" N="3" width="35" height="35"/>
 	<overlapping name="CastleOverlappingSmall3" N="3" width="35" height="35"/>
+-->
+
+	<overlapping name="SummerOverlappingSmall1" N="3" width="120" height="120"/>
+	
 
 	<!-- Tiling Small Set 	-->
 	<simpletiled name="Circles" subset="All" width="5" height="5"/>

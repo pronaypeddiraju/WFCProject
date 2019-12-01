@@ -1,0 +1,386 @@
+Log Initialized
+
+ Log Entry: 
+	 Time: 233026.708373Filter: WFC System
+	 Message: 
+
+ Started WFC for Overlapping problem CirclesOverlappingSmall1
+
+ Log Entry: 
+	 Time: 233026.708497Filter: WFC System
+	 Message: 
+ Start Time: 0.861395
+
+ Log Entry: 
+	 Time: 233150.375422Filter: WFC System
+	 Message: 
+ Finished solving Overlapping problem CirclesOverlappingSmall1
+
+ Log Entry: 
+	 Time: 233150.375437Filter: WFC System
+	 Message: 
+ End Time: 124.528442
+
+ Log Entry: 
+	 Time: 233263.799629Filter: WFC System
+	 Message: 
+ Failed to solve Overlapping problem CirclesOverlappingSmall1
+
+ Log Entry: 
+	 Time: 233263.799651Filter: WFC System
+	 Message: 
+ End Time: 237.952652
+
+ Log Entry: 
+	 Time: 233401.303389Filter: WFC System
+	 Message: 
+ Finished solving Overlapping problem CirclesOverlappingSmall1
+
+ Log Entry: 
+	 Time: 233401.303434Filter: WFC System
+	 Message: 
+ End Time: 375.456451
+
+ Log Entry: 
+	 Time: 233401.585738Filter: WFC System
+	 Message: 
+ Time take for Overlapping problem: 374.595062
+
+ Log Entry: 
+	 Time: 233401.585897Filter: WFC System
+	 Message: 
+
+ Started WFC for Overlapping problem CirclesOverlappingSmall2
+
+ Log Entry: 
+	 Time: 233401.586035Filter: WFC System
+	 Message: 
+ Start Time: 375.738922
+
+ Log Entry: 
+	 Time: 233504.722501Filter: WFC System
+	 Message: 
+ Failed to solve Overlapping problem CirclesOverlappingSmall2
+
+ Log Entry: 
+	 Time: 233504.722523Filter: WFC System
+	 Message: 
+ End Time: 478.875519
+
+ Log Entry: 
+	 Time: 233618.981031Filter: WFC System
+	 Message: 
+ Finished solving Overlapping problem CirclesOverlappingSmall2
+
+ Log Entry: 
+	 Time: 233618.981056Filter: WFC System
+	 Message: 
+ End Time: 593.134033
+
+ Log Entry: 
+	 Time: 233740.727022Filter: WFC System
+	 Message: 
+ Finished solving Overlapping problem CirclesOverlappingSmall2
+
+ Log Entry: 
+	 Time: 233740.727059Filter: WFC System
+	 Message: 
+ End Time: 714.880066
+
+ Log Entry: 
+	 Time: 233740.996944Filter: WFC System
+	 Message: 
+ Time take for Overlapping problem: 339.141144
+
+ Log Entry: 
+	 Time: 233740.997007Filter: WFC System
+	 Message: 
+
+ Started WFC for Overlapping problem CirclesOverlappingSmall3
+
+ Log Entry: 
+	 Time: 233740.997055Filter: WFC System
+	 Message: 
+ Start Time: 715.150024
+
+ Log Entry: 
+	 Time: 233856.565653Filter: WFC System
+	 Message: 
+ Failed to solve Overlapping problem CirclesOverlappingSmall3
+
+ Log Entry: 
+	 Time: 233856.565727Filter: WFC System
+	 Message: 
+ End Time: 830.718750
+
+ Log Entry: 
+	 Time: 233973.287045Filter: WFC System
+	 Message: 
+ Failed to solve Overlapping problem CirclesOverlappingSmall3
+
+ Log Entry: 
+	 Time: 233973.287108Filter: WFC System
+	 Message: 
+ End Time: 947.440063
+
+ Log Entry: 
+	 Time: 234088.750511Filter: WFC System
+	 Message: 
+ Finished solving Overlapping problem CirclesOverlappingSmall3
+
+ Log Entry: 
+	 Time: 234088.750523Filter: WFC System
+	 Message: 
+ End Time: 1062.903564
+
+ Log Entry: 
+	 Time: 234191.812610Filter: WFC System
+	 Message: 
+ Failed to solve Overlapping problem CirclesOverlappingSmall3
+
+ Log Entry: 
+	 Time: 234191.812623Filter: WFC System
+	 Message: 
+ End Time: 1165.965576
+
+ Log Entry: 
+	 Time: 234309.438270Filter: WFC System
+	 Message: 
+ Finished solving Overlapping problem CirclesOverlappingSmall3
+
+ Log Entry: 
+	 Time: 234309.438316Filter: WFC System
+	 Message: 
+ End Time: 1283.591309
+
+ Log Entry: 
+	 Time: 234309.723265Filter: WFC System
+	 Message: 
+ Time take for Overlapping problem: 568.441284
+
+ Log Entry: 
+	 Time: 234309.723340Filter: WFC System
+	 Message: 
+
+ Started WFC for Overlapping problem CircuitOverlappingSmall1
+
+ Log Entry: 
+	 Time: 234309.723390Filter: WFC System
+	 Message: 
+ Start Time: 1283.876343
+
+ Log Entry: 
+	 Time: 234310.594359Filter: WFC System
+	 Message: 
+ Finished solving Overlapping problem CircuitOverlappingSmall1
+
+ Log Entry: 
+	 Time: 234310.594374Filter: WFC System
+	 Message: 
+ End Time: 1284.747437
+
+ Log Entry: 
+	 Time: 234311.468327Filter: WFC System
+	 Message: 
+ Finished solving Overlapping problem CircuitOverlappingSmall1
+
+ Log Entry: 
+	 Time: 234311.468351Filter: WFC System
+	 Message: 
+ End Time: 1285.621338
+
+ Log Entry: 
+	 Time: 234311.471696Filter: WFC System
+	 Message: 
+ Time take for Overlapping problem: 1.744995
+
+ Log Entry: 
+	 Time: 234311.471765Filter: WFC System
+	 Message: 
+
+ Started WFC for Overlapping problem CircuitOverlappingSmall2
+
+ Log Entry: 
+	 Time: 234311.471882Filter: WFC System
+	 Message: 
+ Start Time: 1285.624756
+
+ Log Entry: 
+	 Time: 234312.296807Filter: WFC System
+	 Message: 
+ Finished solving Overlapping problem CircuitOverlappingSmall2
+
+ Log Entry: 
+	 Time: 234312.296822Filter: WFC System
+	 Message: 
+ End Time: 1286.449829
+
+ Log Entry: 
+	 Time: 234313.119990Filter: WFC System
+	 Message: 
+ Finished solving Overlapping problem CircuitOverlappingSmall2
+
+ Log Entry: 
+	 Time: 234313.120011Filter: WFC System
+	 Message: 
+ End Time: 1287.273071
+
+ Log Entry: 
+	 Time: 234313.124050Filter: WFC System
+	 Message: 
+ Time take for Overlapping problem: 1.648315
+
+ Log Entry: 
+	 Time: 234313.124152Filter: WFC System
+	 Message: 
+
+ Started WFC for Overlapping problem CircuitOverlappingSmall3
+
+ Log Entry: 
+	 Time: 234313.124241Filter: WFC System
+	 Message: 
+ Start Time: 1287.277222
+
+ Log Entry: 
+	 Time: 234314.072126Filter: WFC System
+	 Message: 
+ Finished solving Overlapping problem CircuitOverlappingSmall3
+
+ Log Entry: 
+	 Time: 234314.072142Filter: WFC System
+	 Message: 
+ End Time: 1288.225098
+
+ Log Entry: 
+	 Time: 234314.973077Filter: WFC System
+	 Message: 
+ Finished solving Overlapping problem CircuitOverlappingSmall3
+
+ Log Entry: 
+	 Time: 234314.973094Filter: WFC System
+	 Message: 
+ End Time: 1289.126099
+
+ Log Entry: 
+	 Time: 234314.977426Filter: WFC System
+	 Message: 
+ Time take for Overlapping problem: 1.848877
+
+ Log Entry: 
+	 Time: 234314.977540Filter: WFC System
+	 Message: 
+
+ Started WFC for Overlapping problem KnotsOverlappingSmall1
+
+ Log Entry: 
+	 Time: 234314.977598Filter: WFC System
+	 Message: 
+ Start Time: 1289.130615
+
+ Log Entry: 
+	 Time: 234315.298246Filter: WFC System
+	 Message: 
+ Finished solving Overlapping problem KnotsOverlappingSmall1
+
+ Log Entry: 
+	 Time: 234315.298265Filter: WFC System
+	 Message: 
+ End Time: 1289.451294
+
+ Log Entry: 
+	 Time: 234315.494285Filter: WFC System
+	 Message: 
+ Finished solving Overlapping problem KnotsOverlappingSmall1
+
+ Log Entry: 
+	 Time: 234315.494301Filter: WFC System
+	 Message: 
+ End Time: 1289.647339
+
+ Log Entry: 
+	 Time: 234315.495156Filter: WFC System
+	 Message: 
+ Time take for Overlapping problem: 0.516724
+
+ Log Entry: 
+	 Time: 234315.495251Filter: WFC System
+	 Message: 
+
+ Started WFC for Overlapping problem KnotsOverlappingSmall2
+
+ Log Entry: 
+	 Time: 234315.495336Filter: WFC System
+	 Message: 
+ Start Time: 1289.648315
+
+ Log Entry: 
+	 Time: 234315.707282Filter: WFC System
+	 Message: 
+ Finished solving Overlapping problem KnotsOverlappingSmall2
+
+ Log Entry: 
+	 Time: 234315.707296Filter: WFC System
+	 Message: 
+ End Time: 1289.860352
+
+ Log Entry: 
+	 Time: 234315.920158Filter: WFC System
+	 Message: 
+ Finished solving Overlapping problem KnotsOverlappingSmall2
+
+ Log Entry: 
+	 Time: 234315.920174Filter: WFC System
+	 Message: 
+ End Time: 1290.073120
+
+ Log Entry: 
+	 Time: 234315.921027Filter: WFC System
+	 Message: 
+ Time take for Overlapping problem: 0.424805
+
+ Log Entry: 
+	 Time: 234315.921093Filter: WFC System
+	 Message: 
+
+ Started WFC for Overlapping problem KnotsOverlappingSmall3
+
+ Log Entry: 
+	 Time: 234315.921202Filter: WFC System
+	 Message: 
+ Start Time: 1290.074097
+
+ Log Entry: 
+	 Time: 234316.199119Filter: WFC System
+	 Message: 
+ Finished solving Overlapping problem KnotsOverlappingSmall3
+
+ Log Entry: 
+	 Time: 234316.199132Filter: WFC System
+	 Message: 
+ End Time: 1290.352173
+
+ Log Entry: 
+	 Time: 234316.508195Filter: WFC System
+	 Message: 
+ Finished solving Overlapping problem KnotsOverlappingSmall3
+
+ Log Entry: 
+	 Time: 234316.508211Filter: WFC System
+	 Message: 
+ End Time: 1290.661255
+
+ Log Entry: 
+	 Time: 234316.509290Filter: WFC System
+	 Message: 
+ Time take for Overlapping problem: 0.587158
+
+ Log Entry: 
+	 Time: 234316.509349Filter: WFC System
+	 Message: 
+
+ Started WFC for Overlapping problem RoomsOverlappingSmall1
+
+ Log Entry: 
+	 Time: 234316.509442Filter: WFC System
+	 Message: 
+ Start Time: 1290.66
