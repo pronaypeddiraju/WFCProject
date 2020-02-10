@@ -1,0 +1,3129 @@
+Log Initialized
+
+ Log Entry: 
+	 Time: 326054.403999Filter: WFC System
+	 Message: 
+
+ Started WFC for Overlapping problem CastleOverlappingSmall1
+
+ Log Entry: 
+	 Time: 326054.404104Filter: WFC System
+	 Message: 
+ Start Time: 0.913261
+
+ Log Entry: 
+	 Time: 326055.490776Filter: WFC System
+	 Message: 
+ Finished solving Overlapping problem CastleOverlappingSmall1
+
+ Log Entry: 
+	 Time: 326055.490792Filter: WFC System
+	 Message: 
+ End Time: 2.000020
+
+ Log Entry: 
+	 Time: 326056.265925Filter: WFC System
+	 Message: 
+ Finished solving Overlapping problem CastleOverlappingSmall1
+
+ Log Entry: 
+	 Time: 326056.265938Filter: WFC System
+	 Message: 
+ End Time: 2.775167
+
+ Log Entry: 
+	 Time: 326056.266955Filter: WFC System
+	 Message: 
+ Time take for Overlapping problem: 1.861906
+
+ Log Entry: 
+	 Time: 326056.267072Filter: WFC System
+	 Message: 
+
+ Started WFC for Tiling problem: Circles Subset: All
+
+ Log Entry: 
+	 Time: 326056.267122Filter: WFC System
+	 Message: 
+ Start Time: 2.776311
+
+ Log Entry: 
+	 Time: 326056.297750Filter: WFC System
+	 Message: 
+ Finished solving tiling problem: Circles subset: All
+
+ Log Entry: 
+	 Time: 326056.297766Filter: WFC System
+	 Message: 
+ End Time: 2.806995
+
+ Log Entry: 
+	 Time: 326056.297960Filter: WFC System
+	 Message: 
+ Time take for Tiling problem: 0.030684
+
+ Log Entry: 
+	 Time: 326056.298192Filter: WFC System
+	 Message: 
+
+ Started WFC for Tiling problem: Circles Subset: All
+
+ Log Entry: 
+	 Time: 326056.298291Filter: WFC System
+	 Message: 
+ Start Time: 2.807434
+
+ Log Entry: 
+	 Time: 326056.303467Filter: WFC System
+	 Message: 
+ Finished solving tiling problem: Circles subset: All
+
+ Log Entry: 
+	 Time: 326056.303482Filter: WFC System
+	 Message: 
+ End Time: 2.812711
+
+ Log Entry: 
+	 Time: 326056.303636Filter: WFC System
+	 Message: 
+ Time take for Tiling problem: 0.005277
+
+ Log Entry: 
+	 Time: 326056.303768Filter: WFC System
+	 Message: 
+
+ Started WFC for Tiling problem: Circles Subset: All
+
+ Log Entry: 
+	 Time: 326056.303827Filter: WFC System
+	 Message: 
+ Start Time: 2.813010
+
+ Log Entry: 
+	 Time: 326056.309036Filter: WFC System
+	 Message: 
+ Finished solving tiling problem: Circles subset: All
+
+ Log Entry: 
+	 Time: 326056.309052Filter: WFC System
+	 Message: 
+ End Time: 2.818281
+
+ Log Entry: 
+	 Time: 326056.309272Filter: WFC System
+	 Message: 
+ Time take for Tiling problem: 0.005271
+
+ Log Entry: 
+	 Time: 326056.309473Filter: WFC System
+	 Message: 
+
+ Started WFC for Tiling problem: Circuit Subset: All
+
+ Log Entry: 
+	 Time: 326056.310283Filter: WFC System
+	 Message: 
+ Start Time: 2.818714
+
+ Log Entry: 
+	 Time: 326056.326476Filter: WFC System
+	 Message: 
+ Finished solving tiling problem: Circuit subset: All
+
+ Log Entry: 
+	 Time: 326056.326492Filter: WFC System
+	 Message: 
+ End Time: 2.835720
+
+ Log Entry: 
+	 Time: 326056.326573Filter: WFC System
+	 Message: 
+ Time take for Tiling problem: 0.017006
+
+ Log Entry: 
+	 Time: 326056.326782Filter: WFC System
+	 Message: 
+
+ Started WFC for Tiling problem: Circuit Subset: All
+
+ Log Entry: 
+	 Time: 326056.326841Filter: WFC System
+	 Message: 
+ Start Time: 2.836021
+
+ Log Entry: 
+	 Time: 326056.331059Filter: WFC System
+	 Message: 
+ Finished solving tiling problem: Circuit subset: All
+
+ Log Entry: 
+	 Time: 326056.331073Filter: WFC System
+	 Message: 
+ End Time: 2.840302
+
+ Log Entry: 
+	 Time: 326056.331153Filter: WFC System
+	 Message: 
+ Time take for Tiling problem: 0.004280
+
+ Log Entry: 
+	 Time: 326056.331295Filter: WFC System
+	 Message: 
+
+ Started WFC for Tiling problem: Circuit Subset: All
+
+ Log Entry: 
+	 Time: 326056.331349Filter: WFC System
+	 Message: 
+ Start Time: 2.840533
+
+ Log Entry: 
+	 Time: 326056.335071Filter: WFC System
+	 Message: 
+ Finished solving tiling problem: Circuit subset: All
+
+ Log Entry: 
+	 Time: 326056.335086Filter: WFC System
+	 Message: 
+ End Time: 2.844315
+
+ Log Entry: 
+	 Time: 326056.335167Filter: WFC System
+	 Message: 
+ Time take for Tiling problem: 0.003782
+
+ Log Entry: 
+	 Time: 326056.335370Filter: WFC System
+	 Message: 
+
+ Started WFC for Tiling problem: Knots Subset: All
+
+ Log Entry: 
+	 Time: 326056.335412Filter: WFC System
+	 Message: 
+ Start Time: 2.844609
+
+ Log Entry: 
+	 Time: 326056.341919Filter: WFC System
+	 Message: 
+ Finished solving tiling problem: Knots subset: All
+
+ Log Entry: 
+	 Time: 326056.341932Filter: WFC System
+	 Message: 
+ End Time: 2.851161
+
+ Log Entry: 
+	 Time: 326056.342013Filter: WFC System
+	 Message: 
+ Time take for Tiling problem: 0.006552
+
+ Log Entry: 
+	 Time: 326056.342124Filter: WFC System
+	 Message: 
+
+ Started WFC for Tiling problem: Knots Subset: All
+
+ Log Entry: 
+	 Time: 326056.342189Filter: WFC System
+	 Message: 
+ Start Time: 2.851367
+
+ Log Entry: 
+	 Time: 326056.344985Filter: WFC System
+	 Message: 
+ Finished solving tiling problem: Knots subset: All
+
+ Log Entry: 
+	 Time: 326056.344999Filter: WFC System
+	 Message: 
+ End Time: 2.854227
+
+ Log Entry: 
+	 Time: 326056.345066Filter: WFC System
+	 Message: 
+ Time take for Tiling problem: 0.002860
+
+ Log Entry: 
+	 Time: 326056.345177Filter: WFC System
+	 Message: 
+
+ Started WFC for Tiling problem: Knots Subset: All
+
+ Log Entry: 
+	 Time: 326056.345228Filter: WFC System
+	 Message: 
+ Start Time: 2.854416
+
+ Log Entry: 
+	 Time: 326056.347350Filter: WFC System
+	 Message: 
+ Finished solving tiling problem: Knots subset: All
+
+ Log Entry: 
+	 Time: 326056.347366Filter: WFC System
+	 Message: 
+ End Time: 2.856594
+
+ Log Entry: 
+	 Time: 326056.347423Filter: WFC System
+	 Message: 
+ Time take for Tiling problem: 0.002178
+
+ Log Entry: 
+	 Time: 326056.347538Filter: WFC System
+	 Message: 
+
+ Started WFC for Tiling problem: Rooms Subset: tiles
+
+ Log Entry: 
+	 Time: 326056.347583Filter: WFC System
+	 Message: 
+ Start Time: 2.856776
+
+ Log Entry: 
+	 Time: 326056.358015Filter: WFC System
+	 Message: 
+ Finished solving tiling problem: Rooms subset: tiles
+
+ Log Entry: 
+	 Time: 326056.358029Filter: WFC System
+	 Message: 
+ End Time: 2.867258
+
+ Log Entry: 
+	 Time: 326056.358110Filter: WFC System
+	 Message: 
+ Time take for Tiling problem: 0.010482
+
+ Log Entry: 
+	 Time: 326056.358273Filter: WFC System
+	 Message: 
+
+ Started WFC for Tiling problem: Rooms Subset: tiles
+
+ Log Entry: 
+	 Time: 326056.358331Filter: WFC System
+	 Message: 
+ Start Time: 2.867512
+
+ Log Entry: 
+	 Time: 326056.361276Filter: WFC System
+	 Message: 
+ Finished solving tiling problem: Rooms subset: tiles
+
+ Log Entry: 
+	 Time: 326056.361291Filter: WFC System
+	 Message: 
+ End Time: 2.870520
+
+ Log Entry: 
+	 Time: 326056.361367Filter: WFC System
+	 Message: 
+ Time take for Tiling problem: 0.003008
+
+ Log Entry: 
+	 Time: 326056.361465Filter: WFC System
+	 Message: 
+
+ Started WFC for Tiling problem: Rooms Subset: tiles
+
+ Log Entry: 
+	 Time: 326056.361512Filter: WFC System
+	 Message: 
+ Start Time: 2.870703
+
+ Log Entry: 
+	 Time: 326056.364331Filter: WFC System
+	 Message: 
+ Finished solving tiling problem: Rooms subset: tiles
+
+ Log Entry: 
+	 Time: 326056.364343Filter: WFC System
+	 Message: 
+ End Time: 2.873572
+
+ Log Entry: 
+	 Time: 326056.364406Filter: WFC System
+	 Message: 
+ Time take for Tiling problem: 0.002869
+
+ Log Entry: 
+	 Time: 326056.364485Filter: WFC System
+	 Message: 
+
+ Started WFC for Tiling problem: Summer Subset: tiles
+
+ Log Entry: 
+	 Time: 326056.364526Filter: WFC System
+	 Message: 
+ Start Time: 2.873722
+
+ Log Entry: 
+	 Time: 326056.739158Filter: WFC System
+	 Message: 
+ Finished solving tiling problem: Summer subset: tiles
+
+ Log Entry: 
+	 Time: 326056.739172Filter: WFC System
+	 Message: 
+ End Time: 3.248401
+
+ Log Entry: 
+	 Time: 326056.739375Filter: WFC System
+	 Message: 
+ Time take for Tiling problem: 0.374678
+
+ Log Entry: 
+	 Time: 326056.739709Filter: WFC System
+	 Message: 
+
+ Started WFC for Tiling problem: Summer Subset: tiles
+
+ Log Entry: 
+	 Time: 326056.739789Filter: WFC System
+	 Message: 
+ Start Time: 3.248949
+
+ Log Entry: 
+	 Time: 326056.760664Filter: WFC System
+	 Message: 
+ Finished solving tiling problem: Summer subset: tiles
+
+ Log Entry: 
+	 Time: 326056.760679Filter: WFC System
+	 Message: 
+ End Time: 3.269908
+
+ Log Entry: 
+	 Time: 326056.760880Filter: WFC System
+	 Message: 
+ Time take for Tiling problem: 0.020959
+
+ Log Entry: 
+	 Time: 326056.761196Filter: WFC System
+	 Message: 
+
+ Started WFC for Tiling problem: Summer Subset: tiles
+
+ Log Entry: 
+	 Time: 326056.761276Filter: WFC System
+	 Message: 
+ Start Time: 3.270435
+
+ Log Entry: 
+	 Time: 326056.785135Filter: WFC System
+	 Message: 
+ Finished solving tiling problem: Summer subset: tiles
+
+ Log Entry: 
+	 Time: 326056.785150Filter: WFC System
+	 Message: 
+ End Time: 3.294379
+
+ Log Entry: 
+	 Time: 326056.785311Filter: WFC System
+	 Message: 
+ Time take for Tiling problem: 0.023945
+
+ Log Entry: 
+	 Time: 326056.785605Filter: WFC System
+	 Message: 
+
+ Started WFC for Tiling problem: Castle Subset: tiles
+
+ Log Entry: 
+	 Time: 326056.785769Filter: WFC System
+	 Message: 
+ Start Time: 3.294857
+
+ Log Entry: 
+	 Time: 326056.799848Filter: WFC System
+	 Message: 
+ Finished solving tiling problem: Castle subset: tiles
+
+ Log Entry: 
+	 Time: 326056.799864Filter: WFC System
+	 Message: 
+ End Time: 3.309093
+
+ Log Entry: 
+	 Time: 326056.799938Filter: WFC System
+	 Message: 
+ Time take for Tiling problem: 0.014236
+
+ Log Entry: 
+	 Time: 326056.800058Filter: WFC System
+	 Message: 
+
+ Started WFC for Tiling problem: Castle Subset: tiles
+
+ Log Entry: 
+	 Time: 326056.800135Filter: WFC System
+	 Message: 
+ Start Time: 3.309297
+
+ Log Entry: 
+	 Time: 326056.803056Filter: WFC System
+	 Message: 
+ Finished solving tiling problem: Castle subset: tiles
+
+ Log Entry: 
+	 Time: 326056.803072Filter: WFC System
+	 Message: 
+ End Time: 3.312300
+
+ Log Entry: 
+	 Time: 326056.803151Filter: WFC System
+	 Message: 
+ Time take for Tiling problem: 0.003003
+
+ Log Entry: 
+	 Time: 326056.803325Filter: WFC System
+	 Message: 
+
+ Started WFC for Tiling problem: Castle Subset: tiles
+
+ Log Entry: 
+	 Time: 326056.803371Filter: WFC System
+	 Message: 
+ Start Time: 3.312563
+
+ Log Entry: 
+	 Time: 326056.806433Filter: WFC System
+	 Message: 
+ Finished solving tiling problem: Castle subset: tiles
+
+ Log Entry: 
+	 Time: 326056.806447Filter: WFC System
+	 Message: 
+ End Time: 3.315676
+
+ Log Entry: 
+	 Time: 326056.806521Filter: WFC System
+	 Message: 
+ Time take for Tiling problem: 0.003113
+
+ Log Entry: 
+	 Time: 326056.806640Filter: WFC System
+	 Message: 
+
+ Started WFC for Markov problem: CirclesMarkov Subset: tiles
+
+ Log Entry: 
+	 Time: 326056.806703Filter: WFC System
+	 Message: 
+ Start Time: 3.315882
+
+ Log Entry: 
+	 Time: 326056.956708Filter: WFC System
+	 Message: 
+ Finished solving Markov problem: CirclesMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 326056.956724Filter: WFC System
+	 Message: 
+ End Time: 3.465953
+
+ Log Entry: 
+	 Time: 326056.957663Filter: WFC System
+	 Message: 
+ Time take for Markov problem: 0.150071
+
+ Log Entry: 
+	 Time: 326056.958921Filter: WFC System
+	 Message: 
+
+ Started WFC for Markov problem: CirclesMarkov Subset: tiles
+
+ Log Entry: 
+	 Time: 326056.959052Filter: WFC System
+	 Message: 
+ Start Time: 3.468161
+
+ Log Entry: 
+	 Time: 326057.048849Filter: WFC System
+	 Message: 
+ Finished solving Markov problem: CirclesMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 326057.048864Filter: WFC System
+	 Message: 
+ End Time: 3.558092
+
+ Log Entry: 
+	 Time: 326057.049803Filter: WFC System
+	 Message: 
+ Time take for Markov problem: 0.089931
+
+ Log Entry: 
+	 Time: 326057.050799Filter: WFC System
+	 Message: 
+
+ Started WFC for Markov problem: CirclesMarkov Subset: tiles
+
+ Log Entry: 
+	 Time: 326057.050933Filter: WFC System
+	 Message: 
+ Start Time: 3.560058
+
+ Log Entry: 
+	 Time: 326057.145575Filter: WFC System
+	 Message: 
+ Finished solving Markov problem: CirclesMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 326057.145590Filter: WFC System
+	 Message: 
+ End Time: 3.654819
+
+ Log Entry: 
+	 Time: 326057.146438Filter: WFC System
+	 Message: 
+ Time take for Markov problem: 0.094761
+
+ Log Entry: 
+	 Time: 326057.147344Filter: WFC System
+	 Message: 
+
+ Started WFC for Markov problem: CirclesMarkov Subset: tiles
+
+ Log Entry: 
+	 Time: 326057.147426Filter: WFC System
+	 Message: 
+ Start Time: 3.656584
+
+ Log Entry: 
+	 Time: 326057.245025Filter: WFC System
+	 Message: 
+ Finished solving Markov problem: CirclesMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 326057.245040Filter: WFC System
+	 Message: 
+ End Time: 3.754269
+
+ Log Entry: 
+	 Time: 326057.246009Filter: WFC System
+	 Message: 
+ Time take for Markov problem: 0.097685
+
+ Log Entry: 
+	 Time: 326057.246826Filter: WFC System
+	 Message: 
+
+ Started WFC for Markov problem: CirclesMarkov Subset: tiles
+
+ Log Entry: 
+	 Time: 326057.246935Filter: WFC System
+	 Message: 
+ Start Time: 3.756066
+
+ Log Entry: 
+	 Time: 326057.345866Filter: WFC System
+	 Message: 
+ Finished solving Markov problem: CirclesMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 326057.345880Filter: WFC System
+	 Message: 
+ End Time: 3.855109
+
+ Log Entry: 
+	 Time: 326057.346739Filter: WFC System
+	 Message: 
+ Time take for Markov problem: 0.099043
+
+ Log Entry: 
+	 Time: 326057.347798Filter: WFC System
+	 Message: 
+
+ Started WFC for Markov problem: CirclesMarkov Subset: tiles
+
+ Log Entry: 
+	 Time: 326057.347931Filter: WFC System
+	 Message: 
+ Start Time: 3.857040
+
+ Log Entry: 
+	 Time: 326057.440585Filter: WFC System
+	 Message: 
+ Finished solving Markov problem: CirclesMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 326057.440599Filter: WFC System
+	 Message: 
+ End Time: 3.949827
+
+ Log Entry: 
+	 Time: 326057.441412Filter: WFC System
+	 Message: 
+ Time take for Markov problem: 0.092788
+
+ Log Entry: 
+	 Time: 326057.442308Filter: WFC System
+	 Message: 
+
+ Started WFC for Markov problem: CirclesMarkov Subset: tiles
+
+ Log Entry: 
+	 Time: 326057.442348Filter: WFC System
+	 Message: 
+ Start Time: 3.951547
+
+ Log Entry: 
+	 Time: 326057.567864Filter: WFC System
+	 Message: 
+ Finished solving Markov problem: CirclesMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 326057.567879Filter: WFC System
+	 Message: 
+ End Time: 4.077106
+
+ Log Entry: 
+	 Time: 326057.568906Filter: WFC System
+	 Message: 
+ Time take for Markov problem: 0.125559
+
+ Log Entry: 
+	 Time: 326057.570107Filter: WFC System
+	 Message: 
+
+ Started WFC for Markov problem: CirclesMarkov Subset: tiles
+
+ Log Entry: 
+	 Time: 326057.570186Filter: WFC System
+	 Message: 
+ Start Time: 4.079364
+
+ Log Entry: 
+	 Time: 326057.705685Filter: WFC System
+	 Message: 
+ Finished solving Markov problem: CirclesMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 326057.705702Filter: WFC System
+	 Message: 
+ End Time: 4.214931
+
+ Log Entry: 
+	 Time: 326057.706747Filter: WFC System
+	 Message: 
+ Time take for Markov problem: 0.135566
+
+ Log Entry: 
+	 Time: 326057.707693Filter: WFC System
+	 Message: 
+
+ Started WFC for Markov problem: CirclesMarkov Subset: tiles
+
+ Log Entry: 
+	 Time: 326057.707766Filter: WFC System
+	 Message: 
+ Start Time: 4.216932
+
+ Log Entry: 
+	 Time: 326057.837690Filter: WFC System
+	 Message: 
+ Finished solving Markov problem: CirclesMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 326057.837705Filter: WFC System
+	 Message: 
+ End Time: 4.346933
+
+ Log Entry: 
+	 Time: 326057.839065Filter: WFC System
+	 Message: 
+ Time take for Markov problem: 0.130002
+
+ Log Entry: 
+	 Time: 326057.840197Filter: WFC System
+	 Message: 
+
+ Started WFC for Markov problem: CircuitMarkov Subset: tiles
+
+ Log Entry: 
+	 Time: 326057.840325Filter: WFC System
+	 Message: 
+ Start Time: 4.349456
+
+ Log Entry: 
+	 Time: 326058.089008Filter: WFC System
+	 Message: 
+ Failed to solve Markov problem: CircuitMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 326058.089046Filter: WFC System
+	 Message: 
+ End Time: 4.598269
+
+ Log Entry: 
+	 Time: 326058.092802Filter: WFC System
+	 Message: 
+ Failed to solve Markov problem: CircuitMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 326058.092845Filter: WFC System
+	 Message: 
+ End Time: 4.602067
+
+ Log Entry: 
+	 Time: 326058.098012Filter: WFC System
+	 Message: 
+ Failed to solve Markov problem: CircuitMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 326058.098052Filter: WFC System
+	 Message: 
+ End Time: 4.607275
+
+ Log Entry: 
+	 Time: 326058.102003Filter: WFC System
+	 Message: 
+ Failed to solve Markov problem: CircuitMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 326058.102041Filter: WFC System
+	 Message: 
+ End Time: 4.611265
+
+ Log Entry: 
+	 Time: 326058.105792Filter: WFC System
+	 Message: 
+ Failed to solve Markov problem: CircuitMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 326058.105829Filter: WFC System
+	 Message: 
+ End Time: 4.615053
+
+ Log Entry: 
+	 Time: 326058.108055Filter: WFC System
+	 Message: 
+ Failed to solve Markov problem: CircuitMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 326058.108081Filter: WFC System
+	 Message: 
+ End Time: 4.617308
+
+ Log Entry: 
+	 Time: 326058.110136Filter: WFC System
+	 Message: 
+ Failed to solve Markov problem: CircuitMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 326058.110156Filter: WFC System
+	 Message: 
+ End Time: 4.619384
+
+ Log Entry: 
+	 Time: 326058.112211Filter: WFC System
+	 Message: 
+ Failed to solve Markov problem: CircuitMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 326058.112232Filter: WFC System
+	 Message: 
+ End Time: 4.621460
+
+ Log Entry: 
+	 Time: 326058.114272Filter: WFC System
+	 Message: 
+ Failed to solve Markov problem: CircuitMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 326058.114297Filter: WFC System
+	 Message: 
+ End Time: 4.623524
+
+ Log Entry: 
+	 Time: 326058.116145Filter: WFC System
+	 Message: 
+ Failed to solve Markov problem: CircuitMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 326058.116163Filter: WFC System
+	 Message: 
+ End Time: 4.625391
+
+ Log Entry: 
+	 Time: 326058.116368Filter: WFC System
+	 Message: 
+ Time take for Markov problem: 0.275935
+
+ Log Entry: 
+	 Time: 326058.116636Filter: WFC System
+	 Message: 
+
+ Started WFC for Markov problem: CircuitMarkov Subset: tiles
+
+ Log Entry: 
+	 Time: 326058.116746Filter: WFC System
+	 Message: 
+ Start Time: 4.625881
+
+ Log Entry: 
+	 Time: 326058.120998Filter: WFC System
+	 Message: 
+ Failed to solve Markov problem: CircuitMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 326058.121014Filter: WFC System
+	 Message: 
+ End Time: 4.630243
+
+ Log Entry: 
+	 Time: 326058.123008Filter: WFC System
+	 Message: 
+ Failed to solve Markov problem: CircuitMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 326058.123029Filter: WFC System
+	 Message: 
+ End Time: 4.632257
+
+ Log Entry: 
+	 Time: 326058.125419Filter: WFC System
+	 Message: 
+ Failed to solve Markov problem: CircuitMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 326058.125440Filter: WFC System
+	 Message: 
+ End Time: 4.634667
+
+ Log Entry: 
+	 Time: 326058.127629Filter: WFC System
+	 Message: 
+ Failed to solve Markov problem: CircuitMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 326058.127650Filter: WFC System
+	 Message: 
+ End Time: 4.636878
+
+ Log Entry: 
+	 Time: 326058.129800Filter: WFC System
+	 Message: 
+ Failed to solve Markov problem: CircuitMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 326058.129829Filter: WFC System
+	 Message: 
+ End Time: 4.639051
+
+ Log Entry: 
+	 Time: 326058.131856Filter: WFC System
+	 Message: 
+ Failed to solve Markov problem: CircuitMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 326058.131875Filter: WFC System
+	 Message: 
+ End Time: 4.641104
+
+ Log Entry: 
+	 Time: 326058.133689Filter: WFC System
+	 Message: 
+ Failed to solve Markov problem: CircuitMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 326058.133708Filter: WFC System
+	 Message: 
+ End Time: 4.642936
+
+ Log Entry: 
+	 Time: 326058.135556Filter: WFC System
+	 Message: 
+ Failed to solve Markov problem: CircuitMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 326058.135577Filter: WFC System
+	 Message: 
+ End Time: 4.644804
+
+ Log Entry: 
+	 Time: 326058.137459Filter: WFC System
+	 Message: 
+ Failed to solve Markov problem: CircuitMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 326058.137472Filter: WFC System
+	 Message: 
+ End Time: 4.646701
+
+ Log Entry: 
+	 Time: 326058.138730Filter: WFC System
+	 Message: 
+ Failed to solve Markov problem: CircuitMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 326058.138742Filter: WFC System
+	 Message: 
+ End Time: 4.647972
+
+ Log Entry: 
+	 Time: 326058.138842Filter: WFC System
+	 Message: 
+ Time take for Markov problem: 0.022090
+
+ Log Entry: 
+	 Time: 326058.138995Filter: WFC System
+	 Message: 
+
+ Started WFC for Markov problem: CircuitMarkov Subset: tiles
+
+ Log Entry: 
+	 Time: 326058.139090Filter: WFC System
+	 Message: 
+ Start Time: 4.648235
+
+ Log Entry: 
+	 Time: 326058.142033Filter: WFC System
+	 Message: 
+ Failed to solve Markov problem: CircuitMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 326058.142047Filter: WFC System
+	 Message: 
+ End Time: 4.651277
+
+ Log Entry: 
+	 Time: 326058.143436Filter: WFC System
+	 Message: 
+ Failed to solve Markov problem: CircuitMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 326058.143452Filter: WFC System
+	 Message: 
+ End Time: 4.652681
+
+ Log Entry: 
+	 Time: 326058.144822Filter: WFC System
+	 Message: 
+ Failed to solve Markov problem: CircuitMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 326058.144836Filter: WFC System
+	 Message: 
+ End Time: 4.654066
+
+ Log Entry: 
+	 Time: 326058.146620Filter: WFC System
+	 Message: 
+ Failed to solve Markov problem: CircuitMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 326058.146637Filter: WFC System
+	 Message: 
+ End Time: 4.655864
+
+ Log Entry: 
+	 Time: 326058.147888Filter: WFC System
+	 Message: 
+ Failed to solve Markov problem: CircuitMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 326058.147901Filter: WFC System
+	 Message: 
+ End Time: 4.657131
+
+ Log Entry: 
+	 Time: 326058.149768Filter: WFC System
+	 Message: 
+ Failed to solve Markov problem: CircuitMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 326058.149789Filter: WFC System
+	 Message: 
+ End Time: 4.659017
+
+ Log Entry: 
+	 Time: 326058.151170Filter: WFC System
+	 Message: 
+ Failed to solve Markov problem: CircuitMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 326058.151184Filter: WFC System
+	 Message: 
+ End Time: 4.660413
+
+ Log Entry: 
+	 Time: 326058.152774Filter: WFC System
+	 Message: 
+ Failed to solve Markov problem: CircuitMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 326058.152788Filter: WFC System
+	 Message: 
+ End Time: 4.662017
+
+ Log Entry: 
+	 Time: 326058.153948Filter: WFC System
+	 Message: 
+ Failed to solve Markov problem: CircuitMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 326058.153963Filter: WFC System
+	 Message: 
+ End Time: 4.663192
+
+ Log Entry: 
+	 Time: 326058.155476Filter: WFC System
+	 Message: 
+ Failed to solve Markov problem: CircuitMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 326058.155492Filter: WFC System
+	 Message: 
+ End Time: 4.664721
+
+ Log Entry: 
+	 Time: 326058.155575Filter: WFC System
+	 Message: 
+ Time take for Markov problem: 0.016486
+
+ Log Entry: 
+	 Time: 326058.155757Filter: WFC System
+	 Message: 
+
+ Started WFC for Markov problem: CircuitMarkov Subset: tiles
+
+ Log Entry: 
+	 Time: 326058.155821Filter: WFC System
+	 Message: 
+ Start Time: 4.664999
+
+ Log Entry: 
+	 Time: 326058.158888Filter: WFC System
+	 Message: 
+ Failed to solve Markov problem: CircuitMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 326058.158902Filter: WFC System
+	 Message: 
+ End Time: 4.668131
+
+ Log Entry: 
+	 Time: 326058.160586Filter: WFC System
+	 Message: 
+ Failed to solve Markov problem: CircuitMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 326058.160602Filter: WFC System
+	 Message: 
+ End Time: 4.669830
+
+ Log Entry: 
+	 Time: 326058.162073Filter: WFC System
+	 Message: 
+ Failed to solve Markov problem: CircuitMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 326058.162087Filter: WFC System
+	 Message: 
+ End Time: 4.671316
+
+ Log Entry: 
+	 Time: 326058.163508Filter: WFC System
+	 Message: 
+ Failed to solve Markov problem: CircuitMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 326058.163522Filter: WFC System
+	 Message: 
+ End Time: 4.672750
+
+ Log Entry: 
+	 Time: 326058.165047Filter: WFC System
+	 Message: 
+ Failed to solve Markov problem: CircuitMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 326058.165061Filter: WFC System
+	 Message: 
+ End Time: 4.674290
+
+ Log Entry: 
+	 Time: 326058.166508Filter: WFC System
+	 Message: 
+ Failed to solve Markov problem: CircuitMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 326058.166522Filter: WFC System
+	 Message: 
+ End Time: 4.675751
+
+ Log Entry: 
+	 Time: 326058.167932Filter: WFC System
+	 Message: 
+ Failed to solve Markov problem: CircuitMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 326058.167955Filter: WFC System
+	 Message: 
+ End Time: 4.677175
+
+ Log Entry: 
+	 Time: 326058.169195Filter: WFC System
+	 Message: 
+ Failed to solve Markov problem: CircuitMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 326058.169206Filter: WFC System
+	 Message: 
+ End Time: 4.678435
+
+ Log Entry: 
+	 Time: 326058.170348Filter: WFC System
+	 Message: 
+ Failed to solve Markov problem: CircuitMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 326058.170359Filter: WFC System
+	 Message: 
+ End Time: 4.679588
+
+ Log Entry: 
+	 Time: 326058.171547Filter: WFC System
+	 Message: 
+ Failed to solve Markov problem: CircuitMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 326058.171557Filter: WFC System
+	 Message: 
+ End Time: 4.680787
+
+ Log Entry: 
+	 Time: 326058.171677Filter: WFC System
+	 Message: 
+ Time take for Markov problem: 0.015789
+
+ Log Entry: 
+	 Time: 326058.171904Filter: WFC System
+	 Message: 
+
+ Started WFC for Markov problem: CircuitMarkov Subset: tiles
+
+ Log Entry: 
+	 Time: 326058.171960Filter: WFC System
+	 Message: 
+ Start Time: 4.681143
+
+ Log Entry: 
+	 Time: 326058.177859Filter: WFC System
+	 Message: 
+ Finished solving Markov problem: CircuitMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 326058.177875Filter: WFC System
+	 Message: 
+ End Time: 4.687103
+
+ Log Entry: 
+	 Time: 326058.177968Filter: WFC System
+	 Message: 
+ Time take for Markov problem: 0.005960
+
+ Log Entry: 
+	 Time: 326058.178198Filter: WFC System
+	 Message: 
+
+ Started WFC for Markov problem: CircuitMarkov Subset: tiles
+
+ Log Entry: 
+	 Time: 326058.178246Filter: WFC System
+	 Message: 
+ Start Time: 4.687438
+
+ Log Entry: 
+	 Time: 326058.181067Filter: WFC System
+	 Message: 
+ Failed to solve Markov problem: CircuitMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 326058.181110Filter: WFC System
+	 Message: 
+ End Time: 4.690321
+
+ Log Entry: 
+	 Time: 326058.182305Filter: WFC System
+	 Message: 
+ Failed to solve Markov problem: CircuitMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 326058.182314Filter: WFC System
+	 Message: 
+ End Time: 4.691544
+
+ Log Entry: 
+	 Time: 326058.183642Filter: WFC System
+	 Message: 
+ Failed to solve Markov problem: CircuitMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 326058.183651Filter: WFC System
+	 Message: 
+ End Time: 4.692881
+
+ Log Entry: 
+	 Time: 326058.185113Filter: WFC System
+	 Message: 
+ Failed to solve Markov problem: CircuitMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 326058.185123Filter: WFC System
+	 Message: 
+ End Time: 4.694353
+
+ Log Entry: 
+	 Time: 326058.186328Filter: WFC System
+	 Message: 
+ Failed to solve Markov problem: CircuitMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 326058.186350Filter: WFC System
+	 Message: 
+ End Time: 4.695581
+
+ Log Entry: 
+	 Time: 326058.187541Filter: WFC System
+	 Message: 
+ Failed to solve Markov problem: CircuitMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 326058.187562Filter: WFC System
+	 Message: 
+ End Time: 4.696793
+
+ Log Entry: 
+	 Time: 326058.188694Filter: WFC System
+	 Message: 
+ Failed to solve Markov problem: CircuitMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 326058.188702Filter: WFC System
+	 Message: 
+ End Time: 4.697933
+
+ Log Entry: 
+	 Time: 326058.189890Filter: WFC System
+	 Message: 
+ Failed to solve Markov problem: CircuitMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 326058.189898Filter: WFC System
+	 Message: 
+ End Time: 4.699128
+
+ Log Entry: 
+	 Time: 326058.191077Filter: WFC System
+	 Message: 
+ Failed to solve Markov problem: CircuitMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 326058.191085Filter: WFC System
+	 Message: 
+ End Time: 4.700315
+
+ Log Entry: 
+	 Time: 326058.192338Filter: WFC System
+	 Message: 
+ Failed to solve Markov problem: CircuitMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 326058.192346Filter: WFC System
+	 Message: 
+ End Time: 4.701577
+
+ Log Entry: 
+	 Time: 326058.192451Filter: WFC System
+	 Message: 
+ Time take for Markov problem: 0.014139
+
+ Log Entry: 
+	 Time: 326058.192600Filter: WFC System
+	 Message: 
+
+ Started WFC for Markov problem: CircuitMarkov Subset: tiles
+
+ Log Entry: 
+	 Time: 326058.192678Filter: WFC System
+	 Message: 
+ Start Time: 4.701861
+
+ Log Entry: 
+	 Time: 326058.196675Filter: WFC System
+	 Message: 
+ Failed to solve Markov problem: CircuitMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 326058.196686Filter: WFC System
+	 Message: 
+ End Time: 4.705916
+
+ Log Entry: 
+	 Time: 326058.199223Filter: WFC System
+	 Message: 
+ Failed to solve Markov problem: CircuitMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 326058.199232Filter: WFC System
+	 Message: 
+ End Time: 4.708462
+
+ Log Entry: 
+	 Time: 326058.201697Filter: WFC System
+	 Message: 
+ Failed to solve Markov problem: CircuitMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 326058.201727Filter: WFC System
+	 Message: 
+ End Time: 4.710958
+
+ Log Entry: 
+	 Time: 326058.204131Filter: WFC System
+	 Message: 
+ Failed to solve Markov problem: CircuitMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 326058.204139Filter: WFC System
+	 Message: 
+ End Time: 4.713370
+
+ Log Entry: 
+	 Time: 326058.206756Filter: WFC System
+	 Message: 
+ Failed to solve Markov problem: CircuitMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 326058.206777Filter: WFC System
+	 Message: 
+ End Time: 4.715994
+
+ Log Entry: 
+	 Time: 326058.209329Filter: WFC System
+	 Message: 
+ Failed to solve Markov problem: CircuitMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 326058.209353Filter: WFC System
+	 Message: 
+ End Time: 4.718570
+
+ Log Entry: 
+	 Time: 326058.211871Filter: WFC System
+	 Message: 
+ Failed to solve Markov problem: CircuitMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 326058.211883Filter: WFC System
+	 Message: 
+ End Time: 4.721113
+
+ Log Entry: 
+	 Time: 326058.214340Filter: WFC System
+	 Message: 
+ Failed to solve Markov problem: CircuitMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 326058.214350Filter: WFC System
+	 Message: 
+ End Time: 4.723580
+
+ Log Entry: 
+	 Time: 326058.216860Filter: WFC System
+	 Message: 
+ Failed to solve Markov problem: CircuitMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 326058.216867Filter: WFC System
+	 Message: 
+ End Time: 4.726098
+
+ Log Entry: 
+	 Time: 326058.236726Filter: WFC System
+	 Message: 
+ Finished solving Markov problem: CircuitMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 326058.236741Filter: WFC System
+	 Message: 
+ End Time: 4.745970
+
+ Log Entry: 
+	 Time: 326058.236960Filter: WFC System
+	 Message: 
+ Time take for Markov problem: 0.044109
+
+ Log Entry: 
+	 Time: 326058.237301Filter: WFC System
+	 Message: 
+
+ Started WFC for Markov problem: CircuitMarkov Subset: tiles
+
+ Log Entry: 
+	 Time: 326058.237396Filter: WFC System
+	 Message: 
+ Start Time: 4.746540
+
+ Log Entry: 
+	 Time: 326058.241050Filter: WFC System
+	 Message: 
+ Failed to solve Markov problem: CircuitMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 326058.241060Filter: WFC System
+	 Message: 
+ End Time: 4.750290
+
+ Log Entry: 
+	 Time: 326058.244002Filter: WFC System
+	 Message: 
+ Failed to solve Markov problem: CircuitMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 326058.244032Filter: WFC System
+	 Message: 
+ End Time: 4.753262
+
+ Log Entry: 
+	 Time: 326058.246865Filter: WFC System
+	 Message: 
+ Failed to solve Markov problem: CircuitMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 326058.246875Filter: WFC System
+	 Message: 
+ End Time: 4.756105
+
+ Log Entry: 
+	 Time: 326058.249329Filter: WFC System
+	 Message: 
+ Failed to solve Markov problem: CircuitMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 326058.249338Filter: WFC System
+	 Message: 
+ End Time: 4.758568
+
+ Log Entry: 
+	 Time: 326058.251869Filter: WFC System
+	 Message: 
+ Failed to solve Markov problem: CircuitMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 326058.251879Filter: WFC System
+	 Message: 
+ End Time: 4.761110
+
+ Log Entry: 
+	 Time: 326058.270865Filter: WFC System
+	 Message: 
+ Finished solving Markov problem: CircuitMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 326058.270881Filter: WFC System
+	 Message: 
+ End Time: 4.780110
+
+ Log Entry: 
+	 Time: 326058.271088Filter: WFC System
+	 Message: 
+ Time take for Markov problem: 0.033570
+
+ Log Entry: 
+	 Time: 326058.271208Filter: WFC System
+	 Message: 
+
+ Started WFC for Markov problem: CircuitMarkov Subset: tiles
+
+ Log Entry: 
+	 Time: 326058.271255Filter: WFC System
+	 Message: 
+ Start Time: 4.780447
+
+ Log Entry: 
+	 Time: 326058.275277Filter: WFC System
+	 Message: 
+ Failed to solve Markov problem: CircuitMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 326058.275288Filter: WFC System
+	 Message: 
+ End Time: 4.784518
+
+ Log Entry: 
+	 Time: 326058.278250Filter: WFC System
+	 Message: 
+ Failed to solve Markov problem: CircuitMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 326058.278262Filter: WFC System
+	 Message: 
+ End Time: 4.787491
+
+ Log Entry: 
+	 Time: 326058.280945Filter: WFC System
+	 Message: 
+ Failed to solve Markov problem: CircuitMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 326058.280982Filter: WFC System
+	 Message: 
+ End Time: 4.790212
+
+ Log Entry: 
+	 Time: 326058.301688Filter: WFC System
+	 Message: 
+ Finished solving Markov problem: CircuitMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 326058.301703Filter: WFC System
+	 Message: 
+ End Time: 4.810931
+
+ Log Entry: 
+	 Time: 326058.301915Filter: WFC System
+	 Message: 
+ Time take for Markov problem: 0.030484
+
+ Log Entry: 
+	 Time: 326058.302049Filter: WFC System
+	 Message: 
+
+ Started WFC for Markov problem: KnotsMarkov Subset: tiles
+
+ Log Entry: 
+	 Time: 326058.302098Filter: WFC System
+	 Message: 
+ Start Time: 4.811288
+
+ Log Entry: 
+	 Time: 326058.382000Filter: WFC System
+	 Message: 
+ Finished solving Markov problem: KnotsMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 326058.382016Filter: WFC System
+	 Message: 
+ End Time: 4.891243
+
+ Log Entry: 
+	 Time: 326058.382258Filter: WFC System
+	 Message: 
+ Time take for Markov problem: 0.079955
+
+ Log Entry: 
+	 Time: 326058.382553Filter: WFC System
+	 Message: 
+
+ Started WFC for Markov problem: KnotsMarkov Subset: tiles
+
+ Log Entry: 
+	 Time: 326058.382707Filter: WFC System
+	 Message: 
+ Start Time: 4.891796
+
+ Log Entry: 
+	 Time: 326058.398406Filter: WFC System
+	 Message: 
+ Finished solving Markov problem: KnotsMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 326058.398422Filter: WFC System
+	 Message: 
+ End Time: 4.907650
+
+ Log Entry: 
+	 Time: 326058.398647Filter: WFC System
+	 Message: 
+ Time take for Markov problem: 0.015854
+
+ Log Entry: 
+	 Time: 326058.398929Filter: WFC System
+	 Message: 
+
+ Started WFC for Markov problem: KnotsMarkov Subset: tiles
+
+ Log Entry: 
+	 Time: 326058.398981Filter: WFC System
+	 Message: 
+ Start Time: 4.908168
+
+ Log Entry: 
+	 Time: 326058.413557Filter: WFC System
+	 Message: 
+ Finished solving Markov problem: KnotsMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 326058.413573Filter: WFC System
+	 Message: 
+ End Time: 4.922802
+
+ Log Entry: 
+	 Time: 326058.413793Filter: WFC System
+	 Message: 
+ Time take for Markov problem: 0.014634
+
+ Log Entry: 
+	 Time: 326058.414078Filter: WFC System
+	 Message: 
+
+ Started WFC for Markov problem: KnotsMarkov Subset: tiles
+
+ Log Entry: 
+	 Time: 326058.414227Filter: WFC System
+	 Message: 
+ Start Time: 4.923330
+
+ Log Entry: 
+	 Time: 326058.435281Filter: WFC System
+	 Message: 
+ Finished solving Markov problem: KnotsMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 326058.435297Filter: WFC System
+	 Message: 
+ End Time: 4.944526
+
+ Log Entry: 
+	 Time: 326058.435517Filter: WFC System
+	 Message: 
+ Time take for Markov problem: 0.021196
+
+ Log Entry: 
+	 Time: 326058.435821Filter: WFC System
+	 Message: 
+
+ Started WFC for Markov problem: KnotsMarkov Subset: tiles
+
+ Log Entry: 
+	 Time: 326058.435932Filter: WFC System
+	 Message: 
+ Start Time: 4.945061
+
+ Log Entry: 
+	 Time: 326058.452482Filter: WFC System
+	 Message: 
+ Finished solving Markov problem: KnotsMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 326058.452499Filter: WFC System
+	 Message: 
+ End Time: 4.961728
+
+ Log Entry: 
+	 Time: 326058.452694Filter: WFC System
+	 Message: 
+ Time take for Markov problem: 0.016667
+
+ Log Entry: 
+	 Time: 326058.452977Filter: WFC System
+	 Message: 
+
+ Started WFC for Markov problem: KnotsMarkov Subset: tiles
+
+ Log Entry: 
+	 Time: 326058.453113Filter: WFC System
+	 Message: 
+ Start Time: 4.962216
+
+ Log Entry: 
+	 Time: 326058.474035Filter: WFC System
+	 Message: 
+ Finished solving Markov problem: KnotsMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 326058.474050Filter: WFC System
+	 Message: 
+ End Time: 4.983279
+
+ Log Entry: 
+	 Time: 326058.474248Filter: WFC System
+	 Message: 
+ Time take for Markov problem: 0.021062
+
+ Log Entry: 
+	 Time: 326058.474479Filter: WFC System
+	 Message: 
+
+ Started WFC for Markov problem: KnotsMarkov Subset: tiles
+
+ Log Entry: 
+	 Time: 326058.474537Filter: WFC System
+	 Message: 
+ Start Time: 4.983717
+
+ Log Entry: 
+	 Time: 326058.497763Filter: WFC System
+	 Message: 
+ Finished solving Markov problem: KnotsMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 326058.497780Filter: WFC System
+	 Message: 
+ End Time: 5.007009
+
+ Log Entry: 
+	 Time: 326058.498082Filter: WFC System
+	 Message: 
+ Time take for Markov problem: 0.023291
+
+ Log Entry: 
+	 Time: 326058.498357Filter: WFC System
+	 Message: 
+
+ Started WFC for Markov problem: KnotsMarkov Subset: tiles
+
+ Log Entry: 
+	 Time: 326058.498406Filter: WFC System
+	 Message: 
+ Start Time: 5.007596
+
+ Log Entry: 
+	 Time: 326058.522181Filter: WFC System
+	 Message: 
+ Finished solving Markov problem: KnotsMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 326058.522196Filter: WFC System
+	 Message: 
+ End Time: 5.031425
+
+ Log Entry: 
+	 Time: 326058.522458Filter: WFC System
+	 Message: 
+ Time take for Markov problem: 0.023829
+
+ Log Entry: 
+	 Time: 326058.522670Filter: WFC System
+	 Message: 
+
+ Started WFC for Markov problem: KnotsMarkov Subset: tiles
+
+ Log Entry: 
+	 Time: 326058.522783Filter: WFC System
+	 Message: 
+ Start Time: 5.031910
+
+ Log Entry: 
+	 Time: 326058.547866Filter: WFC System
+	 Message: 
+ Finished solving Markov problem: KnotsMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 326058.547883Filter: WFC System
+	 Message: 
+ End Time: 5.057111
+
+ Log Entry: 
+	 Time: 326058.548144Filter: WFC System
+	 Message: 
+ Time take for Markov problem: 0.025201
+
+ Log Entry: 
+	 Time: 326058.548494Filter: WFC System
+	 Message: 
+
+ Started WFC for Markov problem: RoomsMarkov Subset: tiles
+
+ Log Entry: 
+	 Time: 326058.548534Filter: WFC System
+	 Message: 
+ Start Time: 5.057733
+
+ Log Entry: 
+	 Time: 326058.603102Filter: WFC System
+	 Message: 
+ Finished solving Markov problem: RoomsMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 326058.603119Filter: WFC System
+	 Message: 
+ End Time: 5.112347
+
+ Log Entry: 
+	 Time: 326058.603203Filter: WFC System
+	 Message: 
+ Time take for Markov problem: 0.054615
+
+ Log Entry: 
+	 Time: 326058.603320Filter: WFC System
+	 Message: 
+
+ Started WFC for Markov problem: RoomsMarkov Subset: tiles
+
+ Log Entry: 
+	 Time: 326058.603420Filter: WFC System
+	 Message: 
+ Start Time: 5.112558
+
+ Log Entry: 
+	 Time: 326058.611751Filter: WFC System
+	 Message: 
+ Finished solving Markov problem: RoomsMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 326058.611766Filter: WFC System
+	 Message: 
+ End Time: 5.120995
+
+ Log Entry: 
+	 Time: 326058.611848Filter: WFC System
+	 Message: 
+ Time take for Markov problem: 0.008437
+
+ Log Entry: 
+	 Time: 326058.611952Filter: WFC System
+	 Message: 
+
+ Started WFC for Markov problem: RoomsMarkov Subset: tiles
+
+ Log Entry: 
+	 Time: 326058.612000Filter: WFC System
+	 Message: 
+ Start Time: 5.121192
+
+ Log Entry: 
+	 Time: 326058.619263Filter: WFC System
+	 Message: 
+ Finished solving Markov problem: RoomsMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 326058.619276Filter: WFC System
+	 Message: 
+ End Time: 5.128505
+
+ Log Entry: 
+	 Time: 326058.619360Filter: WFC System
+	 Message: 
+ Time take for Markov problem: 0.007312
+
+ Log Entry: 
+	 Time: 326058.619486Filter: WFC System
+	 Message: 
+
+ Started WFC for Markov problem: RoomsMarkov Subset: tiles
+
+ Log Entry: 
+	 Time: 326058.619584Filter: WFC System
+	 Message: 
+ Start Time: 5.128724
+
+ Log Entry: 
+	 Time: 326058.627679Filter: WFC System
+	 Message: 
+ Finished solving Markov problem: RoomsMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 326058.627696Filter: WFC System
+	 Message: 
+ End Time: 5.136925
+
+ Log Entry: 
+	 Time: 326058.627778Filter: WFC System
+	 Message: 
+ Time take for Markov problem: 0.008201
+
+ Log Entry: 
+	 Time: 326058.627871Filter: WFC System
+	 Message: 
+
+ Started WFC for Markov problem: RoomsMarkov Subset: tiles
+
+ Log Entry: 
+	 Time: 326058.627918Filter: WFC System
+	 Message: 
+ Start Time: 5.137110
+
+ Log Entry: 
+	 Time: 326058.635567Filter: WFC System
+	 Message: 
+ Finished solving Markov problem: RoomsMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 326058.635580Filter: WFC System
+	 Message: 
+ End Time: 5.144809
+
+ Log Entry: 
+	 Time: 326058.635662Filter: WFC System
+	 Message: 
+ Time take for Markov problem: 0.007699
+
+ Log Entry: 
+	 Time: 326058.635780Filter: WFC System
+	 Message: 
+
+ Started WFC for Markov problem: RoomsMarkov Subset: tiles
+
+ Log Entry: 
+	 Time: 326058.635826Filter: WFC System
+	 Message: 
+ Start Time: 5.145018
+
+ Log Entry: 
+	 Time: 326058.642961Filter: WFC System
+	 Message: 
+ Finished solving Markov problem: RoomsMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 326058.642981Filter: WFC System
+	 Message: 
+ End Time: 5.152208
+
+ Log Entry: 
+	 Time: 326058.643064Filter: WFC System
+	 Message: 
+ Time take for Markov problem: 0.007190
+
+ Log Entry: 
+	 Time: 326058.643185Filter: WFC System
+	 Message: 
+
+ Started WFC for Markov problem: RoomsMarkov Subset: tiles
+
+ Log Entry: 
+	 Time: 326058.643228Filter: WFC System
+	 Message: 
+ Start Time: 5.152423
+
+ Log Entry: 
+	 Time: 326058.653039Filter: WFC System
+	 Message: 
+ Finished solving Markov problem: RoomsMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 326058.653056Filter: WFC System
+	 Message: 
+ End Time: 5.162284
+
+ Log Entry: 
+	 Time: 326058.653222Filter: WFC System
+	 Message: 
+ Time take for Markov problem: 0.009861
+
+ Log Entry: 
+	 Time: 326058.653339Filter: WFC System
+	 Message: 
+
+ Started WFC for Markov problem: RoomsMarkov Subset: tiles
+
+ Log Entry: 
+	 Time: 326058.653384Filter: WFC System
+	 Message: 
+ Start Time: 5.162577
+
+ Log Entry: 
+	 Time: 326058.665424Filter: WFC System
+	 Message: 
+ Finished solving Markov problem: RoomsMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 326058.665450Filter: WFC System
+	 Message: 
+ End Time: 5.174679
+
+ Log Entry: 
+	 Time: 326058.665614Filter: WFC System
+	 Message: 
+ Time take for Markov problem: 0.012103
+
+ Log Entry: 
+	 Time: 326058.665739Filter: WFC System
+	 Message: 
+
+ Started WFC for Markov problem: RoomsMarkov Subset: tiles
+
+ Log Entry: 
+	 Time: 326058.665784Filter: WFC System
+	 Message: 
+ Start Time: 5.174979
+
+ Log Entry: 
+	 Time: 326058.677972Filter: WFC System
+	 Message: 
+ Finished solving Markov problem: RoomsMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 326058.677988Filter: WFC System
+	 Message: 
+ End Time: 5.187216
+
+ Log Entry: 
+	 Time: 326058.678154Filter: WFC System
+	 Message: 
+ Time take for Markov problem: 0.012238
+
+ Log Entry: 
+	 Time: 326058.678274Filter: WFC System
+	 Message: 
+
+ Started WFC for Markov problem: SummerMarkov Subset: tiles
+
+ Log Entry: 
+	 Time: 326058.678329Filter: WFC System
+	 Message: 
+ Start Time: 5.187514
+
+ Log Entry: 
+	 Time: 326059.113309Filter: WFC System
+	 Message: 
+ Failed to solve Markov problem: SummerMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 326059.113340Filter: WFC System
+	 Message: 
+ End Time: 5.622566
+
+ Log Entry: 
+	 Time: 326059.124491Filter: WFC System
+	 Message: 
+ Failed to solve Markov problem: SummerMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 326059.124520Filter: WFC System
+	 Message: 
+ End Time: 5.633746
+
+ Log Entry: 
+	 Time: 326059.131278Filter: WFC System
+	 Message: 
+ Failed to solve Markov problem: SummerMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 326059.131294Filter: WFC System
+	 Message: 
+ End Time: 5.640522
+
+ Log Entry: 
+	 Time: 326059.137188Filter: WFC System
+	 Message: 
+ Failed to solve Markov problem: SummerMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 326059.137203Filter: WFC System
+	 Message: 
+ End Time: 5.646432
+
+ Log Entry: 
+	 Time: 326059.143660Filter: WFC System
+	 Message: 
+ Failed to solve Markov problem: SummerMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 326059.143680Filter: WFC System
+	 Message: 
+ End Time: 5.652905
+
+ Log Entry: 
+	 Time: 326059.149833Filter: WFC System
+	 Message: 
+ Failed to solve Markov problem: SummerMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 326059.149858Filter: WFC System
+	 Message: 
+ End Time: 5.659084
+
+ Log Entry: 
+	 Time: 326059.172158Filter: WFC System
+	 Message: 
+ Finished solving Markov problem: SummerMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 326059.172173Filter: WFC System
+	 Message: 
+ End Time: 5.681402
+
+ Log Entry: 
+	 Time: 326059.172427Filter: WFC System
+	 Message: 
+ Time take for Markov problem: 0.493888
+
+ Log Entry: 
+	 Time: 326059.173048Filter: WFC System
+	 Message: 
+
+ Started WFC for Markov problem: SummerMarkov Subset: tiles
+
+ Log Entry: 
+	 Time: 326059.173155Filter: WFC System
+	 Message: 
+ Start Time: 5.682288
+
+ Log Entry: 
+	 Time: 326059.188330Filter: WFC System
+	 Message: 
+ Failed to solve Markov problem: SummerMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 326059.188374Filter: WFC System
+	 Message: 
+ End Time: 5.697571
+
+ Log Entry: 
+	 Time: 326059.192922Filter: WFC System
+	 Message: 
+ Failed to solve Markov problem: SummerMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 326059.192935Filter: WFC System
+	 Message: 
+ End Time: 5.702164
+
+ Log Entry: 
+	 Time: 326059.197853Filter: WFC System
+	 Message: 
+ Failed to solve Markov problem: SummerMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 326059.197865Filter: WFC System
+	 Message: 
+ End Time: 5.707095
+
+ Log Entry: 
+	 Time: 326059.202367Filter: WFC System
+	 Message: 
+ Failed to solve Markov problem: SummerMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 326059.202410Filter: WFC System
+	 Message: 
+ End Time: 5.711621
+
+ Log Entry: 
+	 Time: 326059.206590Filter: WFC System
+	 Message: 
+ Failed to solve Markov problem: SummerMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 326059.206613Filter: WFC System
+	 Message: 
+ End Time: 5.715843
+
+ Log Entry: 
+	 Time: 326059.211405Filter: WFC System
+	 Message: 
+ Failed to solve Markov problem: SummerMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 326059.211421Filter: WFC System
+	 Message: 
+ End Time: 5.720650
+
+ Log Entry: 
+	 Time: 326059.215865Filter: WFC System
+	 Message: 
+ Failed to solve Markov problem: SummerMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 326059.215892Filter: WFC System
+	 Message: 
+ End Time: 5.725121
+
+ Log Entry: 
+	 Time: 326059.220373Filter: WFC System
+	 Message: 
+ Failed to solve Markov problem: SummerMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 326059.220384Filter: WFC System
+	 Message: 
+ End Time: 5.729614
+
+ Log Entry: 
+	 Time: 326059.224604Filter: WFC System
+	 Message: 
+ Failed to solve Markov problem: SummerMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 326059.224622Filter: WFC System
+	 Message: 
+ End Time: 5.733851
+
+ Log Entry: 
+	 Time: 326059.229676Filter: WFC System
+	 Message: 
+ Failed to solve Markov problem: SummerMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 326059.229688Filter: WFC System
+	 Message: 
+ End Time: 5.738918
+
+ Log Entry: 
+	 Time: 326059.229943Filter: WFC System
+	 Message: 
+ Time take for Markov problem: 0.056630
+
+ Log Entry: 
+	 Time: 326059.230357Filter: WFC System
+	 Message: 
+
+ Started WFC for Markov problem: SummerMarkov Subset: tiles
+
+ Log Entry: 
+	 Time: 326059.230471Filter: WFC System
+	 Message: 
+ Start Time: 5.739597
+
+ Log Entry: 
+	 Time: 326059.247293Filter: WFC System
+	 Message: 
+ Failed to solve Markov problem: SummerMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 326059.247305Filter: WFC System
+	 Message: 
+ End Time: 5.756535
+
+ Log Entry: 
+	 Time: 326059.251862Filter: WFC System
+	 Message: 
+ Failed to solve Markov problem: SummerMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 326059.251892Filter: WFC System
+	 Message: 
+ End Time: 5.761122
+
+ Log Entry: 
+	 Time: 326059.256145Filter: WFC System
+	 Message: 
+ Failed to solve Markov problem: SummerMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 326059.256155Filter: WFC System
+	 Message: 
+ End Time: 5.765385
+
+ Log Entry: 
+	 Time: 326059.275381Filter: WFC System
+	 Message: 
+ Finished solving Markov problem: SummerMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 326059.275399Filter: WFC System
+	 Message: 
+ End Time: 5.784627
+
+ Log Entry: 
+	 Time: 326059.275746Filter: WFC System
+	 Message: 
+ Time take for Markov problem: 0.045031
+
+ Log Entry: 
+	 Time: 326059.276203Filter: WFC System
+	 Message: 
+
+ Started WFC for Markov problem: SummerMarkov Subset: tiles
+
+ Log Entry: 
+	 Time: 326059.276247Filter: WFC System
+	 Message: 
+ Start Time: 5.785443
+
+ Log Entry: 
+	 Time: 326059.292462Filter: WFC System
+	 Message: 
+ Failed to solve Markov problem: SummerMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 326059.292475Filter: WFC System
+	 Message: 
+ End Time: 5.801704
+
+ Log Entry: 
+	 Time: 326059.297318Filter: WFC System
+	 Message: 
+ Failed to solve Markov problem: SummerMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 326059.297353Filter: WFC System
+	 Message: 
+ End Time: 5.806582
+
+ Log Entry: 
+	 Time: 326059.301704Filter: WFC System
+	 Message: 
+ Failed to solve Markov problem: SummerMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 326059.301715Filter: WFC System
+	 Message: 
+ End Time: 5.810945
+
+ Log Entry: 
+	 Time: 326059.306236Filter: WFC System
+	 Message: 
+ Failed to solve Markov problem: SummerMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 326059.306246Filter: WFC System
+	 Message: 
+ End Time: 5.815475
+
+ Log Entry: 
+	 Time: 326059.310873Filter: WFC System
+	 Message: 
+ Failed to solve Markov problem: SummerMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 326059.310885Filter: WFC System
+	 Message: 
+ End Time: 5.820115
+
+ Log Entry: 
+	 Time: 326059.315504Filter: WFC System
+	 Message: 
+ Failed to solve Markov problem: SummerMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 326059.315556Filter: WFC System
+	 Message: 
+ End Time: 5.824773
+
+ Log Entry: 
+	 Time: 326059.319807Filter: WFC System
+	 Message: 
+ Failed to solve Markov problem: SummerMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 326059.319849Filter: WFC System
+	 Message: 
+ End Time: 5.829061
+
+ Log Entry: 
+	 Time: 326059.324427Filter: WFC System
+	 Message: 
+ Failed to solve Markov problem: SummerMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 326059.324437Filter: WFC System
+	 Message: 
+ End Time: 5.833666
+
+ Log Entry: 
+	 Time: 326059.328988Filter: WFC System
+	 Message: 
+ Failed to solve Markov problem: SummerMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 326059.329004Filter: WFC System
+	 Message: 
+ End Time: 5.838232
+
+ Log Entry: 
+	 Time: 326059.333680Filter: WFC System
+	 Message: 
+ Failed to solve Markov problem: SummerMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 326059.333692Filter: WFC System
+	 Message: 
+ End Time: 5.842921
+
+ Log Entry: 
+	 Time: 326059.333992Filter: WFC System
+	 Message: 
+ Time take for Markov problem: 0.057478
+
+ Log Entry: 
+	 Time: 326059.334462Filter: WFC System
+	 Message: 
+
+ Started WFC for Markov problem: SummerMarkov Subset: tiles
+
+ Log Entry: 
+	 Time: 326059.334604Filter: WFC System
+	 Message: 
+ Start Time: 5.843714
+
+ Log Entry: 
+	 Time: 326059.351320Filter: WFC System
+	 Message: 
+ Failed to solve Markov problem: SummerMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 326059.351332Filter: WFC System
+	 Message: 
+ End Time: 5.860561
+
+ Log Entry: 
+	 Time: 326059.356766Filter: WFC System
+	 Message: 
+ Failed to solve Markov problem: SummerMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 326059.356778Filter: WFC System
+	 Message: 
+ End Time: 5.866008
+
+ Log Entry: 
+	 Time: 326059.363328Filter: WFC System
+	 Message: 
+ Failed to solve Markov problem: SummerMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 326059.363355Filter: WFC System
+	 Message: 
+ End Time: 5.872584
+
+ Log Entry: 
+	 Time: 326059.368559Filter: WFC System
+	 Message: 
+ Failed to solve Markov problem: SummerMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 326059.368572Filter: WFC System
+	 Message: 
+ End Time: 5.877802
+
+ Log Entry: 
+	 Time: 326059.373609Filter: WFC System
+	 Message: 
+ Failed to solve Markov problem: SummerMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 326059.373620Filter: WFC System
+	 Message: 
+ End Time: 5.882850
+
+ Log Entry: 
+	 Time: 326059.378320Filter: WFC System
+	 Message: 
+ Failed to solve Markov problem: SummerMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 326059.378350Filter: WFC System
+	 Message: 
+ End Time: 5.887579
+
+ Log Entry: 
+	 Time: 326059.383011Filter: WFC System
+	 Message: 
+ Failed to solve Markov problem: SummerMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 326059.383042Filter: WFC System
+	 Message: 
+ End Time: 5.892272
+
+ Log Entry: 
+	 Time: 326059.387619Filter: WFC System
+	 Message: 
+ Failed to solve Markov problem: SummerMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 326059.387631Filter: WFC System
+	 Message: 
+ End Time: 5.896861
+
+ Log Entry: 
+	 Time: 326059.392156Filter: WFC System
+	 Message: 
+ Failed to solve Markov problem: SummerMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 326059.392170Filter: WFC System
+	 Message: 
+ End Time: 5.901397
+
+ Log Entry: 
+	 Time: 326059.396784Filter: WFC System
+	 Message: 
+ Failed to solve Markov problem: SummerMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 326059.396798Filter: WFC System
+	 Message: 
+ End Time: 5.906027
+
+ Log Entry: 
+	 Time: 326059.397113Filter: WFC System
+	 Message: 
+ Time take for Markov problem: 0.062313
+
+ Log Entry: 
+	 Time: 326059.397577Filter: WFC System
+	 Message: 
+
+ Started WFC for Markov problem: SummerMarkov Subset: tiles
+
+ Log Entry: 
+	 Time: 326059.397619Filter: WFC System
+	 Message: 
+ Start Time: 5.906816
+
+ Log Entry: 
+	 Time: 326059.412651Filter: WFC System
+	 Message: 
+ Failed to solve Markov problem: SummerMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 326059.412663Filter: WFC System
+	 Message: 
+ End Time: 5.921892
+
+ Log Entry: 
+	 Time: 326059.417266Filter: WFC System
+	 Message: 
+ Failed to solve Markov problem: SummerMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 326059.417278Filter: WFC System
+	 Message: 
+ End Time: 5.926508
+
+ Log Entry: 
+	 Time: 326059.421755Filter: WFC System
+	 Message: 
+ Failed to solve Markov problem: SummerMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 326059.421766Filter: WFC System
+	 Message: 
+ End Time: 5.930996
+
+ Log Entry: 
+	 Time: 326059.426264Filter: WFC System
+	 Message: 
+ Failed to solve Markov problem: SummerMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 326059.426277Filter: WFC System
+	 Message: 
+ End Time: 5.935507
+
+ Log Entry: 
+	 Time: 326059.432563Filter: WFC System
+	 Message: 
+ Failed to solve Markov problem: SummerMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 326059.432595Filter: WFC System
+	 Message: 
+ End Time: 5.941824
+
+ Log Entry: 
+	 Time: 326059.436731Filter: WFC System
+	 Message: 
+ Failed to solve Markov problem: SummerMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 326059.436743Filter: WFC System
+	 Message: 
+ End Time: 5.945973
+
+ Log Entry: 
+	 Time: 326059.441034Filter: WFC System
+	 Message: 
+ Failed to solve Markov problem: SummerMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 326059.441061Filter: WFC System
+	 Message: 
+ End Time: 5.950291
+
+ Log Entry: 
+	 Time: 326059.445872Filter: WFC System
+	 Message: 
+ Failed to solve Markov problem: SummerMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 326059.445902Filter: WFC System
+	 Message: 
+ End Time: 5.955132
+
+ Log Entry: 
+	 Time: 326059.450456Filter: WFC System
+	 Message: 
+ Failed to solve Markov problem: SummerMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 326059.450482Filter: WFC System
+	 Message: 
+ End Time: 5.959712
+
+ Log Entry: 
+	 Time: 326059.454560Filter: WFC System
+	 Message: 
+ Failed to solve Markov problem: SummerMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 326059.454570Filter: WFC System
+	 Message: 
+ End Time: 5.963800
+
+ Log Entry: 
+	 Time: 326059.454849Filter: WFC System
+	 Message: 
+ Time take for Markov problem: 0.056984
+
+ Log Entry: 
+	 Time: 326059.455262Filter: WFC System
+	 Message: 
+
+ Started WFC for Markov problem: SummerMarkov Subset: tiles
+
+ Log Entry: 
+	 Time: 326059.455329Filter: WFC System
+	 Message: 
+ Start Time: 5.964520
+
+ Log Entry: 
+	 Time: 326059.472839Filter: WFC System
+	 Message: 
+ Failed to solve Markov problem: SummerMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 326059.472852Filter: WFC System
+	 Message: 
+ End Time: 5.982081
+
+ Log Entry: 
+	 Time: 326059.620127Filter: WFC System
+	 Message: 
+ Finished solving Markov problem: SummerMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 326059.620143Filter: WFC System
+	 Message: 
+ End Time: 6.129371
+
+ Log Entry: 
+	 Time: 326059.621057Filter: WFC System
+	 Message: 
+ Time take for Markov problem: 0.164851
+
+ Log Entry: 
+	 Time: 326059.621696Filter: WFC System
+	 Message: 
+
+ Started WFC for Markov problem: SummerMarkov Subset: tiles
+
+ Log Entry: 
+	 Time: 326059.621810Filter: WFC System
+	 Message: 
+ Start Time: 6.130936
+
+ Log Entry: 
+	 Time: 326059.637870Filter: WFC System
+	 Message: 
+ Failed to solve Markov problem: SummerMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 326059.637912Filter: WFC System
+	 Message: 
+ End Time: 6.147135
+
+ Log Entry: 
+	 Time: 326059.643940Filter: WFC System
+	 Message: 
+ Failed to solve Markov problem: SummerMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 326059.643953Filter: WFC System
+	 Message: 
+ End Time: 6.153183
+
+ Log Entry: 
+	 Time: 326059.650073Filter: WFC System
+	 Message: 
+ Failed to solve Markov problem: SummerMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 326059.650106Filter: WFC System
+	 Message: 
+ End Time: 6.159336
+
+ Log Entry: 
+	 Time: 326059.656317Filter: WFC System
+	 Message: 
+ Failed to solve Markov problem: SummerMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 326059.656328Filter: WFC System
+	 Message: 
+ End Time: 6.165558
+
+ Log Entry: 
+	 Time: 326059.662407Filter: WFC System
+	 Message: 
+ Failed to solve Markov problem: SummerMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 326059.662419Filter: WFC System
+	 Message: 
+ End Time: 6.171649
+
+ Log Entry: 
+	 Time: 326059.668903Filter: WFC System
+	 Message: 
+ Failed to solve Markov problem: SummerMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 326059.668916Filter: WFC System
+	 Message: 
+ End Time: 6.178145
+
+ Log Entry: 
+	 Time: 326059.674367Filter: WFC System
+	 Message: 
+ Failed to solve Markov problem: SummerMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 326059.674380Filter: WFC System
+	 Message: 
+ End Time: 6.183609
+
+ Log Entry: 
+	 Time: 326059.680395Filter: WFC System
+	 Message: 
+ Failed to solve Markov problem: SummerMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 326059.680422Filter: WFC System
+	 Message: 
+ End Time: 6.189638
+
+ Log Entry: 
+	 Time: 326059.685836Filter: WFC System
+	 Message: 
+ Failed to solve Markov problem: SummerMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 326059.685848Filter: WFC System
+	 Message: 
+ End Time: 6.195077
+
+ Log Entry: 
+	 Time: 326059.691498Filter: WFC System
+	 Message: 
+ Failed to solve Markov problem: SummerMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 326059.691529Filter: WFC System
+	 Message: 
+ End Time: 6.200759
+
+ Log Entry: 
+	 Time: 326059.691871Filter: WFC System
+	 Message: 
+ Time take for Markov problem: 0.069823
+
+ Log Entry: 
+	 Time: 326059.692219Filter: WFC System
+	 Message: 
+
+ Started WFC for Markov problem: SummerMarkov Subset: tiles
+
+ Log Entry: 
+	 Time: 326059.692269Filter: WFC System
+	 Message: 
+ Start Time: 6.201457
+
+ Log Entry: 
+	 Time: 326059.710341Filter: WFC System
+	 Message: 
+ Failed to solve Markov problem: SummerMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 326059.710354Filter: WFC System
+	 Message: 
+ End Time: 6.219583
+
+ Log Entry: 
+	 Time: 326059.716841Filter: WFC System
+	 Message: 
+ Failed to solve Markov problem: SummerMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 326059.716857Filter: WFC System
+	 Message: 
+ End Time: 6.226084
+
+ Log Entry: 
+	 Time: 326059.722312Filter: WFC System
+	 Message: 
+ Failed to solve Markov problem: SummerMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 326059.722323Filter: WFC System
+	 Message: 
+ End Time: 6.231553
+
+ Log Entry: 
+	 Time: 326059.728454Filter: WFC System
+	 Message: 
+ Failed to solve Markov problem: SummerMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 326059.728480Filter: WFC System
+	 Message: 
+ End Time: 6.237709
+
+ Log Entry: 
+	 Time: 326059.734308Filter: WFC System
+	 Message: 
+ Failed to solve Markov problem: SummerMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 326059.734319Filter: WFC System
+	 Message: 
+ End Time: 6.243549
+
+ Log Entry: 
+	 Time: 326059.889176Filter: WFC System
+	 Message: 
+ Finished solving Markov problem: SummerMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 326059.889192Filter: WFC System
+	 Message: 
+ End Time: 6.398419
+
+ Log Entry: 
+	 Time: 326059.890016Filter: WFC System
+	 Message: 
+ Time take for Markov problem: 0.196962
+
+ Log Entry: 
+	 Time: 326059.890477Filter: WFC System
+	 Message: 
+
+ Started WFC for Markov problem: CastleMarkov Subset: tiles
+
+ Log Entry: 
+	 Time: 326059.890526Filter: WFC System
+	 Message: 
+ Start Time: 6.399716
+
+ Log Entry: 
+	 Time: 326059.984989Filter: WFC System
+	 Message: 
+ Finished solving Markov problem: CastleMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 326059.985018Filter: WFC System
+	 Message: 
+ End Time: 6.494245
+
+ Log Entry: 
+	 Time: 326059.985181Filter: WFC System
+	 Message: 
+ Time take for Markov problem: 0.094529
+
+ Log Entry: 
+	 Time: 326059.985689Filter: WFC System
+	 Message: 
+
+ Started WFC for Markov problem: CastleMarkov Subset: tiles
+
+ Log Entry: 
+	 Time: 326059.985796Filter: WFC System
+	 Message: 
+ Start Time: 6.494935
+
+ Log Entry: 
+	 Time: 326060.006968Filter: WFC System
+	 Message: 
+ Finished solving Markov problem: CastleMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 326060.006984Filter: WFC System
+	 Message: 
+ End Time: 6.516211
+
+ Log Entry: 
+	 Time: 326060.007073Filter: WFC System
+	 Message: 
+ Time take for Markov problem: 0.021276
+
+ Log Entry: 
+	 Time: 326060.007300Filter: WFC System
+	 Message: 
+
+ Started WFC for Markov problem: CastleMarkov Subset: tiles
+
+ Log Entry: 
+	 Time: 326060.007346Filter: WFC System
+	 Message: 
+ Start Time: 6.516539
+
+ Log Entry: 
+	 Time: 326060.021307Filter: WFC System
+	 Message: 
+ Finished solving Markov problem: CastleMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 326060.021324Filter: WFC System
+	 Message: 
+ End Time: 6.530551
+
+ Log Entry: 
+	 Time: 326060.021407Filter: WFC System
+	 Message: 
+ Time take for Markov problem: 0.014013
+
+ Log Entry: 
+	 Time: 326060.021621Filter: WFC System
+	 Message: 
+
+ Started WFC for Markov problem: CastleMarkov Subset: tiles
+
+ Log Entry: 
+	 Time: 326060.021667Filter: WFC System
+	 Message: 
+ Start Time: 6.530859
+
+ Log Entry: 
+	 Time: 326060.037173Filter: WFC System
+	 Message: 
+ Finished solving Markov problem: CastleMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 326060.037188Filter: WFC System
+	 Message: 
+ End Time: 6.546417
+
+ Log Entry: 
+	 Time: 326060.037371Filter: WFC System
+	 Message: 
+ Time take for Markov problem: 0.015558
+
+ Log Entry: 
+	 Time: 326060.037505Filter: WFC System
+	 Message: 
+
+ Started WFC for Markov problem: CastleMarkov Subset: tiles
+
+ Log Entry: 
+	 Time: 326060.037556Filter: WFC System
+	 Message: 
+ Start Time: 6.546744
+
+ Log Entry: 
+	 Time: 326060.051537Filter: WFC System
+	 Message: 
+ Finished solving Markov problem: CastleMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 326060.051554Filter: WFC System
+	 Message: 
+ End Time: 6.560782
+
+ Log Entry: 
+	 Time: 326060.051736Filter: WFC System
+	 Message: 
+ Time take for Markov problem: 0.014038
+
+ Log Entry: 
+	 Time: 326060.051969Filter: WFC System
+	 Message: 
+
+ Started WFC for Markov problem: CastleMarkov Subset: tiles
+
+ Log Entry: 
+	 Time: 326060.052044Filter: WFC System
+	 Message: 
+ Start Time: 6.561226
+
+ Log Entry: 
+	 Time: 326060.067675Filter: WFC System
+	 Message: 
+ Finished solving Markov problem: CastleMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 326060.067691Filter: WFC System
+	 Message: 
+ End Time: 6.576921
+
+ Log Entry: 
+	 Time: 326060.067889Filter: WFC System
+	 Message: 
+ Time take for Markov problem: 0.015694
+
+ Log Entry: 
+	 Time: 326060.068011Filter: WFC System
+	 Message: 
+
+ Started WFC for Markov problem: CastleMarkov Subset: tiles
+
+ Log Entry: 
+	 Time: 326060.068097Filter: WFC System
+	 Message: 
+ Start Time: 6.577250
+
+ Log Entry: 
+	 Time: 326060.088230Filter: WFC System
+	 Message: 
+ Finished solving Markov problem: CastleMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 326060.088245Filter: WFC System
+	 Message: 
+ End Time: 6.597474
+
+ Log Entry: 
+	 Time: 326060.088484Filter: WFC System
+	 Message: 
+ Time take for Markov problem: 0.020224
+
+ Log Entry: 
+	 Time: 326060.088730Filter: WFC System
+	 Message: 
+
+ Started WFC for Markov problem: CastleMarkov Subset: tiles
+
+ Log Entry: 
+	 Time: 326060.088783Filter: WFC System
+	 Message: 
+ Start Time: 6.597973
+
+ Log Entry: 
+	 Time: 326060.107358Filter: WFC System
+	 Message: 
+ Finished solving Markov problem: CastleMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 326060.107373Filter: WFC System
+	 Message: 
+ End Time: 6.616601
+
+ Log Entry: 
+	 Time: 326060.107581Filter: WFC System
+	 Message: 
+ Time take for Markov problem: 0.018628
+
+ Log Entry: 
+	 Time: 326060.107833Filter: WFC System
+	 Message: 
+
+ Started WFC for Markov problem: CastleMarkov Subset: tiles
+
+ Log Entry: 
+	 Time: 326060.107910Filter: WFC System
+	 Message: 
+ Start Time: 6.617091
+
+ Log Entry: 
+	 Time: 326060.127712Filter: WFC System
+	 Message: 
+ Finished solving Markov problem: CastleMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 326060.127728Filter: WFC System
+	 Message: 
+ End Time: 6.636955
+
+ Log Entry: 
+	 Time: 326060.127942Filter: WFC System
+	 Message: 
+ Time take for Markov problem: 0.019864

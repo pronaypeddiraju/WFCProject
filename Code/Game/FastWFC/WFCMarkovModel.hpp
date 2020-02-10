@@ -27,6 +27,10 @@ struct MarkovWFCOptions
 //Class generating new image using Markov chain for neighboring information
 template <typename T> class MarkovWFC
 {
+public:
+	double m_initTime = 0;
+	double m_neighborGenerationTime = 0;
+
 private:
 
 	//the distinct tiles
@@ -47,9 +51,11 @@ private:
 	//Neighbors infered from reading samples
 	std::vector< std::tuple<uint, uint, uint, uint> > m_inferedNeighbors;
 
-
 	//The underlying generic WFC algorithm.
 	WFC m_wfc;
+
+	//The number of neighbor permutations
+	int m_numPermutations;
 
 	//------------------------------------------------------------------------------------------------------------------------------
 	std::pair<uint, uint> FindTileAndMakeSymmetries(Array2D<T>& observedData)
@@ -282,6 +288,7 @@ private:
 	//Infer neighbors for the Markov WFC Problem
 	std::vector<std::tuple<uint, uint, uint, uint>> InferNeighbors()
 	{
+		m_initTime = GetCurrentTimeSeconds();
 
 		std::vector<std::tuple<uint, uint, uint, uint> > neighborSet;
 
@@ -321,6 +328,8 @@ private:
 			}
 		}
 
+		m_neighborGenerationTime = GetCurrentTimeSeconds() - m_initTime;
+		m_numPermutations = neighborSet.size();
 		return neighborSet;
 	}
 
@@ -488,4 +497,7 @@ public:
 
 	//Get orientation to oriented tile id
 	const std::vector<std::vector<uint>>& GetOrientedTileIDs() { return m_orientedTileIds; }
+
+	//Get num neighborhood permutations
+	const int GetNumPermutations() { return m_numPermutations; }
 };

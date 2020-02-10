@@ -1,0 +1,4557 @@
+Log Initialized
+
+ Log Entry: 
+	 Time: 489520.188202Filter: WFC System
+	 Message: 
+
+ Started WFC for Tiling problem: Circles Subset: All
+
+ Log Entry: 
+	 Time: 489520.188442Filter: WFC System
+	 Message: 
+ Start Time: 0.976810
+
+ Log Entry: 
+	 Time: 489520.195368Filter: WFC System
+	 Message: 
+ Finished solving tiling problem: Circles subset: All
+
+ Log Entry: 
+	 Time: 489520.195380Filter: WFCSystem
+	 Message: Number of neighborhood permutations: 84
+
+ Log Entry: 
+	 Time: 489520.195387Filter: WFC System
+	 Message: 
+ End Time: 0.983954
+
+ Log Entry: 
+	 Time: 489520.196500Filter: WFC System
+	 Message: 
+ Time taken for Tiling problem: 0.007144
+
+ Log Entry: 
+	 Time: 489520.196511Filter: WFC System
+	 Message: 
+ Number of Permutations: 84
+
+ Log Entry: 
+	 Time: 489520.196943Filter: WFC System
+	 Message: 
+
+ Started WFC for Tiling problem: Circles Subset: All
+
+ Log Entry: 
+	 Time: 489520.196995Filter: WFC System
+	 Message: 
+ Start Time: 0.985522
+
+ Log Entry: 
+	 Time: 489520.202475Filter: WFC System
+	 Message: 
+ Finished solving tiling problem: Circles subset: All
+
+ Log Entry: 
+	 Time: 489520.202487Filter: WFCSystem
+	 Message: Number of neighborhood permutations: 84
+
+ Log Entry: 
+	 Time: 489520.202494Filter: WFC System
+	 Message: 
+ End Time: 0.991060
+
+ Log Entry: 
+	 Time: 489520.203606Filter: WFC System
+	 Message: 
+ Time taken for Tiling problem: 0.005538
+
+ Log Entry: 
+	 Time: 489520.203618Filter: WFC System
+	 Message: 
+ Number of Permutations: 84
+
+ Log Entry: 
+	 Time: 489520.203915Filter: WFC System
+	 Message: 
+
+ Started WFC for Tiling problem: Circles Subset: All
+
+ Log Entry: 
+	 Time: 489520.204024Filter: WFC System
+	 Message: 
+ Start Time: 0.992494
+
+ Log Entry: 
+	 Time: 489520.210590Filter: WFC System
+	 Message: 
+ Finished solving tiling problem: Circles subset: All
+
+ Log Entry: 
+	 Time: 489520.210602Filter: WFCSystem
+	 Message: Number of neighborhood permutations: 84
+
+ Log Entry: 
+	 Time: 489520.210629Filter: WFC System
+	 Message: 
+ End Time: 0.999176
+
+ Log Entry: 
+	 Time: 489520.211729Filter: WFC System
+	 Message: 
+ Time taken for Tiling problem: 0.006681
+
+ Log Entry: 
+	 Time: 489520.211740Filter: WFC System
+	 Message: 
+ Number of Permutations: 84
+
+ Log Entry: 
+	 Time: 489520.211863Filter: WFC System
+	 Message: 
+
+ Started WFC for Tiling problem: Circuit Subset: All
+
+ Log Entry: 
+	 Time: 489520.211915Filter: WFC System
+	 Message: 
+ Start Time: 1.000440
+
+ Log Entry: 
+	 Time: 489520.216942Filter: WFC System
+	 Message: 
+ Finished solving tiling problem: Circuit subset: All
+
+ Log Entry: 
+	 Time: 489520.216953Filter: WFCSystem
+	 Message: Number of neighborhood permutations: 145
+
+ Log Entry: 
+	 Time: 489520.216961Filter: WFC System
+	 Message: 
+ End Time: 1.005527
+
+ Log Entry: 
+	 Time: 489520.217319Filter: WFC System
+	 Message: 
+ Time taken for Tiling problem: 0.005087
+
+ Log Entry: 
+	 Time: 489520.217329Filter: WFC System
+	 Message: 
+ Number of Permutations: 145
+
+ Log Entry: 
+	 Time: 489520.217528Filter: WFC System
+	 Message: 
+
+ Started WFC for Tiling problem: Circuit Subset: All
+
+ Log Entry: 
+	 Time: 489520.217584Filter: WFC System
+	 Message: 
+ Start Time: 1.006105
+
+ Log Entry: 
+	 Time: 489520.224677Filter: WFC System
+	 Message: 
+ Finished solving tiling problem: Circuit subset: All
+
+ Log Entry: 
+	 Time: 489520.224690Filter: WFCSystem
+	 Message: Number of neighborhood permutations: 145
+
+ Log Entry: 
+	 Time: 489520.224697Filter: WFC System
+	 Message: 
+ End Time: 1.013263
+
+ Log Entry: 
+	 Time: 489520.225063Filter: WFC System
+	 Message: 
+ Time taken for Tiling problem: 0.007158
+
+ Log Entry: 
+	 Time: 489520.225071Filter: WFC System
+	 Message: 
+ Number of Permutations: 145
+
+ Log Entry: 
+	 Time: 489520.225585Filter: WFC System
+	 Message: 
+
+ Started WFC for Tiling problem: Circuit Subset: All
+
+ Log Entry: 
+	 Time: 489520.225652Filter: WFC System
+	 Message: 
+ Start Time: 1.014163
+
+ Log Entry: 
+	 Time: 489520.229838Filter: WFC System
+	 Message: 
+ Finished solving tiling problem: Circuit subset: All
+
+ Log Entry: 
+	 Time: 489520.229850Filter: WFCSystem
+	 Message: Number of neighborhood permutations: 145
+
+ Log Entry: 
+	 Time: 489520.229869Filter: WFC System
+	 Message: 
+ End Time: 1.018424
+
+ Log Entry: 
+	 Time: 489520.230275Filter: WFC System
+	 Message: 
+ Time taken for Tiling problem: 0.004261
+
+ Log Entry: 
+	 Time: 489520.230286Filter: WFC System
+	 Message: 
+ Number of Permutations: 145
+
+ Log Entry: 
+	 Time: 489520.230412Filter: WFC System
+	 Message: 
+
+ Started WFC for Tiling problem: Knots Subset: All
+
+ Log Entry: 
+	 Time: 489520.230455Filter: WFC System
+	 Message: 
+ Start Time: 1.018988
+
+ Log Entry: 
+	 Time: 489520.233787Filter: WFC System
+	 Message: 
+ Finished solving tiling problem: Knots subset: All
+
+ Log Entry: 
+	 Time: 489520.233799Filter: WFCSystem
+	 Message: Number of neighborhood permutations: 35
+
+ Log Entry: 
+	 Time: 489520.233806Filter: WFC System
+	 Message: 
+ End Time: 1.022372
+
+ Log Entry: 
+	 Time: 489520.234067Filter: WFC System
+	 Message: 
+ Time taken for Tiling problem: 0.003385
+
+ Log Entry: 
+	 Time: 489520.234077Filter: WFC System
+	 Message: 
+ Number of Permutations: 35
+
+ Log Entry: 
+	 Time: 489520.234258Filter: WFC System
+	 Message: 
+
+ Started WFC for Tiling problem: Knots Subset: All
+
+ Log Entry: 
+	 Time: 489520.234312Filter: WFC System
+	 Message: 
+ Start Time: 1.022837
+
+ Log Entry: 
+	 Time: 489520.237673Filter: WFC System
+	 Message: 
+ Finished solving tiling problem: Knots subset: All
+
+ Log Entry: 
+	 Time: 489520.237686Filter: WFCSystem
+	 Message: Number of neighborhood permutations: 35
+
+ Log Entry: 
+	 Time: 489520.237693Filter: WFC System
+	 Message: 
+ End Time: 1.026260
+
+ Log Entry: 
+	 Time: 489520.237977Filter: WFC System
+	 Message: 
+ Time taken for Tiling problem: 0.003423
+
+ Log Entry: 
+	 Time: 489520.237987Filter: WFC System
+	 Message: 
+ Number of Permutations: 35
+
+ Log Entry: 
+	 Time: 489520.238087Filter: WFC System
+	 Message: 
+
+ Started WFC for Tiling problem: Knots Subset: All
+
+ Log Entry: 
+	 Time: 489520.238201Filter: WFC System
+	 Message: 
+ Start Time: 1.026671
+
+ Log Entry: 
+	 Time: 489520.241324Filter: WFC System
+	 Message: 
+ Finished solving tiling problem: Knots subset: All
+
+ Log Entry: 
+	 Time: 489520.241337Filter: WFCSystem
+	 Message: Number of neighborhood permutations: 35
+
+ Log Entry: 
+	 Time: 489520.241381Filter: WFC System
+	 Message: 
+ End Time: 1.029910
+
+ Log Entry: 
+	 Time: 489520.241674Filter: WFC System
+	 Message: 
+ Time taken for Tiling problem: 0.003240
+
+ Log Entry: 
+	 Time: 489520.241682Filter: WFC System
+	 Message: 
+ Number of Permutations: 35
+
+ Log Entry: 
+	 Time: 489520.241795Filter: WFC System
+	 Message: 
+
+ Started WFC for Tiling problem: Rooms Subset: tiles
+
+ Log Entry: 
+	 Time: 489520.241832Filter: WFC System
+	 Message: 
+ Start Time: 1.030371
+
+ Log Entry: 
+	 Time: 489520.245374Filter: WFC System
+	 Message: 
+ Finished solving tiling problem: Rooms subset: tiles
+
+ Log Entry: 
+	 Time: 489520.245387Filter: WFCSystem
+	 Message: Number of neighborhood permutations: 40
+
+ Log Entry: 
+	 Time: 489520.245393Filter: WFC System
+	 Message: 
+ End Time: 1.033960
+
+ Log Entry: 
+	 Time: 489520.245696Filter: WFC System
+	 Message: 
+ Time taken for Tiling problem: 0.003589
+
+ Log Entry: 
+	 Time: 489520.245706Filter: WFC System
+	 Message: 
+ Number of Permutations: 40
+
+ Log Entry: 
+	 Time: 489520.245828Filter: WFC System
+	 Message: 
+
+ Started WFC for Tiling problem: Rooms Subset: tiles
+
+ Log Entry: 
+	 Time: 489520.245874Filter: WFC System
+	 Message: 
+ Start Time: 1.034404
+
+ Log Entry: 
+	 Time: 489520.249414Filter: WFC System
+	 Message: 
+ Finished solving tiling problem: Rooms subset: tiles
+
+ Log Entry: 
+	 Time: 489520.249430Filter: WFCSystem
+	 Message: Number of neighborhood permutations: 40
+
+ Log Entry: 
+	 Time: 489520.249438Filter: WFC System
+	 Message: 
+ End Time: 1.038004
+
+ Log Entry: 
+	 Time: 489520.249672Filter: WFC System
+	 Message: 
+ Time taken for Tiling problem: 0.003599
+
+ Log Entry: 
+	 Time: 489520.249682Filter: WFC System
+	 Message: 
+ Number of Permutations: 40
+
+ Log Entry: 
+	 Time: 489520.249771Filter: WFC System
+	 Message: 
+
+ Started WFC for Tiling problem: Rooms Subset: tiles
+
+ Log Entry: 
+	 Time: 489520.249822Filter: WFC System
+	 Message: 
+ Start Time: 1.038346
+
+ Log Entry: 
+	 Time: 489520.255587Filter: WFC System
+	 Message: 
+ Finished solving tiling problem: Rooms subset: tiles
+
+ Log Entry: 
+	 Time: 489520.255600Filter: WFCSystem
+	 Message: Number of neighborhood permutations: 40
+
+ Log Entry: 
+	 Time: 489520.255931Filter: WFC System
+	 Message: 
+ End Time: 1.044174
+
+ Log Entry: 
+	 Time: 489520.256222Filter: WFC System
+	 Message: 
+ Time taken for Tiling problem: 0.005828
+
+ Log Entry: 
+	 Time: 489520.256231Filter: WFC System
+	 Message: 
+ Number of Permutations: 40
+
+ Log Entry: 
+	 Time: 489520.256370Filter: WFC System
+	 Message: 
+
+ Started WFC for Tiling problem: Summer Subset: tiles
+
+ Log Entry: 
+	 Time: 489520.256426Filter: WFC System
+	 Message: 
+ Start Time: 1.044947
+
+ Log Entry: 
+	 Time: 489520.289124Filter: WFC System
+	 Message: 
+ Finished solving tiling problem: Summer subset: tiles
+
+ Log Entry: 
+	 Time: 489520.289138Filter: WFCSystem
+	 Message: Number of neighborhood permutations: 49
+
+ Log Entry: 
+	 Time: 489520.289144Filter: WFC System
+	 Message: 
+ End Time: 1.077711
+
+ Log Entry: 
+	 Time: 489520.290832Filter: WFC System
+	 Message: 
+ Time taken for Tiling problem: 0.032764
+
+ Log Entry: 
+	 Time: 489520.290848Filter: WFC System
+	 Message: 
+ Number of Permutations: 49
+
+ Log Entry: 
+	 Time: 489520.291124Filter: WFC System
+	 Message: 
+
+ Started WFC for Tiling problem: Summer Subset: tiles
+
+ Log Entry: 
+	 Time: 489520.291173Filter: WFC System
+	 Message: 
+ Start Time: 1.079702
+
+ Log Entry: 
+	 Time: 489520.321361Filter: WFC System
+	 Message: 
+ Finished solving tiling problem: Summer subset: tiles
+
+ Log Entry: 
+	 Time: 489520.321374Filter: WFCSystem
+	 Message: Number of neighborhood permutations: 49
+
+ Log Entry: 
+	 Time: 489520.321381Filter: WFC System
+	 Message: 
+ End Time: 1.109947
+
+ Log Entry: 
+	 Time: 489520.323160Filter: WFC System
+	 Message: 
+ Time taken for Tiling problem: 0.030246
+
+ Log Entry: 
+	 Time: 489520.323172Filter: WFC System
+	 Message: 
+ Number of Permutations: 49
+
+ Log Entry: 
+	 Time: 489520.323533Filter: WFC System
+	 Message: 
+
+ Started WFC for Tiling problem: Summer Subset: tiles
+
+ Log Entry: 
+	 Time: 489520.323589Filter: WFC System
+	 Message: 
+ Start Time: 1.112111
+
+ Log Entry: 
+	 Time: 489520.352200Filter: WFC System
+	 Message: 
+ Finished solving tiling problem: Summer subset: tiles
+
+ Log Entry: 
+	 Time: 489520.352213Filter: WFCSystem
+	 Message: Number of neighborhood permutations: 49
+
+ Log Entry: 
+	 Time: 489520.352229Filter: WFC System
+	 Message: 
+ End Time: 1.140786
+
+ Log Entry: 
+	 Time: 489520.354174Filter: WFC System
+	 Message: 
+ Time taken for Tiling problem: 0.028675
+
+ Log Entry: 
+	 Time: 489520.354184Filter: WFC System
+	 Message: 
+ Number of Permutations: 49
+
+ Log Entry: 
+	 Time: 489520.354471Filter: WFC System
+	 Message: 
+
+ Started WFC for Tiling problem: Castle Subset: tiles
+
+ Log Entry: 
+	 Time: 489520.354520Filter: WFC System
+	 Message: 
+ Start Time: 1.143047
+
+ Log Entry: 
+	 Time: 489520.358420Filter: WFC System
+	 Message: 
+ Finished solving tiling problem: Castle subset: tiles
+
+ Log Entry: 
+	 Time: 489520.358432Filter: WFCSystem
+	 Message: Number of neighborhood permutations: 57
+
+ Log Entry: 
+	 Time: 489520.358440Filter: WFC System
+	 Message: 
+ End Time: 1.147006
+
+ Log Entry: 
+	 Time: 489520.358751Filter: WFC System
+	 Message: 
+ Time taken for Tiling problem: 0.003959
+
+ Log Entry: 
+	 Time: 489520.358762Filter: WFC System
+	 Message: 
+ Number of Permutations: 57
+
+ Log Entry: 
+	 Time: 489520.358893Filter: WFC System
+	 Message: 
+
+ Started WFC for Tiling problem: Castle Subset: tiles
+
+ Log Entry: 
+	 Time: 489520.358942Filter: WFC System
+	 Message: 
+ Start Time: 1.147469
+
+ Log Entry: 
+	 Time: 489520.362032Filter: WFC System
+	 Message: 
+ Finished solving tiling problem: Castle subset: tiles
+
+ Log Entry: 
+	 Time: 489520.362045Filter: WFCSystem
+	 Message: Number of neighborhood permutations: 57
+
+ Log Entry: 
+	 Time: 489520.362053Filter: WFC System
+	 Message: 
+ End Time: 1.150619
+
+ Log Entry: 
+	 Time: 489520.362406Filter: WFC System
+	 Message: 
+ Time taken for Tiling problem: 0.003150
+
+ Log Entry: 
+	 Time: 489520.362423Filter: WFC System
+	 Message: 
+ Number of Permutations: 57
+
+ Log Entry: 
+	 Time: 489520.363089Filter: WFC System
+	 Message: 
+
+ Started WFC for Tiling problem: Castle Subset: tiles
+
+ Log Entry: 
+	 Time: 489520.363169Filter: WFC System
+	 Message: 
+ Start Time: 1.151669
+
+ Log Entry: 
+	 Time: 489520.366792Filter: WFC System
+	 Message: 
+ Finished solving tiling problem: Castle subset: tiles
+
+ Log Entry: 
+	 Time: 489520.366805Filter: WFCSystem
+	 Message: Number of neighborhood permutations: 57
+
+ Log Entry: 
+	 Time: 489520.366842Filter: WFC System
+	 Message: 
+ End Time: 1.155379
+
+ Log Entry: 
+	 Time: 489520.367190Filter: WFC System
+	 Message: 
+ Time taken for Tiling problem: 0.003711
+
+ Log Entry: 
+	 Time: 489520.367198Filter: WFC System
+	 Message: 
+ Number of Permutations: 57
+
+ Log Entry: 
+	 Time: 489520.367330Filter: WFC System
+	 Message: 
+
+ Started WFC for Tiling problem: Circles Subset: All
+
+ Log Entry: 
+	 Time: 489520.367378Filter: WFC System
+	 Message: 
+ Start Time: 1.155907
+
+ Log Entry: 
+	 Time: 489520.378153Filter: WFC System
+	 Message: 
+ Finished solving tiling problem: Circles subset: All
+
+ Log Entry: 
+	 Time: 489520.378167Filter: WFCSystem
+	 Message: Number of neighborhood permutations: 84
+
+ Log Entry: 
+	 Time: 489520.378175Filter: WFC System
+	 Message: 
+ End Time: 1.166741
+
+ Log Entry: 
+	 Time: 489520.381862Filter: WFC System
+	 Message: 
+ Time taken for Tiling problem: 0.010834
+
+ Log Entry: 
+	 Time: 489520.381875Filter: WFC System
+	 Message: 
+ Number of Permutations: 84
+
+ Log Entry: 
+	 Time: 489520.382028Filter: WFC System
+	 Message: 
+
+ Started WFC for Tiling problem: Circles Subset: All
+
+ Log Entry: 
+	 Time: 489520.382080Filter: WFC System
+	 Message: 
+ Start Time: 1.170613
+
+ Log Entry: 
+	 Time: 489520.394230Filter: WFC System
+	 Message: 
+ Finished solving tiling problem: Circles subset: All
+
+ Log Entry: 
+	 Time: 489520.394243Filter: WFCSystem
+	 Message: Number of neighborhood permutations: 84
+
+ Log Entry: 
+	 Time: 489520.394250Filter: WFC System
+	 Message: 
+ End Time: 1.182816
+
+ Log Entry: 
+	 Time: 489520.398251Filter: WFC System
+	 Message: 
+ Time taken for Tiling problem: 0.012203
+
+ Log Entry: 
+	 Time: 489520.398263Filter: WFC System
+	 Message: 
+ Number of Permutations: 84
+
+ Log Entry: 
+	 Time: 489520.398386Filter: WFC System
+	 Message: 
+
+ Started WFC for Tiling problem: Circles Subset: All
+
+ Log Entry: 
+	 Time: 489520.398431Filter: WFC System
+	 Message: 
+ Start Time: 1.186961
+
+ Log Entry: 
+	 Time: 489520.411975Filter: WFC System
+	 Message: 
+ Finished solving tiling problem: Circles subset: All
+
+ Log Entry: 
+	 Time: 489520.411992Filter: WFCSystem
+	 Message: Number of neighborhood permutations: 84
+
+ Log Entry: 
+	 Time: 489520.412016Filter: WFC System
+	 Message: 
+ End Time: 1.200565
+
+ Log Entry: 
+	 Time: 489520.416326Filter: WFC System
+	 Message: 
+ Time taken for Tiling problem: 0.013604
+
+ Log Entry: 
+	 Time: 489520.416338Filter: WFC System
+	 Message: 
+ Number of Permutations: 84
+
+ Log Entry: 
+	 Time: 489520.417241Filter: WFC System
+	 Message: 
+
+ Started WFC for Tiling problem: Circuit Subset: All
+
+ Log Entry: 
+	 Time: 489520.417297Filter: WFC System
+	 Message: 
+ Start Time: 1.205821
+
+ Log Entry: 
+	 Time: 489520.428529Filter: WFC System
+	 Message: 
+ Finished solving tiling problem: Circuit subset: All
+
+ Log Entry: 
+	 Time: 489520.428554Filter: WFCSystem
+	 Message: Number of neighborhood permutations: 145
+
+ Log Entry: 
+	 Time: 489520.428565Filter: WFC System
+	 Message: 
+ End Time: 1.217132
+
+ Log Entry: 
+	 Time: 489520.429943Filter: WFC System
+	 Message: 
+ Time taken for Tiling problem: 0.011310
+
+ Log Entry: 
+	 Time: 489520.429956Filter: WFC System
+	 Message: 
+ Number of Permutations: 145
+
+ Log Entry: 
+	 Time: 489520.430271Filter: WFC System
+	 Message: 
+
+ Started WFC for Tiling problem: Circuit Subset: All
+
+ Log Entry: 
+	 Time: 489520.430375Filter: WFC System
+	 Message: 
+ Start Time: 1.218850
+
+ Log Entry: 
+	 Time: 489520.438876Filter: WFC System
+	 Message: 
+ Finished solving tiling problem: Circuit subset: All
+
+ Log Entry: 
+	 Time: 489520.438889Filter: WFCSystem
+	 Message: Number of neighborhood permutations: 145
+
+ Log Entry: 
+	 Time: 489520.438897Filter: WFC System
+	 Message: 
+ End Time: 1.227463
+
+ Log Entry: 
+	 Time: 489520.439883Filter: WFC System
+	 Message: 
+ Time taken for Tiling problem: 0.008613
+
+ Log Entry: 
+	 Time: 489520.439897Filter: WFC System
+	 Message: 
+ Number of Permutations: 145
+
+ Log Entry: 
+	 Time: 489520.440415Filter: WFC System
+	 Message: 
+
+ Started WFC for Tiling problem: Circuit Subset: All
+
+ Log Entry: 
+	 Time: 489520.440458Filter: WFC System
+	 Message: 
+ Start Time: 1.228994
+
+ Log Entry: 
+	 Time: 489520.447202Filter: WFC System
+	 Message: 
+ Finished solving tiling problem: Circuit subset: All
+
+ Log Entry: 
+	 Time: 489520.447216Filter: WFCSystem
+	 Message: Number of neighborhood permutations: 145
+
+ Log Entry: 
+	 Time: 489520.447233Filter: WFC System
+	 Message: 
+ End Time: 1.235790
+
+ Log Entry: 
+	 Time: 489520.448436Filter: WFC System
+	 Message: 
+ Time taken for Tiling problem: 0.006796
+
+ Log Entry: 
+	 Time: 489520.448448Filter: WFC System
+	 Message: 
+ Number of Permutations: 145
+
+ Log Entry: 
+	 Time: 489520.448699Filter: WFC System
+	 Message: 
+
+ Started WFC for Tiling problem: Knots Subset: All
+
+ Log Entry: 
+	 Time: 489520.448755Filter: WFC System
+	 Message: 
+ Start Time: 1.237279
+
+ Log Entry: 
+	 Time: 489520.452800Filter: WFC System
+	 Message: 
+ Finished solving tiling problem: Knots subset: All
+
+ Log Entry: 
+	 Time: 489520.452814Filter: WFCSystem
+	 Message: Number of neighborhood permutations: 35
+
+ Log Entry: 
+	 Time: 489520.452820Filter: WFC System
+	 Message: 
+ End Time: 1.241388
+
+ Log Entry: 
+	 Time: 489520.456403Filter: WFC System
+	 Message: 
+ Time taken for Tiling problem: 0.004109
+
+ Log Entry: 
+	 Time: 489520.456417Filter: WFC System
+	 Message: 
+ Number of Permutations: 35
+
+ Log Entry: 
+	 Time: 489520.456570Filter: WFC System
+	 Message: 
+
+ Started WFC for Tiling problem: Knots Subset: All
+
+ Log Entry: 
+	 Time: 489520.456820Filter: WFC System
+	 Message: 
+ Start Time: 1.245147
+
+ Log Entry: 
+	 Time: 489520.461396Filter: WFC System
+	 Message: 
+ Finished solving tiling problem: Knots subset: All
+
+ Log Entry: 
+	 Time: 489520.461409Filter: WFCSystem
+	 Message: Number of neighborhood permutations: 35
+
+ Log Entry: 
+	 Time: 489520.461418Filter: WFC System
+	 Message: 
+ End Time: 1.249984
+
+ Log Entry: 
+	 Time: 489520.462244Filter: WFC System
+	 Message: 
+ Time taken for Tiling problem: 0.004836
+
+ Log Entry: 
+	 Time: 489520.462256Filter: WFC System
+	 Message: 
+ Number of Permutations: 35
+
+ Log Entry: 
+	 Time: 489520.462362Filter: WFC System
+	 Message: 
+
+ Started WFC for Tiling problem: Knots Subset: All
+
+ Log Entry: 
+	 Time: 489520.462445Filter: WFC System
+	 Message: 
+ Start Time: 1.250939
+
+ Log Entry: 
+	 Time: 489520.465809Filter: WFC System
+	 Message: 
+ Finished solving tiling problem: Knots subset: All
+
+ Log Entry: 
+	 Time: 489520.465822Filter: WFCSystem
+	 Message: Number of neighborhood permutations: 35
+
+ Log Entry: 
+	 Time: 489520.465850Filter: WFC System
+	 Message: 
+ End Time: 1.254396
+
+ Log Entry: 
+	 Time: 489520.466777Filter: WFC System
+	 Message: 
+ Time taken for Tiling problem: 0.003456
+
+ Log Entry: 
+	 Time: 489520.466788Filter: WFC System
+	 Message: 
+ Number of Permutations: 35
+
+ Log Entry: 
+	 Time: 489520.466884Filter: WFC System
+	 Message: 
+
+ Started WFC for Tiling problem: Rooms Subset: tiles
+
+ Log Entry: 
+	 Time: 489520.466924Filter: WFC System
+	 Message: 
+ Start Time: 1.255460
+
+ Log Entry: 
+	 Time: 489520.471813Filter: WFC System
+	 Message: 
+ Finished solving tiling problem: Rooms subset: tiles
+
+ Log Entry: 
+	 Time: 489520.471827Filter: WFCSystem
+	 Message: Number of neighborhood permutations: 40
+
+ Log Entry: 
+	 Time: 489520.471835Filter: WFC System
+	 Message: 
+ End Time: 1.260400
+
+ Log Entry: 
+	 Time: 489520.472646Filter: WFC System
+	 Message: 
+ Time taken for Tiling problem: 0.004940
+
+ Log Entry: 
+	 Time: 489520.472658Filter: WFC System
+	 Message: 
+ Number of Permutations: 40
+
+ Log Entry: 
+	 Time: 489520.472919Filter: WFC System
+	 Message: 
+
+ Started WFC for Tiling problem: Rooms Subset: tiles
+
+ Log Entry: 
+	 Time: 489520.472969Filter: WFC System
+	 Message: 
+ Start Time: 1.261497
+
+ Log Entry: 
+	 Time: 489520.476871Filter: WFC System
+	 Message: 
+ Finished solving tiling problem: Rooms subset: tiles
+
+ Log Entry: 
+	 Time: 489520.476883Filter: WFCSystem
+	 Message: Number of neighborhood permutations: 40
+
+ Log Entry: 
+	 Time: 489520.476890Filter: WFC System
+	 Message: 
+ End Time: 1.265457
+
+ Log Entry: 
+	 Time: 489520.477326Filter: WFC System
+	 Message: 
+ Time taken for Tiling problem: 0.003960
+
+ Log Entry: 
+	 Time: 489520.477337Filter: WFC System
+	 Message: 
+ Number of Permutations: 40
+
+ Log Entry: 
+	 Time: 489520.477437Filter: WFC System
+	 Message: 
+
+ Started WFC for Tiling problem: Rooms Subset: tiles
+
+ Log Entry: 
+	 Time: 489520.477492Filter: WFC System
+	 Message: 
+ Start Time: 1.266013
+
+ Log Entry: 
+	 Time: 489520.481106Filter: WFC System
+	 Message: 
+ Finished solving tiling problem: Rooms subset: tiles
+
+ Log Entry: 
+	 Time: 489520.481118Filter: WFCSystem
+	 Message: Number of neighborhood permutations: 40
+
+ Log Entry: 
+	 Time: 489520.481141Filter: WFC System
+	 Message: 
+ End Time: 1.269693
+
+ Log Entry: 
+	 Time: 489520.481650Filter: WFC System
+	 Message: 
+ Time taken for Tiling problem: 0.003680
+
+ Log Entry: 
+	 Time: 489520.481660Filter: WFC System
+	 Message: 
+ Number of Permutations: 40
+
+ Log Entry: 
+	 Time: 489520.481760Filter: WFC System
+	 Message: 
+
+ Started WFC for Tiling problem: Summer Subset: tiles
+
+ Log Entry: 
+	 Time: 489520.481803Filter: WFC System
+	 Message: 
+ Start Time: 1.270336
+
+ Log Entry: 
+	 Time: 489520.566660Filter: WFC System
+	 Message: 
+ Finished solving tiling problem: Summer subset: tiles
+
+ Log Entry: 
+	 Time: 489520.566673Filter: WFCSystem
+	 Message: Number of neighborhood permutations: 49
+
+ Log Entry: 
+	 Time: 489520.566680Filter: WFC System
+	 Message: 
+ End Time: 1.355247
+
+ Log Entry: 
+	 Time: 489520.572217Filter: WFC System
+	 Message: 
+ Time taken for Tiling problem: 0.084912
+
+ Log Entry: 
+	 Time: 489520.572229Filter: WFC System
+	 Message: 
+ Number of Permutations: 49
+
+ Log Entry: 
+	 Time: 489520.572554Filter: WFC System
+	 Message: 
+
+ Started WFC for Tiling problem: Summer Subset: tiles
+
+ Log Entry: 
+	 Time: 489520.572611Filter: WFC System
+	 Message: 
+ Start Time: 1.361136
+
+ Log Entry: 
+	 Time: 489520.643865Filter: WFC System
+	 Message: 
+ Finished solving tiling problem: Summer subset: tiles
+
+ Log Entry: 
+	 Time: 489520.643879Filter: WFCSystem
+	 Message: Number of neighborhood permutations: 49
+
+ Log Entry: 
+	 Time: 489520.643886Filter: WFC System
+	 Message: 
+ End Time: 1.432453
+
+ Log Entry: 
+	 Time: 489520.651156Filter: WFC System
+	 Message: 
+ Time taken for Tiling problem: 0.071317
+
+ Log Entry: 
+	 Time: 489520.651169Filter: WFC System
+	 Message: 
+ Number of Permutations: 49
+
+ Log Entry: 
+	 Time: 489520.651459Filter: WFC System
+	 Message: 
+
+ Started WFC for Tiling problem: Summer Subset: tiles
+
+ Log Entry: 
+	 Time: 489520.651507Filter: WFC System
+	 Message: 
+ Start Time: 1.440036
+
+ Log Entry: 
+	 Time: 489520.729846Filter: WFC System
+	 Message: 
+ Finished solving tiling problem: Summer subset: tiles
+
+ Log Entry: 
+	 Time: 489520.729859Filter: WFCSystem
+	 Message: Number of neighborhood permutations: 49
+
+ Log Entry: 
+	 Time: 489520.729874Filter: WFC System
+	 Message: 
+ End Time: 1.518433
+
+ Log Entry: 
+	 Time: 489520.735528Filter: WFC System
+	 Message: 
+ Time taken for Tiling problem: 0.078397
+
+ Log Entry: 
+	 Time: 489520.735543Filter: WFC System
+	 Message: 
+ Number of Permutations: 49
+
+ Log Entry: 
+	 Time: 489520.735837Filter: WFC System
+	 Message: 
+
+ Started WFC for Tiling problem: Castle Subset: tiles
+
+ Log Entry: 
+	 Time: 489520.735890Filter: WFC System
+	 Message: 
+ Start Time: 1.524416
+
+ Log Entry: 
+	 Time: 489520.741029Filter: WFC System
+	 Message: 
+ Finished solving tiling problem: Castle subset: tiles
+
+ Log Entry: 
+	 Time: 489520.741042Filter: WFCSystem
+	 Message: Number of neighborhood permutations: 57
+
+ Log Entry: 
+	 Time: 489520.741049Filter: WFC System
+	 Message: 
+ End Time: 1.529615
+
+ Log Entry: 
+	 Time: 489520.741817Filter: WFC System
+	 Message: 
+ Time taken for Tiling problem: 0.005200
+
+ Log Entry: 
+	 Time: 489520.741829Filter: WFC System
+	 Message: 
+ Number of Permutations: 57
+
+ Log Entry: 
+	 Time: 489520.741997Filter: WFC System
+	 Message: 
+
+ Started WFC for Tiling problem: Castle Subset: tiles
+
+ Log Entry: 
+	 Time: 489520.742044Filter: WFC System
+	 Message: 
+ Start Time: 1.530574
+
+ Log Entry: 
+	 Time: 489520.746877Filter: WFC System
+	 Message: 
+ Finished solving tiling problem: Castle subset: tiles
+
+ Log Entry: 
+	 Time: 489520.746891Filter: WFCSystem
+	 Message: Number of neighborhood permutations: 57
+
+ Log Entry: 
+	 Time: 489520.746899Filter: WFC System
+	 Message: 
+ End Time: 1.535465
+
+ Log Entry: 
+	 Time: 489520.747704Filter: WFC System
+	 Message: 
+ Time taken for Tiling problem: 0.004891
+
+ Log Entry: 
+	 Time: 489520.747714Filter: WFC System
+	 Message: 
+ Number of Permutations: 57
+
+ Log Entry: 
+	 Time: 489520.747836Filter: WFC System
+	 Message: 
+
+ Started WFC for Tiling problem: Castle Subset: tiles
+
+ Log Entry: 
+	 Time: 489520.747890Filter: WFC System
+	 Message: 
+ Start Time: 1.536415
+
+ Log Entry: 
+	 Time: 489520.753602Filter: WFC System
+	 Message: 
+ Finished solving tiling problem: Castle subset: tiles
+
+ Log Entry: 
+	 Time: 489520.753615Filter: WFCSystem
+	 Message: Number of neighborhood permutations: 57
+
+ Log Entry: 
+	 Time: 489520.753630Filter: WFC System
+	 Message: 
+ End Time: 1.542188
+
+ Log Entry: 
+	 Time: 489520.754367Filter: WFC System
+	 Message: 
+ Time taken for Tiling problem: 0.005773
+
+ Log Entry: 
+	 Time: 489520.754379Filter: WFC System
+	 Message: 
+ Number of Permutations: 57
+
+ Log Entry: 
+	 Time: 489520.754493Filter: WFC System
+	 Message: 
+
+ Started WFC for Tiling problem: Circles Subset: All
+
+ Log Entry: 
+	 Time: 489520.754547Filter: WFC System
+	 Message: 
+ Start Time: 1.543068
+
+ Log Entry: 
+	 Time: 489520.814385Filter: WFC System
+	 Message: 
+ Finished solving tiling problem: Circles subset: All
+
+ Log Entry: 
+	 Time: 489520.814401Filter: WFCSystem
+	 Message: Number of neighborhood permutations: 84
+
+ Log Entry: 
+	 Time: 489520.814408Filter: WFC System
+	 Message: 
+ End Time: 1.602975
+
+ Log Entry: 
+	 Time: 489520.833971Filter: WFC System
+	 Message: 
+ Time taken for Tiling problem: 0.059907
+
+ Log Entry: 
+	 Time: 489520.833989Filter: WFC System
+	 Message: 
+ Number of Permutations: 84
+
+ Log Entry: 
+	 Time: 489520.834186Filter: WFC System
+	 Message: 
+
+ Started WFC for Tiling problem: Circles Subset: All
+
+ Log Entry: 
+	 Time: 489520.834241Filter: WFC System
+	 Message: 
+ Start Time: 1.622765
+
+ Log Entry: 
+	 Time: 489520.884309Filter: WFC System
+	 Message: 
+ Finished solving tiling problem: Circles subset: All
+
+ Log Entry: 
+	 Time: 489520.884322Filter: WFCSystem
+	 Message: Number of neighborhood permutations: 84
+
+ Log Entry: 
+	 Time: 489520.884329Filter: WFC System
+	 Message: 
+ End Time: 1.672895
+
+ Log Entry: 
+	 Time: 489520.904374Filter: WFC System
+	 Message: 
+ Time taken for Tiling problem: 0.050130
+
+ Log Entry: 
+	 Time: 489520.904389Filter: WFC System
+	 Message: 
+ Number of Permutations: 84
+
+ Log Entry: 
+	 Time: 489520.904526Filter: WFC System
+	 Message: 
+
+ Started WFC for Tiling problem: Circles Subset: All
+
+ Log Entry: 
+	 Time: 489520.904574Filter: WFC System
+	 Message: 
+ Start Time: 1.693103
+
+ Log Entry: 
+	 Time: 489520.959902Filter: WFC System
+	 Message: 
+ Finished solving tiling problem: Circles subset: All
+
+ Log Entry: 
+	 Time: 489520.959916Filter: WFCSystem
+	 Message: Number of neighborhood permutations: 84
+
+ Log Entry: 
+	 Time: 489520.959934Filter: WFC System
+	 Message: 
+ End Time: 1.748489
+
+ Log Entry: 
+	 Time: 489520.976136Filter: WFC System
+	 Message: 
+ Time taken for Tiling problem: 0.055386
+
+ Log Entry: 
+	 Time: 489520.976171Filter: WFC System
+	 Message: 
+ Number of Permutations: 84
+
+ Log Entry: 
+	 Time: 489520.976385Filter: WFC System
+	 Message: 
+
+ Started WFC for Tiling problem: Circuit Subset: All
+
+ Log Entry: 
+	 Time: 489520.976437Filter: WFC System
+	 Message: 
+ Start Time: 1.764963
+
+ Log Entry: 
+	 Time: 489520.993048Filter: WFC System
+	 Message: 
+ Finished solving tiling problem: Circuit subset: All
+
+ Log Entry: 
+	 Time: 489520.993060Filter: WFCSystem
+	 Message: Number of neighborhood permutations: 145
+
+ Log Entry: 
+	 Time: 489520.993066Filter: WFC System
+	 Message: 
+ End Time: 1.781633
+
+ Log Entry: 
+	 Time: 489520.997526Filter: WFC System
+	 Message: 
+ Time taken for Tiling problem: 0.016669
+
+ Log Entry: 
+	 Time: 489520.997538Filter: WFC System
+	 Message: 
+ Number of Permutations: 145
+
+ Log Entry: 
+	 Time: 489520.997684Filter: WFC System
+	 Message: 
+
+ Started WFC for Tiling problem: Circuit Subset: All
+
+ Log Entry: 
+	 Time: 489520.997734Filter: WFC System
+	 Message: 
+ Start Time: 1.786262
+
+ Log Entry: 
+	 Time: 489521.013467Filter: WFC System
+	 Message: 
+ Finished solving tiling problem: Circuit subset: All
+
+ Log Entry: 
+	 Time: 489521.013480Filter: WFCSystem
+	 Message: Number of neighborhood permutations: 145
+
+ Log Entry: 
+	 Time: 489521.013488Filter: WFC System
+	 Message: 
+ End Time: 1.802056
+
+ Log Entry: 
+	 Time: 489521.017946Filter: WFC System
+	 Message: 
+ Time taken for Tiling problem: 0.015794
+
+ Log Entry: 
+	 Time: 489521.017959Filter: WFC System
+	 Message: 
+ Number of Permutations: 145
+
+ Log Entry: 
+	 Time: 489521.018081Filter: WFC System
+	 Message: 
+
+ Started WFC for Tiling problem: Circuit Subset: All
+
+ Log Entry: 
+	 Time: 489521.018128Filter: WFC System
+	 Message: 
+ Start Time: 1.806658
+
+ Log Entry: 
+	 Time: 489521.036748Filter: WFC System
+	 Message: 
+ Finished solving tiling problem: Circuit subset: All
+
+ Log Entry: 
+	 Time: 489521.036761Filter: WFCSystem
+	 Message: Number of neighborhood permutations: 145
+
+ Log Entry: 
+	 Time: 489521.036832Filter: WFC System
+	 Message: 
+ End Time: 1.825335
+
+ Log Entry: 
+	 Time: 489521.042386Filter: WFC System
+	 Message: 
+ Time taken for Tiling problem: 0.018677
+
+ Log Entry: 
+	 Time: 489521.042398Filter: WFC System
+	 Message: 
+ Number of Permutations: 145
+
+ Log Entry: 
+	 Time: 489521.042530Filter: WFC System
+	 Message: 
+
+ Started WFC for Tiling problem: Knots Subset: All
+
+ Log Entry: 
+	 Time: 489521.042573Filter: WFC System
+	 Message: 
+ Start Time: 1.831107
+
+ Log Entry: 
+	 Time: 489521.053149Filter: WFC System
+	 Message: 
+ Finished solving tiling problem: Knots subset: All
+
+ Log Entry: 
+	 Time: 489521.053162Filter: WFCSystem
+	 Message: Number of neighborhood permutations: 35
+
+ Log Entry: 
+	 Time: 489521.053170Filter: WFC System
+	 Message: 
+ End Time: 1.841736
+
+ Log Entry: 
+	 Time: 489521.056952Filter: WFC System
+	 Message: 
+ Time taken for Tiling problem: 0.010629
+
+ Log Entry: 
+	 Time: 489521.056970Filter: WFC System
+	 Message: 
+ Number of Permutations: 35
+
+ Log Entry: 
+	 Time: 489521.057063Filter: WFC System
+	 Message: 
+
+ Started WFC for Tiling problem: Knots Subset: All
+
+ Log Entry: 
+	 Time: 489521.057116Filter: WFC System
+	 Message: 
+ Start Time: 1.845640
+
+ Log Entry: 
+	 Time: 489521.064999Filter: WFC System
+	 Message: 
+ Finished solving tiling problem: Knots subset: All
+
+ Log Entry: 
+	 Time: 489521.065011Filter: WFCSystem
+	 Message: Number of neighborhood permutations: 35
+
+ Log Entry: 
+	 Time: 489521.065018Filter: WFC System
+	 Message: 
+ End Time: 1.853585
+
+ Log Entry: 
+	 Time: 489521.068572Filter: WFC System
+	 Message: 
+ Time taken for Tiling problem: 0.007945
+
+ Log Entry: 
+	 Time: 489521.068587Filter: WFC System
+	 Message: 
+ Number of Permutations: 35
+
+ Log Entry: 
+	 Time: 489521.068700Filter: WFC System
+	 Message: 
+
+ Started WFC for Tiling problem: Knots Subset: All
+
+ Log Entry: 
+	 Time: 489521.068745Filter: WFC System
+	 Message: 
+ Start Time: 1.857278
+
+ Log Entry: 
+	 Time: 489521.078374Filter: WFC System
+	 Message: 
+ Finished solving tiling problem: Knots subset: All
+
+ Log Entry: 
+	 Time: 489521.078389Filter: WFCSystem
+	 Message: Number of neighborhood permutations: 35
+
+ Log Entry: 
+	 Time: 489521.078413Filter: WFC System
+	 Message: 
+ End Time: 1.866964
+
+ Log Entry: 
+	 Time: 489521.083095Filter: WFC System
+	 Message: 
+ Time taken for Tiling problem: 0.009686
+
+ Log Entry: 
+	 Time: 489521.083108Filter: WFC System
+	 Message: 
+ Number of Permutations: 35
+
+ Log Entry: 
+	 Time: 489521.083224Filter: WFC System
+	 Message: 
+
+ Started WFC for Tiling problem: Rooms Subset: tiles
+
+ Log Entry: 
+	 Time: 489521.083272Filter: WFC System
+	 Message: 
+ Start Time: 1.871800
+
+ Log Entry: 
+	 Time: 489521.090385Filter: WFC System
+	 Message: 
+ Finished solving tiling problem: Rooms subset: tiles
+
+ Log Entry: 
+	 Time: 489521.090397Filter: WFCSystem
+	 Message: Number of neighborhood permutations: 40
+
+ Log Entry: 
+	 Time: 489521.090404Filter: WFC System
+	 Message: 
+ End Time: 1.878971
+
+ Log Entry: 
+	 Time: 489521.092096Filter: WFC System
+	 Message: 
+ Time taken for Tiling problem: 0.007171
+
+ Log Entry: 
+	 Time: 489521.092106Filter: WFC System
+	 Message: 
+ Number of Permutations: 40
+
+ Log Entry: 
+	 Time: 489521.092287Filter: WFC System
+	 Message: 
+
+ Started WFC for Tiling problem: Rooms Subset: tiles
+
+ Log Entry: 
+	 Time: 489521.092337Filter: WFC System
+	 Message: 
+ Start Time: 1.880865
+
+ Log Entry: 
+	 Time: 489521.100066Filter: WFC System
+	 Message: 
+ Finished solving tiling problem: Rooms subset: tiles
+
+ Log Entry: 
+	 Time: 489521.100078Filter: WFCSystem
+	 Message: Number of neighborhood permutations: 40
+
+ Log Entry: 
+	 Time: 489521.100085Filter: WFC System
+	 Message: 
+ End Time: 1.888652
+
+ Log Entry: 
+	 Time: 489521.101895Filter: WFC System
+	 Message: 
+ Time taken for Tiling problem: 0.007787
+
+ Log Entry: 
+	 Time: 489521.101910Filter: WFC System
+	 Message: 
+ Number of Permutations: 40
+
+ Log Entry: 
+	 Time: 489521.102012Filter: WFC System
+	 Message: 
+
+ Started WFC for Tiling problem: Rooms Subset: tiles
+
+ Log Entry: 
+	 Time: 489521.102075Filter: WFC System
+	 Message: 
+ Start Time: 1.890595
+
+ Log Entry: 
+	 Time: 489521.109055Filter: WFC System
+	 Message: 
+ Finished solving tiling problem: Rooms subset: tiles
+
+ Log Entry: 
+	 Time: 489521.109069Filter: WFCSystem
+	 Message: Number of neighborhood permutations: 40
+
+ Log Entry: 
+	 Time: 489521.109082Filter: WFC System
+	 Message: 
+ End Time: 1.897644
+
+ Log Entry: 
+	 Time: 489521.110876Filter: WFC System
+	 Message: 
+ Time taken for Tiling problem: 0.007050
+
+ Log Entry: 
+	 Time: 489521.110887Filter: WFC System
+	 Message: 
+ Number of Permutations: 40
+
+ Log Entry: 
+	 Time: 489521.110978Filter: WFC System
+	 Message: 
+
+ Started WFC for Tiling problem: Summer Subset: tiles
+
+ Log Entry: 
+	 Time: 489521.111021Filter: WFC System
+	 Message: 
+ Start Time: 1.899554
+
+ Log Entry: 
+	 Time: 489521.337189Filter: WFC System
+	 Message: 
+ Finished solving tiling problem: Summer subset: tiles
+
+ Log Entry: 
+	 Time: 489521.337202Filter: WFCSystem
+	 Message: Number of neighborhood permutations: 49
+
+ Log Entry: 
+	 Time: 489521.337209Filter: WFC System
+	 Message: 
+ End Time: 2.125775
+
+ Log Entry: 
+	 Time: 489521.372178Filter: WFC System
+	 Message: 
+ Time taken for Tiling problem: 0.226221
+
+ Log Entry: 
+	 Time: 489521.372194Filter: WFC System
+	 Message: 
+ Number of Permutations: 49
+
+ Log Entry: 
+	 Time: 489521.372603Filter: WFC System
+	 Message: 
+
+ Started WFC for Tiling problem: Summer Subset: tiles
+
+ Log Entry: 
+	 Time: 489521.372656Filter: WFC System
+	 Message: 
+ Start Time: 2.161182
+
+ Log Entry: 
+	 Time: 489521.630485Filter: WFC System
+	 Message: 
+ Finished solving tiling problem: Summer subset: tiles
+
+ Log Entry: 
+	 Time: 489521.630500Filter: WFCSystem
+	 Message: Number of neighborhood permutations: 49
+
+ Log Entry: 
+	 Time: 489521.630506Filter: WFC System
+	 Message: 
+ End Time: 2.419073
+
+ Log Entry: 
+	 Time: 489521.667329Filter: WFC System
+	 Message: 
+ Time taken for Tiling problem: 0.257891
+
+ Log Entry: 
+	 Time: 489521.667340Filter: WFC System
+	 Message: 
+ Number of Permutations: 49
+
+ Log Entry: 
+	 Time: 489521.667653Filter: WFC System
+	 Message: 
+
+ Started WFC for Tiling problem: Summer Subset: tiles
+
+ Log Entry: 
+	 Time: 489521.667699Filter: WFC System
+	 Message: 
+ Start Time: 2.456229
+
+ Log Entry: 
+	 Time: 489521.678754Filter: WFC System
+	 Message: 
+ Failed to solve tiling problem: Summer subset: tiles
+
+ Log Entry: 
+	 Time: 489521.678768Filter: WFC System
+	 Message: 
+ End Time: 2.467335
+
+ Log Entry: 
+	 Time: 489521.927784Filter: WFC System
+	 Message: 
+ Finished solving tiling problem: Summer subset: tiles
+
+ Log Entry: 
+	 Time: 489521.927805Filter: WFCSystem
+	 Message: Number of neighborhood permutations: 49
+
+ Log Entry: 
+	 Time: 489521.927812Filter: WFC System
+	 Message: 
+ End Time: 2.716379
+
+ Log Entry: 
+	 Time: 489521.965860Filter: WFC System
+	 Message: 
+ Time taken for Tiling problem: 0.260149
+
+ Log Entry: 
+	 Time: 489521.965873Filter: WFC System
+	 Message: 
+ Number of Permutations: 49
+
+ Log Entry: 
+	 Time: 489521.966233Filter: WFC System
+	 Message: 
+
+ Started WFC for Tiling problem: Castle Subset: tiles
+
+ Log Entry: 
+	 Time: 489521.966282Filter: WFC System
+	 Message: 
+ Start Time: 2.754811
+
+ Log Entry: 
+	 Time: 489521.970925Filter: WFC System
+	 Message: 
+ Failed to solve tiling problem: Castle subset: tiles
+
+ Log Entry: 
+	 Time: 489521.970941Filter: WFC System
+	 Message: 
+ End Time: 2.759507
+
+ Log Entry: 
+	 Time: 489521.979171Filter: WFC System
+	 Message: 
+ Finished solving tiling problem: Castle subset: tiles
+
+ Log Entry: 
+	 Time: 489521.979183Filter: WFCSystem
+	 Message: Number of neighborhood permutations: 57
+
+ Log Entry: 
+	 Time: 489521.979190Filter: WFC System
+	 Message: 
+ End Time: 2.767756
+
+ Log Entry: 
+	 Time: 489521.982175Filter: WFC System
+	 Message: 
+ Time taken for Tiling problem: 0.012945
+
+ Log Entry: 
+	 Time: 489521.982185Filter: WFC System
+	 Message: 
+ Number of Permutations: 57
+
+ Log Entry: 
+	 Time: 489521.982310Filter: WFC System
+	 Message: 
+
+ Started WFC for Tiling problem: Castle Subset: tiles
+
+ Log Entry: 
+	 Time: 489521.982360Filter: WFC System
+	 Message: 
+ Start Time: 2.770886
+
+ Log Entry: 
+	 Time: 489521.993450Filter: WFC System
+	 Message: 
+ Finished solving tiling problem: Castle subset: tiles
+
+ Log Entry: 
+	 Time: 489521.993462Filter: WFCSystem
+	 Message: Number of neighborhood permutations: 57
+
+ Log Entry: 
+	 Time: 489521.993476Filter: WFC System
+	 Message: 
+ End Time: 2.782036
+
+ Log Entry: 
+	 Time: 489521.996460Filter: WFC System
+	 Message: 
+ Time taken for Tiling problem: 0.011149
+
+ Log Entry: 
+	 Time: 489521.996471Filter: WFC System
+	 Message: 
+ Number of Permutations: 57
+
+ Log Entry: 
+	 Time: 489521.996599Filter: WFC System
+	 Message: 
+
+ Started WFC for Tiling problem: Castle Subset: tiles
+
+ Log Entry: 
+	 Time: 489521.996645Filter: WFC System
+	 Message: 
+ Start Time: 2.785175
+
+ Log Entry: 
+	 Time: 489522.005019Filter: WFC System
+	 Message: 
+ Finished solving tiling problem: Castle subset: tiles
+
+ Log Entry: 
+	 Time: 489522.005033Filter: WFCSystem
+	 Message: Number of neighborhood permutations: 57
+
+ Log Entry: 
+	 Time: 489522.005042Filter: WFC System
+	 Message: 
+ End Time: 2.793608
+
+ Log Entry: 
+	 Time: 489522.008303Filter: WFC System
+	 Message: 
+ Time taken for Tiling problem: 0.008432
+
+ Log Entry: 
+	 Time: 489522.008314Filter: WFC System
+	 Message: 
+ Number of Permutations: 57
+
+ Log Entry: 
+	 Time: 489522.008492Filter: WFC System
+	 Message: 
+
+ Started WFC for Markov problem: CirclesMarkov Subset: tiles
+
+ Log Entry: 
+	 Time: 489522.008576Filter: WFC System
+	 Message: 
+ Start Time: 2.797084
+
+ Log Entry: 
+	 Time: 489522.111107Filter: WFC System
+	 Message: 
+ Finished solving Markov problem: CirclesMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 489522.111132Filter: WFCSystem
+	 Message: Neighbor Generation Time: 0.053367
+
+ Log Entry: 
+	 Time: 489522.111138Filter: WFCSystem
+	 Message: Number of neighborhood permutations: 242
+
+ Log Entry: 
+	 Time: 489522.111150Filter: WFC System
+	 Message: 
+ End Time: 2.899718
+
+ Log Entry: 
+	 Time: 489522.111917Filter: WFC System
+	 Message: 
+ Time taken for Markov problem: 0.102634
+
+ Log Entry: 
+	 Time: 489522.111928Filter: WFC System
+	 Message: 
+ Time taken for Markov neighbor generation: 0.053367
+
+ Log Entry: 
+	 Time: 489522.112005Filter: WFC System
+	 Message: 
+ Time taken for tiling step of Markov problem: 0.049268
+
+ Log Entry: 
+	 Time: 489522.112009Filter: WFC System
+	 Message: 
+ Number of Permutations: 242
+
+ Log Entry: 
+	 Time: 489522.112671Filter: WFC System
+	 Message: 
+
+ Started WFC for Markov problem: CirclesMarkov Subset: tiles
+
+ Log Entry: 
+	 Time: 489522.112723Filter: WFC System
+	 Message: 
+ Start Time: 2.901249
+
+ Log Entry: 
+	 Time: 489522.212279Filter: WFC System
+	 Message: 
+ Finished solving Markov problem: CirclesMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 489522.212295Filter: WFCSystem
+	 Message: Neighbor Generation Time: 0.054720
+
+ Log Entry: 
+	 Time: 489522.212317Filter: WFCSystem
+	 Message: Number of neighborhood permutations: 242
+
+ Log Entry: 
+	 Time: 489522.212330Filter: WFC System
+	 Message: 
+ End Time: 3.000897
+
+ Log Entry: 
+	 Time: 489522.213058Filter: WFC System
+	 Message: 
+ Time taken for Markov problem: 0.099648
+
+ Log Entry: 
+	 Time: 489522.213068Filter: WFC System
+	 Message: 
+ Time taken for Markov neighbor generation: 0.054720
+
+ Log Entry: 
+	 Time: 489522.213081Filter: WFC System
+	 Message: 
+ Time taken for tiling step of Markov problem: 0.044928
+
+ Log Entry: 
+	 Time: 489522.213088Filter: WFC System
+	 Message: 
+ Number of Permutations: 242
+
+ Log Entry: 
+	 Time: 489522.214158Filter: WFC System
+	 Message: 
+
+ Started WFC for Markov problem: CirclesMarkov Subset: tiles
+
+ Log Entry: 
+	 Time: 489522.214210Filter: WFC System
+	 Message: 
+ Start Time: 3.002736
+
+ Log Entry: 
+	 Time: 489522.319973Filter: WFC System
+	 Message: 
+ Finished solving Markov problem: CirclesMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 489522.319989Filter: WFCSystem
+	 Message: Neighbor Generation Time: 0.056469
+
+ Log Entry: 
+	 Time: 489522.319995Filter: WFCSystem
+	 Message: Number of neighborhood permutations: 242
+
+ Log Entry: 
+	 Time: 489522.320007Filter: WFC System
+	 Message: 
+ End Time: 3.108575
+
+ Log Entry: 
+	 Time: 489522.320775Filter: WFC System
+	 Message: 
+ Time taken for Markov problem: 0.105839
+
+ Log Entry: 
+	 Time: 489522.320787Filter: WFC System
+	 Message: 
+ Time taken for Markov neighbor generation: 0.056469
+
+ Log Entry: 
+	 Time: 489522.320792Filter: WFC System
+	 Message: 
+ Time taken for tiling step of Markov problem: 0.049369
+
+ Log Entry: 
+	 Time: 489522.320803Filter: WFC System
+	 Message: 
+ Number of Permutations: 242
+
+ Log Entry: 
+	 Time: 489522.321672Filter: WFC System
+	 Message: 
+
+ Started WFC for Markov problem: CirclesMarkov Subset: tiles
+
+ Log Entry: 
+	 Time: 489522.321731Filter: WFC System
+	 Message: 
+ Start Time: 3.110255
+
+ Log Entry: 
+	 Time: 489522.429169Filter: WFC System
+	 Message: 
+ Finished solving Markov problem: CirclesMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 489522.429184Filter: WFCSystem
+	 Message: Neighbor Generation Time: 0.053268
+
+ Log Entry: 
+	 Time: 489522.429189Filter: WFCSystem
+	 Message: Number of neighborhood permutations: 242
+
+ Log Entry: 
+	 Time: 489522.429201Filter: WFC System
+	 Message: 
+ End Time: 3.217769
+
+ Log Entry: 
+	 Time: 489522.430086Filter: WFC System
+	 Message: 
+ Time taken for Markov problem: 0.107514
+
+ Log Entry: 
+	 Time: 489522.430097Filter: WFC System
+	 Message: 
+ Time taken for Markov neighbor generation: 0.053268
+
+ Log Entry: 
+	 Time: 489522.430170Filter: WFC System
+	 Message: 
+ Time taken for tiling step of Markov problem: 0.054246
+
+ Log Entry: 
+	 Time: 489522.430179Filter: WFC System
+	 Message: 
+ Number of Permutations: 242
+
+ Log Entry: 
+	 Time: 489522.430937Filter: WFC System
+	 Message: 
+
+ Started WFC for Markov problem: CirclesMarkov Subset: tiles
+
+ Log Entry: 
+	 Time: 489522.430983Filter: WFC System
+	 Message: 
+ Start Time: 3.219515
+
+ Log Entry: 
+	 Time: 489522.537353Filter: WFC System
+	 Message: 
+ Finished solving Markov problem: CirclesMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 489522.537369Filter: WFCSystem
+	 Message: Neighbor Generation Time: 0.052338
+
+ Log Entry: 
+	 Time: 489522.537382Filter: WFCSystem
+	 Message: Number of neighborhood permutations: 242
+
+ Log Entry: 
+	 Time: 489522.537390Filter: WFC System
+	 Message: 
+ End Time: 3.325958
+
+ Log Entry: 
+	 Time: 489522.538293Filter: WFC System
+	 Message: 
+ Time taken for Markov problem: 0.106443
+
+ Log Entry: 
+	 Time: 489522.538305Filter: WFC System
+	 Message: 
+ Time taken for Markov neighbor generation: 0.052338
+
+ Log Entry: 
+	 Time: 489522.538319Filter: WFC System
+	 Message: 
+ Time taken for tiling step of Markov problem: 0.054105
+
+ Log Entry: 
+	 Time: 489522.538331Filter: WFC System
+	 Message: 
+ Number of Permutations: 242
+
+ Log Entry: 
+	 Time: 489522.539095Filter: WFC System
+	 Message: 
+
+ Started WFC for Markov problem: CirclesMarkov Subset: tiles
+
+ Log Entry: 
+	 Time: 489522.539150Filter: WFC System
+	 Message: 
+ Start Time: 3.327675
+
+ Log Entry: 
+	 Time: 489522.644830Filter: WFC System
+	 Message: 
+ Finished solving Markov problem: CirclesMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 489522.644845Filter: WFCSystem
+	 Message: Neighbor Generation Time: 0.052990
+
+ Log Entry: 
+	 Time: 489522.644851Filter: WFCSystem
+	 Message: Number of neighborhood permutations: 242
+
+ Log Entry: 
+	 Time: 489522.644873Filter: WFC System
+	 Message: 
+ End Time: 3.433438
+
+ Log Entry: 
+	 Time: 489522.645851Filter: WFC System
+	 Message: 
+ Time taken for Markov problem: 0.105764
+
+ Log Entry: 
+	 Time: 489522.645866Filter: WFC System
+	 Message: 
+ Time taken for Markov neighbor generation: 0.052990
+
+ Log Entry: 
+	 Time: 489522.645875Filter: WFC System
+	 Message: 
+ Time taken for tiling step of Markov problem: 0.052774
+
+ Log Entry: 
+	 Time: 489522.645888Filter: WFC System
+	 Message: 
+ Number of Permutations: 242
+
+ Log Entry: 
+	 Time: 489522.646662Filter: WFC System
+	 Message: 
+
+ Started WFC for Markov problem: CirclesMarkov Subset: tiles
+
+ Log Entry: 
+	 Time: 489522.646732Filter: WFC System
+	 Message: 
+ Start Time: 3.435246
+
+ Log Entry: 
+	 Time: 489522.792083Filter: WFC System
+	 Message: 
+ Finished solving Markov problem: CirclesMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 489522.792099Filter: WFCSystem
+	 Message: Neighbor Generation Time: 0.055025
+
+ Log Entry: 
+	 Time: 489522.792106Filter: WFCSystem
+	 Message: Number of neighborhood permutations: 242
+
+ Log Entry: 
+	 Time: 489522.792118Filter: WFC System
+	 Message: 
+ End Time: 3.580686
+
+ Log Entry: 
+	 Time: 489522.793066Filter: WFC System
+	 Message: 
+ Time taken for Markov problem: 0.145440
+
+ Log Entry: 
+	 Time: 489522.793078Filter: WFC System
+	 Message: 
+ Time taken for Markov neighbor generation: 0.055025
+
+ Log Entry: 
+	 Time: 489522.793089Filter: WFC System
+	 Message: 
+ Time taken for tiling step of Markov problem: 0.090415
+
+ Log Entry: 
+	 Time: 489522.793098Filter: WFC System
+	 Message: 
+ Number of Permutations: 242
+
+ Log Entry: 
+	 Time: 489522.793966Filter: WFC System
+	 Message: 
+
+ Started WFC for Markov problem: CirclesMarkov Subset: tiles
+
+ Log Entry: 
+	 Time: 489522.794013Filter: WFC System
+	 Message: 
+ Start Time: 3.582544
+
+ Log Entry: 
+	 Time: 489522.930803Filter: WFC System
+	 Message: 
+ Finished solving Markov problem: CirclesMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 489522.930819Filter: WFCSystem
+	 Message: Neighbor Generation Time: 0.050456
+
+ Log Entry: 
+	 Time: 489522.930835Filter: WFCSystem
+	 Message: Number of neighborhood permutations: 242
+
+ Log Entry: 
+	 Time: 489522.930851Filter: WFC System
+	 Message: 
+ End Time: 3.719411
+
+ Log Entry: 
+	 Time: 489522.931911Filter: WFC System
+	 Message: 
+ Time taken for Markov problem: 0.136868
+
+ Log Entry: 
+	 Time: 489522.931929Filter: WFC System
+	 Message: 
+ Time taken for Markov neighbor generation: 0.050456
+
+ Log Entry: 
+	 Time: 489522.931946Filter: WFC System
+	 Message: 
+ Time taken for tiling step of Markov problem: 0.086412
+
+ Log Entry: 
+	 Time: 489522.931952Filter: WFC System
+	 Message: 
+ Number of Permutations: 242
+
+ Log Entry: 
+	 Time: 489522.932695Filter: WFC System
+	 Message: 
+
+ Started WFC for Markov problem: CirclesMarkov Subset: tiles
+
+ Log Entry: 
+	 Time: 489522.932748Filter: WFC System
+	 Message: 
+ Start Time: 3.721274
+
+ Log Entry: 
+	 Time: 489523.087293Filter: WFC System
+	 Message: 
+ Finished solving Markov problem: CirclesMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 489523.087308Filter: WFCSystem
+	 Message: Neighbor Generation Time: 0.061645
+
+ Log Entry: 
+	 Time: 489523.087314Filter: WFCSystem
+	 Message: Number of neighborhood permutations: 242
+
+ Log Entry: 
+	 Time: 489523.087326Filter: WFC System
+	 Message: 
+ End Time: 3.875893
+
+ Log Entry: 
+	 Time: 489523.088381Filter: WFC System
+	 Message: 
+ Time taken for Markov problem: 0.154619
+
+ Log Entry: 
+	 Time: 489523.088394Filter: WFC System
+	 Message: 
+ Time taken for Markov neighbor generation: 0.061645
+
+ Log Entry: 
+	 Time: 489523.088400Filter: WFC System
+	 Message: 
+ Time taken for tiling step of Markov problem: 0.092974
+
+ Log Entry: 
+	 Time: 489523.088414Filter: WFC System
+	 Message: 
+ Number of Permutations: 242
+
+ Log Entry: 
+	 Time: 489523.089285Filter: WFC System
+	 Message: 
+
+ Started WFC for Markov problem: CircuitMarkov Subset: tiles
+
+ Log Entry: 
+	 Time: 489523.089350Filter: WFC System
+	 Message: 
+ Start Time: 3.877869
+
+ Log Entry: 
+	 Time: 489523.116408Filter: WFC System
+	 Message: 
+ Finished solving Markov problem: CircuitMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 489523.116423Filter: WFCSystem
+	 Message: Neighbor Generation Time: 0.014973
+
+ Log Entry: 
+	 Time: 489523.116428Filter: WFCSystem
+	 Message: Number of neighborhood permutations: 326
+
+ Log Entry: 
+	 Time: 489523.116440Filter: WFC System
+	 Message: 
+ End Time: 3.905008
+
+ Log Entry: 
+	 Time: 489523.116680Filter: WFC System
+	 Message: 
+ Time taken for Markov problem: 0.027139
+
+ Log Entry: 
+	 Time: 489523.116688Filter: WFC System
+	 Message: 
+ Time taken for Markov neighbor generation: 0.014973
+
+ Log Entry: 
+	 Time: 489523.116711Filter: WFC System
+	 Message: 
+ Time taken for tiling step of Markov problem: 0.012165
+
+ Log Entry: 
+	 Time: 489523.116721Filter: WFC System
+	 Message: 
+ Number of Permutations: 326
+
+ Log Entry: 
+	 Time: 489523.117092Filter: WFC System
+	 Message: 
+
+ Started WFC for Markov problem: CircuitMarkov Subset: tiles
+
+ Log Entry: 
+	 Time: 489523.117150Filter: WFC System
+	 Message: 
+ Start Time: 3.905670
+
+ Log Entry: 
+	 Time: 489523.141833Filter: WFC System
+	 Message: 
+ Finished solving Markov problem: CircuitMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 489523.141848Filter: WFCSystem
+	 Message: Neighbor Generation Time: 0.014690
+
+ Log Entry: 
+	 Time: 489523.141860Filter: WFCSystem
+	 Message: Number of neighborhood permutations: 326
+
+ Log Entry: 
+	 Time: 489523.141872Filter: WFC System
+	 Message: 
+ End Time: 3.930438
+
+ Log Entry: 
+	 Time: 489523.142143Filter: WFC System
+	 Message: 
+ Time taken for Markov problem: 0.024768
+
+ Log Entry: 
+	 Time: 489523.142151Filter: WFC System
+	 Message: 
+ Time taken for Markov neighbor generation: 0.014690
+
+ Log Entry: 
+	 Time: 489523.142167Filter: WFC System
+	 Message: 
+ Time taken for tiling step of Markov problem: 0.010078
+
+ Log Entry: 
+	 Time: 489523.142174Filter: WFC System
+	 Message: 
+ Number of Permutations: 326
+
+ Log Entry: 
+	 Time: 489523.142528Filter: WFC System
+	 Message: 
+
+ Started WFC for Markov problem: CircuitMarkov Subset: tiles
+
+ Log Entry: 
+	 Time: 489523.142572Filter: WFC System
+	 Message: 
+ Start Time: 3.931103
+
+ Log Entry: 
+	 Time: 489523.171565Filter: WFC System
+	 Message: 
+ Finished solving Markov problem: CircuitMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 489523.171581Filter: WFCSystem
+	 Message: Neighbor Generation Time: 0.017078
+
+ Log Entry: 
+	 Time: 489523.171586Filter: WFCSystem
+	 Message: Number of neighborhood permutations: 326
+
+ Log Entry: 
+	 Time: 489523.171599Filter: WFC System
+	 Message: 
+ End Time: 3.960166
+
+ Log Entry: 
+	 Time: 489523.171987Filter: WFC System
+	 Message: 
+ Time taken for Markov problem: 0.029063
+
+ Log Entry: 
+	 Time: 489523.171998Filter: WFC System
+	 Message: 
+ Time taken for Markov neighbor generation: 0.017078
+
+ Log Entry: 
+	 Time: 489523.172004Filter: WFC System
+	 Message: 
+ Time taken for tiling step of Markov problem: 0.011985
+
+ Log Entry: 
+	 Time: 489523.172014Filter: WFC System
+	 Message: 
+ Number of Permutations: 326
+
+ Log Entry: 
+	 Time: 489523.172337Filter: WFC System
+	 Message: 
+
+ Started WFC for Markov problem: CircuitMarkov Subset: tiles
+
+ Log Entry: 
+	 Time: 489523.172381Filter: WFC System
+	 Message: 
+ Start Time: 3.960914
+
+ Log Entry: 
+	 Time: 489523.201987Filter: WFC System
+	 Message: 
+ Finished solving Markov problem: CircuitMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 489523.202004Filter: WFCSystem
+	 Message: Neighbor Generation Time: 0.015735
+
+ Log Entry: 
+	 Time: 489523.202010Filter: WFCSystem
+	 Message: Number of neighborhood permutations: 326
+
+ Log Entry: 
+	 Time: 489523.202025Filter: WFC System
+	 Message: 
+ End Time: 3.990592
+
+ Log Entry: 
+	 Time: 489523.202366Filter: WFC System
+	 Message: 
+ Time taken for Markov problem: 0.029678
+
+ Log Entry: 
+	 Time: 489523.202376Filter: WFC System
+	 Message: 
+ Time taken for Markov neighbor generation: 0.015735
+
+ Log Entry: 
+	 Time: 489523.202401Filter: WFC System
+	 Message: 
+ Time taken for tiling step of Markov problem: 0.013943
+
+ Log Entry: 
+	 Time: 489523.202421Filter: WFC System
+	 Message: 
+ Number of Permutations: 326
+
+ Log Entry: 
+	 Time: 489523.202849Filter: WFC System
+	 Message: 
+
+ Started WFC for Markov problem: CircuitMarkov Subset: tiles
+
+ Log Entry: 
+	 Time: 489523.202972Filter: WFC System
+	 Message: 
+ Start Time: 3.991427
+
+ Log Entry: 
+	 Time: 489523.232018Filter: WFC System
+	 Message: 
+ Finished solving Markov problem: CircuitMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 489523.232033Filter: WFCSystem
+	 Message: Neighbor Generation Time: 0.014812
+
+ Log Entry: 
+	 Time: 489523.232048Filter: WFCSystem
+	 Message: Number of neighborhood permutations: 326
+
+ Log Entry: 
+	 Time: 489523.232064Filter: WFC System
+	 Message: 
+ End Time: 4.020631
+
+ Log Entry: 
+	 Time: 489523.232407Filter: WFC System
+	 Message: 
+ Time taken for Markov problem: 0.029204
+
+ Log Entry: 
+	 Time: 489523.232416Filter: WFC System
+	 Message: 
+ Time taken for Markov neighbor generation: 0.014812
+
+ Log Entry: 
+	 Time: 489523.232440Filter: WFC System
+	 Message: 
+ Time taken for tiling step of Markov problem: 0.014391
+
+ Log Entry: 
+	 Time: 489523.232453Filter: WFC System
+	 Message: 
+ Number of Permutations: 326
+
+ Log Entry: 
+	 Time: 489523.232784Filter: WFC System
+	 Message: 
+
+ Started WFC for Markov problem: CircuitMarkov Subset: tiles
+
+ Log Entry: 
+	 Time: 489523.232831Filter: WFC System
+	 Message: 
+ Start Time: 4.021361
+
+ Log Entry: 
+	 Time: 489523.263803Filter: WFC System
+	 Message: 
+ Finished solving Markov problem: CircuitMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 489523.263818Filter: WFCSystem
+	 Message: Neighbor Generation Time: 0.018044
+
+ Log Entry: 
+	 Time: 489523.263823Filter: WFCSystem
+	 Message: Number of neighborhood permutations: 326
+
+ Log Entry: 
+	 Time: 489523.263835Filter: WFC System
+	 Message: 
+ End Time: 4.052403
+
+ Log Entry: 
+	 Time: 489523.264170Filter: WFC System
+	 Message: 
+ Time taken for Markov problem: 0.031042
+
+ Log Entry: 
+	 Time: 489523.264180Filter: WFC System
+	 Message: 
+ Time taken for Markov neighbor generation: 0.018044
+
+ Log Entry: 
+	 Time: 489523.264185Filter: WFC System
+	 Message: 
+ Time taken for tiling step of Markov problem: 0.012998
+
+ Log Entry: 
+	 Time: 489523.264195Filter: WFC System
+	 Message: 
+ Number of Permutations: 326
+
+ Log Entry: 
+	 Time: 489523.264470Filter: WFC System
+	 Message: 
+
+ Started WFC for Markov problem: CircuitMarkov Subset: tiles
+
+ Log Entry: 
+	 Time: 489523.264521Filter: WFC System
+	 Message: 
+ Start Time: 4.053046
+
+ Log Entry: 
+	 Time: 489523.302592Filter: WFC System
+	 Message: 
+ Finished solving Markov problem: CircuitMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 489523.302609Filter: WFCSystem
+	 Message: Neighbor Generation Time: 0.016669
+
+ Log Entry: 
+	 Time: 489523.302614Filter: WFCSystem
+	 Message: Number of neighborhood permutations: 326
+
+ Log Entry: 
+	 Time: 489523.302627Filter: WFC System
+	 Message: 
+ End Time: 4.091195
+
+ Log Entry: 
+	 Time: 489523.303099Filter: WFC System
+	 Message: 
+ Time taken for Markov problem: 0.038148
+
+ Log Entry: 
+	 Time: 489523.303111Filter: WFC System
+	 Message: 
+ Time taken for Markov neighbor generation: 0.016669
+
+ Log Entry: 
+	 Time: 489523.303128Filter: WFC System
+	 Message: 
+ Time taken for tiling step of Markov problem: 0.021479
+
+ Log Entry: 
+	 Time: 489523.303134Filter: WFC System
+	 Message: 
+ Number of Permutations: 326
+
+ Log Entry: 
+	 Time: 489523.303534Filter: WFC System
+	 Message: 
+
+ Started WFC for Markov problem: CircuitMarkov Subset: tiles
+
+ Log Entry: 
+	 Time: 489523.303579Filter: WFC System
+	 Message: 
+ Start Time: 4.092112
+
+ Log Entry: 
+	 Time: 489523.341913Filter: WFC System
+	 Message: 
+ Finished solving Markov problem: CircuitMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 489523.341928Filter: WFCSystem
+	 Message: Neighbor Generation Time: 0.014683
+
+ Log Entry: 
+	 Time: 489523.341944Filter: WFCSystem
+	 Message: Number of neighborhood permutations: 326
+
+ Log Entry: 
+	 Time: 489523.341957Filter: WFC System
+	 Message: 
+ End Time: 4.130525
+
+ Log Entry: 
+	 Time: 489523.342492Filter: WFC System
+	 Message: 
+ Time taken for Markov problem: 0.038414
+
+ Log Entry: 
+	 Time: 489523.342501Filter: WFC System
+	 Message: 
+ Time taken for Markov neighbor generation: 0.014683
+
+ Log Entry: 
+	 Time: 489523.342516Filter: WFC System
+	 Message: 
+ Time taken for tiling step of Markov problem: 0.023731
+
+ Log Entry: 
+	 Time: 489523.342528Filter: WFC System
+	 Message: 
+ Number of Permutations: 326
+
+ Log Entry: 
+	 Time: 489523.342911Filter: WFC System
+	 Message: 
+
+ Started WFC for Markov problem: CircuitMarkov Subset: tiles
+
+ Log Entry: 
+	 Time: 489523.342958Filter: WFC System
+	 Message: 
+ Start Time: 4.131487
+
+ Log Entry: 
+	 Time: 489523.381643Filter: WFC System
+	 Message: 
+ Finished solving Markov problem: CircuitMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 489523.381660Filter: WFCSystem
+	 Message: Neighbor Generation Time: 0.016060
+
+ Log Entry: 
+	 Time: 489523.381666Filter: WFCSystem
+	 Message: Number of neighborhood permutations: 326
+
+ Log Entry: 
+	 Time: 489523.381681Filter: WFC System
+	 Message: 
+ End Time: 4.170249
+
+ Log Entry: 
+	 Time: 489523.382217Filter: WFC System
+	 Message: 
+ Time taken for Markov problem: 0.038761
+
+ Log Entry: 
+	 Time: 489523.382227Filter: WFC System
+	 Message: 
+ Time taken for Markov neighbor generation: 0.016060
+
+ Log Entry: 
+	 Time: 489523.382232Filter: WFC System
+	 Message: 
+ Time taken for tiling step of Markov problem: 0.022701
+
+ Log Entry: 
+	 Time: 489523.382243Filter: WFC System
+	 Message: 
+ Number of Permutations: 326
+
+ Log Entry: 
+	 Time: 489523.382621Filter: WFC System
+	 Message: 
+
+ Started WFC for Markov problem: KnotsMarkov Subset: tiles
+
+ Log Entry: 
+	 Time: 489523.382663Filter: WFC System
+	 Message: 
+ Start Time: 4.171200
+
+ Log Entry: 
+	 Time: 489523.402311Filter: WFC System
+	 Message: 
+ Finished solving Markov problem: KnotsMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 489523.402327Filter: WFCSystem
+	 Message: Neighbor Generation Time: 0.011819
+
+ Log Entry: 
+	 Time: 489523.402333Filter: WFCSystem
+	 Message: Number of neighborhood permutations: 89
+
+ Log Entry: 
+	 Time: 489523.402346Filter: WFC System
+	 Message: 
+ End Time: 4.190913
+
+ Log Entry: 
+	 Time: 489523.402646Filter: WFC System
+	 Message: 
+ Time taken for Markov problem: 0.019712
+
+ Log Entry: 
+	 Time: 489523.402657Filter: WFC System
+	 Message: 
+ Time taken for Markov neighbor generation: 0.011819
+
+ Log Entry: 
+	 Time: 489523.402950Filter: WFC System
+	 Message: 
+ Time taken for tiling step of Markov problem: 0.007893
+
+ Log Entry: 
+	 Time: 489523.402980Filter: WFC System
+	 Message: 
+ Number of Permutations: 89
+
+ Log Entry: 
+	 Time: 489523.403340Filter: WFC System
+	 Message: 
+
+ Started WFC for Markov problem: KnotsMarkov Subset: tiles
+
+ Log Entry: 
+	 Time: 489523.403412Filter: WFC System
+	 Message: 
+ Start Time: 4.191918
+
+ Log Entry: 
+	 Time: 489523.420164Filter: WFC System
+	 Message: 
+ Finished solving Markov problem: KnotsMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 489523.420179Filter: WFCSystem
+	 Message: Neighbor Generation Time: 0.009830
+
+ Log Entry: 
+	 Time: 489523.420197Filter: WFCSystem
+	 Message: Number of neighborhood permutations: 89
+
+ Log Entry: 
+	 Time: 489523.420208Filter: WFC System
+	 Message: 
+ End Time: 4.208775
+
+ Log Entry: 
+	 Time: 489523.420443Filter: WFC System
+	 Message: 
+ Time taken for Markov problem: 0.016857
+
+ Log Entry: 
+	 Time: 489523.420450Filter: WFC System
+	 Message: 
+ Time taken for Markov neighbor generation: 0.009830
+
+ Log Entry: 
+	 Time: 489523.420485Filter: WFC System
+	 Message: 
+ Time taken for tiling step of Markov problem: 0.007027
+
+ Log Entry: 
+	 Time: 489523.420494Filter: WFC System
+	 Message: 
+ Number of Permutations: 89
+
+ Log Entry: 
+	 Time: 489523.420686Filter: WFC System
+	 Message: 
+
+ Started WFC for Markov problem: KnotsMarkov Subset: tiles
+
+ Log Entry: 
+	 Time: 489523.420745Filter: WFC System
+	 Message: 
+ Start Time: 4.209261
+
+ Log Entry: 
+	 Time: 489523.437580Filter: WFC System
+	 Message: 
+ Finished solving Markov problem: KnotsMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 489523.437594Filter: WFCSystem
+	 Message: Neighbor Generation Time: 0.009672
+
+ Log Entry: 
+	 Time: 489523.437600Filter: WFCSystem
+	 Message: Number of neighborhood permutations: 89
+
+ Log Entry: 
+	 Time: 489523.437611Filter: WFC System
+	 Message: 
+ End Time: 4.226179
+
+ Log Entry: 
+	 Time: 489523.437838Filter: WFC System
+	 Message: 
+ Time taken for Markov problem: 0.016918
+
+ Log Entry: 
+	 Time: 489523.437846Filter: WFC System
+	 Message: 
+ Time taken for Markov neighbor generation: 0.009672
+
+ Log Entry: 
+	 Time: 489523.437850Filter: WFC System
+	 Message: 
+ Time taken for tiling step of Markov problem: 0.007246
+
+ Log Entry: 
+	 Time: 489523.437895Filter: WFC System
+	 Message: 
+ Number of Permutations: 89
+
+ Log Entry: 
+	 Time: 489523.438096Filter: WFC System
+	 Message: 
+
+ Started WFC for Markov problem: KnotsMarkov Subset: tiles
+
+ Log Entry: 
+	 Time: 489523.438136Filter: WFC System
+	 Message: 
+ Start Time: 4.226671
+
+ Log Entry: 
+	 Time: 489523.457851Filter: WFC System
+	 Message: 
+ Finished solving Markov problem: KnotsMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 489523.457870Filter: WFCSystem
+	 Message: Neighbor Generation Time: 0.010904
+
+ Log Entry: 
+	 Time: 489523.457879Filter: WFCSystem
+	 Message: Number of neighborhood permutations: 89
+
+ Log Entry: 
+	 Time: 489523.457892Filter: WFC System
+	 Message: 
+ End Time: 4.246460
+
+ Log Entry: 
+	 Time: 489523.458123Filter: WFC System
+	 Message: 
+ Time taken for Markov problem: 0.019789
+
+ Log Entry: 
+	 Time: 489523.458133Filter: WFC System
+	 Message: 
+ Time taken for Markov neighbor generation: 0.010904
+
+ Log Entry: 
+	 Time: 489523.458216Filter: WFC System
+	 Message: 
+ Time taken for tiling step of Markov problem: 0.008886
+
+ Log Entry: 
+	 Time: 489523.458447Filter: WFC System
+	 Message: 
+ Number of Permutations: 89
+
+ Log Entry: 
+	 Time: 489523.458796Filter: WFC System
+	 Message: 
+
+ Started WFC for Markov problem: KnotsMarkov Subset: tiles
+
+ Log Entry: 
+	 Time: 489523.458857Filter: WFC System
+	 Message: 
+ Start Time: 4.247384
+
+ Log Entry: 
+	 Time: 489523.478986Filter: WFC System
+	 Message: 
+ Finished solving Markov problem: KnotsMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 489523.479001Filter: WFCSystem
+	 Message: Neighbor Generation Time: 0.011917
+
+ Log Entry: 
+	 Time: 489523.479018Filter: WFCSystem
+	 Message: Number of neighborhood permutations: 89
+
+ Log Entry: 
+	 Time: 489523.479033Filter: WFC System
+	 Message: 
+ End Time: 4.267601
+
+ Log Entry: 
+	 Time: 489523.479357Filter: WFC System
+	 Message: 
+ Time taken for Markov problem: 0.020217
+
+ Log Entry: 
+	 Time: 489523.479366Filter: WFC System
+	 Message: 
+ Time taken for Markov neighbor generation: 0.011917
+
+ Log Entry: 
+	 Time: 489523.479440Filter: WFC System
+	 Message: 
+ Time taken for tiling step of Markov problem: 0.008300
+
+ Log Entry: 
+	 Time: 489523.479458Filter: WFC System
+	 Message: 
+ Number of Permutations: 89
+
+ Log Entry: 
+	 Time: 489523.479684Filter: WFC System
+	 Message: 
+
+ Started WFC for Markov problem: KnotsMarkov Subset: tiles
+
+ Log Entry: 
+	 Time: 489523.479779Filter: WFC System
+	 Message: 
+ Start Time: 4.268262
+
+ Log Entry: 
+	 Time: 489523.501237Filter: WFC System
+	 Message: 
+ Finished solving Markov problem: KnotsMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 489523.501252Filter: WFCSystem
+	 Message: Neighbor Generation Time: 0.012569
+
+ Log Entry: 
+	 Time: 489523.501258Filter: WFCSystem
+	 Message: Number of neighborhood permutations: 89
+
+ Log Entry: 
+	 Time: 489523.501271Filter: WFC System
+	 Message: 
+ End Time: 4.289839
+
+ Log Entry: 
+	 Time: 489523.501503Filter: WFC System
+	 Message: 
+ Time taken for Markov problem: 0.021577
+
+ Log Entry: 
+	 Time: 489523.501512Filter: WFC System
+	 Message: 
+ Time taken for Markov neighbor generation: 0.012569
+
+ Log Entry: 
+	 Time: 489523.501517Filter: WFC System
+	 Message: 
+ Time taken for tiling step of Markov problem: 0.009008
+
+ Log Entry: 
+	 Time: 489523.501525Filter: WFC System
+	 Message: 
+ Number of Permutations: 89
+
+ Log Entry: 
+	 Time: 489523.501719Filter: WFC System
+	 Message: 
+
+ Started WFC for Markov problem: KnotsMarkov Subset: tiles
+
+ Log Entry: 
+	 Time: 489523.501765Filter: WFC System
+	 Message: 
+ Start Time: 4.290294
+
+ Log Entry: 
+	 Time: 489523.534685Filter: WFC System
+	 Message: 
+ Finished solving Markov problem: KnotsMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 489523.534702Filter: WFCSystem
+	 Message: Neighbor Generation Time: 0.013239
+
+ Log Entry: 
+	 Time: 489523.534709Filter: WFCSystem
+	 Message: Number of neighborhood permutations: 89
+
+ Log Entry: 
+	 Time: 489523.534723Filter: WFC System
+	 Message: 
+ End Time: 4.323291
+
+ Log Entry: 
+	 Time: 489523.535037Filter: WFC System
+	 Message: 
+ Time taken for Markov problem: 0.032997
+
+ Log Entry: 
+	 Time: 489523.535046Filter: WFC System
+	 Message: 
+ Time taken for Markov neighbor generation: 0.013239
+
+ Log Entry: 
+	 Time: 489523.535073Filter: WFC System
+	 Message: 
+ Time taken for tiling step of Markov problem: 0.019758
+
+ Log Entry: 
+	 Time: 489523.535088Filter: WFC System
+	 Message: 
+ Number of Permutations: 89
+
+ Log Entry: 
+	 Time: 489523.535307Filter: WFC System
+	 Message: 
+
+ Started WFC for Markov problem: KnotsMarkov Subset: tiles
+
+ Log Entry: 
+	 Time: 489523.535360Filter: WFC System
+	 Message: 
+ Start Time: 4.323883
+
+ Log Entry: 
+	 Time: 489523.563801Filter: WFC System
+	 Message: 
+ Finished solving Markov problem: KnotsMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 489523.563817Filter: WFCSystem
+	 Message: Neighbor Generation Time: 0.011709
+
+ Log Entry: 
+	 Time: 489523.564003Filter: WFCSystem
+	 Message: Number of neighborhood permutations: 89
+
+ Log Entry: 
+	 Time: 489523.564017Filter: WFC System
+	 Message: 
+ End Time: 4.352583
+
+ Log Entry: 
+	 Time: 489523.564375Filter: WFC System
+	 Message: 
+ Time taken for Markov problem: 0.028700
+
+ Log Entry: 
+	 Time: 489523.564383Filter: WFC System
+	 Message: 
+ Time taken for Markov neighbor generation: 0.011709
+
+ Log Entry: 
+	 Time: 489523.564410Filter: WFC System
+	 Message: 
+ Time taken for tiling step of Markov problem: 0.016991
+
+ Log Entry: 
+	 Time: 489523.564427Filter: WFC System
+	 Message: 
+ Number of Permutations: 89
+
+ Log Entry: 
+	 Time: 489523.564715Filter: WFC System
+	 Message: 
+
+ Started WFC for Markov problem: KnotsMarkov Subset: tiles
+
+ Log Entry: 
+	 Time: 489523.564784Filter: WFC System
+	 Message: 
+ Start Time: 4.353291
+
+ Log Entry: 
+	 Time: 489523.592592Filter: WFC System
+	 Message: 
+ Finished solving Markov problem: KnotsMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 489523.592607Filter: WFCSystem
+	 Message: Neighbor Generation Time: 0.011339
+
+ Log Entry: 
+	 Time: 489523.592613Filter: WFCSystem
+	 Message: Number of neighborhood permutations: 89
+
+ Log Entry: 
+	 Time: 489523.592633Filter: WFC System
+	 Message: 
+ End Time: 4.381194
+
+ Log Entry: 
+	 Time: 489523.592954Filter: WFC System
+	 Message: 
+ Time taken for Markov problem: 0.027903
+
+ Log Entry: 
+	 Time: 489523.592965Filter: WFC System
+	 Message: 
+ Time taken for Markov neighbor generation: 0.011339
+
+ Log Entry: 
+	 Time: 489523.592972Filter: WFC System
+	 Message: 
+ Time taken for tiling step of Markov problem: 0.016564
+
+ Log Entry: 
+	 Time: 489523.592979Filter: WFC System
+	 Message: 
+ Number of Permutations: 89
+
+ Log Entry: 
+	 Time: 489523.593179Filter: WFC System
+	 Message: 
+
+ Started WFC for Markov problem: RoomsMarkov Subset: tiles
+
+ Log Entry: 
+	 Time: 489523.593223Filter: WFC System
+	 Message: 
+ Start Time: 4.381756
+
+ Log Entry: 
+	 Time: 489523.603437Filter: WFC System
+	 Message: 
+ Finished solving Markov problem: RoomsMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 489523.603452Filter: WFCSystem
+	 Message: Neighbor Generation Time: 0.005667
+
+ Log Entry: 
+	 Time: 489523.603459Filter: WFCSystem
+	 Message: Number of neighborhood permutations: 112
+
+ Log Entry: 
+	 Time: 489523.603472Filter: WFC System
+	 Message: 
+ End Time: 4.392039
+
+ Log Entry: 
+	 Time: 489523.603590Filter: WFC System
+	 Message: 
+ Time taken for Markov problem: 0.010283
+
+ Log Entry: 
+	 Time: 489523.603600Filter: WFC System
+	 Message: 
+ Time taken for Markov neighbor generation: 0.005667
+
+ Log Entry: 
+	 Time: 489523.603606Filter: WFC System
+	 Message: 
+ Time taken for tiling step of Markov problem: 0.004616
+
+ Log Entry: 
+	 Time: 489523.603611Filter: WFC System
+	 Message: 
+ Number of Permutations: 112
+
+ Log Entry: 
+	 Time: 489523.603708Filter: WFC System
+	 Message: 
+
+ Started WFC for Markov problem: RoomsMarkov Subset: tiles
+
+ Log Entry: 
+	 Time: 489523.603767Filter: WFC System
+	 Message: 
+ Start Time: 4.392285
+
+ Log Entry: 
+	 Time: 489523.613724Filter: WFC System
+	 Message: 
+ Finished solving Markov problem: RoomsMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 489523.613739Filter: WFCSystem
+	 Message: Neighbor Generation Time: 0.005244
+
+ Log Entry: 
+	 Time: 489523.613842Filter: WFCSystem
+	 Message: Number of neighborhood permutations: 112
+
+ Log Entry: 
+	 Time: 489523.613859Filter: WFC System
+	 Message: 
+ End Time: 4.402427
+
+ Log Entry: 
+	 Time: 489523.614233Filter: WFC System
+	 Message: 
+ Time taken for Markov problem: 0.010142
+
+ Log Entry: 
+	 Time: 489523.614243Filter: WFC System
+	 Message: 
+ Time taken for Markov neighbor generation: 0.005244
+
+ Log Entry: 
+	 Time: 489523.614262Filter: WFC System
+	 Message: 
+ Time taken for tiling step of Markov problem: 0.004899
+
+ Log Entry: 
+	 Time: 489523.614274Filter: WFC System
+	 Message: 
+ Number of Permutations: 112
+
+ Log Entry: 
+	 Time: 489523.614389Filter: WFC System
+	 Message: 
+
+ Started WFC for Markov problem: RoomsMarkov Subset: tiles
+
+ Log Entry: 
+	 Time: 489523.614445Filter: WFC System
+	 Message: 
+ Start Time: 4.402967
+
+ Log Entry: 
+	 Time: 489523.624455Filter: WFC System
+	 Message: 
+ Finished solving Markov problem: RoomsMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 489523.624470Filter: WFCSystem
+	 Message: Neighbor Generation Time: 0.006224
+
+ Log Entry: 
+	 Time: 489523.624476Filter: WFCSystem
+	 Message: Number of neighborhood permutations: 112
+
+ Log Entry: 
+	 Time: 489523.624490Filter: WFC System
+	 Message: 
+ End Time: 4.413058
+
+ Log Entry: 
+	 Time: 489523.624624Filter: WFC System
+	 Message: 
+ Time taken for Markov problem: 0.010091
+
+ Log Entry: 
+	 Time: 489523.624633Filter: WFC System
+	 Message: 
+ Time taken for Markov neighbor generation: 0.006224
+
+ Log Entry: 
+	 Time: 489523.624642Filter: WFC System
+	 Message: 
+ Time taken for tiling step of Markov problem: 0.003867
+
+ Log Entry: 
+	 Time: 489523.624649Filter: WFC System
+	 Message: 
+ Number of Permutations: 112
+
+ Log Entry: 
+	 Time: 489523.624789Filter: WFC System
+	 Message: 
+
+ Started WFC for Markov problem: RoomsMarkov Subset: tiles
+
+ Log Entry: 
+	 Time: 489523.624851Filter: WFC System
+	 Message: 
+ Start Time: 4.413365
+
+ Log Entry: 
+	 Time: 489523.636831Filter: WFC System
+	 Message: 
+ Finished solving Markov problem: RoomsMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 489523.636845Filter: WFCSystem
+	 Message: Neighbor Generation Time: 0.006693
+
+ Log Entry: 
+	 Time: 489523.636851Filter: WFCSystem
+	 Message: Number of neighborhood permutations: 112
+
+ Log Entry: 
+	 Time: 489523.636864Filter: WFC System
+	 Message: 
+ End Time: 4.425432
+
+ Log Entry: 
+	 Time: 489523.637036Filter: WFC System
+	 Message: 
+ Time taken for Markov problem: 0.012066
+
+ Log Entry: 
+	 Time: 489523.637044Filter: WFC System
+	 Message: 
+ Time taken for Markov neighbor generation: 0.006693
+
+ Log Entry: 
+	 Time: 489523.637071Filter: WFC System
+	 Message: 
+ Time taken for tiling step of Markov problem: 0.005373
+
+ Log Entry: 
+	 Time: 489523.637079Filter: WFC System
+	 Message: 
+ Number of Permutations: 112
+
+ Log Entry: 
+	 Time: 489523.637246Filter: WFC System
+	 Message: 
+
+ Started WFC for Markov problem: RoomsMarkov Subset: tiles
+
+ Log Entry: 
+	 Time: 489523.637304Filter: WFC System
+	 Message: 
+ Start Time: 4.425825
+
+ Log Entry: 
+	 Time: 489523.647319Filter: WFC System
+	 Message: 
+ Finished solving Markov problem: RoomsMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 489523.647334Filter: WFCSystem
+	 Message: Neighbor Generation Time: 0.003826
+
+ Log Entry: 
+	 Time: 489523.647378Filter: WFCSystem
+	 Message: Number of neighborhood permutations: 112
+
+ Log Entry: 
+	 Time: 489523.647394Filter: WFC System
+	 Message: 
+ End Time: 4.435962
+
+ Log Entry: 
+	 Time: 489523.647537Filter: WFC System
+	 Message: 
+ Time taken for Markov problem: 0.010137
+
+ Log Entry: 
+	 Time: 489523.647546Filter: WFC System
+	 Message: 
+ Time taken for Markov neighbor generation: 0.003826
+
+ Log Entry: 
+	 Time: 489523.647573Filter: WFC System
+	 Message: 
+ Time taken for tiling step of Markov problem: 0.006311
+
+ Log Entry: 
+	 Time: 489523.647584Filter: WFC System
+	 Message: 
+ Number of Permutations: 112
+
+ Log Entry: 
+	 Time: 489523.647721Filter: WFC System
+	 Message: 
+
+ Started WFC for Markov problem: RoomsMarkov Subset: tiles
+
+ Log Entry: 
+	 Time: 489523.647772Filter: WFC System
+	 Message: 
+ Start Time: 4.436297
+
+ Log Entry: 
+	 Time: 489523.657552Filter: WFC System
+	 Message: 
+ Finished solving Markov problem: RoomsMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 489523.657570Filter: WFCSystem
+	 Message: Neighbor Generation Time: 0.005293
+
+ Log Entry: 
+	 Time: 489523.657577Filter: WFCSystem
+	 Message: Number of neighborhood permutations: 112
+
+ Log Entry: 
+	 Time: 489523.657589Filter: WFC System
+	 Message: 
+ End Time: 4.446157
+
+ Log Entry: 
+	 Time: 489523.657711Filter: WFC System
+	 Message: 
+ Time taken for Markov problem: 0.009859
+
+ Log Entry: 
+	 Time: 489523.657722Filter: WFC System
+	 Message: 
+ Time taken for Markov neighbor generation: 0.005293
+
+ Log Entry: 
+	 Time: 489523.657729Filter: WFC System
+	 Message: 
+ Time taken for tiling step of Markov problem: 0.004566
+
+ Log Entry: 
+	 Time: 489523.657736Filter: WFC System
+	 Message: 
+ Number of Permutations: 112
+
+ Log Entry: 
+	 Time: 489523.657839Filter: WFC System
+	 Message: 
+
+ Started WFC for Markov problem: RoomsMarkov Subset: tiles
+
+ Log Entry: 
+	 Time: 489523.657915Filter: WFC System
+	 Message: 
+ Start Time: 4.446415
+
+ Log Entry: 
+	 Time: 489523.672085Filter: WFC System
+	 Message: 
+ Finished solving Markov problem: RoomsMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 489523.672102Filter: WFCSystem
+	 Message: Neighbor Generation Time: 0.006711
+
+ Log Entry: 
+	 Time: 489523.672107Filter: WFCSystem
+	 Message: Number of neighborhood permutations: 112
+
+ Log Entry: 
+	 Time: 489523.672120Filter: WFC System
+	 Message: 
+ End Time: 4.460688
+
+ Log Entry: 
+	 Time: 489523.672347Filter: WFC System
+	 Message: 
+ Time taken for Markov problem: 0.014272
+
+ Log Entry: 
+	 Time: 489523.672358Filter: WFC System
+	 Message: 
+ Time taken for Markov neighbor generation: 0.006711
+
+ Log Entry: 
+	 Time: 489523.672375Filter: WFC System
+	 Message: 
+ Time taken for tiling step of Markov problem: 0.007561
+
+ Log Entry: 
+	 Time: 489523.672386Filter: WFC System
+	 Message: 
+ Number of Permutations: 112
+
+ Log Entry: 
+	 Time: 489523.672522Filter: WFC System
+	 Message: 
+
+ Started WFC for Markov problem: RoomsMarkov Subset: tiles
+
+ Log Entry: 
+	 Time: 489523.672578Filter: WFC System
+	 Message: 
+ Start Time: 4.461098
+
+ Log Entry: 
+	 Time: 489523.685610Filter: WFC System
+	 Message: 
+ Finished solving Markov problem: RoomsMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 489523.685626Filter: WFCSystem
+	 Message: Neighbor Generation Time: 0.004359
+
+ Log Entry: 
+	 Time: 489523.685639Filter: WFCSystem
+	 Message: Number of neighborhood permutations: 112
+
+ Log Entry: 
+	 Time: 489523.685646Filter: WFC System
+	 Message: 
+ End Time: 4.474214
+
+ Log Entry: 
+	 Time: 489523.685900Filter: WFC System
+	 Message: 
+ Time taken for Markov problem: 0.013115
+
+ Log Entry: 
+	 Time: 489523.685909Filter: WFC System
+	 Message: 
+ Time taken for Markov neighbor generation: 0.004359
+
+ Log Entry: 
+	 Time: 489523.685924Filter: WFC System
+	 Message: 
+ Time taken for tiling step of Markov problem: 0.008756
+
+ Log Entry: 
+	 Time: 489523.685935Filter: WFC System
+	 Message: 
+ Number of Permutations: 112
+
+ Log Entry: 
+	 Time: 489523.686097Filter: WFC System
+	 Message: 
+
+ Started WFC for Markov problem: RoomsMarkov Subset: tiles
+
+ Log Entry: 
+	 Time: 489523.686147Filter: WFC System
+	 Message: 
+ Start Time: 4.474673
+
+ Log Entry: 
+	 Time: 489523.701464Filter: WFC System
+	 Message: 
+ Finished solving Markov problem: RoomsMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 489523.701479Filter: WFCSystem
+	 Message: Neighbor Generation Time: 0.005418
+
+ Log Entry: 
+	 Time: 489523.701485Filter: WFCSystem
+	 Message: Number of neighborhood permutations: 112
+
+ Log Entry: 
+	 Time: 489523.701498Filter: WFC System
+	 Message: 
+ End Time: 4.490066
+
+ Log Entry: 
+	 Time: 489523.701695Filter: WFC System
+	 Message: 
+ Time taken for Markov problem: 0.015393
+
+ Log Entry: 
+	 Time: 489523.701703Filter: WFC System
+	 Message: 
+ Time taken for Markov neighbor generation: 0.005418
+
+ Log Entry: 
+	 Time: 489523.701708Filter: WFC System
+	 Message: 
+ Time taken for tiling step of Markov problem: 0.009974
+
+ Log Entry: 
+	 Time: 489523.701717Filter: WFC System
+	 Message: 
+ Number of Permutations: 112
+
+ Log Entry: 
+	 Time: 489523.701827Filter: WFC System
+	 Message: 
+
+ Started WFC for Markov problem: SummerMarkov Subset: tiles
+
+ Log Entry: 
+	 Time: 489523.701876Filter: WFC System
+	 Message: 
+ Start Time: 4.490402
+
+ Log Entry: 
+	 Time: 489524.005484Filter: WFC System
+	 Message: 
+ Finished solving Markov problem: SummerMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 489524.005499Filter: WFCSystem
+	 Message: Neighbor Generation Time: 0.121693
+
+ Log Entry: 
+	 Time: 489524.005505Filter: WFCSystem
+	 Message: Number of neighborhood permutations: 129
+
+ Log Entry: 
+	 Time: 489524.005516Filter: WFC System
+	 Message: 
+ End Time: 4.794084
+
+ Log Entry: 
+	 Time: 489524.007036Filter: WFC System
+	 Message: 
+ Time taken for Markov problem: 0.303682
+
+ Log Entry: 
+	 Time: 489524.007046Filter: WFC System
+	 Message: 
+ Time taken for Markov neighbor generation: 0.121693
+
+ Log Entry: 
+	 Time: 489524.007059Filter: WFC System
+	 Message: 
+ Time taken for tiling step of Markov problem: 0.181990
+
+ Log Entry: 
+	 Time: 489524.007067Filter: WFC System
+	 Message: 
+ Number of Permutations: 129
+
+ Log Entry: 
+	 Time: 489524.008482Filter: WFC System
+	 Message: 
+
+ Started WFC for Markov problem: SummerMarkov Subset: tiles
+
+ Log Entry: 
+	 Time: 489524.008543Filter: WFC System
+	 Message: 
+ Start Time: 4.797062
+
+ Log Entry: 
+	 Time: 489524.311947Filter: WFC System
+	 Message: 
+ Finished solving Markov problem: SummerMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 489524.311963Filter: WFCSystem
+	 Message: Neighbor Generation Time: 0.121731
+
+ Log Entry: 
+	 Time: 489524.311979Filter: WFCSystem
+	 Message: Number of neighborhood permutations: 129
+
+ Log Entry: 
+	 Time: 489524.311997Filter: WFC System
+	 Message: 
+ End Time: 5.100563
+
+ Log Entry: 
+	 Time: 489524.313902Filter: WFC System
+	 Message: 
+ Time taken for Markov problem: 0.303500
+
+ Log Entry: 
+	 Time: 489524.313924Filter: WFC System
+	 Message: 
+ Time taken for Markov neighbor generation: 0.121731
+
+ Log Entry: 
+	 Time: 489524.313932Filter: WFC System
+	 Message: 
+ Time taken for tiling step of Markov problem: 0.181769
+
+ Log Entry: 
+	 Time: 489524.313939Filter: WFC System
+	 Message: 
+ Number of Permutations: 129
+
+ Log Entry: 
+	 Time: 489524.315636Filter: WFC System
+	 Message: 
+
+ Started WFC for Markov problem: SummerMarkov Subset: tiles
+
+ Log Entry: 
+	 Time: 489524.315700Filter: WFC System
+	 Message: 
+ Start Time: 5.104219
+
+ Log Entry: 
+	 Time: 489524.601204Filter: WFC System
+	 Message: 
+ Finished solving Markov problem: SummerMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 489524.601220Filter: WFCSystem
+	 Message: Neighbor Generation Time: 0.117168
+
+ Log Entry: 
+	 Time: 489524.601226Filter: WFCSystem
+	 Message: Number of neighborhood permutations: 129
+
+ Log Entry: 
+	 Time: 489524.601238Filter: WFC System
+	 Message: 
+ End Time: 5.389806
+
+ Log Entry: 
+	 Time: 489524.602828Filter: WFC System
+	 Message: 
+ Time taken for Markov problem: 0.285586
+
+ Log Entry: 
+	 Time: 489524.602842Filter: WFC System
+	 Message: 
+ Time taken for Markov neighbor generation: 0.117168
+
+ Log Entry: 
+	 Time: 489524.602848Filter: WFC System
+	 Message: 
+ Time taken for tiling step of Markov problem: 0.168418
+
+ Log Entry: 
+	 Time: 489524.602861Filter: WFC System
+	 Message: 
+ Number of Permutations: 129
+
+ Log Entry: 
+	 Time: 489524.604739Filter: WFC System
+	 Message: 
+
+ Started WFC for Markov problem: SummerMarkov Subset: tiles
+
+ Log Entry: 
+	 Time: 489524.604796Filter: WFC System
+	 Message: 
+ Start Time: 5.393322
+
+ Log Entry: 
+	 Time: 489526.081451Filter: WFC System
+	 Message: 
+ Finished solving Markov problem: SummerMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 489526.081467Filter: WFCSystem
+	 Message: Neighbor Generation Time: 0.114281
+
+ Log Entry: 
+	 Time: 489526.081473Filter: WFCSystem
+	 Message: Number of neighborhood permutations: 129
+
+ Log Entry: 
+	 Time: 489526.081485Filter: WFC System
+	 Message: 
+ End Time: 6.870052
+
+ Log Entry: 
+	 Time: 489526.083318Filter: WFC System
+	 Message: 
+ Time taken for Markov problem: 1.476731
+
+ Log Entry: 
+	 Time: 489526.083330Filter: WFC System
+	 Message: 
+ Time taken for Markov neighbor generation: 0.114281
+
+ Log Entry: 
+	 Time: 489526.083379Filter: WFC System
+	 Message: 
+ Time taken for tiling step of Markov problem: 1.362450
+
+ Log Entry: 
+	 Time: 489526.083412Filter: WFC System
+	 Message: 
+ Number of Permutations: 129
+
+ Log Entry: 
+	 Time: 489526.085654Filter: WFC System
+	 Message: 
+
+ Started WFC for Markov problem: SummerMarkov Subset: tiles
+
+ Log Entry: 
+	 Time: 489526.086047Filter: WFC System
+	 Message: 
+ Start Time: 6.874237
+
+ Log Entry: 
+	 Time: 489526.497874Filter: WFC System
+	 Message: 
+ Finished solving Markov problem: SummerMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 489526.497890Filter: WFCSystem
+	 Message: Neighbor Generation Time: 0.150253
+
+ Log Entry: 
+	 Time: 489526.497905Filter: WFCSystem
+	 Message: Number of neighborhood permutations: 129
+
+ Log Entry: 
+	 Time: 489526.497912Filter: WFC System
+	 Message: 
+ End Time: 7.286480
+
+ Log Entry: 
+	 Time: 489526.499660Filter: WFC System
+	 Message: 
+ Time taken for Markov problem: 0.412243
+
+ Log Entry: 
+	 Time: 489526.499674Filter: WFC System
+	 Message: 
+ Time taken for Markov neighbor generation: 0.150253
+
+ Log Entry: 
+	 Time: 489526.499686Filter: WFC System
+	 Message: 
+ Time taken for tiling step of Markov problem: 0.261990
+
+ Log Entry: 
+	 Time: 489526.499699Filter: WFC System
+	 Message: 
+ Number of Permutations: 129
+
+ Log Entry: 
+	 Time: 489526.502306Filter: WFC System
+	 Message: 
+
+ Started WFC for Markov problem: SummerMarkov Subset: tiles
+
+ Log Entry: 
+	 Time: 489526.502360Filter: WFC System
+	 Message: 
+ Start Time: 7.290887
+
+ Log Entry: 
+	 Time: 489526.905137Filter: WFC System
+	 Message: 
+ Finished solving Markov problem: SummerMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 489526.905157Filter: WFCSystem
+	 Message: Neighbor Generation Time: 0.144066
+
+ Log Entry: 
+	 Time: 489526.905164Filter: WFCSystem
+	 Message: Number of neighborhood permutations: 129
+
+ Log Entry: 
+	 Time: 489526.905178Filter: WFC System
+	 Message: 
+ End Time: 7.693744
+
+ Log Entry: 
+	 Time: 489526.907062Filter: WFC System
+	 Message: 
+ Time taken for Markov problem: 0.402857
+
+ Log Entry: 
+	 Time: 489526.907075Filter: WFC System
+	 Message: 
+ Time taken for Markov neighbor generation: 0.144066
+
+ Log Entry: 
+	 Time: 489526.907082Filter: WFC System
+	 Message: 
+ Time taken for tiling step of Markov problem: 0.258791
+
+ Log Entry: 
+	 Time: 489526.907095Filter: WFC System
+	 Message: 
+ Number of Permutations: 129
+
+ Log Entry: 
+	 Time: 489526.908850Filter: WFC System
+	 Message: 
+
+ Started WFC for Markov problem: SummerMarkov Subset: tiles
+
+ Log Entry: 
+	 Time: 489526.908898Filter: WFC System
+	 Message: 
+ Start Time: 7.697430
+
+ Log Entry: 
+	 Time: 489527.455602Filter: WFC System
+	 Message: 
+ Finished solving Markov problem: SummerMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 489527.455621Filter: WFCSystem
+	 Message: Neighbor Generation Time: 0.108152
+
+ Log Entry: 
+	 Time: 489527.455626Filter: WFCSystem
+	 Message: Number of neighborhood permutations: 129
+
+ Log Entry: 
+	 Time: 489527.455637Filter: WFC System
+	 Message: 
+ End Time: 8.244205
+
+ Log Entry: 
+	 Time: 489527.458100Filter: WFC System
+	 Message: 
+ Time taken for Markov problem: 0.546775
+
+ Log Entry: 
+	 Time: 489527.458117Filter: WFC System
+	 Message: 
+ Time taken for Markov neighbor generation: 0.108152
+
+ Log Entry: 
+	 Time: 489527.458131Filter: WFC System
+	 Message: 
+ Time taken for tiling step of Markov problem: 0.438623
+
+ Log Entry: 
+	 Time: 489527.458137Filter: WFC System
+	 Message: 
+ Number of Permutations: 129
+
+ Log Entry: 
+	 Time: 489527.460451Filter: WFC System
+	 Message: 
+
+ Started WFC for Markov problem: SummerMarkov Subset: tiles
+
+ Log Entry: 
+	 Time: 489527.460592Filter: WFC System
+	 Message: 
+ Start Time: 8.249032
+
+ Log Entry: 
+	 Time: 489527.996855Filter: WFC System
+	 Message: 
+ Finished solving Markov problem: SummerMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 489527.996872Filter: WFCSystem
+	 Message: Neighbor Generation Time: 0.114850
+
+ Log Entry: 
+	 Time: 489527.996886Filter: WFCSystem
+	 Message: Number of neighborhood permutations: 129
+
+ Log Entry: 
+	 Time: 489527.996898Filter: WFC System
+	 Message: 
+ End Time: 8.785464
+
+ Log Entry: 
+	 Time: 489527.998778Filter: WFC System
+	 Message: 
+ Time taken for Markov problem: 0.536432
+
+ Log Entry: 
+	 Time: 489527.998790Filter: WFC System
+	 Message: 
+ Time taken for Markov neighbor generation: 0.114850
+
+ Log Entry: 
+	 Time: 489527.998802Filter: WFC System
+	 Message: 
+ Time taken for tiling step of Markov problem: 0.421582
+
+ Log Entry: 
+	 Time: 489527.998808Filter: WFC System
+	 Message: 
+ Number of Permutations: 129
+
+ Log Entry: 
+	 Time: 489528.000623Filter: WFC System
+	 Message: 
+
+ Started WFC for Markov problem: SummerMarkov Subset: tiles
+
+ Log Entry: 
+	 Time: 489528.000673Filter: WFC System
+	 Message: 
+ Start Time: 8.789203
+
+ Log Entry: 
+	 Time: 489528.509231Filter: WFC System
+	 Message: 
+ Finished solving Markov problem: SummerMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 489528.509247Filter: WFCSystem
+	 Message: Neighbor Generation Time: 0.113488
+
+ Log Entry: 
+	 Time: 489528.509254Filter: WFCSystem
+	 Message: Number of neighborhood permutations: 129
+
+ Log Entry: 
+	 Time: 489528.509267Filter: WFC System
+	 Message: 
+ End Time: 9.297834
+
+ Log Entry: 
+	 Time: 489528.511214Filter: WFC System
+	 Message: 
+ Time taken for Markov problem: 0.508632
+
+ Log Entry: 
+	 Time: 489528.511227Filter: WFC System
+	 Message: 
+ Time taken for Markov neighbor generation: 0.113488
+
+ Log Entry: 
+	 Time: 489528.511234Filter: WFC System
+	 Message: 
+ Time taken for tiling step of Markov problem: 0.395143
+
+ Log Entry: 
+	 Time: 489528.511247Filter: WFC System
+	 Message: 
+ Number of Permutations: 129
+
+ Log Entry: 
+	 Time: 489528.513140Filter: WFC System
+	 Message: 
+
+ Started WFC for Markov problem: CastleMarkov Subset: tiles
+
+ Log Entry: 
+	 Time: 489528.513195Filter: WFC System
+	 Message: 
+ Start Time: 9.301719
+
+ Log Entry: 
+	 Time: 489528.527970Filter: WFC System
+	 Message: 
+ Finished solving Markov problem: CastleMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 489528.527984Filter: WFCSystem
+	 Message: Neighbor Generation Time: 0.009182
+
+ Log Entry: 
+	 Time: 489528.527989Filter: WFCSystem
+	 Message: Number of neighborhood permutations: 214
+
+ Log Entry: 
+	 Time: 489528.528001Filter: WFC System
+	 Message: 
+ End Time: 9.316569
+
+ Log Entry: 
+	 Time: 489528.528115Filter: WFC System
+	 Message: 
+ Time taken for Markov problem: 0.014851
+
+ Log Entry: 
+	 Time: 489528.528121Filter: WFC System
+	 Message: 
+ Time taken for Markov neighbor generation: 0.009182
+
+ Log Entry: 
+	 Time: 489528.528134Filter: WFC System
+	 Message: 
+ Time taken for tiling step of Markov problem: 0.005668
+
+ Log Entry: 
+	 Time: 489528.528145Filter: WFC System
+	 Message: 
+ Number of Permutations: 214
+
+ Log Entry: 
+	 Time: 489528.528369Filter: WFC System
+	 Message: 
+
+ Started WFC for Markov problem: CastleMarkov Subset: tiles
+
+ Log Entry: 
+	 Time: 489528.528418Filter: WFC System
+	 Message: 
+ Start Time: 9.316943
+
+ Log Entry: 
+	 Time: 489528.543172Filter: WFC System
+	 Message: 
+ Finished solving Markov problem: CastleMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 489528.543187Filter: WFCSystem
+	 Message: Neighbor Generation Time: 0.009469
+
+ Log Entry: 
+	 Time: 489528.543198Filter: WFCSystem
+	 Message: Number of neighborhood permutations: 214
+
+ Log Entry: 
+	 Time: 489528.543209Filter: WFC System
+	 Message: 
+ End Time: 9.331776
+
+ Log Entry: 
+	 Time: 489528.543332Filter: WFC System
+	 Message: 
+ Time taken for Markov problem: 0.014832
+
+ Log Entry: 
+	 Time: 489528.543339Filter: WFC System
+	 Message: 
+ Time taken for Markov neighbor generation: 0.009469
+
+ Log Entry: 
+	 Time: 489528.543350Filter: WFC System
+	 Message: 
+ Time taken for tiling step of Markov problem: 0.005364
+
+ Log Entry: 
+	 Time: 489528.543361Filter: WFC System
+	 Message: 
+ Number of Permutations: 214
+
+ Log Entry: 
+	 Time: 489528.543576Filter: WFC System
+	 Message: 
+
+ Started WFC for Markov problem: CastleMarkov Subset: tiles
+
+ Log Entry: 
+	 Time: 489528.543626Filter: WFC System
+	 Message: 
+ Start Time: 9.332152
+
+ Log Entry: 
+	 Time: 489528.558361Filter: WFC System
+	 Message: 
+ Finished solving Markov problem: CastleMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 489528.558376Filter: WFCSystem
+	 Message: Neighbor Generation Time: 0.009483
+
+ Log Entry: 
+	 Time: 489528.558381Filter: WFCSystem
+	 Message: Number of neighborhood permutations: 214
+
+ Log Entry: 
+	 Time: 489528.558411Filter: WFC System
+	 Message: 
+ End Time: 9.346960
+
+ Log Entry: 
+	 Time: 489528.558532Filter: WFC System
+	 Message: 
+ Time taken for Markov problem: 0.014808
+
+ Log Entry: 
+	 Time: 489528.558540Filter: WFC System
+	 Message: 
+ Time taken for Markov neighbor generation: 0.009483
+
+ Log Entry: 
+	 Time: 489528.558545Filter: WFC System
+	 Message: 
+ Time taken for tiling step of Markov problem: 0.005325
+
+ Log Entry: 
+	 Time: 489528.558554Filter: WFC System
+	 Message: 
+ Number of Permutations: 214
+
+ Log Entry: 
+	 Time: 489528.558777Filter: WFC System
+	 Message: 
+
+ Started WFC for Markov problem: CastleMarkov Subset: tiles
+
+ Log Entry: 
+	 Time: 489528.558845Filter: WFC System
+	 Message: 
+ Start Time: 9.347353
+
+ Log Entry: 
+	 Time: 489528.576670Filter: WFC System
+	 Message: 
+ Finished solving Markov problem: CastleMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 489528.576699Filter: WFCSystem
+	 Message: Neighbor Generation Time: 0.011230
+
+ Log Entry: 
+	 Time: 489528.576705Filter: WFCSystem
+	 Message: Number of neighborhood permutations: 214
+
+ Log Entry: 
+	 Time: 489528.576719Filter: WFC System
+	 Message: 
+ End Time: 9.365286
+
+ Log Entry: 
+	 Time: 489528.576932Filter: WFC System
+	 Message: 
+ Time taken for Markov problem: 0.017933
+
+ Log Entry: 
+	 Time: 489528.576942Filter: WFC System
+	 Message: 
+ Time taken for Markov neighbor generation: 0.011230
+
+ Log Entry: 
+	 Time: 489528.576956Filter: WFC System
+	 Message: 
+ Time taken for tiling step of Markov problem: 0.006702
+
+ Log Entry: 
+	 Time: 489528.576962Filter: WFC System
+	 Message: 
+ Number of Permutations: 214
+
+ Log Entry: 
+	 Time: 489528.577104Filter: WFC System
+	 Message: 
+
+ Started WFC for Markov problem: CastleMarkov Subset: tiles
+
+ Log Entry: 
+	 Time: 489528.577155Filter: WFC System
+	 Message: 
+ Start Time: 9.365680
+
+ Log Entry: 
+	 Time: 489528.591364Filter: WFC System
+	 Message: 
+ Finished solving Markov problem: CastleMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 489528.591379Filter: WFCSystem
+	 Message: Neighbor Generation Time: 0.008192
+
+ Log Entry: 
+	 Time: 489528.591390Filter: WFCSystem
+	 Message: Number of neighborhood permutations: 214
+
+ Log Entry: 
+	 Time: 489528.591402Filter: WFC System
+	 Message: 
+ End Time: 9.379969
+
+ Log Entry: 
+	 Time: 489528.591518Filter: WFC System
+	 Message: 
+ Time taken for Markov problem: 0.014289
+
+ Log Entry: 
+	 Time: 489528.591527Filter: WFC System
+	 Message: 
+ Time taken for Markov neighbor generation: 0.008192
+
+ Log Entry: 
+	 Time: 489528.591533Filter: WFC System
+	 Message: 
+ Time taken for tiling step of Markov problem: 0.006097
+
+ Log Entry: 
+	 Time: 489528.591538Filter: WFC System
+	 Message: 
+ Number of Permutations: 214
+
+ Log Entry: 
+	 Time: 489528.591846Filter: WFC System
+	 Message: 
+
+ Started WFC for Markov problem: CastleMarkov Subset: tiles
+
+ Log Entry: 
+	 Time: 489528.591886Filter: WFC System
+	 Message: 
+ Start Time: 9.380421
+
+ Log Entry: 
+	 Time: 489528.605188Filter: WFC System
+	 Message: 
+ Finished solving Markov problem: CastleMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 489528.605202Filter: WFCSystem
+	 Message: Neighbor Generation Time: 0.007589
+
+ Log Entry: 
+	 Time: 489528.605207Filter: WFCSystem
+	 Message: Number of neighborhood permutations: 214
+
+ Log Entry: 
+	 Time: 489528.605219Filter: WFC System
+	 Message: 
+ End Time: 9.393786
+
+ Log Entry: 
+	 Time: 489528.605339Filter: WFC System
+	 Message: 
+ Time taken for Markov problem: 0.013366
+
+ Log Entry: 
+	 Time: 489528.605348Filter: WFC System
+	 Message: 
+ Time taken for Markov neighbor generation: 0.007589
+
+ Log Entry: 
+	 Time: 489528.605353Filter: WFC System
+	 Message: 
+ Time taken for tiling step of Markov problem: 0.005777
+
+ Log Entry: 
+	 Time: 489528.605361Filter: WFC System
+	 Message: 
+ Number of Permutations: 214
+
+ Log Entry: 
+	 Time: 489528.605590Filter: WFC System
+	 Message: 
+
+ Started WFC for Markov problem: CastleMarkov Subset: tiles
+
+ Log Entry: 
+	 Time: 489528.605641Filter: WFC System
+	 Message: 
+ Start Time: 9.394167
+
+ Log Entry: 
+	 Time: 489528.625825Filter: WFC System
+	 Message: 
+ Finished solving Markov problem: CastleMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 489528.625847Filter: WFCSystem
+	 Message: Neighbor Generation Time: 0.009579
+
+ Log Entry: 
+	 Time: 489528.625855Filter: WFCSystem
+	 Message: Number of neighborhood permutations: 214
+
+ Log Entry: 
+	 Time: 489528.625867Filter: WFC System
+	 Message: 
+ End Time: 9.414435
+
+ Log Entry: 
+	 Time: 489528.626077Filter: WFC System
+	 Message: 
+ Time taken for Markov problem: 0.020268
+
+ Log Entry: 
+	 Time: 489528.626086Filter: WFC System
+	 Message: 
+ Time taken for Markov neighbor generation: 0.009579
+
+ Log Entry: 
+	 Time: 489528.626098Filter: WFC System
+	 Message: 
+ Time taken for tiling step of Markov problem: 0.010689
+
+ Log Entry: 
+	 Time: 489528.626114Filter: WFC System
+	 Message: 
+ Number of Permutations: 214
+
+ Log Entry: 
+	 Time: 489528.626318Filter: WFC System
+	 Message: 
+
+ Started WFC for Markov problem: CastleMarkov Subset: tiles
+
+ Log Entry: 
+	 Time: 489528.626363Filter: WFC System
+	 Message: 
+ Start Time: 9.414894
+
+ Log Entry: 
+	 Time: 489528.646032Filter: WFC System
+	 Message: 
+ Finished solving Markov problem: CastleMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 489528.646050Filter: WFCSystem
+	 Message: Neighbor Generation Time: 0.007424
+
+ Log Entry: 
+	 Time: 489528.646161Filter: WFCSystem
+	 Message: Number of neighborhood permutations: 214
+
+ Log Entry: 
+	 Time: 489528.646175Filter: WFC System
+	 Message: 
+ End Time: 9.434740
+
+ Log Entry: 
+	 Time: 489528.646846Filter: WFC System
+	 Message: 
+ Time taken for Markov problem: 0.019846
+
+ Log Entry: 
+	 Time: 489528.646857Filter: WFC System
+	 Message: 
+ Time taken for Markov neighbor generation: 0.007424
+
+ Log Entry: 
+	 Time: 489528.646874Filter: WFC System
+	 Message: 
+ Time taken for tiling step of Markov problem: 0.012422
+
+ Log Entry: 
+	 Time: 489528.646886Filter: WFC System
+	 Message: 
+ Number of Permutations: 214
+
+ Log Entry: 
+	 Time: 489528.647161Filter: WFC System
+	 Message: 
+
+ Started WFC for Markov problem: CastleMarkov Subset: tiles
+
+ Log Entry: 
+	 Time: 489528.647208Filter: WFC System
+	 Message: 
+ Start Time: 9.435736
+
+ Log Entry: 
+	 Time: 489528.667842Filter: WFC System
+	 Message: 
+ Finished solving Markov problem: CastleMarkov subset: tiles
+
+ Log Entry: 
+	 Time: 489528.667858Filter: WFCSystem
+	 Message: Neighbor Generation Time: 0.008788
+
+ Log Entry: 
+	 Time: 489528.667865Filter: WFCSystem
+	 Message: Number of neighborhood permutations: 214
+
+ Log Entry: 
+	 Time: 489528.667880Filter: WFC System
+	 Message: 
+ End Time: 9.456448
+
+ Log Entry: 
+	 Time: 489528.668159Filter: WFC System
+	 Message: 
+ Time taken for Markov problem: 0.020712
+
+ Log Entry: 
+	 Time: 489528.668170Filter: WFC System
+	 Message: 
+ Time taken for Markov neighbor generation: 0.008788
+
+ Log Entry: 
+	 Time: 489528.668176Filter: WFC System
+	 Message: 
+ Time taken for tiling step of Markov problem: 0.011923
+
+ Log Entry: 
+	 Time: 489528.668187Filter: WFC System
+	 Message: 
+ Number of Permutations: 214

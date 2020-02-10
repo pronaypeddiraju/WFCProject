@@ -31,6 +31,7 @@ unsigned NumPossibleOrientations(const Symmetry &symmetry)
 struct TilingWFCOptions
 {
 	bool periodic_output;
+	uint size;
 };
 
 //------------------------------------------------------------------------------------------------------------------------------
@@ -52,6 +53,236 @@ private:
 
 	//The underlying generic WFC algorithm.
 	WFC m_wfc;
+
+	//Number of permutations read
+	uint m_numPermutations = 0;
+
+	//------------------------------------------------------------------------------------------------------------------------------
+	std::pair<uint, uint> FindTileAndMakeSymmetries(Array2D<T>& observedData)
+	{
+		//Check if any of the orientations of observedTile are part of m_tiles
+		std::pair<uint, uint> tileIDtoOrientation = std::make_pair(UINT_MAX, UINT_MAX);
+
+		bool foundTile = false;
+		for (uint tileIndex = 0; tileIndex < (uint)m_tiles.size(); tileIndex++)
+		{
+			//NOTE!
+			//The m_tiles will have all orientations, just store the tile index and orientation index to determine tile we are
+			for (uint orientationIndex = 0; orientationIndex < (uint)m_tiles[tileIndex].data.size(); orientationIndex++)
+			{
+				if (observedData == m_tiles[tileIndex].data[orientationIndex])
+				{
+					foundTile = true;
+					//Since we found the correct tile, it is safe to assume the observed tile has the same symmetry and data
+
+					tileIDtoOrientation.first = tileIndex;
+					tileIDtoOrientation.second = orientationIndex;
+				}
+
+				if (foundTile)
+				{
+					break;
+				}
+			}
+
+			if (foundTile)
+			{
+				break;
+			}
+		}
+
+		return tileIDtoOrientation;
+	}
+
+	//------------------------------------------------------------------------------------------------------------------------------
+	void PopulateNeighbor(Array2D<T>& tempTileArray, std::vector< std::pair <std::pair<uint, uint>, NeighborType> >& neighbors, NeighborType type)
+	{
+		std::pair<uint, uint> tileIDandOrientation = FindTileAndMakeSymmetries(tempTileArray);
+		if (tileIDandOrientation.first != UINT_MAX)
+		{
+			neighbors.push_back(std::make_pair(tileIDandOrientation, type));
+		}
+	}
+
+	//------------------------------------------------------------------------------------------------------------------------------
+	bool ValidateIndicesForSubArrayGet(uint yIndex, uint xIndex, unsigned int m_height, unsigned int m_width, unsigned int tileSize) const
+	{
+		if (yIndex >= 0 && yIndex <= m_height - tileSize && xIndex >= 0 && xIndex <= m_width - tileSize)
+		{
+			return true;
+		}
+		else
+		{
+			return false;
+		}
+	}
+
+	//------------------------------------------------------------------------------------------------------------------------------
+	std::vector< std::pair <std::pair<uint, uint>, NeighborType> > FindNeighborsForTileAtPosition(uint xIndex, uint yIndex, uint size, const Array2D<T>& inputImage)
+	{
+		std::vector< std::pair <std::pair<uint, uint>, NeighborType> > neighbors;
+		std::pair<uint, uint> tileIDandOrientation = std::make_pair(UINT_MAX, UINT_MAX);
+		Array2D<T> tempTileArray(size, size);
+		bool validationResult = false;
+
+		//Get the right neighbor
+		validationResult = ValidateIndicesForSubArrayGet(yIndex, xIndex + size, inputImage.m_height, inputImage.m_width, size);
+		if (validationResult)
+		{
+			tempTileArray = inputImage.GetSubArrayNonToric(yIndex, xIndex + size, size, size);
+			PopulateNeighbor(tempTileArray, neighbors, RIGHT);
+		}
+
+		//get the bottom neighbor
+		validationResult = ValidateIndicesForSubArrayGet(yIndex + size, xIndex, inputImage.m_height, inputImage.m_width, size);
+		if (validationResult)
+		{
+			tempTileArray = inputImage.GetSubArrayNonToric(yIndex + size, xIndex, size, size);
+			PopulateNeighbor(tempTileArray, neighbors, BOTTOM);
+		}
+
+		//get the left neighbor
+		validationResult = ValidateIndicesForSubArrayGet(yIndex, xIndex - size, inputImage.m_height, inputImage.m_width, size);
+		if (validationResult)
+		{
+			tempTileArray = inputImage.GetSubArrayNonToric(yIndex, xIndex - size, size, size);
+			PopulateNeighbor(tempTileArray, neighbors, LEFT);
+		}
+
+		//get the top neighbor
+		validationResult = ValidateIndicesForSubArrayGet(yIndex - size, xIndex, inputImage.m_height, inputImage.m_width, size);
+		if (validationResult)
+		{
+			tempTileArray = inputImage.GetSubArrayNonToric(yIndex - size, xIndex, size, size);
+			PopulateNeighbor(tempTileArray, neighbors, TOP);
+		}
+
+		return neighbors;
+	}
+
+	//------------------------------------------------------------------------------------------------------------------------------
+	//Get the rotated tile orientation depending on tile symmetry
+	uint GetRotatedOrientationIDForObservedTile(const std::pair<uint, uint>& observedTileAndOrientation, uint numRotationsToPerform)
+	{
+		//Check the current tile's symmetry
+		Symmetry symmetry = m_tiles[observedTileAndOrientation.first].symmetry;
+
+		switch (symmetry)
+		{
+		case Symmetry::X:
+		{
+			//There is only 1 tile so just return 0
+			return 0;
+		}
+		case Symmetry::I:
+		case Symmetry::backslash:
+		{
+			//There are 2 possible tile orientations
+			return (observedTileAndOrientation.second + numRotationsToPerform) % 2;
+		}
+		case Symmetry::T:
+		case Symmetry::L:
+		{
+			//There are 4 possible tile orientations
+			return (observedTileAndOrientation.second + numRotationsToPerform) % 4;
+		}
+		case Symmetry::P:
+		{
+			//Special case where we have 8 possible outcomes
+			if (observedTileAndOrientation.second < 4)
+			{
+				//Normal case where we can add numRotations and mod by 4
+				return (observedTileAndOrientation.second + numRotationsToPerform) % 4;
+			}
+			else
+			{
+				//Special case where orientation is above 4
+				uint tempOrientation = observedTileAndOrientation.second;
+
+				tempOrientation -= 4;
+				tempOrientation += numRotationsToPerform;
+				tempOrientation %= 4;
+
+				tempOrientation += 4;
+
+				return tempOrientation;
+			}
+		}
+		default:
+		{
+			ERROR_AND_DIE("Couldn't find tile symmetry for the Markov problem to generate neighbors");
+		}
+		}
+	}
+
+	//------------------------------------------------------------------------------------------------------------------------------
+	//Add the observed neighbor relationship to the vector of neighbor relationships
+	void AddObservedNeighborToNeighborsVector(std::tuple<uint, uint, uint, uint>& neighborSet, std::vector<std::tuple<uint, uint, uint, uint> >& listToPopulate)
+	{
+		//TODO("Decide on keeping unique entries vs duplicates");
+		//listToPopulate.push_back(neighborSet);
+
+		std::vector< std::tuple<uint, uint, uint, uint> >::iterator itr = std::find(std::begin(listToPopulate), std::end(listToPopulate), neighborSet);
+		if (itr == listToPopulate.end())
+		{
+			//This neighbor relationship doesn't exist so let's add it to the vector
+			listToPopulate.push_back(neighborSet);
+		}
+	}
+
+	//------------------------------------------------------------------------------------------------------------------------------
+	//Populate the neighbor information for the observed tile and observed neighbors
+	void PopulateNeighborRelationshipsForObservedTile(std::pair<uint, uint>& observedIDtoOrientation, std::vector< std::pair <std::pair<uint, uint>, NeighborType> > neighbors, std::vector< std::tuple<uint, uint, uint, uint> >& tileIDOrientationtoNeighborSet)
+	{
+		std::tuple<uint, uint, uint, uint> tileIDOrientationtoNeighbor;
+		uint observedOrientation;
+		uint neighborOrientation;
+
+		for (uint neighborIndex = 0; neighborIndex < neighbors.size(); neighborIndex++)
+		{
+			switch (neighbors[neighborIndex].second)
+			{
+			case RIGHT:
+			{
+				//Set the neighbor in it's current orientation
+				tileIDOrientationtoNeighbor = std::make_tuple(observedIDtoOrientation.first, observedIDtoOrientation.second, neighbors[neighborIndex].first.first, neighbors[neighborIndex].first.second);
+
+				AddObservedNeighborToNeighborsVector(tileIDOrientationtoNeighbor, tileIDOrientationtoNeighborSet);
+				continue;
+			}
+			case TOP:
+			{
+				//Get rotated three times for both observed tile and neighbor tile
+				observedOrientation = GetRotatedOrientationIDForObservedTile(observedIDtoOrientation, 3);
+				neighborOrientation = GetRotatedOrientationIDForObservedTile(neighbors[neighborIndex].first, 3);
+
+				tileIDOrientationtoNeighbor = std::make_tuple(observedIDtoOrientation.first, observedOrientation, neighbors[neighborIndex].first.first, neighborOrientation);
+				AddObservedNeighborToNeighborsVector(tileIDOrientationtoNeighbor, tileIDOrientationtoNeighborSet);
+				continue;
+			}
+			case LEFT:
+			{
+				//Get rotated twice for both observed tile and neighbor tile
+				observedOrientation = GetRotatedOrientationIDForObservedTile(observedIDtoOrientation, 2);
+				neighborOrientation = GetRotatedOrientationIDForObservedTile(neighbors[neighborIndex].first, 2);
+
+				tileIDOrientationtoNeighbor = std::make_tuple(observedIDtoOrientation.first, observedOrientation, neighbors[neighborIndex].first.first, neighborOrientation);
+				AddObservedNeighborToNeighborsVector(tileIDOrientationtoNeighbor, tileIDOrientationtoNeighborSet);
+				continue;
+			}
+			case BOTTOM:
+			{
+				//Get rotated once for both observed tile and neighbor tile
+				observedOrientation = GetRotatedOrientationIDForObservedTile(observedIDtoOrientation, 1);
+				neighborOrientation = GetRotatedOrientationIDForObservedTile(neighbors[neighborIndex].first, 1);
+
+				tileIDOrientationtoNeighbor = std::make_tuple(observedIDtoOrientation.first, observedOrientation, neighbors[neighborIndex].first.first, neighborOrientation);
+				AddObservedNeighborToNeighborsVector(tileIDOrientationtoNeighbor, tileIDOrientationtoNeighborSet);
+				continue;
+			}
+			}
+		}
+	}
 
 	//Generate mapping from id to oriented tiles and vice versa
 	static std::pair<std::vector<std::pair<uint, uint>>,
@@ -194,7 +425,10 @@ public:
 		m_wfc(options.periodic_output, seed, GetTilesWeight(tiles),
 			GeneratePropagator(neighbors, tiles, m_idToOrientedTile,
 				m_orientedTileIds),
-			height, width) {}
+			height, width) 
+	{
+		m_numPermutations = (uint)neighbors.size();
+	}
 
 	//Run tiling WFC and return the result if succeeded
 	std::optional<Array2D<T>> Run() 
@@ -212,4 +446,51 @@ public:
 
 	//Get orientation to oriented tile id
 	const std::vector<std::vector<uint>>& GetOrientedTileIDs() { return m_orientedTileIds; }
+
+	//Get number of permutations
+	uint GetNumPermutations() { return m_numPermutations; }
+
+	//------------------------------------------------------------------------------------------------------------------------------
+	//Called after generating output of wfc. This will identify the neighborhood combinations used in the output
+	void InferNeighborhoodCombinationsFromOutput(const Array2D<Color>& output)
+	{
+		std::vector<std::tuple<uint, uint, uint, uint> > neighborSet;
+
+		//Identify all pixels and turn them into a 2D array of tile ID and orientations
+		uint xIndex = 0;
+		uint yIndex = 0;
+
+		while (xIndex != output.m_width && yIndex != output.m_height)
+		{
+			Array2D<T> observedData = Array2D<T>(m_options.size, m_options.size);
+			Array2D<T> observedNeighborData = Array2D<T>(m_options.size, m_options.size);
+
+			observedData = output.GetSubArray(yIndex, xIndex, m_options.size, m_options.size);
+
+			//Find the tile in the set and get the correct Tile object with the correct symmetries and weights
+			std::pair<uint, uint> observedIDtoOrientation = FindTileAndMakeSymmetries(observedData);
+			if (observedIDtoOrientation.first == UINT_MAX)
+			{
+				ERROR_AND_DIE("ERROR! pattern observed does not correspond to any tile for Markov Problem");
+			}
+
+			//Find all the 4 neighbors for the tile
+			std::vector< std::pair <std::pair<uint, uint>, NeighborType> > neighbors = FindNeighborsForTileAtPosition(xIndex, yIndex, m_options.size, output);
+
+			//Generate relationships for the top, left, right and bottom tiles when generating neighbor information for the markov set
+			PopulateNeighborRelationshipsForObservedTile(observedIDtoOrientation, neighbors, neighborSet);
+
+			//Step ahead by tile size
+			xIndex += m_options.size;
+			if (xIndex == output.m_width)
+			{
+				yIndex += m_options.size;
+				xIndex = 0;
+			}
+		}
+
+		DebuggerPrintf("\n Number of output combinations used: %d", (int)neighborSet.size());
+	}
+
+
 };
