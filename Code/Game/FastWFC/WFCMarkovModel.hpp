@@ -500,4 +500,46 @@ public:
 
 	//Get num neighborhood permutations
 	const int GetNumPermutations() { return m_numPermutations; }
+
+	//------------------------------------------------------------------------------------------------------------------------------
+	//Called after generating output of wfc. This will identify the neighborhood combinations used in the output
+	void InferNeighborhoodCombinationsFromOutput(const Array2D<T>& output)
+	{
+		std::vector<std::tuple<uint, uint, uint, uint> > neighborSet;
+
+		//Identify all pixels and turn them into a 2D array of tile ID and orientations
+		uint xIndex = 0;
+		uint yIndex = 0;
+
+		while (xIndex != output.m_width && yIndex != output.m_height)
+		{
+			Array2D<T> observedData = Array2D<T>(m_options.m_tileSize, m_options.m_tileSize);
+			Array2D<T> observedNeighborData = Array2D<T>(m_options.m_tileSize, m_options.m_tileSize);
+
+			observedData = output.GetSubArray(yIndex, xIndex, m_options.m_tileSize, m_options.m_tileSize);
+
+			//Find the tile in the set and get the correct Tile object with the correct symmetries and weights
+			std::pair<uint, uint> observedIDtoOrientation = FindTileAndMakeSymmetries(observedData);
+			if (observedIDtoOrientation.first == UINT_MAX)
+			{
+				ERROR_AND_DIE("ERROR! pattern observed does not correspond to any tile for Markov Problem");
+			}
+
+			//Find all the 4 neighbors for the tile
+			std::vector< std::pair <std::pair<uint, uint>, NeighborType> > neighbors = FindNeighborsForTileAtPosition(xIndex, yIndex, m_options.m_tileSize, output);
+
+			//Generate relationships for the top, left, right and bottom tiles when generating neighbor information for the markov set
+			PopulateNeighborRelationshipsForObservedTile(observedIDtoOrientation, neighbors, neighborSet);
+
+			//Step ahead by tile size
+			xIndex += m_options.m_tileSize;
+			if (xIndex == output.m_width)
+			{
+				yIndex += m_options.m_tileSize;
+				xIndex = 0;
+			}
+		}
+
+		DebuggerPrintf("\n Number of output combinations used for Markov Problem: %d", (int)neighborSet.size());
+	}
 };

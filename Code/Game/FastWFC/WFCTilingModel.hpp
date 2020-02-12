@@ -452,7 +452,7 @@ public:
 
 	//------------------------------------------------------------------------------------------------------------------------------
 	//Called after generating output of wfc. This will identify the neighborhood combinations used in the output
-	void InferNeighborhoodCombinationsFromOutput(const Array2D<Color>& output)
+	void InferNeighborhoodCombinationsFromOutput(const Array2D<T>& output)
 	{
 		std::vector<std::tuple<uint, uint, uint, uint> > neighborSet;
 
@@ -489,7 +489,7 @@ public:
 			}
 		}
 
-		DebuggerPrintf("\n Number of output combinations used: %d", (int)neighborSet.size());
+		DebuggerPrintf("\n Number of output combinations used for Tiling Problem: %d", (int)neighborSet.size());
 	}
 
 

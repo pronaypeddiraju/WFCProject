@@ -323,6 +323,7 @@ void ReadMarkovInstance(tinyxml2::XMLElement* node, int problemIndex, const std:
 			endTime = (float)GetCurrentTimeSeconds();
 			g_LogSystem->Logf("WFC System", "\n End Time: %f", endTime);
 
+			wfc.InferNeighborhoodCombinationsFromOutput(success.value());
 			break;
 		}
 		else
