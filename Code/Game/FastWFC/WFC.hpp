@@ -25,9 +25,6 @@ private:
 	//The number of distinct patterns.
 	const uint m_numPatterns;
 
-	//The propagator, used to propagate the information in the wave.
-	Propagator m_propagator;
-
 	//Cached output patterns from WFC
 	Array2D<uint> m_cachedOutputPatterns;
 
@@ -37,6 +34,9 @@ private:
 	Array2D<uint> WaveToOutput();
 
 public:
+
+	//The propagator, used to propagate the information in the wave.
+	Propagator m_propagator;
 
 	WFC(bool periodicOutput, int seed, std::vector<double> patternFrequencies,
 		Propagator::PropagatorState propagator, uint waveHeight,

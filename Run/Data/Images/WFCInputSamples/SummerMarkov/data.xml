@@ -15,7 +15,8 @@
 		<tile name="waterturn" symmetry="L"/>
 	</tiles>
 	<inputs>
-		<!-- -->
+		<!-- 
+		-->
 		<input name="SummerMarkovLarge1" />
 		<input name="SummerMarkovLarge2" />
 		<input name="SummerMarkovLarge3" />

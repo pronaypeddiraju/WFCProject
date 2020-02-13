@@ -18,11 +18,11 @@
 	
 	<inputs>
 		
-		<!--	-->
+		<!--	
+		-->
 		<input name="CircuitMarkovLarge1" />
 		<input name="CircuitMarkovLarge2" />
 		<input name="CircuitMarkovLarge3" />
-		
 		
 		<!--	
 		<input name="CircuitMarkovMedium1" />

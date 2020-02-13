@@ -234,8 +234,8 @@ void ReadMarkovInstance(tinyxml2::XMLElement* node, int problemIndex, const std:
 	DebuggerPrintf("\n\n Started WFC for Markov problem: %s Subset: %s", name.c_str(), subset.c_str());
 	g_LogSystem->Logf("WFC System", "\n\n Started WFC for Markov problem: %s Subset: %s", name.c_str(), subset.c_str());
 
-	float startTime = (float)GetCurrentTimeSeconds();
-	float endTime;
+	double startTime = GetCurrentTimeSeconds();
+	double endTime;
 
 	DebuggerPrintf("\n Start Time: %f", startTime);
 	g_LogSystem->Logf("WFC System", "\n Start Time: %f", startTime);
@@ -299,6 +299,7 @@ void ReadMarkovInstance(tinyxml2::XMLElement* node, int problemIndex, const std:
 
 	double timeTakenByNeighbors = 0;
 	int numPermutations = 0;
+	int combinationsUsed = 0;
 
 	for (uint test = 0; test < 10; test++)
 	{
@@ -314,16 +315,11 @@ void ReadMarkovInstance(tinyxml2::XMLElement* node, int problemIndex, const std:
 			DebuggerPrintf("\n Finished solving Markov problem: %s subset: %s", name.c_str(), subset.c_str());
 			g_LogSystem->Logf("WFC System", "\n Finished solving Markov problem: %s subset: %s", name.c_str(), subset.c_str());
 			
-			g_LogSystem->Logf("WFCSystem", "Neighbor Generation Time: %f", wfc.m_neighborGenerationTime);
 			timeTakenByNeighbors = wfc.m_neighborGenerationTime;
-
 			numPermutations = wfc.GetNumPermutations();
-			g_LogSystem->Logf("WFCSystem", "Number of neighborhood permutations: %d", numPermutations);
+			endTime = GetCurrentTimeSeconds();
+			combinationsUsed = wfc.InferNeighborhoodCombinationsFromOutput(success.value());
 
-			endTime = (float)GetCurrentTimeSeconds();
-			g_LogSystem->Logf("WFC System", "\n End Time: %f", endTime);
-
-			wfc.InferNeighborhoodCombinationsFromOutput(success.value());
 			break;
 		}
 		else
@@ -331,18 +327,22 @@ void ReadMarkovInstance(tinyxml2::XMLElement* node, int problemIndex, const std:
 			DebuggerPrintf("\n Failed to solve Markov problem: %s subset: %s", name.c_str(), subset.c_str());
 			g_LogSystem->Logf("WFC System", "\n Failed to solve Markov problem: %s subset: %s", name.c_str(), subset.c_str());
 
-			endTime = (float)GetCurrentTimeSeconds();
+			endTime = GetCurrentTimeSeconds();
 			g_LogSystem->Logf("WFC System", "\n End Time: %f", endTime);
+
+			timeTakenByNeighbors = wfc.m_neighborGenerationTime;
+			numPermutations = wfc.GetNumPermutations();
 		}
 	}
 
-	float timeTaken = endTime - startTime;
+	double timeTaken = endTime - startTime;
 	DebuggerPrintf("\n Time taken for Markov problem: %f", timeTaken);
 	DebuggerPrintf("\n Time taken for Markov neighbor generation: %f", timeTakenByNeighbors);
 	g_LogSystem->Logf("WFC System", "\n Time taken for Markov problem: %f", timeTaken);
 	g_LogSystem->Logf("WFC System", "\n Time taken for Markov neighbor generation: %f", timeTakenByNeighbors);
 	g_LogSystem->Logf("WFC System", "\n Time taken for tiling step of Markov problem: %f", timeTaken - timeTakenByNeighbors);
 	g_LogSystem->Logf("WFC System", "\n Number of Permutations: %d", numPermutations);
+	g_LogSystem->Logf("WFC System", "\n Number of combinations used: %d", combinationsUsed);
 }
 
 
@@ -361,11 +361,10 @@ void ReadSimpleTiledInstance(tinyxml2::XMLElement* node, int problemIndex, const
 	DebuggerPrintf("\n\n Started WFC for Tiled problem: %s Subset: %s", name.c_str(), subset.c_str());
 	g_LogSystem->Logf("WFC System", "\n\n Started WFC for Tiling problem: %s Subset: %s", name.c_str(), subset.c_str());
 
-	float startTime = (float)GetCurrentTimeSeconds();
-	float endTime;
+	double startTime = GetCurrentTimeSeconds();
+	double endTime;
 
 	DebuggerPrintf("\n Start Time: %f", startTime);
-	g_LogSystem->Logf("WFC System", "\n Start Time: %f", startTime);
 
 	//Update the path for current problem
 	std::string readDir = currentDir + "/" + name + "/data.xml";
@@ -454,12 +453,18 @@ void ReadSimpleTiledInstance(tinyxml2::XMLElement* node, int problemIndex, const
 			g_LogSystem->Logf("WFC System", "\n Finished solving tiling problem: %s subset: %s", name.c_str(), subset.c_str());
 
 			numPermutations = wfc.GetNumPermutations();
-			g_LogSystem->Logf("WFCSystem", "Number of neighborhood permutations: %d", numPermutations);
+			g_LogSystem->Logf("WFCSystem", "\n Number of neighborhood permutations: %d", numPermutations);
 
-			endTime = (float)GetCurrentTimeSeconds();
+			endTime = GetCurrentTimeSeconds();
 			g_LogSystem->Logf("WFC System", "\n End Time: %f", endTime);
 
-			wfc.InferNeighborhoodCombinationsFromOutput(success.value());
+			int combinationsUsed = wfc.InferNeighborhoodCombinationsFromOutput(success.value());
+			int propagatorSize = wfc.m_propagatorSize;
+			int numPermsPropagator = wfc.m_numPermsPropagator;
+
+			//ASSERT_RECOVERABLE(combinationsUsed < numPermsPropagator, "The number of combinations used is larger than number of combinations possible");
+
+			g_LogSystem->Logf("WFC System", "\n Combinations used for Tiling Problem : %d", combinationsUsed);
 			break;
 		}
 		else
@@ -467,15 +472,14 @@ void ReadSimpleTiledInstance(tinyxml2::XMLElement* node, int problemIndex, const
 			DebuggerPrintf("\n Failed to solve tiling problem: %s subset: %s", name.c_str(), subset.c_str());
 			g_LogSystem->Logf("WFC System", "\n Failed to solve tiling problem: %s subset: %s", name.c_str(), subset.c_str());
 
-			endTime = (float)GetCurrentTimeSeconds();
+			endTime = GetCurrentTimeSeconds();
 			g_LogSystem->Logf("WFC System", "\n End Time: %f", endTime);
 		}
 	}
 
-	float timeTaken = endTime - startTime;
+	double timeTaken = endTime - startTime;
 	DebuggerPrintf("\n Time taken for problem: %f", timeTaken);
 	g_LogSystem->Logf("WFC System", "\n Time taken for Tiling problem: %f", timeTaken);
-	g_LogSystem->Logf("WFC System", "\n Number of Permutations: %d", numPermutations);
 }
 
 //------------------------------------------------------------------------------------------------------------------------------
@@ -499,8 +503,8 @@ void ReadOverlappingInstance(tinyxml2::XMLElement* node, int problemIndex)
 	DebuggerPrintf("\n\n Started WFC for Overlapping problem %s", name.c_str());
 	g_LogSystem->Logf("WFC System", "\n\n Started WFC for Overlapping problem %s", name.c_str());
 
-	float startTime = (float)GetCurrentTimeSeconds();
-	float endTime;
+	double startTime = GetCurrentTimeSeconds();
+	double endTime = 0.f;
 
 	DebuggerPrintf("\n Start Time: %f", startTime);
 	g_LogSystem->Logf("WFC System", "\n Start Time: %f", startTime);
@@ -555,7 +559,7 @@ void ReadOverlappingInstance(tinyxml2::XMLElement* node, int problemIndex)
 				DebuggerPrintf("\n Finished solving problem %s", name.c_str());
 				g_LogSystem->Logf("WFC System", "\n Finished solving Overlapping problem %s", name.c_str());
 
-				endTime = (float)GetCurrentTimeSeconds();
+				endTime = GetCurrentTimeSeconds();
 				g_LogSystem->Logf("WFC System", "\n End Time: %f", endTime);
 
 				break;
@@ -565,13 +569,13 @@ void ReadOverlappingInstance(tinyxml2::XMLElement* node, int problemIndex)
 				DebuggerPrintf("\n Failed to solve problem %s", name.c_str());
 				g_LogSystem->Logf("WFC System", "\n Failed to solve Overlapping problem %s", name.c_str());
 
-				endTime = (float)GetCurrentTimeSeconds();
+				endTime = GetCurrentTimeSeconds();
 				g_LogSystem->Logf("WFC System", "\n End Time: %f", endTime);
 			}
 		}
 	}
 
-	float timeTaken = endTime - startTime;
+	double timeTaken = endTime - startTime;
 	DebuggerPrintf("\n Time take for problem: %f", timeTaken);
 	g_LogSystem->Logf("WFC System", "\n Time take for Overlapping problem: %f", timeTaken);
 }
@@ -666,8 +670,8 @@ void ReadConfigFile(const std::string &config_path) noexcept
 	}
 
 	//Determine the unique permutations on the outputs for all problems and log them 
-	fs::path checkPath(gWFCSettings.imageOutPath);
-	ProcessPermutationsUsedInOutput(checkPath);
+	//fs::path checkPath(gWFCSettings.imageOutPath);
+	//ProcessPermutationsUsedInOutput(checkPath);
 
 
 }

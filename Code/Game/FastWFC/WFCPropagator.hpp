@@ -15,7 +15,6 @@ class Propagator
 public:
 	using PropagatorState = std::vector<std::array<std::vector<unsigned int>, 4>>;
 
-private:
 
 	const unsigned int m_patternsSize;
 
@@ -41,6 +40,7 @@ private:
 	//compatible.get(y, x, pattern) has every element negative or null
 	Array3D<std::array<int, 4>> compatible;
 
+private:
 	//compute compatible patterns in all directions
 	void InitializeCompatible();
 

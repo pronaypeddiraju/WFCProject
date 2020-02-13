@@ -1,0 +1,981 @@
+Log Initialized
+
+ Log Entry: 
+	 Time: 120182.952412Filter: WFC System
+	 Message: 
+
+ Started WFC for Tiling problem: Circles Subset: All
+
+ Log Entry: 
+	 Time: 120183.194999Filter: WFC System
+	 Message: 
+ Finished solving tiling problem: Circles subset: All
+
+ Log Entry: 
+	 Time: 120183.195104Filter: WFCSystem
+	 Message: 
+ Number of neighborhood permutations: 84
+
+ Log Entry: 
+	 Time: 120183.195154Filter: WFC System
+	 Message: 
+ End Time: 6.500622
+
+ Log Entry: 
+	 Time: 120183.346569Filter: WFC System
+	 Message: 
+ Combinations used for Tiling Problem : 19
+
+ Log Entry: 
+	 Time: 120183.349421Filter: WFC System
+	 Message: 
+ Time taken for Tiling problem: 0.242692
+
+ Log Entry: 
+	 Time: 120183.353498Filter: WFC System
+	 Message: 
+
+ Started WFC for Tiling problem: Circles Subset: All
+
+ Log Entry: 
+	 Time: 120183.591595Filter: WFC System
+	 Message: 
+ Finished solving tiling problem: Circles subset: All
+
+ Log Entry: 
+	 Time: 120183.591675Filter: WFCSystem
+	 Message: 
+ Number of neighborhood permutations: 84
+
+ Log Entry: 
+	 Time: 120183.591734Filter: WFC System
+	 Message: 
+ End Time: 6.897194
+
+ Log Entry: 
+	 Time: 120183.751255Filter: WFC System
+	 Message: 
+ Combinations used for Tiling Problem : 18
+
+ Log Entry: 
+	 Time: 120183.754018Filter: WFC System
+	 Message: 
+ Time taken for Tiling problem: 0.238178
+
+ Log Entry: 
+	 Time: 120183.758409Filter: WFC System
+	 Message: 
+
+ Started WFC for Tiling problem: Circles Subset: All
+
+ Log Entry: 
+	 Time: 120184.002843Filter: WFC System
+	 Message: 
+ Finished solving tiling problem: Circles subset: All
+
+ Log Entry: 
+	 Time: 120184.002878Filter: WFCSystem
+	 Message: 
+ Number of neighborhood permutations: 84
+
+ Log Entry: 
+	 Time: 120184.002994Filter: WFC System
+	 Message: 
+ End Time: 7.308393
+
+ Log Entry: 
+	 Time: 120184.159123Filter: WFC System
+	 Message: 
+ Combinations used for Tiling Problem : 19
+
+ Log Entry: 
+	 Time: 120184.162110Filter: WFC System
+	 Message: 
+ Time taken for Tiling problem: 0.244466
+
+ Log Entry: 
+	 Time: 120184.166068Filter: WFC System
+	 Message: 
+
+ Started WFC for Tiling problem: Circuit Subset: All
+
+ Log Entry: 
+	 Time: 120184.526471Filter: WFC System
+	 Message: 
+ Finished solving tiling problem: Circuit subset: All
+
+ Log Entry: 
+	 Time: 120184.526596Filter: WFCSystem
+	 Message: 
+ Number of neighborhood permutations: 145
+
+ Log Entry: 
+	 Time: 120184.526658Filter: WFC System
+	 Message: 
+ End Time: 7.832131
+
+ Log Entry: 
+	 Time: 120184.570958Filter: WFC System
+	 Message: 
+ Combinations used for Tiling Problem : 6
+
+ Log Entry: 
+	 Time: 120184.575905Filter: WFC System
+	 Message: 
+ Time taken for Tiling problem: 0.360546
+
+ Log Entry: 
+	 Time: 120184.582978Filter: WFC System
+	 Message: 
+
+ Started WFC for Tiling problem: Circuit Subset: All
+
+ Log Entry: 
+	 Time: 120184.937559Filter: WFC System
+	 Message: 
+ Finished solving tiling problem: Circuit subset: All
+
+ Log Entry: 
+	 Time: 120184.937663Filter: WFCSystem
+	 Message: 
+ Number of neighborhood permutations: 145
+
+ Log Entry: 
+	 Time: 120184.937737Filter: WFC System
+	 Message: 
+ End Time: 8.243182
+
+ Log Entry: 
+	 Time: 120184.979711Filter: WFC System
+	 Message: 
+ Combinations used for Tiling Problem : 9
+
+ Log Entry: 
+	 Time: 120184.985577Filter: WFC System
+	 Message: 
+ Time taken for Tiling problem: 0.354686
+
+ Log Entry: 
+	 Time: 120184.991583Filter: WFC System
+	 Message: 
+
+ Started WFC for Tiling problem: Circuit Subset: All
+
+ Log Entry: 
+	 Time: 120185.332738Filter: WFC System
+	 Message: 
+ Finished solving tiling problem: Circuit subset: All
+
+ Log Entry: 
+	 Time: 120185.332775Filter: WFCSystem
+	 Message: 
+ Number of neighborhood permutations: 145
+
+ Log Entry: 
+	 Time: 120185.332862Filter: WFC System
+	 Message: 
+ End Time: 8.638289
+
+ Log Entry: 
+	 Time: 120185.384670Filter: WFC System
+	 Message: 
+ Combinations used for Tiling Problem : 17
+
+ Log Entry: 
+	 Time: 120185.389493Filter: WFC System
+	 Message: 
+ Time taken for Tiling problem: 0.341175
+
+ Log Entry: 
+	 Time: 120185.396336Filter: WFC System
+	 Message: 
+
+ Started WFC for Tiling problem: Knots Subset: All
+
+ Log Entry: 
+	 Time: 120185.490774Filter: WFC System
+	 Message: 
+ Finished solving tiling problem: Knots subset: All
+
+ Log Entry: 
+	 Time: 120185.490868Filter: WFCSystem
+	 Message: 
+ Number of neighborhood permutations: 35
+
+ Log Entry: 
+	 Time: 120185.490933Filter: WFC System
+	 Message: 
+ End Time: 8.796389
+
+ Log Entry: 
+	 Time: 120185.522980Filter: WFC System
+	 Message: 
+ Combinations used for Tiling Problem : 18
+
+ Log Entry: 
+	 Time: 120185.524857Filter: WFC System
+	 Message: 
+ Time taken for Tiling problem: 0.094536
+
+ Log Entry: 
+	 Time: 120185.527502Filter: WFC System
+	 Message: 
+
+ Started WFC for Tiling problem: Knots Subset: All
+
+ Log Entry: 
+	 Time: 120185.618578Filter: WFC System
+	 Message: 
+ Finished solving tiling problem: Knots subset: All
+
+ Log Entry: 
+	 Time: 120185.618613Filter: WFCSystem
+	 Message: 
+ Number of neighborhood permutations: 35
+
+ Log Entry: 
+	 Time: 120185.618677Filter: WFC System
+	 Message: 
+ End Time: 8.924127
+
+ Log Entry: 
+	 Time: 120185.654282Filter: WFC System
+	 Message: 
+ Combinations used for Tiling Problem : 13
+
+ Log Entry: 
+	 Time: 120185.656467Filter: WFC System
+	 Message: 
+ Time taken for Tiling problem: 0.091109
+
+ Log Entry: 
+	 Time: 120185.660706Filter: WFC System
+	 Message: 
+
+ Started WFC for Tiling problem: Knots Subset: All
+
+ Log Entry: 
+	 Time: 120185.758926Filter: WFC System
+	 Message: 
+ Finished solving tiling problem: Knots subset: All
+
+ Log Entry: 
+	 Time: 120185.759024Filter: WFCSystem
+	 Message: 
+ Number of neighborhood permutations: 35
+
+ Log Entry: 
+	 Time: 120185.759082Filter: WFC System
+	 Message: 
+ End Time: 9.064543
+
+ Log Entry: 
+	 Time: 120185.795108Filter: WFC System
+	 Message: 
+ Combinations used for Tiling Problem : 9
+
+ Log Entry: 
+	 Time: 120185.797806Filter: WFC System
+	 Message: 
+ Time taken for Tiling problem: 0.098317
+
+ Log Entry: 
+	 Time: 120185.800387Filter: WFC System
+	 Message: 
+
+ Started WFC for Tiling problem: Rooms Subset: tiles
+
+ Log Entry: 
+	 Time: 120185.935521Filter: WFC System
+	 Message: 
+ Finished solving tiling problem: Rooms subset: tiles
+
+ Log Entry: 
+	 Time: 120185.935602Filter: WFCSystem
+	 Message: 
+ Number of neighborhood permutations: 40
+
+ Log Entry: 
+	 Time: 120185.935754Filter: WFC System
+	 Message: 
+ End Time: 9.241122
+
+ Log Entry: 
+	 Time: 120185.955906Filter: WFC System
+	 Message: 
+ Combinations used for Tiling Problem : 13
+
+ Log Entry: 
+	 Time: 120185.959450Filter: WFC System
+	 Message: 
+ Time taken for Tiling problem: 0.135218
+
+ Log Entry: 
+	 Time: 120185.963062Filter: WFC System
+	 Message: 
+
+ Started WFC for Tiling problem: Rooms Subset: tiles
+
+ Log Entry: 
+	 Time: 120186.094659Filter: WFC System
+	 Message: 
+ Finished solving tiling problem: Rooms subset: tiles
+
+ Log Entry: 
+	 Time: 120186.094718Filter: WFCSystem
+	 Message: 
+ Number of neighborhood permutations: 40
+
+ Log Entry: 
+	 Time: 120186.094797Filter: WFC System
+	 Message: 
+ End Time: 9.400236
+
+ Log Entry: 
+	 Time: 120186.117822Filter: WFC System
+	 Message: 
+ Combinations used for Tiling Problem : 19
+
+ Log Entry: 
+	 Time: 120186.121172Filter: WFC System
+	 Message: 
+ Time taken for Tiling problem: 0.131638
+
+ Log Entry: 
+	 Time: 120186.125233Filter: WFC System
+	 Message: 
+
+ Started WFC for Tiling problem: Rooms Subset: tiles
+
+ Log Entry: 
+	 Time: 120186.253202Filter: WFC System
+	 Message: 
+ Finished solving tiling problem: Rooms subset: tiles
+
+ Log Entry: 
+	 Time: 120186.253288Filter: WFCSystem
+	 Message: 
+ Number of neighborhood permutations: 40
+
+ Log Entry: 
+	 Time: 120186.253331Filter: WFC System
+	 Message: 
+ End Time: 9.558806
+
+ Log Entry: 
+	 Time: 120186.278021Filter: WFC System
+	 Message: 
+ Combinations used for Tiling Problem : 14
+
+ Log Entry: 
+	 Time: 120186.281578Filter: WFC System
+	 Message: 
+ Time taken for Tiling problem: 0.128041
+
+ Log Entry: 
+	 Time: 120186.285104Filter: WFC System
+	 Message: 
+
+ Started WFC for Tiling problem: Summer Subset: tiles
+
+ Log Entry: 
+	 Time: 120186.629878Filter: WFC System
+	 Message: 
+ Finished solving tiling problem: Summer subset: tiles
+
+ Log Entry: 
+	 Time: 120186.629953Filter: WFCSystem
+	 Message: 
+ Number of neighborhood permutations: 49
+
+ Log Entry: 
+	 Time: 120186.630020Filter: WFC System
+	 Message: 
+ End Time: 9.935471
+
+ Log Entry: 
+	 Time: 120186.950820Filter: WFC System
+	 Message: 
+ Combinations used for Tiling Problem : 17
+
+ Log Entry: 
+	 Time: 120186.955917Filter: WFC System
+	 Message: 
+ Time taken for Tiling problem: 0.344849
+
+ Log Entry: 
+	 Time: 120186.961558Filter: WFC System
+	 Message: 
+
+ Started WFC for Tiling problem: Summer Subset: tiles
+
+ Log Entry: 
+	 Time: 120187.311863Filter: WFC System
+	 Message: 
+ Finished solving tiling problem: Summer subset: tiles
+
+ Log Entry: 
+	 Time: 120187.311956Filter: WFCSystem
+	 Message: 
+ Number of neighborhood permutations: 49
+
+ Log Entry: 
+	 Time: 120187.312014Filter: WFC System
+	 Message: 
+ End Time: 10.617476
+
+ Log Entry: 
+	 Time: 120187.626191Filter: WFC System
+	 Message: 
+ Combinations used for Tiling Problem : 15
+
+ Log Entry: 
+	 Time: 120187.630832Filter: WFC System
+	 Message: 
+ Time taken for Tiling problem: 0.350400
+
+ Log Entry: 
+	 Time: 120187.634967Filter: WFC System
+	 Message: 
+
+ Started WFC for Tiling problem: Summer Subset: tiles
+
+ Log Entry: 
+	 Time: 120187.974745Filter: WFC System
+	 Message: 
+ Finished solving tiling problem: Summer subset: tiles
+
+ Log Entry: 
+	 Time: 120187.974782Filter: WFCSystem
+	 Message: 
+ Number of neighborhood permutations: 49
+
+ Log Entry: 
+	 Time: 120187.974874Filter: WFC System
+	 Message: 
+ End Time: 11.280296
+
+ Log Entry: 
+	 Time: 120188.287050Filter: WFC System
+	 Message: 
+ Combinations used for Tiling Problem : 12
+
+ Log Entry: 
+	 Time: 120188.291621Filter: WFC System
+	 Message: 
+ Time taken for Tiling problem: 0.339812
+
+ Log Entry: 
+	 Time: 120188.296801Filter: WFC System
+	 Message: 
+
+ Started WFC for Tiling problem: Castle Subset: tiles
+
+ Log Entry: 
+	 Time: 120188.460848Filter: WFC System
+	 Message: 
+ Finished solving tiling problem: Castle subset: tiles
+
+ Log Entry: 
+	 Time: 120188.460974Filter: WFCSystem
+	 Message: 
+ Number of neighborhood permutations: 57
+
+ Log Entry: 
+	 Time: 120188.461087Filter: WFC System
+	 Message: 
+ End Time: 11.766491
+
+ Log Entry: 
+	 Time: 120188.490208Filter: WFC System
+	 Message: 
+ Combinations used for Tiling Problem : 19
+
+ Log Entry: 
+	 Time: 120188.493918Filter: WFC System
+	 Message: 
+ Time taken for Tiling problem: 0.164165
+
+ Log Entry: 
+	 Time: 120188.497667Filter: WFC System
+	 Message: 
+
+ Started WFC for Tiling problem: Castle Subset: tiles
+
+ Log Entry: 
+	 Time: 120188.661167Filter: WFC System
+	 Message: 
+ Finished solving tiling problem: Castle subset: tiles
+
+ Log Entry: 
+	 Time: 120188.661219Filter: WFCSystem
+	 Message: 
+ Number of neighborhood permutations: 57
+
+ Log Entry: 
+	 Time: 120188.661356Filter: WFC System
+	 Message: 
+ End Time: 11.966735
+
+ Log Entry: 
+	 Time: 120188.689236Filter: WFC System
+	 Message: 
+ Combinations used for Tiling Problem : 19
+
+ Log Entry: 
+	 Time: 120188.693055Filter: WFC System
+	 Message: 
+ Time taken for Tiling problem: 0.163550
+
+ Log Entry: 
+	 Time: 120188.697550Filter: WFC System
+	 Message: 
+
+ Started WFC for Tiling problem: Castle Subset: tiles
+
+ Log Entry: 
+	 Time: 120188.856444Filter: WFC System
+	 Message: 
+ Finished solving tiling problem: Castle subset: tiles
+
+ Log Entry: 
+	 Time: 120188.856479Filter: WFCSystem
+	 Message: 
+ Number of neighborhood permutations: 57
+
+ Log Entry: 
+	 Time: 120188.856587Filter: WFC System
+	 Message: 
+ End Time: 12.161993
+
+ Log Entry: 
+	 Time: 120188.883622Filter: WFC System
+	 Message: 
+ Combinations used for Tiling Problem : 17
+
+ Log Entry: 
+	 Time: 120188.887171Filter: WFC System
+	 Message: 
+ Time taken for Tiling problem: 0.158922
+
+ Log Entry: 
+	 Time: 120188.891467Filter: WFC System
+	 Message: 
+
+ Started WFC for Tiling problem: Circles Subset: All
+
+ Log Entry: 
+	 Time: 120189.265508Filter: WFC System
+	 Message: 
+ Finished solving tiling problem: Circles subset: All
+
+ Log Entry: 
+	 Time: 120189.265545Filter: WFCSystem
+	 Message: 
+ Number of neighborhood permutations: 84
+
+ Log Entry: 
+	 Time: 120189.265634Filter: WFC System
+	 Message: 
+ End Time: 12.571060
+
+ Log Entry: 
+	 Time: 120189.941382Filter: WFC System
+	 Message: 
+ Combinations used for Tiling Problem : 73
+
+ Log Entry: 
+	 Time: 120189.945418Filter: WFC System
+	 Message: 
+ Time taken for Tiling problem: 0.374071
+
+ Log Entry: 
+	 Time: 120189.949398Filter: WFC System
+	 Message: 
+
+ Started WFC for Tiling problem: Circles Subset: All
+
+ Log Entry: 
+	 Time: 120190.326816Filter: WFC System
+	 Message: 
+ Finished solving tiling problem: Circles subset: All
+
+ Log Entry: 
+	 Time: 120190.326895Filter: WFCSystem
+	 Message: 
+ Number of neighborhood permutations: 84
+
+ Log Entry: 
+	 Time: 120190.327001Filter: WFC System
+	 Message: 
+ End Time: 13.632415
+
+ Log Entry: 
+	 Time: 120190.993299Filter: WFC System
+	 Message: 
+ Combinations used for Tiling Problem : 71
+
+ Log Entry: 
+	 Time: 120190.996183Filter: WFC System
+	 Message: 
+ Time taken for Tiling problem: 0.377493
+
+ Log Entry: 
+	 Time: 120191.000669Filter: WFC System
+	 Message: 
+
+ Started WFC for Tiling problem: Circles Subset: All
+
+ Log Entry: 
+	 Time: 120191.374623Filter: WFC System
+	 Message: 
+ Finished solving tiling problem: Circles subset: All
+
+ Log Entry: 
+	 Time: 120191.374697Filter: WFCSystem
+	 Message: 
+ Number of neighborhood permutations: 84
+
+ Log Entry: 
+	 Time: 120191.374763Filter: WFC System
+	 Message: 
+ End Time: 14.680216
+
+ Log Entry: 
+	 Time: 120192.063268Filter: WFC System
+	 Message: 
+ Combinations used for Tiling Problem : 66
+
+ Log Entry: 
+	 Time: 120192.065961Filter: WFC System
+	 Message: 
+ Time taken for Tiling problem: 0.374030
+
+ Log Entry: 
+	 Time: 120192.069799Filter: WFC System
+	 Message: 
+
+ Started WFC for Tiling problem: Circuit Subset: All
+
+ Log Entry: 
+	 Time: 120192.542153Filter: WFC System
+	 Message: 
+ Finished solving tiling problem: Circuit subset: All
+
+ Log Entry: 
+	 Time: 120192.542202Filter: WFCSystem
+	 Message: 
+ Number of neighborhood permutations: 145
+
+ Log Entry: 
+	 Time: 120192.542335Filter: WFC System
+	 Message: 
+ End Time: 15.847718
+
+ Log Entry: 
+	 Time: 120192.772042Filter: WFC System
+	 Message: 
+ Combinations used for Tiling Problem : 63
+
+ Log Entry: 
+	 Time: 120192.776592Filter: WFC System
+	 Message: 
+ Time taken for Tiling problem: 0.472399
+
+ Log Entry: 
+	 Time: 120192.783313Filter: WFC System
+	 Message: 
+
+ Started WFC for Tiling problem: Circuit Subset: All
+
+ Log Entry: 
+	 Time: 120193.421914Filter: WFC System
+	 Message: 
+ Finished solving tiling problem: Circuit subset: All
+
+ Log Entry: 
+	 Time: 120193.422029Filter: WFCSystem
+	 Message: 
+ Number of neighborhood permutations: 145
+
+ Log Entry: 
+	 Time: 120193.422204Filter: WFC System
+	 Message: 
+ End Time: 16.727556
+
+ Log Entry: 
+	 Time: 120193.613212Filter: WFC System
+	 Message: 
+ Combinations used for Tiling Problem : 1
+
+ Log Entry: 
+	 Time: 120193.618012Filter: WFC System
+	 Message: 
+ Time taken for Tiling problem: 0.638706
+
+ Log Entry: 
+	 Time: 120193.624373Filter: WFC System
+	 Message: 
+
+ Started WFC for Tiling problem: Circuit Subset: All
+
+ Log Entry: 
+	 Time: 120194.074611Filter: WFC System
+	 Message: 
+ Finished solving tiling problem: Circuit subset: All
+
+ Log Entry: 
+	 Time: 120194.074714Filter: WFCSystem
+	 Message: 
+ Number of neighborhood permutations: 145
+
+ Log Entry: 
+	 Time: 120194.074845Filter: WFC System
+	 Message: 
+ End Time: 17.380230
+
+ Log Entry: 
+	 Time: 120194.276964Filter: WFC System
+	 Message: 
+ Combinations used for Tiling Problem : 31
+
+ Log Entry: 
+	 Time: 120194.281819Filter: WFC System
+	 Message: 
+ Time taken for Tiling problem: 0.450325
+
+ Log Entry: 
+	 Time: 120194.288274Filter: WFC System
+	 Message: 
+
+ Started WFC for Tiling problem: Knots Subset: All
+
+ Log Entry: 
+	 Time: 120194.421345Filter: WFC System
+	 Message: 
+ Finished solving tiling problem: Knots subset: All
+
+ Log Entry: 
+	 Time: 120194.421421Filter: WFCSystem
+	 Message: 
+ Number of neighborhood permutations: 35
+
+ Log Entry: 
+	 Time: 120194.421510Filter: WFC System
+	 Message: 
+ End Time: 17.726939
+
+ Log Entry: 
+	 Time: 120194.569247Filter: WFC System
+	 Message: 
+ Combinations used for Tiling Problem : 47
+
+ Log Entry: 
+	 Time: 120194.571211Filter: WFC System
+	 Message: 
+ Time taken for Tiling problem: 0.133148
+
+ Log Entry: 
+	 Time: 120194.573793Filter: WFC System
+	 Message: 
+
+ Started WFC for Tiling problem: Knots Subset: All
+
+ Log Entry: 
+	 Time: 120195.033140Filter: WFC System
+	 Message: 
+ Finished solving tiling problem: Knots subset: All
+
+ Log Entry: 
+	 Time: 120195.033304Filter: WFCSystem
+	 Message: 
+ Number of neighborhood permutations: 35
+
+ Log Entry: 
+	 Time: 120195.033433Filter: WFC System
+	 Message: 
+ End Time: 18.338833
+
+ Log Entry: 
+	 Time: 120195.186485Filter: WFC System
+	 Message: 
+ Combinations used for Tiling Problem : 51
+
+ Log Entry: 
+	 Time: 120195.188303Filter: WFC System
+	 Message: 
+ Time taken for Tiling problem: 0.459522
+
+ Log Entry: 
+	 Time: 120195.191206Filter: WFC System
+	 Message: 
+
+ Started WFC for Tiling problem: Knots Subset: All
+
+ Log Entry: 
+	 Time: 120195.318712Filter: WFC System
+	 Message: 
+ Finished solving tiling problem: Knots subset: All
+
+ Log Entry: 
+	 Time: 120195.318798Filter: WFCSystem
+	 Message: 
+ Number of neighborhood permutations: 35
+
+ Log Entry: 
+	 Time: 120195.318871Filter: WFC System
+	 Message: 
+ End Time: 18.624318
+
+ Log Entry: 
+	 Time: 120195.470401Filter: WFC System
+	 Message: 
+ Combinations used for Tiling Problem : 35
+
+ Log Entry: 
+	 Time: 120195.472233Filter: WFC System
+	 Message: 
+ Time taken for Tiling problem: 0.127596
+
+ Log Entry: 
+	 Time: 120195.475045Filter: WFC System
+	 Message: 
+
+ Started WFC for Tiling problem: Rooms Subset: tiles
+
+ Log Entry: 
+	 Time: 120195.644437Filter: WFC System
+	 Message: 
+ Finished solving tiling problem: Rooms subset: tiles
+
+ Log Entry: 
+	 Time: 120195.644554Filter: WFCSystem
+	 Message: 
+ Number of neighborhood permutations: 40
+
+ Log Entry: 
+	 Time: 120195.644668Filter: WFC System
+	 Message: 
+ End Time: 18.950072
+
+ Log Entry: 
+	 Time: 120195.733366Filter: WFC System
+	 Message: 
+ Combinations used for Tiling Problem : 40
+
+ Log Entry: 
+	 Time: 120195.737218Filter: WFC System
+	 Message: 
+ Time taken for Tiling problem: 0.169506
+
+ Log Entry: 
+	 Time: 120195.740561Filter: WFC System
+	 Message: 
+
+ Started WFC for Tiling problem: Rooms Subset: tiles
+
+ Log Entry: 
+	 Time: 120195.908985Filter: WFC System
+	 Message: 
+ Finished solving tiling problem: Rooms subset: tiles
+
+ Log Entry: 
+	 Time: 120195.909079Filter: WFCSystem
+	 Message: 
+ Number of neighborhood permutations: 40
+
+ Log Entry: 
+	 Time: 120195.909158Filter: WFC System
+	 Message: 
+ End Time: 19.214598
+
+ Log Entry: 
+	 Time: 120195.999510Filter: WFC System
+	 Message: 
+ Combinations used for Tiling Problem : 38
+
+ Log Entry: 
+	 Time: 120196.002847Filter: WFC System
+	 Message: 
+ Time taken for Tiling problem: 0.168520
+
+ Log Entry: 
+	 Time: 120196.006749Filter: WFC System
+	 Message: 
+
+ Started WFC for Tiling problem: Rooms Subset: tiles
+
+ Log Entry: 
+	 Time: 120196.175472Filter: WFC System
+	 Message: 
+ Finished solving tiling problem: Rooms subset: tiles
+
+ Log Entry: 
+	 Time: 120196.175606Filter: WFCSystem
+	 Message: 
+ Number of neighborhood permutations: 40
+
+ Log Entry: 
+	 Time: 120196.175692Filter: WFC System
+	 Message: 
+ End Time: 19.481146
+
+ Log Entry: 
+	 Time: 120196.267044Filter: WFC System
+	 Message: 
+ Combinations used for Tiling Problem : 33
+
+ Log Entry: 
+	 Time: 120196.270225Filter: WFC System
+	 Message: 
+ Time taken for Tiling problem: 0.168878
+
+ Log Entry: 
+	 Time: 120196.274412Filter: WFC System
+	 Message: 
+
+ Started WFC for Tiling problem: Summer Subset: tiles
+
+ Log Entry: 
+	 Time: 120196.957716Filter: WFC System
+	 Message: 
+ Finished solving tiling problem: Summer subset: tiles
+
+ Log Entry: 
+	 Time: 120196.957804Filter: WFCSystem
+	 Message: 
+ Number of neighborhood permutations: 49
+
+ Log Entry: 
+	 Time: 120196.957856Filter: WFC System
+	 Message: 
+ End Time: 20.263321
+
+ Log Entry: 
+	 Time: 120198.346701Filter: WFC System
+	 Message: 
+ Combinations used for Tiling Problem : 41
+
+ Log Entry: 
+	 Time: 120198.352360Filter: WFC System
+	 Message: 
+ Time taken for Tiling problem: 0.683390
+
+ Log Entry: 
+	 Time: 120198.357905Filter: WFC System
+	 Message: 
+
+ Started WFC for Tiling problem: Summer Subset: tiles
+
+ Log Entry: 
+	 Time: 120199.563196Filter: WFC System
+	 Message: 
+ Finished solving tiling problem: Summer subset: tiles
+
+ Log Entry: 
+	 Time: 120199.563396Filter: WFCSystem
+	 Message: 
+ Number of neighborhood permutations: 49
+
+ Log Entry: 
+	 Ti

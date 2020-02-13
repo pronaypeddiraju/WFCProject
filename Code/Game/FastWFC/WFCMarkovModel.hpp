@@ -30,7 +30,7 @@ template <typename T> class MarkovWFC
 public:
 	double m_initTime = 0;
 	double m_neighborGenerationTime = 0;
-
+	
 private:
 
 	//the distinct tiles
@@ -133,7 +133,7 @@ private:
 			PopulateNeighbor(tempTileArray, neighbors, RIGHT);
 		}
 
-		//get the bottom neighbor
+		//get the btoom neighbor
 		validationResult = ValidateIndicesForSubArrayGet(yIndex + tileSize, xIndex, inputImage.m_height, inputImage.m_width, tileSize);
 		if (validationResult)
 		{
@@ -219,13 +219,16 @@ private:
 	//Add the observed neighbor relationship to the vector of neighbor relationships
 	void AddObservedNeighborToNeighborsVector(std::tuple<uint, uint, uint, uint>& neighborSet, std::vector<std::tuple<uint, uint, uint, uint> >& listToPopulate)
 	{
-		//TODO("Decide on keeping unique entries vs duplicates");
-		//listToPopulate.push_back(neighborSet);
+		std::vector< std::tuple<uint, uint, uint, uint> >::iterator itr = std::find_if(std::begin(listToPopulate), std::end(listToPopulate), [&](const std::tuple<uint, uint, uint, uint>& checkValue)
+			{
+				return (std::get<0>(neighborSet) == std::get<0>(checkValue)
+					&& std::get<1>(neighborSet) == std::get<1>(checkValue)
+					&& std::get<2>(neighborSet) == std::get<2>(checkValue)
+					&& std::get<3>(neighborSet) == std::get<3>(checkValue));
+			});
 
-		std::vector< std::tuple<uint, uint, uint, uint> >::iterator itr = std::find(std::begin(listToPopulate), std::end(listToPopulate), neighborSet);
 		if (itr == listToPopulate.end())
 		{
-			//This neighbor relationship doesn't exist so let's add it to the vector
 			listToPopulate.push_back(neighborSet);
 		}
 	}
@@ -329,7 +332,8 @@ private:
 		}
 
 		m_neighborGenerationTime = GetCurrentTimeSeconds() - m_initTime;
-		m_numPermutations = neighborSet.size();
+		m_numPermutations = (int)neighborSet.size();
+
 		return neighborSet;
 	}
 
@@ -503,7 +507,7 @@ public:
 
 	//------------------------------------------------------------------------------------------------------------------------------
 	//Called after generating output of wfc. This will identify the neighborhood combinations used in the output
-	void InferNeighborhoodCombinationsFromOutput(const Array2D<T>& output)
+	int InferNeighborhoodCombinationsFromOutput(const Array2D<T>& output)
 	{
 		std::vector<std::tuple<uint, uint, uint, uint> > neighborSet;
 
@@ -540,6 +544,6 @@ public:
 			}
 		}
 
-		DebuggerPrintf("\n Number of output combinations used for Markov Problem: %d", (int)neighborSet.size());
+		return (int)neighborSet.size();
 	}
 };

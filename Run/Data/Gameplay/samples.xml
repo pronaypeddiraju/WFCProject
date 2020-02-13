@@ -133,7 +133,7 @@
 -->
 	
 
-	<!-- Tiling Small Set 	-->
+	<!-- Tiling Small Set 		
 	<simpletiled name="Circles" subset="All" width="5" height="5"/>
 	<simpletiled name="Circles" subset="All" width="5" height="5"/>
 	<simpletiled name="Circles" subset="All" width="5" height="5"/>
@@ -157,7 +157,8 @@
 	<simpletiled name="Castle" width="5" height="5"/>
 	<simpletiled name="Castle" width="5" height="5"/>
 	<simpletiled name="Castle" width="5" height="5"/>
-	
+	-->
+
 	<!-- Overlapping Medium Set 
 	<overlapping name="CirclesOverlappingMedium1" N="3" width="320‬" height="320"/>
 	<overlapping name="CirclesOverlappingMedium2" N="3" width="320‬" height="320"/>
@@ -184,7 +185,7 @@
 	<overlapping name="CastleOverlappingMedium3" N="3" width="70" height="70"/>
 	-->
 
-	<!-- Tiling Medium Set -->
+	<!-- Tiling Medium Set 
 	<simpletiled name="Circles" subset="All" width="10" height="10"/>
 	<simpletiled name="Circles" subset="All" width="10" height="10"/>
 	<simpletiled name="Circles" subset="All" width="10" height="10"/>
@@ -208,7 +209,7 @@
 	<simpletiled name="Castle" width="10" height="10"/>
 	<simpletiled name="Castle" width="10" height="10"/>
 	<simpletiled name="Castle" width="10" height="10"/>	
-	
+	-->
 
 	<!-- Overlapping Large Set 
 	<overlapping name="CirclesOverlappingLarge1" N="3" width="800" height="800"/>
@@ -236,7 +237,7 @@
 	<overlapping name="CastleOverlappingLarge3" N="3" width="175" height="175"/>
 	-->
 
-	<!--	Tiling Large Set -->
+	<!--	Tiling Large Set 
 	<simpletiled name="Circles" subset="All" width="25" height="25"/>
 	<simpletiled name="Circles" subset="All" width="25" height="25"/>
 	<simpletiled name="Circles" subset="All" width="25" height="25"/>
@@ -244,11 +245,11 @@
 	<simpletiled name="Circuit" subset="All" width="25" height="25"/>
 	<simpletiled name="Circuit" subset="All" width="25" height="25"/>
 	<simpletiled name="Circuit" subset="All" width="25" height="25"/>
-
+	-->
 	<simpletiled name="Knots" subset="All" width="25" height="25"/>
 	<simpletiled name="Knots" subset="All" width="25" height="25"/>
 	<simpletiled name="Knots" subset="All" width="25" height="25"/>
-
+	<!--
 	<simpletiled name="Rooms" width="25" height="25"/>
 	<simpletiled name="Rooms" width="25" height="25"/>
 	<simpletiled name="Rooms" width="25" height="25"/>
@@ -260,8 +261,8 @@
 	<simpletiled name="Castle" width="25" height="25"/>
 	<simpletiled name="Castle" width="25" height="25"/>
 	<simpletiled name="Castle" width="25" height="25"/>
+	-->
 	
-
 	<!-- Markov all sizes -->
 	<markov name="CirclesMarkov" width="5" height="5" />
 	<markov name="CirclesMarkov" width="5" height="5" />
@@ -274,7 +275,7 @@
 	<markov name="CirclesMarkov" width="25" height="25" />
 	<markov name="CirclesMarkov" width="25" height="25" />
 	<markov name="CirclesMarkov" width="25" height="25" />
-	
+
 	<markov name="CircuitMarkov" width="5" height="5" />
 	<markov name="CircuitMarkov" width="5" height="5" />
 	<markov name="CircuitMarkov" width="5" height="5" />
