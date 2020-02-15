@@ -196,10 +196,10 @@
   <ItemGroup>
     <ClCompile Include="App.cpp" />
     <ClCompile Include="Entity.cpp" />
-    <ClCompile Include="FastWFC\WFC.cpp" />
-    <ClCompile Include="FastWFC\WFCEntry.cpp" />
-    <ClCompile Include="FastWFC\WFCPropagator.cpp" />
-    <ClCompile Include="FastWFC\WFCWave.cpp" />
+    <ClCompile Include="WFC\WFC.cpp" />
+    <ClCompile Include="WFC\WFCEntry.cpp" />
+    <ClCompile Include="WFC\WFCPropagator.cpp" />
+    <ClCompile Include="WFC\WFCWave.cpp" />
     <ClCompile Include="Game.cpp" />
     <ClCompile Include="Main_Windows.cpp">
       <ShowIncludes Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ShowIncludes>
@@ -212,19 +212,19 @@
     <ClInclude Include="App.hpp" />
     <ClInclude Include="EngineBuildPreferences.hpp" />
     <ClInclude Include="Entity.hpp" />
-    <ClInclude Include="FastWFC\WFC.hpp" />
-    <ClInclude Include="FastWFC\WFCArray2D.hpp" />
-    <ClInclude Include="FastWFC\WFCArray3D.hpp" />
-    <ClInclude Include="FastWFC\WFCColor.hpp" />
-    <ClInclude Include="FastWFC\WFCDirection.hpp" />
-    <ClInclude Include="FastWFC\WFCEntry.hpp" />
-    <ClInclude Include="FastWFC\WFCImage.hpp" />
-    <ClInclude Include="FastWFC\WFCMarkovModel.hpp" />
-    <ClInclude Include="FastWFC\WFCOverlappingModel.hpp" />
-    <ClInclude Include="FastWFC\WFCPropagator.hpp" />
-    <ClInclude Include="FastWFC\WFCTile.hpp" />
-    <ClInclude Include="FastWFC\WFCTilingModel.hpp" />
-    <ClInclude Include="FastWFC\WFCWave.hpp" />
+    <ClInclude Include="WFC\WFC.hpp" />
+    <ClInclude Include="WFC\WFCArray2D.hpp" />
+    <ClInclude Include="WFC\WFCArray3D.hpp" />
+    <ClInclude Include="WFC\WFCColor.hpp" />
+    <ClInclude Include="WFC\WFCDirection.hpp" />
+    <ClInclude Include="WFC\WFCEntry.hpp" />
+    <ClInclude Include="WFC\WFCImage.hpp" />
+    <ClInclude Include="WFC\WFCMarkovModel.hpp" />
+    <ClInclude Include="WFC\WFCOverlappingModel.hpp" />
+    <ClInclude Include="WFC\WFCPropagator.hpp" />
+    <ClInclude Include="WFC\WFCTile.hpp" />
+    <ClInclude Include="WFC\WFCTilingModel.hpp" />
+    <ClInclude Include="WFC\WFCWave.hpp" />
     <ClInclude Include="Game.hpp" />
     <ClInclude Include="GameCommon.hpp" />
   </ItemGroup>

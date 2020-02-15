@@ -1,6 +1,6 @@
 #pragma once
-#include "Game/FastWFC/WFCDirection.hpp"
-#include "Game/FastWFC/WFCArray3D.hpp"
+#include "Game/WFC/WFCDirection.hpp"
+#include "Game/WFC/WFCArray3D.hpp"
 #include <tuple>
 #include <vector>
 #include <array>

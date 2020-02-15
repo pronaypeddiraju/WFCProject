@@ -2,9 +2,9 @@
 #include <random>
 #include <optional>
 
-#include "Game/FastWFC/WFCArray2D.hpp"
-#include "Game/FastWFC/WFCPropagator.hpp"
-#include "Game/FastWFC/WFCWave.hpp"
+#include "Game/WFC/WFCArray2D.hpp"
+#include "Game/WFC/WFCPropagator.hpp"
+#include "Game/WFC/WFCWave.hpp"
 
 typedef unsigned int uint;
 

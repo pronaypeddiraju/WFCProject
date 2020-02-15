@@ -1,7 +1,7 @@
 #pragma once
-#include "Game/FastWFC/WFCArray2D.hpp"
-#include "Game/FastWFC/WFC.hpp"
-#include "Game/FastWFC/WFCTile.hpp"
+#include "Game/WFC/WFCArray2D.hpp"
+#include "Game/WFC/WFC.hpp"
+#include "Game/WFC/WFCTile.hpp"
 #include <vector>
 #include <tuple>
 

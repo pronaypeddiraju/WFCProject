@@ -1,9 +1,9 @@
 #pragma once
 #include <unordered_map>
 #include <vector>
-#include "Game/FastWFC/WFCTile.hpp"
-#include "Game/FastWFC/WFCArray2D.hpp"
-#include "Game/FastWFC/WFC.hpp"
+#include "Game/WFC/WFCTile.hpp"
+#include "Game/WFC/WFCArray2D.hpp"
+#include "Game/WFC/WFC.hpp"
 #include <tuple>
 
 //------------------------------------------------------------------------------------------------------------------------------
@@ -57,6 +57,9 @@ private:
 
 	//Number of permutations read
 	uint m_numPermutations = 1;	
+
+	//Neighborhood information received
+	std::vector<std::tuple<uint, uint, uint, uint>>	m_neighbors;
 
 	//------------------------------------------------------------------------------------------------------------------------------
 	std::pair<uint, uint> FindTileAndMakeSymmetries(Array2D<T>& observedData)
@@ -221,6 +224,21 @@ private:
 	void AddObservedNeighborToNeighborsVector(const std::tuple<uint, uint, uint, uint>& neighborSet, std::vector<std::tuple<uint, uint, uint, uint> >& listToPopulate)
 	{
 		
+		//Validate that the entry exists in the neighbor set we received at startup
+		std::vector< std::tuple<uint, uint, uint, uint> >::iterator checkitr = std::find_if(std::begin(m_neighbors), std::end(m_neighbors), [&](const std::tuple<uint, uint, uint, uint>& checkValue)
+			{
+				return (std::get<0>(neighborSet) == std::get<0>(checkValue)
+					&& std::get<1>(neighborSet) == std::get<1>(checkValue)
+					&& std::get<2>(neighborSet) == std::get<2>(checkValue)
+					&& std::get<3>(neighborSet) == std::get<3>(checkValue));
+			});
+
+		if (checkitr == m_neighbors.end())
+		{
+			//ERROR_RECOVERABLE("The new neighbor data does not exist in the original neighbor list");
+			return;
+		}
+
 		std::vector< std::tuple<uint, uint, uint, uint> >::iterator itr = std::find_if(std::begin(listToPopulate), std::end(listToPopulate), [&](const std::tuple<uint, uint, uint, uint>& checkValue) 
 			{
 				return (std::get<0>(neighborSet) == std::get<0>(checkValue) 
@@ -487,6 +505,8 @@ public:
 		}
 
 		m_numPermutations = (uint)neighbors.size();
+		
+		m_neighbors = neighbors;
 	}
 
 	//Run tiling WFC and return the result if succeeded
@@ -522,11 +542,10 @@ public:
 		while (xIndex != output.m_width && yIndex != output.m_height)
 		{
 			Array2D<T> observedData = Array2D<T>(m_options.size, m_options.size);
-			Array2D<T> observedNeighborData = Array2D<T>(m_options.size, m_options.size);
 
 			observedData = output.GetSubArray(yIndex, xIndex, m_options.size, m_options.size);
 
-			//Find the tile in the set and get the correct Tile object with the correct symmetries and weights
+			//Find the tile in the set and get the correct Tile object with the correct symmetries 
 			std::pair<uint, uint> observedIDtoOrientation = FindTileAndMakeSymmetries(observedData);
 			if (observedIDtoOrientation.first == UINT_MAX)
 			{
@@ -537,7 +556,7 @@ public:
 			std::vector< std::pair <std::pair<uint, uint>, NeighborType> > neighbors = FindNeighborsForTileAtPosition(xIndex, yIndex, m_options.size, output);
 
 			//Generate relationships for the right tile
-			PopulateNeighborRelationshipsExcludingPassedTiles(observedIDtoOrientation, neighbors, neighborSet);
+			PopulateNeighborRelationshipsForObservedTile(observedIDtoOrientation, neighbors, neighborSet);
 
 			//Step ahead by tile size
 			xIndex += m_options.size;

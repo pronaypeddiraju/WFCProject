@@ -1,4 +1,4 @@
-#include "Game/FastWFC/WFCEntry.hpp"
+#include "Game/WFC/WFCEntry.hpp"
 //------------------------------------------------------------------------------------------------------------------------------
 #include "Engine/Commons/EngineCommon.hpp"
 #include "Engine/Core/Time.hpp"
@@ -6,11 +6,11 @@
 #include "Engine/Commons/LogSystem.hpp"
 #include "Engine/Core/WindowContext.hpp"
 #include "Engine/Math/RandomNumberGenerator.hpp"
-#include "Game/FastWFC/WFCMarkovModel.hpp"
-#include "Game/FastWFC/WFCOverlappingModel.hpp"
-#include "Game/FastWFC/WFCTilingModel.hpp"
-#include "Game/FastWFC/WFCColor.hpp"
-#include "Game/FastWFC/WFCImage.hpp"
+#include "Game/WFC/WFCMarkovModel.hpp"
+#include "Game/WFC/WFCOverlappingModel.hpp"
+#include "Game/WFC/WFCTilingModel.hpp"
+#include "Game/WFC/WFCColor.hpp"
+#include "Game/WFC/WFCImage.hpp"
 
 //------------------------------------------------------------------------------------------------------------------------------
 #include <fstream>

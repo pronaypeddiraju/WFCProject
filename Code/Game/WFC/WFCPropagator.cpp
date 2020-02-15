@@ -1,5 +1,5 @@
-#include "Game/FastWFC/WFCPropagator.hpp"
-#include "Game/FastWFC/WFC.hpp"
+#include "Game/WFC/WFCPropagator.hpp"
+#include "Game/WFC/WFC.hpp"
 
 typedef unsigned int uint;
 

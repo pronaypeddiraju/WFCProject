@@ -2,9 +2,9 @@
 #include <vector>
 #include <unordered_map>
 
-#include "Game/FastWFC/WFCArray2D.hpp"
-#include "Game/FastWFC/WFC.hpp"
-#include "Game/FastWFC/WFCColor.hpp"
+#include "Game/WFC/WFCArray2D.hpp"
+#include "Game/WFC/WFC.hpp"
+#include "Game/WFC/WFCColor.hpp"
 
 //------------------------------------------------------------------------------------------------------------------------------
 //Options needed for Overlapping WFC problem
