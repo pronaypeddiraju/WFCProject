@@ -15,10 +15,10 @@
 
 	<inputs>
 		<!-- 
+		-->
 		<input name="CastleMarkovSmall1" />
 		<input name="CastleMarkovSmall2" />
 		<input name="CastleMarkovSmall3" />
-		-->
 		
 		<!--	
 		<input name="CastleMarkovMedium1" />
@@ -27,9 +27,9 @@
 		-->
 
 		<!--	
-		-->
 		<input name="CastleMarkovLarge1" />
 		<input name="CastleMarkovLarge2" />
 		<input name="CastleMarkovLarge3" />
+		-->
 	</inputs>
 </set>

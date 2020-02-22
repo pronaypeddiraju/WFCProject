@@ -10,10 +10,10 @@
 	
 	<inputs>
 		<!-- 
+		-->
 		<input name="KnotsMarkovSmall1" />
 		<input name="KnotsMarkovSmall2" />
 		<input name="KnotsMarkovSmall3" />
-		-->
 		
 		<!--	
 		<input name="KnotsMarkovMedium1" />
@@ -21,10 +21,10 @@
 		<input name="KnotsMarkovMedium3" />
 		-->
 		<!--	
-		-->
 		<input name="KnotsMarkovLarge1" />
 		<input name="KnotsMarkovLarge2" />
 		<input name="KnotsMarkovLarge3" />
+		-->
 	</inputs>
 
 </set>

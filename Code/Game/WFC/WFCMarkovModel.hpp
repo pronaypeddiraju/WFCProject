@@ -68,7 +68,7 @@ private:
 		{
 			//NOTE!
 			//The m_tiles will have all orientations, just store the tile index and orientation index to determine tile we are
-			for (uint orientationIndex = 0; orientationIndex < (uint)m_tiles[tileIndex].data.size(); orientationIndex++)
+			for (uint orientationIndex = 0; orientationIndex < NumPossibleOrientations(m_tiles[tileIndex].symmetry); orientationIndex++)
 			{
 				if (observedData == m_tiles[tileIndex].data[orientationIndex])
 				{

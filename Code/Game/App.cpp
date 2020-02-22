@@ -83,7 +83,7 @@ void App::StartUp()
 
 	g_ImGUI = new ImGUISystem(g_renderContext);
 
-	g_RNG = new RandomNumberGenerator();
+	g_RNG = new RandomNumberGenerator((uint)GetCurrentTimeHPC());
 
 	m_game = new Game();
 	m_game->StartUp();
