@@ -10,7 +10,7 @@
 //Return the number of possible distinct orientations for a tile
 //Orientation is combination of rotations and reflections
 //------------------------------------------------------------------------------------------------------------------------------
-unsigned NumPossibleOrientations(const Symmetry &symmetry)
+unsigned int NumPossibleOrientations(const Symmetry &symmetry)
 {
 	switch (symmetry)
 	{
@@ -70,7 +70,6 @@ private:
 		bool foundTile = false;
 		for (uint tileIndex = 0; tileIndex < (uint)m_tiles.size(); tileIndex++)
 		{
-			//NOTE!
 			//The m_tiles will have all orientations, just store the tile index and orientation index to determine tile we are
 			for (uint orientationIndex = 0; orientationIndex < NumPossibleOrientations(m_tiles[tileIndex].symmetry); orientationIndex++)
 			{
